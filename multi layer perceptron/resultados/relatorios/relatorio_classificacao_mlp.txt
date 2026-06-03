@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+    0_doente     0.8034    0.8503    0.8262     11825
+  1_saudavel     0.8636    0.8199    0.8411     13663
+
+    accuracy                         0.8340     25488
+   macro avg     0.8335    0.8351    0.8337     25488
+weighted avg     0.8356    0.8340    0.8342     25488

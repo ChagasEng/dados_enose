@@ -1,0 +1,87 @@
+{
+  "modelo": "MLPClassifier",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "random_state": 42,
+  "tecnicas": [
+    "StandardScaler",
+    "early stopping",
+    "regularizacao L2 via alpha",
+    "pesos balanceados por classe",
+    "permutation importance no conjunto de teste"
+  ],
+  "parametros": {
+    "hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "activation": "tanh",
+    "solver": "adam",
+    "alpha": 0.001,
+    "learning_rate_init": 0.001,
+    "batch_size": 2048,
+    "early_stopping": true,
+    "validation_fraction": 0.15,
+    "n_iter_no_change": 12
+  },
+  "iteracoes": 150,
+  "treino_total": 45406,
+  "teste_total": 25488,
+  "accuracy": 0.8340003138731952,
+  "balanced_accuracy": 0.8350978143623022,
+  "f1_macro": 0.8336634588831622,
+  "matriz_confusao": [
+    [
+      10055,
+      1770
+    ],
+    [
+      2461,
+      11202
+    ]
+  ],
+  "matriz_confusao_normalizada": [
+    [
+      0.8503171247357294,
+      0.14968287526427063
+    ],
+    [
+      0.18012149601112493,
+      0.8198785039888751
+    ]
+  ],
+  "split_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 31818,
+      "linhas_treino": 19993,
+      "linhas_teste": 11825,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
+    },
+    {
+      "classe": 1,
+      "total_linhas": 39076,
+      "linhas_treino": 25413,
+      "linhas_teste": 13663,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
+    }
+  ]
+}
