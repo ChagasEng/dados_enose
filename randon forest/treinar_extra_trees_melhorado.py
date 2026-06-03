@@ -1,0 +1,214 @@
+from pathlib import Path
+import json
+
+import joblib
+import matplotlib
+import pandas as pd
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.metrics import (
+    accuracy_score,
+    balanced_accuracy_score,
+    classification_report,
+    confusion_matrix,
+    ConfusionMatrixDisplay,
+    f1_score,
+)
+
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # noqa: E402
+
+
+BASE_DIR = Path(__file__).resolve().parent
+ROOT_DIR = BASE_DIR.parent
+DATASET_PATH = (
+    ROOT_DIR
+    / "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres"
+    / "dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv"
+)
+GROUP_COLUMN = "Coleta"
+TRAIN_RATIO = 0.70
+RANDOM_STATE = 42
+
+
+def find_target_column(columns: list[str]) -> str:
+    for column in columns:
+        if column.lower() == "classe":
+            return column
+    raise ValueError("Coluna alvo 'classe' nao encontrada.")
+
+
+def load_dataset() -> tuple[pd.DataFrame, list[str], str]:
+    df = pd.read_csv(DATASET_PATH)
+    target_column = find_target_column(df.columns.tolist())
+    mq_columns = [column for column in df.columns if column.upper().startswith("MQ")]
+
+    model_df = df[[GROUP_COLUMN] + mq_columns + [target_column]].copy()
+    for column in mq_columns + [target_column]:
+        model_df[column] = pd.to_numeric(model_df[column], errors="coerce")
+
+    model_df = model_df.dropna(subset=[GROUP_COLUMN] + mq_columns + [target_column])
+    model_df[target_column] = model_df[target_column].astype(int)
+    return model_df, mq_columns, target_column
+
+
+def split_70_30_by_group_inside_class(
+    df: pd.DataFrame, target_column: str
+) -> tuple[pd.DataFrame, pd.DataFrame, list[dict[str, int]]]:
+    train_parts = []
+    test_parts = []
+    summary = []
+
+    for class_value in sorted(df[target_column].unique()):
+        class_block = df[df[target_column] == class_value]
+        groups = (
+            pd.Series(class_block[GROUP_COLUMN].unique())
+            .sample(frac=1, random_state=RANDOM_STATE)
+            .tolist()
+        )
+        train_group_count = int(len(groups) * TRAIN_RATIO)
+        train_groups = set(groups[:train_group_count])
+
+        train_part = class_block[class_block[GROUP_COLUMN].isin(train_groups)]
+        test_part = class_block[~class_block[GROUP_COLUMN].isin(train_groups)]
+
+        train_parts.append(train_part)
+        test_parts.append(test_part)
+        summary.append(
+            {
+                "classe": int(class_value),
+                "total_linhas": int(len(class_block)),
+                "linhas_treino": int(len(train_part)),
+                "linhas_teste": int(len(test_part)),
+                "grupos_total": int(len(groups)),
+                "grupos_treino": int(len(train_groups)),
+                "grupos_teste": int(len(groups) - len(train_groups)),
+            }
+        )
+
+    train_df = pd.concat(train_parts).sample(frac=1, random_state=RANDOM_STATE)
+    test_df = pd.concat(test_parts).sample(frac=1, random_state=RANDOM_STATE)
+    return train_df, test_df, summary
+
+
+def main() -> None:
+    df, mq_columns, target_column = load_dataset()
+    train_df, test_df, split_summary = split_70_30_by_group_inside_class(
+        df, target_column
+    )
+
+    model = ExtraTreesClassifier(
+        n_estimators=700,
+        random_state=RANDOM_STATE,
+        n_jobs=-1,
+        max_features="sqrt",
+        min_samples_leaf=5,
+        class_weight=None,
+        bootstrap=False,
+    )
+    model.fit(train_df[mq_columns], train_df[target_column])
+
+    prediction = model.predict(test_df[mq_columns])
+    labels = [0, 1]
+    matrix = confusion_matrix(test_df[target_column], prediction, labels=labels)
+    normalized_matrix = confusion_matrix(
+        test_df[target_column], prediction, labels=labels, normalize="true"
+    )
+
+    pd.DataFrame(
+        matrix,
+        index=["real_0_doente", "real_1_saudavel"],
+        columns=["previsto_0_doente", "previsto_1_saudavel"],
+    ).to_csv(BASE_DIR / "matriz_confusao_extra_trees.csv")
+
+    pd.DataFrame(
+        normalized_matrix,
+        index=["real_0_doente", "real_1_saudavel"],
+        columns=["previsto_0_doente", "previsto_1_saudavel"],
+    ).to_csv(BASE_DIR / "matriz_confusao_extra_trees_normalizada.csv")
+
+    display = ConfusionMatrixDisplay(
+        confusion_matrix=matrix,
+        display_labels=["0 - doente", "1 - saudavel"],
+    )
+    fig, ax = plt.subplots(figsize=(7, 6))
+    display.plot(ax=ax, cmap="Greens", values_format="d", colorbar=False)
+    ax.set_title("Matriz de confusao - Extra Trees")
+    ax.set_xlabel("Classe prevista")
+    ax.set_ylabel("Classe real")
+    fig.tight_layout()
+    fig.savefig(BASE_DIR / "matriz_confusao_extra_trees.png", dpi=180)
+    plt.close(fig)
+
+    report = classification_report(
+        test_df[target_column],
+        prediction,
+        labels=labels,
+        target_names=["0_doente", "1_saudavel"],
+        digits=4,
+    )
+    (BASE_DIR / "relatorio_classificacao_extra_trees.txt").write_text(
+        report, encoding="utf-8"
+    )
+
+    pd.DataFrame(
+        {
+            "feature": mq_columns,
+            "importance": model.feature_importances_,
+        }
+    ).sort_values("importance", ascending=False).to_csv(
+        BASE_DIR / "importancia_features_extra_trees.csv", index=False
+    )
+
+    metrics = {
+        "modelo": "ExtraTreesClassifier",
+        "dataset": str(DATASET_PATH.relative_to(ROOT_DIR)),
+        "target": target_column,
+        "target_mapping": {"0": "doente", "1": "saudavel"},
+        "features_usadas": mq_columns,
+        "coluna_usada_apenas_para_split": GROUP_COLUMN,
+        "split": "70/30 por grupos de Coleta dentro de cada classe",
+        "random_state": RANDOM_STATE,
+        "parametros": {
+            "n_estimators": 700,
+            "max_features": "sqrt",
+            "min_samples_leaf": 5,
+            "class_weight": None,
+            "bootstrap": False,
+        },
+        "treino_total": int(len(train_df)),
+        "teste_total": int(len(test_df)),
+        "accuracy": float(accuracy_score(test_df[target_column], prediction)),
+        "balanced_accuracy": float(
+            balanced_accuracy_score(test_df[target_column], prediction)
+        ),
+        "f1_macro": float(f1_score(test_df[target_column], prediction, average="macro")),
+        "matriz_confusao": matrix.astype(int).tolist(),
+        "matriz_confusao_normalizada": normalized_matrix.tolist(),
+        "split_por_classe": split_summary,
+    }
+    (BASE_DIR / "metricas_extra_trees.json").write_text(
+        json.dumps(metrics, indent=2), encoding="utf-8"
+    )
+
+    joblib.dump(
+        {
+            "model": model,
+            "features": mq_columns,
+            "target": target_column,
+            "group_column_used_only_for_split": GROUP_COLUMN,
+            "metrics": metrics,
+        },
+        BASE_DIR / "modelo_extra_trees.joblib",
+    )
+
+    print("Extra Trees treinado com sucesso.")
+    print(f"Features usadas: {', '.join(mq_columns)}")
+    print(f"Treino: {len(train_df)} linhas | Teste: {len(test_df)} linhas")
+    print(f"Acuracia: {metrics['accuracy']:.4f}")
+    print(f"Balanced accuracy: {metrics['balanced_accuracy']:.4f}")
+    print(matrix)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,64 @@
+{
+  "dataset": "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres\\dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "train_ratio_por_classe": 0.7,
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "random_state": 42,
+  "linhas_removidas_por_nan": 0,
+  "treino_total": 68267,
+  "teste_total": 29822,
+  "accuracy": 0.619475554959426,
+  "matriz_confusao": [
+    [
+      5202,
+      7918
+    ],
+    [
+      3430,
+      13272
+    ]
+  ],
+  "matriz_confusao_normalizada": [
+    [
+      0.3964939024390244,
+      0.6035060975609756
+    ],
+    [
+      0.20536462699077954,
+      0.7946353730092205
+    ]
+  ],
+  "split_por_classe": [
+    {
+      "classe": 0,
+      "total": 44151,
+      "treino": 31031,
+      "teste": 13120,
+      "grupos_total": 25,
+      "grupos_treino": 17,
+      "grupos_teste": 8
+    },
+    {
+      "classe": 1,
+      "total": 53938,
+      "treino": 37236,
+      "teste": 16702,
+      "grupos_total": 28,
+      "grupos_treino": 19,
+      "grupos_teste": 9
+    }
+  ]
+}

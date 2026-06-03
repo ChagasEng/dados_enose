@@ -1,0 +1,72 @@
+{
+  "modelo": "ExtraTreesClassifier",
+  "dataset": "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres\\dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "random_state": 42,
+  "parametros": {
+    "n_estimators": 700,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5,
+    "class_weight": null,
+    "bootstrap": false
+  },
+  "treino_total": 68267,
+  "teste_total": 29822,
+  "accuracy": 0.7416336932465964,
+  "balanced_accuracy": 0.7230458744534757,
+  "f1_macro": 0.7256178310513952,
+  "matriz_confusao": [
+    [
+      7456,
+      5664
+    ],
+    [
+      2041,
+      14661
+    ]
+  ],
+  "matriz_confusao_normalizada": [
+    [
+      0.5682926829268292,
+      0.4317073170731707
+    ],
+    [
+      0.12220093401987786,
+      0.8777990659801221
+    ]
+  ],
+  "split_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 44151,
+      "linhas_treino": 31031,
+      "linhas_teste": 13120,
+      "grupos_total": 25,
+      "grupos_treino": 17,
+      "grupos_teste": 8
+    },
+    {
+      "classe": 1,
+      "total_linhas": 53938,
+      "linhas_treino": 37236,
+      "linhas_teste": 16702,
+      "grupos_total": 28,
+      "grupos_treino": 19,
+      "grupos_teste": 9
+    }
+  ]
+}
