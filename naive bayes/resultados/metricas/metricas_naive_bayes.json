@@ -1,0 +1,76 @@
+{
+  "modelo": "GaussianNB + PowerTransformer",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "random_state": 42,
+  "tecnicas": [
+    "GaussianNB",
+    "PowerTransformer Yeo-Johnson",
+    "pesos balanceados por classe",
+    "permutation importance no conjunto de teste"
+  ],
+  "parametros": {
+    "power_transformer": "yeo-johnson",
+    "standardize": true,
+    "var_smoothing": 1e-09
+  },
+  "treino_total": 45406,
+  "teste_total": 25488,
+  "accuracy": 0.794138418079096,
+  "balanced_accuracy": 0.7949934167352795,
+  "f1_macro": 0.7937118684218234,
+  "matriz_confusao": [
+    [
+      9541,
+      2284
+    ],
+    [
+      2963,
+      10700
+    ]
+  ],
+  "matriz_confusao_normalizada": [
+    [
+      0.8068498942917548,
+      0.19315010570824526
+    ],
+    [
+      0.21686306082119594,
+      0.7831369391788041
+    ]
+  ],
+  "split_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 31818,
+      "linhas_treino": 19993,
+      "linhas_teste": 11825,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
+    },
+    {
+      "classe": 1,
+      "total_linhas": 39076,
+      "linhas_treino": 25413,
+      "linhas_teste": 13663,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
+    }
+  ]
+}
