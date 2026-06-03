@@ -1,5 +1,5 @@
 {
-  "dataset": "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres\\dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
   "target": "Classe",
   "target_mapping": {
     "0": "doente",
@@ -18,47 +18,47 @@
   "split": "70/30 por grupos de Coleta dentro de cada classe",
   "random_state": 42,
   "linhas_removidas_por_nan": 0,
-  "treino_total": 68267,
-  "teste_total": 29822,
-  "accuracy": 0.619475554959426,
+  "treino_total": 45406,
+  "teste_total": 25488,
+  "accuracy": 0.832823289391086,
   "matriz_confusao": [
     [
-      5202,
-      7918
+      8792,
+      3033
     ],
     [
-      3430,
-      13272
+      1228,
+      12435
     ]
   ],
   "matriz_confusao_normalizada": [
     [
-      0.3964939024390244,
-      0.6035060975609756
+      0.7435095137420719,
+      0.25649048625792814
     ],
     [
-      0.20536462699077954,
-      0.7946353730092205
+      0.08987777208519358,
+      0.9101222279148065
     ]
   ],
   "split_por_classe": [
     {
       "classe": 0,
-      "total": 44151,
-      "treino": 31031,
-      "teste": 13120,
-      "grupos_total": 25,
-      "grupos_treino": 17,
-      "grupos_teste": 8
+      "total": 31818,
+      "treino": 19993,
+      "teste": 11825,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
     },
     {
       "classe": 1,
-      "total": 53938,
-      "treino": 37236,
-      "teste": 16702,
-      "grupos_total": 28,
-      "grupos_treino": 19,
-      "grupos_teste": 9
+      "total": 39076,
+      "treino": 25413,
+      "teste": 13663,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
     }
   ]
 }

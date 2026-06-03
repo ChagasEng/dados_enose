@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BASE_DIR.parent
 DATASET_PATH = (
     ROOT_DIR
-    / "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres"
-    / "dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv"
+    / "sem pressao"
+    / "dataset_sem_pressao.csv"
 )
 TRAIN_RATIO = 0.70
 RANDOM_STATE = 42

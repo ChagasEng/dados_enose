@@ -1,5 +1,5 @@
 {
-  "dataset": "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres\\dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
   "target": "Classe",
   "features_usadas": [
     "MQ2",
@@ -13,19 +13,19 @@
   "split_holdout": [
     {
       "classe": 0,
-      "grupos_total": 25,
-      "grupos_treino": 17,
-      "grupos_teste": 8,
-      "linhas_treino": 31031,
-      "linhas_teste": 13120
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6,
+      "linhas_treino": 19993,
+      "linhas_teste": 11825
     },
     {
       "classe": 1,
-      "grupos_total": 28,
-      "grupos_treino": 19,
-      "grupos_teste": 9,
-      "linhas_treino": 37236,
-      "linhas_teste": 16702
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6,
+      "linhas_treino": 25413,
+      "linhas_teste": 13663
     }
   ],
   "observacao": "Coleta, Dia e Vaso nao entram como features do modelo. Coleta e usada apenas para evitar vazamento entre treino e teste."

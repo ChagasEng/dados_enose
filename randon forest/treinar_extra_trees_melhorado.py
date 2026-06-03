@@ -23,8 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BASE_DIR.parent
 DATASET_PATH = (
     ROOT_DIR
-    / "dataset_processado_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres"
-    / "dataset_unico_por_dia_vaso_sem_vref0_sem_tempo_soil_temp_pres.csv"
+    / "sem pressao"
+    / "dataset_sem_pressao.csv"
 )
 GROUP_COLUMN = "Coleta"
 TRAIN_RATIO = 0.70
@@ -102,7 +102,7 @@ def main() -> None:
         random_state=RANDOM_STATE,
         n_jobs=-1,
         max_features="sqrt",
-        min_samples_leaf=5,
+        min_samples_leaf=10,
         class_weight=None,
         bootstrap=False,
     )
@@ -172,7 +172,7 @@ def main() -> None:
         "parametros": {
             "n_estimators": 700,
             "max_features": "sqrt",
-            "min_samples_leaf": 5,
+            "min_samples_leaf": 10,
             "class_weight": None,
             "bootstrap": False,
         },
