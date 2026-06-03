@@ -15,8 +15,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-BASE_DIR = Path(__file__).resolve().parent
-ROOT_DIR = BASE_DIR.parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+ROOT_DIR = PROJECT_DIR.parent
+COMPARISONS_DIR = PROJECT_DIR / "resultados" / "comparacoes"
+METRICS_DIR = PROJECT_DIR / "resultados" / "metricas"
 DATASET_PATH = (
     ROOT_DIR
     / "sem pressao"
@@ -236,13 +238,16 @@ def evaluate_group_cv(
 
 
 def main() -> None:
+    COMPARISONS_DIR.mkdir(parents=True, exist_ok=True)
+    METRICS_DIR.mkdir(parents=True, exist_ok=True)
+
     df, mq_columns, target_column = load_dataset()
     holdout_df, split_summary = evaluate_holdout(df, mq_columns, target_column)
     cv_df = evaluate_group_cv(df, mq_columns, target_column)
 
-    holdout_df.to_csv(BASE_DIR / "comparacao_tecnicas_ml_holdout.csv", index=False)
-    cv_df.to_csv(BASE_DIR / "comparacao_tecnicas_ml_cv.csv", index=False)
-    (BASE_DIR / "resumo_avaliacao_tecnicas_ml.json").write_text(
+    holdout_df.to_csv(COMPARISONS_DIR / "comparacao_tecnicas_ml_holdout.csv", index=False)
+    cv_df.to_csv(COMPARISONS_DIR / "comparacao_tecnicas_ml_cv.csv", index=False)
+    (METRICS_DIR / "resumo_avaliacao_tecnicas_ml.json").write_text(
         json.dumps(
             {
                 "dataset": str(DATASET_PATH.relative_to(ROOT_DIR)),

@@ -17,8 +17,13 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 
-BASE_DIR = Path(__file__).resolve().parent
-ROOT_DIR = BASE_DIR.parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+ROOT_DIR = PROJECT_DIR.parent
+MATRICES_DIR = PROJECT_DIR / "resultados" / "matrizes"
+METRICS_DIR = PROJECT_DIR / "resultados" / "metricas"
+REPORTS_DIR = PROJECT_DIR / "resultados" / "relatorios"
+IMPORTANCES_DIR = PROJECT_DIR / "resultados" / "importancias"
+MODELS_DIR = PROJECT_DIR / "modelos"
 DATASET_PATH = (
     ROOT_DIR
     / "sem pressao"
@@ -76,6 +81,9 @@ def split_70_30_by_group_inside_each_class_block(
 
 
 def main() -> None:
+    for output_dir in [MATRICES_DIR, METRICS_DIR, REPORTS_DIR, IMPORTANCES_DIR, MODELS_DIR]:
+        output_dir.mkdir(parents=True, exist_ok=True)
+
     df = pd.read_csv(DATASET_PATH)
     target_column = find_target_column(df.columns.tolist())
     mq_columns = [column for column in df.columns if column.upper().startswith("MQ")]
@@ -122,13 +130,13 @@ def main() -> None:
         matrix,
         index=["real_0_doente", "real_1_saudavel"],
         columns=["previsto_0_doente", "previsto_1_saudavel"],
-    ).to_csv(BASE_DIR / "matriz_confusao.csv")
+    ).to_csv(MATRICES_DIR / "matriz_confusao.csv")
 
     pd.DataFrame(
         normalized_matrix,
         index=["real_0_doente", "real_1_saudavel"],
         columns=["previsto_0_doente", "previsto_1_saudavel"],
-    ).to_csv(BASE_DIR / "matriz_confusao_normalizada.csv")
+    ).to_csv(MATRICES_DIR / "matriz_confusao_normalizada.csv")
 
     display = ConfusionMatrixDisplay(
         confusion_matrix=matrix,
@@ -140,7 +148,7 @@ def main() -> None:
     ax.set_xlabel("Classe prevista")
     ax.set_ylabel("Classe real")
     fig.tight_layout()
-    fig.savefig(BASE_DIR / "matriz_confusao.png", dpi=180)
+    fig.savefig(MATRICES_DIR / "matriz_confusao.png", dpi=180)
     plt.close(fig)
 
     report = classification_report(
@@ -150,7 +158,7 @@ def main() -> None:
         target_names=["0_doente", "1_saudavel"],
         digits=4,
     )
-    (BASE_DIR / "relatorio_classificacao.txt").write_text(report, encoding="utf-8")
+    (REPORTS_DIR / "relatorio_classificacao.txt").write_text(report, encoding="utf-8")
 
     pd.DataFrame(
         {
@@ -158,11 +166,11 @@ def main() -> None:
             "importance": model.feature_importances_,
         }
     ).sort_values("importance", ascending=False).to_csv(
-        BASE_DIR / "importancia_features.csv", index=False
+        IMPORTANCES_DIR / "importancia_features.csv", index=False
     )
 
     pd.DataFrame(split_summary).to_csv(
-        BASE_DIR / "resumo_split_70_30_por_classe.csv", index=False
+        METRICS_DIR / "resumo_split_70_30_por_classe.csv", index=False
     )
 
     metrics = {
@@ -182,11 +190,11 @@ def main() -> None:
         "matriz_confusao_normalizada": normalized_matrix.tolist(),
         "split_por_classe": split_summary,
     }
-    (BASE_DIR / "metricas.json").write_text(
+    (METRICS_DIR / "metricas.json").write_text(
         json.dumps(metrics, indent=2), encoding="utf-8"
     )
 
-    joblib.dump(model, BASE_DIR / "modelo_random_forest.joblib")
+    joblib.dump(model, MODELS_DIR / "modelo_random_forest.joblib")
 
     print("Random Forest treinado com sucesso.")
     print(f"Features usadas: {', '.join(mq_columns)}")
