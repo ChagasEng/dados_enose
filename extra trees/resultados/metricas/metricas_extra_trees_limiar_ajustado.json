@@ -1,0 +1,115 @@
+{
+  "modelo": "ExtraTreesClassifier com limiar ajustado",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split_holdout": "70/30 por grupos de Coleta dentro de cada classe",
+  "split_validacao": "70/30 dentro do treino, tambem por grupos de Coleta",
+  "random_state": 42,
+  "validation_random_state": 43,
+  "parametros": {
+    "n_estimators": 900,
+    "max_features": "sqrt",
+    "min_samples_leaf": 10,
+    "class_weight": null,
+    "bootstrap": false
+  },
+  "threshold_padrao": 0.5,
+  "threshold_validado": 0.5700000000000001,
+  "metricas_teste_limiar_050": {
+    "accuracy": 0.8963826114249843,
+    "balanced_accuracy": 0.8955309620788787,
+    "f1_macro": 0.8957744278684683
+  },
+  "metricas_teste_limiar_validado": {
+    "accuracy": 0.9265144381669805,
+    "balanced_accuracy": 0.9280215993596385,
+    "f1_macro": 0.9263584659179928
+  },
+  "matriz_confusao_limiar_050": [
+    [
+      10450,
+      1375
+    ],
+    [
+      1266,
+      12397
+    ]
+  ],
+  "matriz_confusao_limiar_validado": [
+    [
+      11221,
+      604
+    ],
+    [
+      1269,
+      12394
+    ]
+  ],
+  "matriz_confusao_normalizada_limiar_validado": [
+    [
+      0.9489217758985201,
+      0.05107822410147991
+    ],
+    [
+      0.09287857717924321,
+      0.9071214228207568
+    ]
+  ],
+  "treino_total": 45406,
+  "validacao_total": 14841,
+  "teste_total": 25488,
+  "split_holdout_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 31818,
+      "linhas_treino": 19993,
+      "linhas_teste": 11825,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
+    },
+    {
+      "classe": 1,
+      "total_linhas": 39076,
+      "linhas_treino": 25413,
+      "linhas_teste": 13663,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
+    }
+  ],
+  "split_validacao_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 19993,
+      "linhas_treino": 11932,
+      "linhas_teste": 8061,
+      "grupos_total": 11,
+      "grupos_treino": 7,
+      "grupos_teste": 4
+    },
+    {
+      "classe": 1,
+      "total_linhas": 25413,
+      "linhas_treino": 18633,
+      "linhas_teste": 6780,
+      "grupos_total": 13,
+      "grupos_treino": 9,
+      "grupos_teste": 4
+    }
+  ],
+  "observacao": "O limiar de decisao foi selecionado em validacao interna separada por Coleta. O teste final permaneceu separado por Coleta."
+}

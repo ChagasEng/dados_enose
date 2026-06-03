@@ -1,0 +1,73 @@
+Relatorio - Validacao do limiar por Coleta
+==========================================
+
+Classificador:
+ExtraTreesClassifier
+
+Dataset usado:
+sem pressao/dataset_sem_pressao.csv
+
+Objetivo:
+Validar se o limiar 0.57, usado para transformar a probabilidade do modelo em classe final, e estavel em diferentes divisoes dos dados por Coleta.
+
+Features usadas no treinamento:
+MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+
+Alvo:
+Classe
+0 = doente
+1 = saudavel
+
+Coluna usada apenas para separacao dos dados:
+Coleta
+
+Metodo de validacao:
+Foi usada validacao cruzada aninhada com StratifiedGroupKFold.
+O grupo foi a coluna Coleta, para evitar vazamento de dados entre treino e teste.
+
+Em cada fold externo:
+1. O conjunto de treino foi separado novamente em folds internos.
+2. O limiar foi escolhido somente usando os folds internos.
+3. O teste externo ficou isolado e foi usado somente para avaliar.
+
+Resultados dos limiares:
+Fold 1: 0.47
+Fold 2: 0.60
+Fold 3: 0.66
+Fold 4: 0.58
+Fold 5: 0.58
+
+Resumo dos limiares:
+Limiar medio: 0.578
+Limiar mediano: 0.580
+Desvio: 0.061
+
+Metricas medias:
+Limiar padrao 0.50:
+- Acuracia: 0.8684
+- Balanced accuracy: 0.8647
+- F1 macro: 0.8640
+
+Limiar validado por fold:
+- Acuracia: 0.8869
+- Balanced accuracy: 0.8907
+- F1 macro: 0.8849
+
+Limiar fixo 0.57:
+- Acuracia: 0.8908
+- Balanced accuracy: 0.8919
+- F1 macro: 0.8885
+
+Matriz de confusao somada com limiar validado por fold:
+[[29719, 2099],
+ [6061, 33015]]
+
+Conclusao:
+O limiar 0.57 faz sentido para o modelo ExtraTrees, porque a validacao cruzada por Coleta encontrou limiar medio de 0.578 e mediano de 0.580. Isso indica que o valor 0.57 esta proximo do comportamento medio observado em diferentes divisoes dos dados.
+
+Arquivos relacionados:
+- resultados/comparacoes/validacao_cruzada_limiar_extra_trees.csv
+- resultados/comparacoes/validacao_cruzada_limiar_extra_trees_detalhes_internos.csv
+- resultados/comparacoes/limiares_extra_trees_cv.png
+- resultados/matrizes/matriz_confusao_extra_trees_cv_limiar_validado.csv
+- resultados/metricas/metricas_validacao_cruzada_limiar_extra_trees.json

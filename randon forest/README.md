@@ -1,29 +1,30 @@
-# Modelos de classificacao
+# Random Forest
 
-Esta pasta concentra os experimentos de classificacao das amostras de soja usando apenas os sensores MQ como entrada.
+Esta pasta contem somente o classificador RandomForest treinado com o dataset sem pressao.
 
 ## Estrutura
 
-- `scripts/`: scripts de treinamento e comparacao dos modelos.
-- `modelos/`: modelos treinados em formato `.joblib`.
+- `scripts/`: script de treinamento do RandomForest.
+- `modelos/`: modelo treinado em formato `.joblib`.
 - `resultados/matrizes/`: matrizes de confusao em CSV e PNG.
-- `resultados/metricas/`: metricas, resumo de split e configuracoes dos experimentos.
+- `resultados/metricas/`: metricas, resumo de split e configuracoes.
 - `resultados/relatorios/`: relatorios de classificacao.
-- `resultados/importancias/`: importancia das features dos modelos.
-- `resultados/comparacoes/`: comparacao entre tecnicas de machine learning.
+- `resultados/importancias/`: importancia das features do RandomForest.
 
 ## Dataset usado
-
-O treinamento final usa:
 
 ```text
 sem pressao/dataset_sem_pressao.csv
 ```
 
-As features usadas nos modelos sao:
+## Configuracao
 
-```text
-MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
-```
+- Features usadas: `MQ2`, `MQ3`, `MQ7`, `MQ8`, `MQ135`, `MQ138`.
+- Target: `Classe`, com `0 = doente` e `1 = saudavel`.
+- Split: 70/30 por grupos de `Coleta` dentro de cada classe.
+- A coluna `Coleta` nao entra no treinamento; ela e usada somente para separar treino e teste sem vazamento.
 
-A coluna `Classe` e o alvo. A coluna `Coleta` e usada apenas para separar treino e teste sem vazamento.
+## Resultado principal
+
+- Acuracia: `0.8328`.
+- Matriz de confusao: `[[8792, 3033], [1228, 12435]]`.
