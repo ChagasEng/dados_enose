@@ -1,0 +1,74 @@
+{
+  "modelo": "XGBClassifier",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "random_state": 42,
+  "parametros": {
+    "n_estimators": 400,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "min_child_weight": 3,
+    "reg_lambda": 2.0
+  },
+  "treino_total": 45406,
+  "teste_total": 25488,
+  "accuracy": 0.8535389202762084,
+  "balanced_accuracy": 0.8485897051635108,
+  "f1_macro": 0.8510280368010854,
+  "matriz_confusao": [
+    [
+      9223,
+      2602
+    ],
+    [
+      1131,
+      12532
+    ]
+  ],
+  "matriz_confusao_normalizada": [
+    [
+      0.7799577167019027,
+      0.22004228329809725
+    ],
+    [
+      0.08277830637488107,
+      0.917221693625119
+    ]
+  ],
+  "split_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 31818,
+      "linhas_treino": 19993,
+      "linhas_teste": 11825,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
+    },
+    {
+      "classe": 1,
+      "total_linhas": 39076,
+      "linhas_treino": 25413,
+      "linhas_teste": 13663,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
+    }
+  ]
+}
