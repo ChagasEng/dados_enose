@@ -1,6 +1,6 @@
 {
   "modelo": "ExtraTreesClassifier",
-  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "dataset": "sem pressao/dataset_sem_pressao.csv",
   "target": "Classe",
   "target_mapping": {
     "0": "doente",
