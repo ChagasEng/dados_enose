@@ -24,7 +24,7 @@
     "class_weight": null,
     "bootstrap": false
   },
-  "treino_total": 45406,
+  "treino_total": 45405,
   "teste_total": 25488,
   "accuracy": 0.8966964846202135,
   "balanced_accuracy": 0.8958749165776803,
@@ -52,8 +52,8 @@
   "split_por_classe": [
     {
       "classe": 0,
-      "total_linhas": 31818,
-      "linhas_treino": 19993,
+      "total_linhas": 31817,
+      "linhas_treino": 19992,
       "linhas_teste": 11825,
       "grupos_total": 17,
       "grupos_treino": 11,

@@ -1,0 +1,45 @@
+Analise geral de correlacao entre vasos
+
+Criterio usado:
+- Vaso 1 a 5 = saudavel.
+- Vaso 6 a 10 = doente.
+- Nao separa por dia.
+- Nao separa por sensor.
+
+Como foi calculado:
+1. Todos os sensores MQ foram padronizados para a mesma escala.
+2. Cada vaso virou um perfil geral com MQ2, MQ3, MQ7, MQ8, MQ135 e MQ138 juntos.
+3. A correlacao compara o perfil completo de um vaso contra outro vaso.
+
+Linhas validas usadas: 70893
+Pares de vasos comparados: 20
+Pares com correlacao geral alta >= 0.80: 2/20
+
+Resumo por grupo:
+          Grupo_vaso  pares  correlacao_media  correlacao_mediana  correlacao_minima  correlacao_maxima  distancia_media  rmse_medio
+ doente_vasos_6_a_10     10            0.3439              0.3559            -0.1309             0.9255           0.8127      0.6530
+saudavel_vasos_1_a_5     10            0.1410              0.0310            -0.2586             0.8364           1.3061      1.5230
+
+Teste geral de diferenca entre vasos:
+          Grupo_vaso      Metrica_geral vasos_comparados  kruskal_h  p_valor_diferenca_vasos  epsilon_squared  diferenca_media_max_menos_min  houve_diferenca_estatistica_p_0_05
+ doente_vasos_6_a_10 Magnitude_MQ_geral       6,7,8,9,10  5015.3096                   0.0000           0.1575                         0.4707                                True
+ doente_vasos_6_a_10    Indice_MQ_geral       6,7,8,9,10  1959.2990                   0.0000           0.0615                         0.1456                                True
+saudavel_vasos_1_a_5 Magnitude_MQ_geral        1,2,3,4,5  2496.1282                   0.0000           0.0638                         1.6527                                True
+saudavel_vasos_1_a_5    Indice_MQ_geral        1,2,3,4,5  7210.7507                   0.0000           0.1845                         0.5727                                True
+
+Resumo geral por vaso:
+          Grupo_vaso  Vaso_numero    n  indice_mq_geral_media  indice_mq_geral_mediana  magnitude_mq_geral_media  magnitude_mq_geral_mediana
+ doente_vasos_6_a_10            6 7809                -0.1819                  -0.2245                    1.5729                      1.4550
+ doente_vasos_6_a_10            7 8016                -0.1309                  -0.1283                    1.3515                      1.3806
+ doente_vasos_6_a_10            8 5396                -0.1999                  -0.1851                    1.4724                      1.5003
+ doente_vasos_6_a_10            9 5389                -0.2655                  -0.3151                    1.5544                      1.5167
+ doente_vasos_6_a_10           10 5207                -0.2766                  -0.3637                    1.8222                      1.6121
+saudavel_vasos_1_a_5            1 8665                 0.4119                   0.6094                    2.9923                      3.0400
+saudavel_vasos_1_a_5            2 8205                -0.1608                  -0.1772                    1.3396                      1.4569
+saudavel_vasos_1_a_5            3 6554                 0.3115                   0.0496                    2.6600                      1.6182
+saudavel_vasos_1_a_5            4 7572                 0.1609                   0.0422                    2.3079                      1.4702
+saudavel_vasos_1_a_5            5 8080                 0.1126                   0.0007                    2.5496                      1.5078
+
+Interpretacao curta:
+Correlacao alta significa que os vasos tiveram perfil MQ parecido.
+Correlacao baixa ou negativa significa que os vasos do mesmo grupo nao seguiram o mesmo padrao geral.

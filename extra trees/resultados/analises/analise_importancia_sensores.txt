@@ -1,0 +1,20 @@
+Analise de importancia dos sensores MQ - Extra Trees
+
+Balanced accuracy original no teste: 0.895531
+
+A ordem principal vem de extra_trees_importance.
+Essa metrica mede quanto cada sensor reduziu a impureza das classes nas arvores.
+
+sensor  extra_trees_importance  media_doente_classe_0  media_saudavel_classe_1  diferenca_media_1_menos_0  cohen_d_abs  auc_individual_melhor_direcao  correlacao_abs_classe  mutual_info  queda_balanced_accuracy_por_permutacao  desvio_permutacao
+   MQ8                0.363364            3209.718938              4742.267147                1532.548209     0.872035                       0.701192               0.397279     0.445379                                0.200526           0.001333
+   MQ7                0.224429             910.560424              4195.955298                3285.394874     0.548450                       0.595807               0.262706     0.547452                                0.068709           0.001600
+   MQ2                0.146479            9430.461935             11817.026955                2386.565020     0.593253                       0.642810               0.282514     0.359161                                0.073509           0.001341
+ MQ138                0.101822            9656.436425             11774.240192                2117.803767     0.586384                       0.596841               0.279500     0.190655                                0.031300           0.001119
+ MQ135                0.088586           19237.980692             18403.997521                -833.983171     0.210499                       0.566007               0.103933     0.176695                                0.023629           0.001759
+   MQ3                0.075320           15874.635804             15426.665840                -447.969964     0.150448                       0.508380               0.074480     0.182534                                0.058214           0.000960
+
+Leitura recomendada:
+- cohen_d_abs: tamanho de efeito entre classe 0 e classe 1.
+- auc_individual_melhor_direcao: poder do sensor sozinho separar as classes.
+- mutual_info: dependencia nao linear entre sensor e classe.
+- queda_balanced_accuracy_por_permutacao: perda ao embaralhar o sensor no teste.

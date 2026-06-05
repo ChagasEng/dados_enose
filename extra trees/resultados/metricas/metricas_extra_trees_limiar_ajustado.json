@@ -68,14 +68,14 @@
       0.9071214228207568
     ]
   ],
-  "treino_total": 45406,
+  "treino_total": 45405,
   "validacao_total": 14841,
   "teste_total": 25488,
   "split_holdout_por_classe": [
     {
       "classe": 0,
-      "total_linhas": 31818,
-      "linhas_treino": 19993,
+      "total_linhas": 31817,
+      "linhas_treino": 19992,
       "linhas_teste": 11825,
       "grupos_total": 17,
       "grupos_treino": 11,
@@ -94,8 +94,8 @@
   "split_validacao_por_classe": [
     {
       "classe": 0,
-      "total_linhas": 19993,
-      "linhas_treino": 11932,
+      "total_linhas": 19992,
+      "linhas_treino": 11931,
       "linhas_teste": 8061,
       "grupos_total": 11,
       "grupos_treino": 7,

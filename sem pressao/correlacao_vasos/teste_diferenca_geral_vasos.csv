@@ -1,0 +1,5 @@
+Grupo_vaso,Metrica_geral,vasos_comparados,kruskal_h,p_valor_diferenca_vasos,epsilon_squared,diferenca_media_max_menos_min,houve_diferenca_estatistica_p_0_05
+doente_vasos_6_a_10,Magnitude_MQ_geral,"6,7,8,9,10",5015.309595381355,0.0,0.15752890718538148,0.47065857731199134,True
+doente_vasos_6_a_10,Indice_MQ_geral,"6,7,8,9,10",1959.2989830785884,0.0,0.061464195368998754,0.14561356582028792,True
+saudavel_vasos_1_a_5,Magnitude_MQ_geral,"1,2,3,4,5",2496.1282276795973,0.0,0.06378460309896336,1.6527019968720598,True
+saudavel_vasos_1_a_5,Indice_MQ_geral,"1,2,3,4,5",7210.7506777969875,0.0,0.18445268044833732,0.5727000574167445,True
