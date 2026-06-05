@@ -1,0 +1,19 @@
+KMeans nao supervisionado
+
+Features usadas: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+Dados padronizados com StandardScaler antes do KMeans.
+k usado no grafico principal: 2 clusters.
+
+Linhas usadas: 70893
+Silhouette k=2 em amostra de ate 10000: 0.747591
+Adjusted Rand Index contra a classe real: 0.013743
+
+Comparacao cluster x classe real:
+classe_real         0      1
+cluster_kmeans              
+0               31769  30431
+1                  48   8645
+
+Observacao:
+KMeans nao usa a classe real para treinar. 
+A classe real aparece apenas para interpretacao depois.

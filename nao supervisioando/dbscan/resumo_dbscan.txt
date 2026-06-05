@@ -1,0 +1,24 @@
+DBSCAN nao supervisionado
+
+Features usadas: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+Dados padronizados com StandardScaler antes do DBSCAN.
+eps: 1.15
+min_samples: 80
+
+Linhas usadas: 70893
+Quantidade de clusters sem contar ruido: 4
+Pontos marcados como ruido (-1): 52
+Silhouette sem ruido: 0.625224
+Adjusted Rand Index contra a classe real: 0.021019
+
+Comparacao cluster x classe real:
+classe_real         0      1
+cluster_dbscan              
+-1                 47      5
+ 0              31770  28171
+ 1                  0   2260
+ 2                  0   8544
+ 3                  0     96
+
+Observacao:
+DBSCAN nao usa a classe real para treinar. A classe real aparece apenas para interpretacao depois.
