@@ -1,0 +1,56 @@
+Teste DBSCAN nao supervisionado
+
+Dataset: dataset_processado_por_dia_vaso_sem_vref0/dataset_unico_por_dia_vaso_sem_vref0.csv
+As colunas Coleta, Dia, Vaso, Soil, Temp., Pres. e Classe NAO foram usadas como features.
+Soil, Temp. e Pres. foram mantidas apenas para diagnostico ambiental depois dos clusters.
+Features usadas: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+Dados padronizados com StandardScaler antes do DBSCAN.
+eps: 1.15
+min_samples: 80
+
+Linhas usadas: 98089
+Quantidade de clusters sem contar ruido: 4
+Pontos marcados como ruido (-1): 58
+Silhouette sem ruido: 0.528297
+Adjusted Rand Index contra a classe real: 0.000602
+
+PC1: 56.2195%
+PC2: 30.1986%
+PC3: 6.6108%
+PC1 + PC2: 86.4181%
+PC1 + PC2 + PC3: 93.0289%
+
+Comparacao cluster x classe real, apenas para interpretacao:
+classe_real        0      1
+cluster_teste              
+-1                52      6
+ 0             44099  43032
+ 1                 0   2260
+ 2                 0   8544
+ 3                 0     96
+
+Principais coletas por cluster:
+ruido (-1)
+  50 (86.21%) | dia 19 - Soja Heterodera Vaso 1 | dia 19, vaso 1, classe 0
+  5 (8.62%) | dia 13 - Soja Saudavel Vaso 1 | dia 13, vaso 1, classe 1
+  1 (1.72%) | Página14 | classe 1
+  1 (1.72%) | dia 19 - Soja Heterodera Vaso 8 | dia 19, vaso 8, classe 0
+  1 (1.72%) | dia 19 - Soja Heterodera Vaso 9 | dia 19, vaso 9, classe 0
+Cluster 0
+  2901 (3.33%) | dia 11 - Soja Saudavel Vaso 1 | dia 11, vaso 1, classe 1
+  2891 (3.32%) | dia 11 - Soja Saudavel Vaso 3 | dia 11, vaso 3, classe 1
+  2628 (3.02%) | dia 11 - Soja Saudavel Vaso 5 | dia 11, vaso 5, classe 1
+  2586 (2.97%) | dia 11 - Soja Saudavel Vaso 4 | dia 11, vaso 4, classe 1
+  2577 (2.96%) | dia 12 - Soja Heterodera Vaso 7 | dia 12, vaso 7, classe 0
+Cluster 1
+  2260 (100.00%) | dia 18 - Soja Saudavel Vaso 1 | dia 18, vaso 1, classe 1
+Cluster 2
+  2395 (28.03%) | dia 13 - Soja Saudavel Vaso 3 | dia 13, vaso 3, classe 1
+  2236 (26.17%) | dia 13 - Soja Saudavel Vaso 5 | dia 13, vaso 5, classe 1
+  2132 (24.95%) | dia 13 - Soja Saudavel Vaso 1 | dia 13, vaso 1, classe 1
+  1781 (20.84%) | dia 13 - Soja Saudavel Vaso 4 | dia 13, vaso 4, classe 1
+Cluster 3
+  96 (100.00%) | dia 13 - Soja Saudavel Vaso 1 | dia 13, vaso 1, classe 1
+
+Observacao:
+O DBSCAN nao usa a classe real para treinar. Neste teste, Classe, Dia, Vaso, Soil, Temp. e Pres. foram mantidos apenas para comparacao posterior.

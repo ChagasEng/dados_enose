@@ -1,0 +1,31 @@
+Analise DBSCAN + PCA
+
+Features: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+PCA calculado apos StandardScaler nos sensores MQ.
+PC1: 77.0139%
+PC2: 12.0400%
+PC3: 7.4233%
+PC1 + PC2: 89.0539%
+PC1 + PC2 + PC3: 96.4772%
+
+Resumo por cluster:
+- ruido: 52 linhas (0.07%), classes {'0': 47, '1': 5}, coletas unicas 4
+  45 (86.54%) | classe 0 | dia 19 | vaso 1 | dia 19 - Soja Heterodera Vaso 10
+  5 (9.62%) | classe 1 | dia 13 | vaso 1 | dia 13 - Soja Saudavel Vaso 1
+  1 (1.92%) | classe 0 | dia 19 | vaso 8 | dia 19 - Soja Heterodera Vaso 8
+  1 (1.92%) | classe 0 | dia 19 | vaso 9 | dia 19 - Soja Heterodera Vaso 9
+- cluster_0: 59941 linhas (84.55%), classes {'0': 31770, '1': 28171}, coletas unicas 31
+  2901 (4.84%) | classe 1 | dia 11 | vaso 1 | dia 11 - Soja Saudavel Vaso 1
+  2891 (4.82%) | classe 1 | dia 11 | vaso 3 | dia 11 - Soja Saudavel Vaso 3
+  2628 (4.38%) | classe 1 | dia 11 | vaso 5 | dia 11 - Soja Saudavel Vaso 5
+  2586 (4.31%) | classe 1 | dia 11 | vaso 4 | dia 11 - Soja Saudavel Vaso 4
+  2577 (4.30%) | classe 0 | dia 12 | vaso 7 | dia 12 - Soja Heterodera Vaso 7
+- cluster_1: 2260 linhas (3.19%), classes {'1': 2260}, coletas unicas 1
+  2260 (100.00%) | classe 1 | dia 18 | vaso 1 | dia 18 - Soja Saudavel Vaso 1
+- cluster_2: 8544 linhas (12.05%), classes {'1': 8544}, coletas unicas 4
+  2395 (28.03%) | classe 1 | dia 13 | vaso 3 | dia 13 - Soja Saudavel Vaso 3
+  2236 (26.17%) | classe 1 | dia 13 | vaso 5 | dia 13 - Soja Saudavel Vaso 5
+  2132 (24.95%) | classe 1 | dia 13 | vaso 1 | dia 13 - Soja Saudavel Vaso 1
+  1781 (20.84%) | classe 1 | dia 13 | vaso 4 | dia 13 - Soja Saudavel Vaso 4
+- cluster_3: 96 linhas (0.14%), classes {'1': 96}, coletas unicas 1
+  96 (100.00%) | classe 1 | dia 13 | vaso 1 | dia 13 - Soja Saudavel Vaso 1
