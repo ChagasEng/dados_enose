@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "dataset_origem": "dataset_processado_por_dia_vaso_sem_vref0\\dataset_unico_por_dia_vaso_sem_vref0.csv",
+    "observacao_origem": "Usada a base anterior filtrada por Dia < 20 para manter as mesmas coletas da pasta sem pressao e recuperar Temp./Pres.",
+    "linhas_base_sem_pressao": 70894,
+    "linhas_base_sem_pressao_com_classe_vazia": 1,
+    "linhas_base_usada": 70894,
+    "classes_base_sem_pressao": {
+      "0": 31817,
+      "1": 39076
+    },
+    "classes_base_usada": {
+      "0": 31818,
+      "1": 39076
+    },
+    "colunas_ambientais_disponiveis": [
+      "Temp.",
+      "Pres."
+    ],
+    "colunas_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "colunas_mq_base_sem_pressao": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ]
+  },
+  "preprocessamento": {
+    "media_movel_modificada": {
+      "janela": 11,
+      "arquivo": "dados_preprocessados\\dataset_media_movel_modificada.csv"
+    },
+    "compensacao_ambiental": {
+      "colunas_usadas": [
+        "Temp.",
+        "Pres."
+      ],
+      "arquivo": "dados_preprocessados\\dataset_media_movel_compensado.csv",
+      "observacao": "Nao ha coluna explicita de umidade relativa; foi usada somente a informacao ambiental disponivel."
+    }
+  },
+  "melhor_modelo": {
+    "nome": "minmax_random_forest",
+    "accuracy": 0.7472564674020369,
+    "balanced_accuracy": 0.7346203902324215,
+    "f1_macro": 0.7368746743181716
+  },
+  "ranking_modelos": [
+    {
+      "modelo": "minmax_random_forest",
+      "fold": "media",
+      "accuracy": 0.7472564674020369,
+      "balanced_accuracy": 0.7346203902324215,
+      "f1_macro": 0.7368746743181716
+    },
+    {
+      "modelo": "minmax_knn",
+      "fold": "media",
+      "accuracy": 0.7235591164273423,
+      "balanced_accuracy": 0.711629395044125,
+      "f1_macro": 0.713275665566343
+    },
+    {
+      "modelo": "pca3_knn",
+      "fold": "media",
+      "accuracy": 0.6522131633142438,
+      "balanced_accuracy": 0.6422130168486095,
+      "f1_macro": 0.6426694308237972
+    },
+    {
+      "modelo": "minmax_svm_linear",
+      "fold": "media",
+      "accuracy": 0.6137331791124778,
+      "balanced_accuracy": 0.6151115454277744,
+      "f1_macro": 0.6127839991394227
+    },
+    {
+      "modelo": "lda1_random_forest",
+      "fold": "media",
+      "accuracy": 0.6053262617428837,
+      "balanced_accuracy": 0.6059325806737819,
+      "f1_macro": 0.6040796868371336
+    },
+    {
+      "modelo": "lda1_svm_linear",
+      "fold": "media",
+      "accuracy": 0.6051287838180947,
+      "balanced_accuracy": 0.6054557252223387,
+      "f1_macro": 0.6037591777391288
+    },
+    {
+      "modelo": "pca3_random_forest",
+      "fold": "media",
+      "accuracy": 0.6093745592010608,
+      "balanced_accuracy": 0.5945468343758098,
+      "f1_macro": 0.5921157127364618
+    },
+    {
+      "modelo": "lda1_knn",
+      "fold": "media",
+      "accuracy": 0.5944790814455384,
+      "balanced_accuracy": 0.5884951509931591,
+      "f1_macro": 0.5886839277471438
+    },
+    {
+      "modelo": "pca3_svm_linear",
+      "fold": "media",
+      "accuracy": 0.5589189494174401,
+      "balanced_accuracy": 0.5595503345844544,
+      "f1_macro": 0.5577633371050317
+    }
+  ]
+}

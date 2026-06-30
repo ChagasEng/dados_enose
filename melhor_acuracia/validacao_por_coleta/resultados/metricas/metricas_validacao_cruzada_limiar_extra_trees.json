@@ -1,0 +1,81 @@
+{
+  "modelo": "ExtraTreesClassifier",
+  "dataset": "sem pressao\\dataset_sem_pressao.csv",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "validacao": "nested StratifiedGroupKFold por Coleta",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "thresholds_validados": [
+    0.47,
+    0.6,
+    0.6599999999999999,
+    0.5800000000000001,
+    0.5800000000000001
+  ],
+  "threshold_medio": 0.578,
+  "threshold_mediano": 0.5800000000000001,
+  "threshold_desvio": 0.061449165982948854,
+  "metricas_medias": {
+    "limiar_050": {
+      "accuracy": 0.8684323237585085,
+      "balanced_accuracy": 0.8647481663720388,
+      "f1_macro": 0.864033608426508
+    },
+    "limiar_validado_por_fold": {
+      "accuracy": 0.8869182751068685,
+      "balanced_accuracy": 0.8907230846155596,
+      "f1_macro": 0.8849204152327337
+    },
+    "limiar_057_fixo": {
+      "accuracy": 0.8907669047926194,
+      "balanced_accuracy": 0.891851407146605,
+      "f1_macro": 0.888489059423154
+    }
+  },
+  "matrizes_somadas": {
+    "limiar_050": [
+      [
+        27262,
+        4556
+      ],
+      [
+        4866,
+        34210
+      ]
+    ],
+    "limiar_validado_por_fold": [
+      [
+        29719,
+        2099
+      ],
+      [
+        6061,
+        33015
+      ]
+    ],
+    "limiar_057_fixo": [
+      [
+        29204,
+        2614
+      ],
+      [
+        5262,
+        33814
+      ]
+    ]
+  },
+  "observacao": "Em cada fold externo, o limiar foi escolhido apenas com folds internos do treino. As coletas do teste externo permaneceram isoladas."
+}

@@ -1,0 +1,12 @@
+Graficos temporais gerados para sem pressao/dataset_sem_pressao.csv
+Observacao: a base nao possui coluna Tempo; foi usado o indice sequencial da leitura dentro de cada Coleta.
+Linhas usadas: 70893
+Coletas: 36
+Sensores: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+
+Principais arquivos:
+01_sensores_ao_longo_tempo_coletas_exemplo.png
+02_sensores_normalizados_tempo_coletas_exemplo.png
+03_media_temporal_por_classe_sensor.png
+heatmap_MQ*_doente/saudavel.png
+por_coleta/*.png

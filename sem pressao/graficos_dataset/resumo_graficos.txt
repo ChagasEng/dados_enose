@@ -1,0 +1,12 @@
+Graficos gerados para sem pressao/dataset_sem_pressao.csv
+Linhas totais no CSV: 70894
+Linhas validas usadas nos graficos: 70893
+Sensores: MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+Arquivos:
+01_distribuicao_classes.png
+02_media_sensores_por_classe.png
+03_boxplot_sensores_por_classe.png
+04_pca_2d_classes.png
+05_pca_3d_classes.png
+06_leituras_por_dia_classe.png
+07_curvas_exemplo_por_classe.png

@@ -1,0 +1,96 @@
+Relatorio - Metodo inspirado no autor
+=====================================
+
+Base usada:
+- Origem: dataset_processado_por_dia_vaso_sem_vref0\dataset_unico_por_dia_vaso_sem_vref0.csv
+- Observacao: Usada a base anterior filtrada por Dia < 20 para manter as mesmas coletas da pasta sem pressao e recuperar Temp./Pres.
+- Linhas usadas: 70894
+- Linhas com Classe vazia na base sem pressao original: 1
+- Classes: {'0': 31818, '1': 39076}
+
+Pre-processamento aplicado:
+- Filtro de media movel modificado com janela 11.
+- Normalizacao maximo-minimo dentro dos pipelines de modelagem.
+- PCA com 3 componentes.
+- LDA com 1 componente, porque a base tem apenas 2 classes.
+- Validacao cruzada StratifiedGroupKFold por Coleta com 10 folds.
+
+Compensacao ambiental:
+- Colunas ambientais disponiveis: Temp., Pres..
+- Nao existe coluna explicita de umidade relativa nesta base.
+- Foi aplicada compensacao linear usando as variaveis ambientais disponiveis.
+
+Sensores usados:
+- MQ2, MQ3, MQ7, MQ8, MQ135, MQ138
+
+Melhor resultado geral:
+- Modelo: minmax_random_forest
+- Accuracy: 0.747256
+- Balanced accuracy: 0.734620
+- F1 macro: 0.736875
+
+Melhor subconjunto na busca exaustiva RF holdout:
+- Sensores: MQ2,MQ3,MQ7,MQ135
+- Qtd sensores: 4
+- Accuracy: 0.875449
+- Balanced accuracy: 0.873818
+- F1 macro: 0.874101
+
+Ranking medio dos modelos:
+- minmax_random_forest: accuracy=0.747256, balanced_accuracy=0.734620, f1_macro=0.736875
+- minmax_knn: accuracy=0.723559, balanced_accuracy=0.711629, f1_macro=0.713276
+- pca3_knn: accuracy=0.652213, balanced_accuracy=0.642213, f1_macro=0.642669
+- minmax_svm_linear: accuracy=0.613733, balanced_accuracy=0.615112, f1_macro=0.612784
+- lda1_random_forest: accuracy=0.605326, balanced_accuracy=0.605933, f1_macro=0.604080
+- lda1_svm_linear: accuracy=0.605129, balanced_accuracy=0.605456, f1_macro=0.603759
+- pca3_random_forest: accuracy=0.609375, balanced_accuracy=0.594547, f1_macro=0.592116
+- lda1_knn: accuracy=0.594479, balanced_accuracy=0.588495, f1_macro=0.588684
+- pca3_svm_linear: accuracy=0.558919, balanced_accuracy=0.559550, f1_macro=0.557763
+
+Top sensores por chi-quadrado:
+- MQ138: chi2=800.8107, cramers_v=0.4815, rf_importance=0.1547
+- MQ7: chi2=657.5558, cramers_v=0.3898, rf_importance=0.1442
+- MQ8: chi2=654.0257, cramers_v=0.4528, rf_importance=0.2077
+- MQ2: chi2=306.8898, cramers_v=0.5050, rf_importance=0.1613
+- MQ3: chi2=151.0378, cramers_v=0.3847, rf_importance=0.0888
+- MQ135: chi2=43.4638, cramers_v=0.4944, rf_importance=0.2434
+
+Resumo do filtro de media movel:
+- MQ2: 771 pontos marcados como outlier local
+- MQ3: 677 pontos marcados como outlier local
+- MQ7: 309 pontos marcados como outlier local
+- MQ8: 161 pontos marcados como outlier local
+- MQ135: 798 pontos marcados como outlier local
+- MQ138: 835 pontos marcados como outlier local
+
+Parametros da compensacao ambiental:
+- MQ2: coef_Temp.=-416.903641, coef_Pres.=85.244349
+- MQ3: coef_Temp.=16.852321, coef_Pres.=-1.092456
+- MQ7: coef_Temp.=-452.751595, coef_Pres.=78.226154
+- MQ8: coef_Temp.=-168.839204, coef_Pres.=16.270211
+- MQ135: coef_Temp.=210.683372, coef_Pres.=-30.821216
+- MQ138: coef_Temp.=-167.646814, coef_Pres.=38.235206
+
+Relatorio de classificacao do melhor modelo:
+              precision    recall  f1-score   support
+
+      doente     0.7781    0.6112    0.6846     31818
+    saudavel     0.7305    0.8580    0.7891     39076
+
+    accuracy                         0.7473     70894
+   macro avg     0.7543    0.7346    0.7369     70894
+weighted avg     0.7518    0.7473    0.7422     70894
+
+
+Arquivos principais:
+- resultados/metricas/resumo_modelos.csv
+- resultados/metricas/resumo_modelos.json
+- resultados/relatorios/relatorio_metodo_autor.txt
+- resultados/matrizes/matriz_confusao_melhor_modelo.png
+- resultados/selecao_atributos/feature_selection_scores.csv
+- resultados/selecao_atributos/busca_exaustiva_subconjuntos_rf.csv
+- graficos/comparacao_modelos_balanced_accuracy.png
+- graficos/pca_2d_classes.png
+- graficos/pca_3d_classes.png
+- graficos/lda_1d_classes.png
+- modelos/melhor_modelo_metodo_autor.joblib
