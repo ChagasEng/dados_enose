@@ -1,0 +1,32 @@
+Relatorio - features por razao entre sensores
+=============================================
+
+Hipotese testada:
+Dividir o sinal de um sensor pelo sinal de outro pode reduzir a influencia comum do ambiente/caixa, pois variacoes globais tendem a aparecer em varios sensores ao mesmo tempo.
+
+Feature sets testados:
+- mq_originais: sensores MQ puros.
+- somente_razoes: todas as razoes sensor_a / sensor_b.
+- mq_mais_razoes: sensores puros + razoes.
+- razoes_com_mq7: razoes envolvendo MQ7.
+- mq7_mais_razoes_mq7: MQ7 puro + razoes envolvendo MQ7.
+
+Melhor resultado:
+- Feature set: mq_originais
+- Modelo: extra_trees
+- Accuracy: 0.870297
+- Balanced accuracy: 0.869949
+- F1 macro: 0.869179
+
+Relatorio de classificacao:
+              precision    recall  f1-score   support
+
+      doente     0.8478    0.8665    0.8571     31817
+    saudavel     0.8893    0.8733    0.8813     39076
+
+    accuracy                         0.8703     70893
+   macro avg     0.8686    0.8699    0.8692     70893
+weighted avg     0.8707    0.8703    0.8704     70893
+
+
+Ranking completo em resultados/metricas/ranking_razao_sensores.csv
