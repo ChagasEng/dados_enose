@@ -1,0 +1,54 @@
+dataset,numero_coleta,condicao,Coleta,Dia,Vaso,Classe,linha_inicio,linha_fim,linhas
+antes_dia_20,1,Com nematoide,dia 11 - Soja Heterodera Vaso 6,11.0,6.0,0,0,2380,2381
+antes_dia_20,2,Com nematoide,dia 11 - Soja Heterodera Vaso 7,11.0,7.0,0,2381,4588,2208
+antes_dia_20,3,Com nematoide,dia 12 - Soja Heterodera Vaso 6,12.0,6.0,0,4589,7079,2491
+antes_dia_20,4,Com nematoide,dia 12 - Soja Heterodera Vaso 7,12.0,7.0,0,7080,9656,2577
+antes_dia_20,5,Com nematoide,dia 12 - Soja Heterodera Vaso 8,12.0,8.0,0,9657,12134,2478
+antes_dia_20,6,Com nematoide,dia 12 - Soja Heterodera Vaso 9,12.0,9.0,0,12135,14678,2544
+antes_dia_20,7,Com nematoide,dia 12 - Soja Heterodera Vaso 1,12.0,1.0,0,14679,17179,2501
+antes_dia_20,8,Com nematoide,dia 18 - Soja Heterodera Vaso 6,18.0,6.0,0,17180,18911,1732
+antes_dia_20,9,Com nematoide,dia 18 - Soja Heterodera Vaso 7,18.0,7.0,0,18912,20630,1719
+antes_dia_20,10,Com nematoide,dia 18 - Soja Heterodera Vaso 8,18.0,8.0,0,20631,22035,1405
+antes_dia_20,11,Com nematoide,dia 18 - Soja Heterodera Vaso 9,18.0,9.0,0,22036,23367,1332
+antes_dia_20,12,Com nematoide,dia 18 - Soja Heterodera Vaso 1,18.0,1.0,0,23368,24749,1382
+antes_dia_20,13,Com nematoide,dia 19 - Soja Heterodera Vaso 6,19.0,6.0,0,24750,25954,1205
+antes_dia_20,14,Com nematoide,dia 19 - Soja Heterodera Vaso 7,19.0,7.0,0,25955,27466,1512
+antes_dia_20,15,Com nematoide,dia 19 - Soja Heterodera Vaso 8,19.0,8.0,0,27467,28979,1513
+antes_dia_20,16,Com nematoide,dia 19 - Soja Heterodera Vaso 9,19.0,9.0,0,28980,30492,1513
+antes_dia_20,17,Com nematoide,dia 19 - Soja Heterodera Vaso 1,19.0,1.0,0,30493,31817,1325
+antes_dia_20,18,Sem nematoide,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,31818,34077,2260
+antes_dia_20,19,Sem nematoide,dia 18 - Soja Saudavel Vaso 2,18.0,2.0,1,34078,36005,1928
+antes_dia_20,20,Sem nematoide,dia 18 - Soja Saudavel Vaso 4,18.0,4.0,1,36006,38018,2013
+antes_dia_20,21,Sem nematoide,dia 18 - Soja Saudavel Vaso 5,18.0,5.0,1,38019,39927,1909
+antes_dia_20,22,Sem nematoide,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,39928,42828,2901
+antes_dia_20,23,Sem nematoide,dia 11 - Soja Saudavel Vaso 2,11.0,2.0,1,42829,45220,2392
+antes_dia_20,24,Sem nematoide,dia 11 - Soja Saudavel Vaso 3,11.0,3.0,1,45221,48111,2891
+antes_dia_20,25,Sem nematoide,dia 11 - Soja Saudavel Vaso 4,11.0,4.0,1,48112,50697,2586
+antes_dia_20,26,Sem nematoide,dia 11 - Soja Saudavel Vaso 5,11.0,5.0,1,50698,53325,2628
+antes_dia_20,27,Sem nematoide,dia 12 - Soja Saudavel Vaso 2,12.0,2.0,1,53326,55865,2540
+antes_dia_20,28,Sem nematoide,dia 13 - Soja Saudavel Vaso 1,13.0,1.0,1,55866,58098,2233
+antes_dia_20,29,Sem nematoide,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,58099,60493,2395
+antes_dia_20,30,Sem nematoide,dia 13 - Soja Saudavel Vaso 4,13.0,4.0,1,60494,62274,1781
+antes_dia_20,31,Sem nematoide,dia 13 - Soja Saudavel Vaso 5,13.0,5.0,1,62275,64510,2236
+antes_dia_20,32,Sem nematoide,dia 19 - Soja Saudavel Vaso 1,19.0,1.0,1,64511,65781,1271
+antes_dia_20,33,Sem nematoide,dia 19 - Soja Saudavel Vaso 2,19.0,2.0,1,65782,67126,1345
+antes_dia_20,34,Sem nematoide,dia 19 - Soja Saudavel Vaso 3,19.0,3.0,1,67127,68394,1268
+antes_dia_20,35,Sem nematoide,dia 19 - Soja Saudavel Vaso 4,19.0,4.0,1,68395,69586,1192
+antes_dia_20,36,Sem nematoide,dia 19 - Soja Saudavel Vaso 5,19.0,5.0,1,69587,70893,1307
+dia_20_mais,1,Com nematoide,dia 20 sem pressao - Soja Heter,20.0,,0,0,1578,1579
+dia_20_mais,2,Com nematoide,Página3,20.0,,0,1579,3137,1559
+dia_20_mais,3,Com nematoide,Página4,20.0,,0,3138,4711,1574
+dia_20_mais,4,Com nematoide,Página5,20.0,,0,4712,6291,1580
+dia_20_mais,5,Com nematoide,Página6,20.0,,0,6292,7679,1388
+dia_20_mais,6,Com nematoide,dia 21 sem pressao - Soja Heter,21.0,,0,7680,9355,1676
+dia_20_mais,7,Com nematoide,Página7,20.0,,0,9356,10811,1456
+dia_20_mais,8,Com nematoide,Página8,20.0,,0,10812,12332,1521
+dia_20_mais,9,Sem nematoide,dia 20 sem pressao - Soja Sauda,20.0,,1,12333,13742,1410
+dia_20_mais,10,Sem nematoide,Página9,20.0,,1,13743,15330,1588
+dia_20_mais,11,Sem nematoide,Página10,20.0,,1,15331,16904,1574
+dia_20_mais,12,Sem nematoide,Página11,20.0,,1,16905,18506,1602
+dia_20_mais,13,Sem nematoide,Página12,20.0,,1,18507,19918,1412
+dia_20_mais,14,Sem nematoide,dia 21 sem pressao - Soja Sauda,21.0,,1,19919,21832,1914
+dia_20_mais,15,Sem nematoide,Página13,21.0,,1,21833,23747,1915
+dia_20_mais,16,Sem nematoide,Página14,21.0,,1,23748,25692,1945
+dia_20_mais,17,Sem nematoide,Página15,21.0,,1,25693,27194,1502

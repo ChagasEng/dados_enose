@@ -1,0 +1,3 @@
+dataset,linhas_com_ambiente,linhas_reduzido,mesma_quantidade_linhas,mesmos_valores_colunas_originais,diferencas_colunas_originais
+antes_dia_20,70894,70894,True,False,5211
+dia_20_mais,27195,27195,True,True,0

@@ -1,0 +1,18 @@
+dataset,numero_coleta,Coleta,Dia,Vaso,Classe,linha_inicio,linha_fim,linhas
+dia_20_mais,1,dia 20 sem pressao - Soja Heter,20.0,,0,0,1578,1579
+dia_20_mais,2,Página3,20.0,,0,1579,3137,1559
+dia_20_mais,3,Página4,20.0,,0,3138,4711,1574
+dia_20_mais,4,Página5,20.0,,0,4712,6291,1580
+dia_20_mais,5,Página6,20.0,,0,6292,7679,1388
+dia_20_mais,6,dia 21 sem pressao - Soja Heter,21.0,,0,7680,9355,1676
+dia_20_mais,7,Página7,20.0,,0,9356,10811,1456
+dia_20_mais,8,Página8,20.0,,0,10812,12332,1521
+dia_20_mais,9,dia 20 sem pressao - Soja Sauda,20.0,,1,12333,13742,1410
+dia_20_mais,10,Página9,20.0,,1,13743,15330,1588
+dia_20_mais,11,Página10,20.0,,1,15331,16904,1574
+dia_20_mais,12,Página11,20.0,,1,16905,18506,1602
+dia_20_mais,13,Página12,20.0,,1,18507,19918,1412
+dia_20_mais,14,dia 21 sem pressao - Soja Sauda,21.0,,1,19919,21832,1914
+dia_20_mais,15,Página13,21.0,,1,21833,23747,1915
+dia_20_mais,16,Página14,21.0,,1,23748,25692,1945
+dia_20_mais,17,Página15,21.0,,1,25693,27194,1502

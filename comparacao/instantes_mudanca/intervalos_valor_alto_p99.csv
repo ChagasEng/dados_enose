@@ -1,0 +1,265 @@
+dataset,tipo,Coleta,Dia,Vaso,Classe,sensor,linha_global_inicio,linha_global_fim,Tempo_inicio,Tempo_fim,duracao_linhas,valor_medio_intervalo,valor_max_intervalo,limiar_p99
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45136,45186,268.79,277.98,51,22982.039215686276,23007.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45252,45290,290.11,297.11,39,23002.20512820513,23013.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45109,45134,263.9,268.43,26,22978.5,23007.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45021,45044,247.74,251.98,24,22963.125,22973.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44808,44829,208.82,212.59,22,22928.909090909092,22936.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44847,44867,215.87,219.62,21,22932.47619047619,22958.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45233,45250,286.63,289.75,18,22995.88888888889,23003.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44869,44885,219.98,222.89,17,22934.882352941175,22943.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45056,45072,254.18,257.09,17,22968.823529411766,22993.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44646,44659,179.09,181.42,14,22911.0,22920.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44573,44585,165.61,167.91,13,22915.153846153848,22936.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44730,44742,194.49,196.68,13,22921.76923076923,22929.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44744,44755,197.03,199.13,12,22923.083333333332,22931.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44795,44806,206.35,208.35,12,22927.666666666668,22933.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44969,44980,238.21,240.3,12,22952.833333333332,22961.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44991,45002,242.29,244.29,12,22966.0,22985.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44602,44612,171.03,172.82,11,22914.545454545456,22921.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44675,44685,184.34,186.13,11,22913.909090909092,22932.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44714,44724,191.61,193.4,11,22918.81818181818,22929.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45212,45222,282.83,284.64,11,22993.090909090908,23000.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44767,44776,201.29,202.92,10,22924.2,22932.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44933,44942,231.68,233.33,10,22940.2,22944.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45201,45210,280.71,282.48,10,22994.2,22999.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45046,45054,252.35,253.81,9,22966.222222222223,22983.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44694,44701,188.04,189.26,8,22915.0,22919.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44782,44789,204.01,205.28,8,22927.5,22933.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44838,44845,214.23,215.51,8,22932.375,22938.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44891,44898,223.98,225.24,8,22935.5,22949.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44904,44911,226.32,227.6,8,22933.5,22939.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44917,44924,228.69,230.06,8,22936.25,22948.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45004,45011,244.65,245.93,8,22964.125,22972.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45091,45098,260.54,261.92,8,22974.75,22985.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45100,45107,262.27,263.54,8,22975.875,22980.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44541,44547,159.76,160.86,7,22911.571428571428,22918.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44638,44644,177.62,178.72,7,22912.714285714286,22921.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44759,44765,199.85,200.93,7,22924.0,22929.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45013,45019,246.3,247.37,7,22961.714285714286,22971.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45193,45199,279.27,280.34,7,22998.14285714286,23018.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44565,44570,164.17,165.06,6,22912.666666666668,22925.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44616,44621,173.54,174.45,6,22912.333333333332,22917.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44625,44630,175.18,176.1,6,22912.166666666668,22914.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44926,44931,230.41,231.31,6,22937.666666666668,22946.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44324,44328,119.84,120.58,5,22909.4,22910.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44591,44595,168.99,169.74,5,22914.8,22919.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44632,44636,176.45,177.25,5,22909.0,22911.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,44954,44958,235.49,236.21,5,22943.6,22952.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ135,45301,45305,299.14,299.85,5,22988.0,22991.0,22908.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70571,71115,172.74,320.12,545,21385.577981651375,21823.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,72499,72534,690.88,700.42,36,21298.277777777777,21312.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70532,70546,162.23,165.79,15,21281.933333333334,21285.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70509,70522,156.25,159.54,14,21278.928571428572,21282.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70556,70569,168.95,172.24,14,21299.64285714286,21312.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70490,70498,150.82,152.99,9,21272.666666666668,21277.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70500,70507,153.95,155.76,8,21278.875,21281.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,71540,71547,433.59,435.31,8,21331.75,21498.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,72399,72405,664.19,665.68,7,21281.85714285714,21347.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70548,70553,166.28,167.73,6,21282.666666666668,21285.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,70526,70530,160.55,161.69,5,21284.4,21285.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ138,72378,72382,658.82,659.84,5,21275.8,21280.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,70658,71113,195.66,319.62,456,21397.940789473683,21819.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,70559,70656,169.69,195.11,98,21318.836734693876,21626.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,70493,70532,151.57,162.23,40,21278.8,21285.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,72499,72538,690.88,701.46,40,21296.775,21309.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,70534,70557,162.73,169.19,24,21282.0,21299.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,71541,71551,433.83,436.36,11,21314.454545454544,21495.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ2,71389,71394,393.29,394.58,6,21277.333333333332,21287.0,21270.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46217,46370,467.38,495.38,154,19368.902597402597,19403.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46047,46128,436.2,451.15,82,19387.865853658535,19497.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45242,45311,288.29,300.92,70,19365.4,19435.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46372,46410,495.74,502.73,39,19391.23076923077,19415.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45065,45102,255.83,262.63,38,19278.78947368421,19301.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45211,45240,282.66,287.92,30,19339.066666666666,19354.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46182,46206,461.02,465.38,25,19343.92,19354.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45130,45150,267.7,271.44,21,19303.04761904762,19327.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45313,45332,301.29,304.81,20,19285.95,19315.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,44977,44993,239.65,242.66,17,19251.058823529413,19260.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45152,45168,271.81,274.71,17,19308.882352941175,19315.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45034,45049,250.08,252.9,16,19264.75,19276.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46139,46154,453.15,455.86,16,19334.3125,19344.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45051,45063,253.27,255.47,13,19270.46153846154,19276.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45197,45209,279.98,282.29,13,19323.846153846152,19330.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,44999,45010,243.75,245.74,12,19259.166666666668,19278.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45104,45115,262.99,264.98,12,19291.0,19309.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45170,45181,275.08,277.07,12,19315.583333333332,19335.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46156,46166,456.22,458.01,11,19336.090909090908,19345.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45334,45342,305.18,306.64,9,19253.222222222223,19272.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45117,45124,265.35,266.62,8,19289.25,19294.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45183,45190,277.43,278.71,8,19321.125,19325.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46130,46137,451.5,452.79,8,19335.5,19342.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46173,46180,459.29,460.67,8,19337.75,19344.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,46208,46215,465.74,467.01,8,19346.75,19353.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ3,45023,45027,248.1,248.81,5,19258.2,19261.0,19236.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70658,71115,195.66,320.12,458,21397.072052401745,21820.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70576,70656,174.0,195.11,81,21325.35802469136,21628.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70520,70538,159.05,163.77,19,21283.105263157893,21286.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,72499,72516,690.88,695.23,18,21303.38888888889,21310.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70550,70565,166.84,171.25,16,21291.0,21311.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,71541,71553,433.83,436.89,13,21310.0,21495.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70483,70491,149.04,151.07,9,21269.666666666668,21272.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70493,70500,151.57,153.95,8,21274.5,21277.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70503,70510,154.75,156.5,8,21278.125,21279.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70567,70574,171.75,173.5,8,21293.125,21296.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,71389,71395,393.29,394.82,7,21277.14285714286,21288.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,72518,72524,695.93,697.89,7,21297.14285714286,21308.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,72532,72538,699.93,701.46,7,21282.714285714286,21289.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,70512,70516,157.0,158.05,5,21275.6,21277.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,72392,72396,662.37,663.4,5,21270.0,21272.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 3,13.0,3.0,1,MQ7,72526,72530,698.39,699.43,5,21296.2,21307.0,21269.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,45099,45386,262.09,314.87,288,9878.361111111111,9990.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,46194,46410,463.22,502.73,217,9806.562211981567,9875.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 13 - Soja Saudavel Vaso 1,13.0,1.0,1,MQ8,68852,68952,300.12,326.87,101,13473.356435643564,16359.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,46155,46192,456.04,462.85,38,9761.026315789473,9777.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,46134,46144,452.23,454.04,11,9751.454545454546,9765.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,46146,46153,454.39,455.67,8,9748.75,9751.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 18 - Soja Saudavel Vaso 1,18.0,1.0,1,MQ8,46126,46132,450.8,451.87,7,9742.42857142857,9745.0,9740.0
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54206,54328,641.47,671.41,123,93.87162601626015,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54108,54204,615.67,640.98,97,93.87113402061856,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53973,54030,580.44,595.33,58,93.87172413793103,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54382,54424,684.89,695.97,43,93.87232558139536,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54492,54530,713.77,723.87,39,93.87333333333332,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54435,54468,698.72,707.74,34,93.87088235294117,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53850,53882,550.22,557.61,33,93.87030303030303,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53702,53733,513.46,521.51,32,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54332,54359,672.43,679.39,28,93.87214285714285,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54066,54091,605.02,611.39,26,93.87153846153845,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53937,53960,571.12,577.11,24,93.87041666666669,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54532,54554,724.41,729.87,23,93.86999999999998,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53816,53837,541.46,547.12,22,93.86999999999998,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54569,54590,734.25,739.61,22,93.87090909090907,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53915,53935,565.93,570.65,21,93.87095238095237,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54361,54380,679.86,684.4,20,93.87349999999999,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53657,53672,502.29,506.41,16,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54049,54064,600.11,604.53,16,93.87375,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53781,53795,533.33,536.56,15,93.87066666666666,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53797,53811,537.08,540.31,15,93.87133333333331,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53678,53691,507.87,510.86,14,93.87071428571429,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54093,54106,611.88,615.18,14,93.87142857142855,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54556,54567,730.36,733.72,12,93.87083333333332,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53767,53776,529.44,531.53,10,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53839,53848,547.57,549.76,10,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53886,53895,558.55,561.29,10,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53962,53971,577.66,579.92,10,93.87100000000001,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53523,53531,469.65,471.49,9,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54032,54040,595.87,597.88,9,93.87222222222222,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53514,53521,467.59,469.19,8,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53693,53700,511.38,513.0,8,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54426,54433,696.47,698.23,8,93.87125,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,52804,52810,292.5,293.99,7,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53559,53565,478.63,480.06,7,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53649,53655,500.38,501.8,7,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53745,53751,524.31,525.7,7,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,52825,52830,297.71,298.93,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53421,53426,445.15,446.3,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53458,53463,454.45,455.63,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53539,53544,473.41,474.55,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53615,53620,492.47,493.65,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53738,53743,522.66,523.85,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53753,53758,526.15,527.34,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53908,53913,564.26,565.44,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54042,54047,598.37,599.61,6,93.87166666666667,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54470,54475,708.23,709.47,6,93.87166666666667,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,54477,54482,710.01,711.23,6,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,52785,52789,287.75,288.73,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53501,53505,464.53,465.5,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53567,53571,480.52,481.46,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53595,53599,487.14,488.11,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53603,53607,489.03,489.97,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53629,53633,495.75,496.71,5,93.872,93.88,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Saudavel Vaso 1,11.0,1.0,1,Pres.,53639,53643,498.09,499.0,5,93.87,93.87,93.87
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Heterodera Vaso 7,11.0,7.0,0,Temp.,3801,4588,476.41,673.53,788,46.39137055837565,46.8,46.0
+antes_dia_20,valor_alto_p99_intervalo,dia 11 - Soja Heterodera Vaso 7,11.0,7.0,0,Temp.,3791,3799,474.06,475.94,9,46.0,46.0,46.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83893,83982,206.18,225.51,90,16115.266666666666,16393.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83583,83634,140.26,151.16,52,16143.115384615385,16387.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83655,83686,155.38,162.35,32,16191.53125,16354.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83519,83534,126.16,129.76,16,16040.375,16111.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83504,83516,122.99,125.4,13,16048.692307692309,16124.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83491,83502,120.36,122.59,12,16067.833333333334,16120.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83878,83887,203.16,204.96,10,15976.3,16011.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83732,83740,171.57,173.8,9,16025.777777777777,16065.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ135,83755,83760,176.82,177.85,6,15980.166666666666,16019.0,15933.060000000001
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,MQ138,96075,96327,412.54,468.48,253,11837.442687747036,11881.0,11756.0
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,MQ138,96332,96342,469.53,472.28,11,11760.90909090909,11769.0,11756.0
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,MQ138,96346,96353,473.11,474.57,8,11758.375,11760.0,11756.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ2,33232,33396,380.82,416.41,165,13648.8,13759.0,13539.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ2,33169,33229,366.61,380.21,61,13591.147540983606,13652.0,13539.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ2,32915,32951,311.98,319.43,37,13604.72972972973,13640.0,13539.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ2,32996,33000,329.38,330.2,5,13641.2,13645.0,13539.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ3,33233,33396,381.02,416.41,164,13649.926829268292,13759.0,13542.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ3,33175,33231,368.31,380.62,57,13594.245614035088,13656.0,13542.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ3,32914,32951,311.79,319.43,38,13603.394736842105,13638.0,13542.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ3,32996,33000,329.38,330.2,5,13642.4,13647.0,13542.060000000001
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ7,33247,33396,383.92,416.41,150,13654.666666666666,13761.0,13541.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ7,33169,33245,366.61,383.5,77,13587.38961038961,13660.0,13541.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ7,32915,32951,311.98,319.43,37,13603.72972972973,13637.0,13541.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,MQ7,32996,33000,329.38,330.2,5,13640.8,13646.0,13541.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83775,83846,180.87,195.94,72,6828.472222222223,6849.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83850,83886,197.51,204.76,37,6799.756756756757,6818.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83741,83772,174.01,180.26,32,6801.8125,6810.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83685,83714,162.15,167.96,30,6798.2,6819.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83655,83683,155.38,161.26,29,6819.172413793103,6829.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83632,83652,150.74,154.77,21,6806.619047619048,6817.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83608,83615,145.27,146.68,8,6791.125,6797.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83527,83533,128.23,129.46,7,6787.428571428572,6790.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83732,83738,171.57,172.93,7,6801.571428571428,6811.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83497,83502,121.57,122.59,6,6786.333333333333,6789.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83512,83516,124.61,125.4,5,6787.6,6791.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,MQ8,83624,83628,148.48,149.3,5,6787.6,6789.0,6784.0
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95849,95872,362.13,366.98,24,93.92124999999999,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95763,95783,342.68,346.87,21,93.9214285714286,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95631,95649,313.37,317.14,19,93.92000000000002,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96400,96415,485.16,488.49,16,93.92125000000001,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95121,95135,199.38,202.35,15,93.92000000000002,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95746,95760,338.93,342.03,15,93.92133333333337,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96383,96397,480.93,484.51,15,93.92133333333337,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96421,96435,489.77,492.85,15,93.92000000000002,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96568,96582,522.94,525.93,15,93.92000000000002,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96354,96367,474.78,477.56,14,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95500,95512,283.61,286.79,13,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95600,95612,306.16,308.73,13,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95785,95796,347.31,350.25,12,93.92083333333335,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página15,21.0,,1,Pres.,96608,96618,76.6,78.71,11,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95484,95493,280.23,282.15,10,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95614,95623,309.14,311.49,10,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95700,95709,328.61,330.52,10,93.921,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95838,95847,359.22,361.56,10,93.921,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95890,95899,370.76,372.66,10,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96457,96466,498.09,500.03,10,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96219,96227,444.36,446.05,9,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96372,96380,478.6,480.28,9,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96528,96536,513.75,515.46,9,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95273,95280,232.85,234.33,8,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95296,95303,238.35,239.83,8,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95737,95744,337.05,338.52,8,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96337,96344,470.58,472.7,8,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,94726,94732,111.03,112.29,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95519,95525,288.26,289.52,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95553,95559,295.47,296.74,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95658,95664,319.05,320.33,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95874,95880,367.39,368.65,7,93.92142857142856,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96238,96244,448.99,450.23,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96441,96447,494.1,495.52,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96449,96455,496.44,497.68,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96468,96474,500.44,501.71,7,93.91999999999999,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,94908,94913,151.43,152.5,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95375,95380,255.75,256.82,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95530,95535,290.57,291.64,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95537,95542,292.1,293.16,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95724,95729,333.7,334.74,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95972,95977,389.42,390.46,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96269,96274,455.52,456.56,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96549,96554,518.3,519.34,6,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,94902,94906,150.18,151.02,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95012,95016,174.8,175.66,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95260,95264,230.12,230.97,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95408,95412,263.44,264.28,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95567,95571,298.9,300.03,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,95817,95821,354.78,355.61,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96213,96217,443.08,443.95,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96252,96256,451.95,452.78,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página14,21.0,,1,Pres.,96542,96546,516.71,517.58,5,93.92200000000001,93.93,93.92
+dia_20_mais,valor_alto_p99_intervalo,Página15,21.0,,1,Pres.,96752,96756,108.54,109.4,5,93.92,93.92,93.92
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Sauda,20.0,,1,Soil,84383,84389,311.02,312.24,7,3099.0,3111.0,3091.0
+dia_20_mais,valor_alto_p99_intervalo,dia 20 sem pressao - Soja Heter,20.0,,0,Temp.,33190,33396,371.62,416.41,207,42.55458937198066,42.9,42.3
+dia_20_mais,valor_alto_p99_intervalo,Página5,20.0,,0,Temp.,37950,38109,382.94,417.42,160,42.38375,42.5,42.3
