@@ -1,0 +1,1 @@
+A curva normalizada deve manter praticamente o mesmo formato da curva crua, porque a normalizacao usada e linear. A diferenca principal esta no eixo Y: cru usa a escala original do sensor, normalizado usa 0 a 1.

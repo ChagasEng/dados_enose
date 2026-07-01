@@ -1,0 +1,50 @@
+{
+  "modelo_origem": "melhor_acuracia\\modelo\\modelo_extra_trees_limiar_ajustado.joblib",
+  "dataset_treino_original": "sem pressao\\dataset_sem_pressao.csv",
+  "dataset_avaliado": "dia_20_mais\\dia_20_mais\\dataset_dia_20_mais.csv",
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "target": "Classe",
+  "threshold_validado_melhor_acuracia": 0.5700000000000001,
+  "metricas_no_dataset_original_melhor_acuracia": {
+    "accuracy": 0.9265144381669805,
+    "balanced_accuracy": 0.9280215993596385,
+    "f1_macro": 0.9263584659179928
+  },
+  "metricas_dia_20_mais_limiar_050": {
+    "accuracy": 0.45350248207391064,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.31200667880995747,
+    "matriz_confusao": [
+      [
+        12333,
+        0
+      ],
+      [
+        14862,
+        0
+      ]
+    ]
+  },
+  "metricas_dia_20_mais_limiar_validado": {
+    "accuracy": 0.45350248207391064,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.31200667880995747,
+    "matriz_confusao": [
+      [
+        12333,
+        0
+      ],
+      [
+        14862,
+        0
+      ]
+    ]
+  }
+}

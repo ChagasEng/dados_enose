@@ -1,0 +1,55 @@
+dataset,Coleta,Dia,Classe,linhas
+dia_20_mais,Página10,20,1.0,1574
+dia_20_mais,Página11,20,1.0,1602
+dia_20_mais,Página12,20,1.0,1412
+dia_20_mais,Página13,21,1.0,1915
+dia_20_mais,Página14,21,1.0,1945
+dia_20_mais,Página15,21,1.0,1502
+dia_20_mais,Página3,20,0.0,1559
+dia_20_mais,Página4,20,0.0,1574
+dia_20_mais,Página5,20,0.0,1580
+dia_20_mais,Página6,20,0.0,1388
+dia_20_mais,Página7,20,0.0,1456
+dia_20_mais,Página8,20,0.0,1521
+dia_20_mais,Página9,20,1.0,1588
+dia_20_mais,dia 20 sem pressao - Soja Heter,20,0.0,1579
+dia_20_mais,dia 20 sem pressao - Soja Sauda,20,1.0,1410
+dia_20_mais,dia 21 sem pressao - Soja Heter,21,0.0,1676
+dia_20_mais,dia 21 sem pressao - Soja Sauda,21,1.0,1914
+melhor_acuracia_sem_pressao,dia 11 - Soja Heterodera Vaso 6,11,0.0,2381
+melhor_acuracia_sem_pressao,dia 11 - Soja Heterodera Vaso 7,11,0.0,2208
+melhor_acuracia_sem_pressao,dia 11 - Soja Saudavel Vaso 1,11,1.0,2901
+melhor_acuracia_sem_pressao,dia 11 - Soja Saudavel Vaso 2,11,1.0,2392
+melhor_acuracia_sem_pressao,dia 11 - Soja Saudavel Vaso 3,11,1.0,2891
+melhor_acuracia_sem_pressao,dia 11 - Soja Saudavel Vaso 4,11,1.0,2586
+melhor_acuracia_sem_pressao,dia 11 - Soja Saudavel Vaso 5,11,1.0,2628
+melhor_acuracia_sem_pressao,dia 12 - Soja Heterodera Vaso 10,12,0.0,2501
+melhor_acuracia_sem_pressao,dia 12 - Soja Heterodera Vaso 6,12,0.0,2491
+melhor_acuracia_sem_pressao,dia 12 - Soja Heterodera Vaso 7,12,0.0,2577
+melhor_acuracia_sem_pressao,dia 12 - Soja Heterodera Vaso 8,12,0.0,2478
+melhor_acuracia_sem_pressao,dia 12 - Soja Heterodera Vaso 9,12,0.0,2544
+melhor_acuracia_sem_pressao,dia 12 - Soja Saudavel Vaso 2,12,1.0,2540
+melhor_acuracia_sem_pressao,dia 13 - Soja Saudavel Vaso 1,13,1.0,2233
+melhor_acuracia_sem_pressao,dia 13 - Soja Saudavel Vaso 3,13,1.0,2395
+melhor_acuracia_sem_pressao,dia 13 - Soja Saudavel Vaso 4,13,1.0,1781
+melhor_acuracia_sem_pressao,dia 13 - Soja Saudavel Vaso 5,13,1.0,2236
+melhor_acuracia_sem_pressao,dia 18 - Soja Heterodera Vaso 10,18,0.0,1382
+melhor_acuracia_sem_pressao,dia 18 - Soja Heterodera Vaso 6,18,0.0,1732
+melhor_acuracia_sem_pressao,dia 18 - Soja Heterodera Vaso 7,18,0.0,1719
+melhor_acuracia_sem_pressao,dia 18 - Soja Heterodera Vaso 8,18,0.0,1405
+melhor_acuracia_sem_pressao,dia 18 - Soja Heterodera Vaso 9,18,0.0,1332
+melhor_acuracia_sem_pressao,dia 18 - Soja Saudavel Vaso 1,18,1.0,2260
+melhor_acuracia_sem_pressao,dia 18 - Soja Saudavel Vaso 2,18,1.0,1928
+melhor_acuracia_sem_pressao,dia 18 - Soja Saudavel Vaso 4,18,1.0,2013
+melhor_acuracia_sem_pressao,dia 18 - Soja Saudavel Vaso 5,18,1.0,1909
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 10,19,0.0,1324
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 10,19,,1
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 6,19,0.0,1205
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 7,19,0.0,1512
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 8,19,0.0,1513
+melhor_acuracia_sem_pressao,dia 19 - Soja Heterodera Vaso 9,19,0.0,1513
+melhor_acuracia_sem_pressao,dia 19 - Soja Saudavel Vaso 1,19,1.0,1271
+melhor_acuracia_sem_pressao,dia 19 - Soja Saudavel Vaso 2,19,1.0,1345
+melhor_acuracia_sem_pressao,dia 19 - Soja Saudavel Vaso 3,19,1.0,1268
+melhor_acuracia_sem_pressao,dia 19 - Soja Saudavel Vaso 4,19,1.0,1192
+melhor_acuracia_sem_pressao,dia 19 - Soja Saudavel Vaso 5,19,1.0,1307

@@ -1,0 +1,30 @@
+Comparacao visual dos datasets
+
+Arquivos usados:
+
+1. 01_melhor_modelo_sem_pressao_grafico_dataset_treino_teste.png
+   - Dataset: sem pressao/dataset_sem_pressao.csv
+   - Foi o dataset usado no melhor resultado com ExtraTrees.
+   - Dias presentes: 11, 12, 13, 18 e 19.
+   - Total: 70.894 linhas.
+
+2. 02_dataset_dia_20_mais_grafico_dataset_treino_teste.png
+   - Dataset: dia_20_mais/dia_20_mais/dataset_dia_20_mais.csv
+   - Foi o dataset novo gerado com Dia >= 20.
+   - Dias presentes: 20 e 21.
+   - Total: 27.195 linhas.
+
+3. 03_comparacao_visual_sem_pressao_vs_dia_20_mais.png
+   - Comparacao dos dois datasets no mesmo formato visual.
+
+Resumo da comparacao:
+
+O dataset sem_pressao e maior e cobre mais dias de coleta. Ele foi usado no melhor modelo ExtraTrees, com separacao 70/30 por Coleta, usando apenas os sensores MQ2, MQ3, MQ7, MQ8, MQ135 e MQ138 como features. Esse dataset apresentou melhor estabilidade para treinamento e teste, chegando ao melhor resultado com ExtraTrees e limiar ajustado.
+
+O dataset dia_20_mais e menor e representa outro recorte temporal, com leituras apenas dos dias 20 e 21. Visualmente, os sinais dos sensores mudam bastante em relacao ao sem_pressao. Isso aparece principalmente nas curvas normalizadas dos sensores MQ ao longo do dataset: o padrao do dia_20_mais nao segue o mesmo comportamento do dataset usado no melhor modelo.
+
+Na pratica, isso indica que o modelo treinado no sem_pressao nao generaliza automaticamente para o dia_20_mais. Quando aplicamos as mesmas tecnicas de machine learning nesse novo recorte, o desempenho ficou menor. O dia_20_mais parece ser um conjunto mais diferente e mais dificil, provavelmente por mudanca de comportamento dos sensores nos dias finais.
+
+Conclusao:
+
+Para comparacao justa, o dia_20_mais deve ser tratado como um novo recorte de avaliacao/experimento, nao apenas como uma extensao direta do melhor dataset. O grafico comparativo mostra que a distribuicao dos sinais mudou, entao a queda de desempenho faz sentido e precisa ser reportada como diferenca entre recortes temporais.

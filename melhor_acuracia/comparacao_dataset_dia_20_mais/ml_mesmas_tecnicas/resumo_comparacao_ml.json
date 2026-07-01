@@ -1,0 +1,51 @@
+{
+  "dataset_original_melhor_acuracia": "sem pressao\\dataset_sem_pressao.csv",
+  "dataset_novo": "dia_20_mais\\dia_20_mais\\dataset_dia_20_mais.csv",
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "target": "Classe",
+  "split_novo": [
+    {
+      "classe": 0,
+      "total_linhas": 12333,
+      "linhas_treino": 7909,
+      "linhas_teste": 4424,
+      "grupos_total": 8,
+      "grupos_treino": 5,
+      "grupos_teste": 3
+    },
+    {
+      "classe": 1,
+      "total_linhas": 14862,
+      "linhas_treino": 9933,
+      "linhas_teste": 4929,
+      "grupos_total": 9,
+      "grupos_treino": 6,
+      "grupos_teste": 3
+    }
+  ],
+  "melhor_holdout_novo": {
+    "avaliacao": "holdout_70_30_por_coleta",
+    "modelo": "hist_gradient_boosting",
+    "features_usadas": "MQ2,MQ3,MQ7,MQ8,MQ135,MQ138",
+    "treino_linhas": 17842,
+    "teste_linhas": 9353,
+    "accuracy": 0.8208061584518337,
+    "balanced_accuracy": 0.8105786618444846,
+    "f1_macro": 0.8105019607395618
+  },
+  "melhor_cv_media_novo": {
+    "avaliacao": "stratified_group_kfold_media",
+    "modelo": "logistic_regression_scaled",
+    "fold": "media",
+    "accuracy": 0.7622584311804071,
+    "balanced_accuracy": 0.7640265964335649,
+    "f1_macro": 0.7467332333903005
+  }
+}

@@ -1,0 +1,15 @@
+dataset,Dia,Classe,linhas
+dia_20_mais,20,0.0,10657
+dia_20_mais,20,1.0,7586
+dia_20_mais,21,0.0,1676
+dia_20_mais,21,1.0,7276
+melhor_acuracia_sem_pressao,11,0.0,4589
+melhor_acuracia_sem_pressao,11,1.0,13398
+melhor_acuracia_sem_pressao,12,0.0,12591
+melhor_acuracia_sem_pressao,12,1.0,2540
+melhor_acuracia_sem_pressao,13,1.0,8645
+melhor_acuracia_sem_pressao,18,0.0,7570
+melhor_acuracia_sem_pressao,18,1.0,8110
+melhor_acuracia_sem_pressao,19,0.0,7067
+melhor_acuracia_sem_pressao,19,1.0,6383
+melhor_acuracia_sem_pressao,19,,1
