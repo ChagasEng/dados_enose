@@ -1,0 +1,12 @@
+dataset,numero_coleta,condicao,Coleta,Dia,Vaso,Classe,linha_inicio,linha_fim,linhas
+antes_dia_20,13,Com nematoide,dia 19 - Soja Heterodera Vaso 6,19.0,6.0,0,24750,25954,1205
+antes_dia_20,14,Com nematoide,dia 19 - Soja Heterodera Vaso 7,19.0,7.0,0,25955,27466,1512
+antes_dia_20,15,Com nematoide,dia 19 - Soja Heterodera Vaso 8,19.0,8.0,0,27467,28979,1513
+antes_dia_20,16,Com nematoide,dia 19 - Soja Heterodera Vaso 9,19.0,9.0,0,28980,30492,1513
+antes_dia_20,17,Com nematoide,dia 19 - Soja Heterodera Vaso 1,19.0,1.0,0,30493,31817,1325
+antes_dia_20,28,Sem nematoide,dia 13 - Soja Saudavel Vaso 1,13.0,1.0,1,55866,58098,2233
+dia_20_mais,13,Sem nematoide,Página12,20.0,,1,18507,19918,1412
+dia_20_mais,14,Sem nematoide,dia 21 sem pressao - Soja Sauda,21.0,,1,19919,21832,1914
+dia_20_mais,15,Sem nematoide,Página13,21.0,,1,21833,23747,1915
+dia_20_mais,16,Sem nematoide,Página14,21.0,,1,23748,25692,1945
+dia_20_mais,17,Sem nematoide,Página15,21.0,,1,25693,27194,1502

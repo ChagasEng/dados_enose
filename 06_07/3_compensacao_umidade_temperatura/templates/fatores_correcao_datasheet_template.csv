@@ -1,0 +1,7 @@
+sensor,temp_ref,soil_ref,coef_temp_percent_por_unidade,coef_soil_percent_por_unidade,observacao
+MQ2,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental
+MQ3,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental
+MQ7,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental
+MQ8,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental
+MQ135,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental
+MQ138,36.0,0.0,0.0,0.0,preencher com fator do datasheet depois de validar variavel ambiental

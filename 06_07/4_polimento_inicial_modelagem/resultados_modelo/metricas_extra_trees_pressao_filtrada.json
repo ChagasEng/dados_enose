@@ -1,0 +1,120 @@
+{
+  "modelo": "ExtraTreesClassifier com limiar ajustado",
+  "dataset": "comparacao\\pressao_filtrada\\antes_dia_20_pressao_filtrada_estrito.csv",
+  "observacao_dataset": "Dataset antes_dia_20 com linhas removidas quando a pressao variou abruptamente e fora da faixa estavel.",
+  "target": "Classe",
+  "target_mapping": {
+    "0": "doente",
+    "1": "saudavel"
+  },
+  "features_usadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "coluna_usada_apenas_para_split": "Coleta",
+  "split_holdout": "70/30 por grupos de Coleta dentro de cada classe",
+  "split_validacao": "70/30 dentro do treino, tambem por grupos de Coleta",
+  "random_state": 42,
+  "validation_random_state": 43,
+  "parametros": {
+    "bootstrap": false,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 900,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "threshold_padrao": 0.5,
+  "threshold_validado": 0.7200000000000002,
+  "metricas_teste_limiar_050": {
+    "accuracy": 0.8996156454894868,
+    "balanced_accuracy": 0.8999974604761314,
+    "f1_macro": 0.8995677390809576
+  },
+  "metricas_teste_limiar_validado": {
+    "accuracy": 0.8797648654759214,
+    "balanced_accuracy": 0.8826941062671092,
+    "f1_macro": 0.8794699101538197
+  },
+  "matriz_confusao_limiar_050": [
+    [
+      9706,
+      953
+    ],
+    [
+      1267,
+      10189
+    ]
+  ],
+  "matriz_confusao_limiar_validado": [
+    [
+      10275,
+      384
+    ],
+    [
+      2275,
+      9181
+    ]
+  ],
+  "linhas_dataset": 63373,
+  "treino_total": 41258,
+  "validacao_total": 14663,
+  "teste_total": 22115,
+  "split_holdout_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 28925,
+      "linhas_treino": 18266,
+      "linhas_teste": 10659,
+      "grupos_total": 17,
+      "grupos_treino": 11,
+      "grupos_teste": 6
+    },
+    {
+      "classe": 1,
+      "total_linhas": 34448,
+      "linhas_treino": 22992,
+      "linhas_teste": 11456,
+      "grupos_total": 19,
+      "grupos_treino": 13,
+      "grupos_teste": 6
+    }
+  ],
+  "split_validacao_por_classe": [
+    {
+      "classe": 0,
+      "total_linhas": 18266,
+      "linhas_treino": 10541,
+      "linhas_teste": 7725,
+      "grupos_total": 11,
+      "grupos_treino": 7,
+      "grupos_teste": 4
+    },
+    {
+      "classe": 1,
+      "total_linhas": 22992,
+      "linhas_treino": 16054,
+      "linhas_teste": 6938,
+      "grupos_total": 13,
+      "grupos_treino": 9,
+      "grupos_teste": 4
+    }
+  ]
+}

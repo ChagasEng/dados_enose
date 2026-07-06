@@ -1,0 +1,132 @@
+{
+  "cenario": "01_baseline_antes_corte_mq_ambiente",
+  "descricao": "Baseline antes do corte por pressao, usando MQ + ambiente.",
+  "dataset": "1_investigacao_hardware_banco\\dados_base\\antes_dia_20_com_ambiente_baseline.csv",
+  "features": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil",
+    "Temp.",
+    "Pres."
+  ],
+  "linhas_dataset": 70894,
+  "linhas_treino": 45406,
+  "linhas_teste": 25488,
+  "coletas_total": 36,
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "extra_trees": {
+    "accuracy": 0.8758239171374764,
+    "balanced_accuracy": 0.8692392549808521,
+    "f1_macro": 0.8728076571551513
+  },
+  "rede_neural_mlp": {
+    "accuracy": 0.8274482109227872,
+    "balanced_accuracy": 0.8352945370740161,
+    "f1_macro": 0.8270401593567713
+  },
+  "top5_extra_trees_nativo": [
+    {
+      "feature": "MQ8",
+      "tipo": "sensor_mq",
+      "importancia": 0.24820481587673376
+    },
+    {
+      "feature": "Soil",
+      "tipo": "ambiente",
+      "importancia": 0.1687592163799848
+    },
+    {
+      "feature": "MQ7",
+      "tipo": "sensor_mq",
+      "importancia": 0.16787597989649414
+    },
+    {
+      "feature": "Temp.",
+      "tipo": "ambiente",
+      "importancia": 0.12256495504088022
+    },
+    {
+      "feature": "MQ2",
+      "tipo": "sensor_mq",
+      "importancia": 0.1040005794968049
+    }
+  ],
+  "top5_extra_trees_permutacao": [
+    {
+      "feature": "MQ8",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.15021694560570856,
+      "importancia_desvio": 0.003928107963140998,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "Soil",
+      "tipo": "ambiente",
+      "importancia_media": 0.10624521813174466,
+      "importancia_desvio": 0.002339817558125473,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ3",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.024390662336866643,
+      "importancia_desvio": 0.0018931515396153342,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ2",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.012445567217946341,
+      "importancia_desvio": 0.0027240171946094865,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ7",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.0062821376895269235,
+      "importancia_desvio": 0.0012057883152033681,
+      "amostra_teste_usada": 8000
+    }
+  ],
+  "top5_rede_neural_permutacao": [
+    {
+      "feature": "MQ3",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.1779942468331661,
+      "importancia_desvio": 0.00321745083039254,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ2",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.17700423710839747,
+      "importancia_desvio": 0.001982267724769339,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ138",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.17494846186838106,
+      "importancia_desvio": 0.004025891788149972,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ135",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.14479187581203395,
+      "importancia_desvio": 0.002874474284895711,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ8",
+      "tipo": "sensor_mq",
+      "importancia_media": 0.06610083909514097,
+      "importancia_desvio": 0.004078035285518984,
+      "amostra_teste_usada": 8000
+    }
+  ]
+}

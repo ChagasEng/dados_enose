@@ -1,0 +1,5 @@
+cenario,melhor_modelo,melhor_accuracy,top1_extra_trees,top1_rede_neural_permutacao
+01_baseline_antes_corte_mq_ambiente,ExtraTrees,0.8758239171374764,MQ8,MQ3
+02_filtrado_pressao_mq,ExtraTrees,0.8996156454894868,MQ8,MQ2
+03_filtrado_pressao_mq_ambiente,ExtraTrees,0.9150802622654307,MQ8,Pres.
+04_polido_final_mq,ExtraTrees,0.8996156454894868,MQ8,MQ2

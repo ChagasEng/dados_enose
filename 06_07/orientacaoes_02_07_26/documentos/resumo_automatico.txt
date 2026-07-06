@@ -1,0 +1,29 @@
+Resumo automatico das orientacoes 02/07/2026
+
+Inventario de hardware/colunas:
+- coletas.xlsx: corrente=False, tensao/alimentacao=False, V_ref_0=True
+- dataset_unico_com_vref0: corrente=False, tensao/alimentacao=False, V_ref_0=True
+- antes_dia_20_com_ambiente: corrente=False, tensao/alimentacao=False, V_ref_0=False
+- dia_20_mais_com_ambiente: corrente=False, tensao/alimentacao=False, V_ref_0=False
+- melhor_modelo_sem_pressao: corrente=False, tensao/alimentacao=False, V_ref_0=False
+
+Coletas destacadas:
+- antes_dia_20 C13: dia 19 - Soja Heterodera Vaso 6 | Com nematoide | linhas 24750-25954
+- antes_dia_20 C14: dia 19 - Soja Heterodera Vaso 7 | Com nematoide | linhas 25955-27466
+- antes_dia_20 C15: dia 19 - Soja Heterodera Vaso 8 | Com nematoide | linhas 27467-28979
+- antes_dia_20 C16: dia 19 - Soja Heterodera Vaso 9 | Com nematoide | linhas 28980-30492
+- antes_dia_20 C17: dia 19 - Soja Heterodera Vaso 1 | Com nematoide | linhas 30493-31817
+- antes_dia_20 C28: dia 13 - Soja Saudavel Vaso 1 | Sem nematoide | linhas 55866-58098
+- dia_20_mais C13: Página12 | Sem nematoide | linhas 18507-19918
+- dia_20_mais C14: dia 21 sem pressao - Soja Sauda | Sem nematoide | linhas 19919-21832
+- dia_20_mais C15: Página13 | Sem nematoide | linhas 21833-23747
+- dia_20_mais C16: Página14 | Sem nematoide | linhas 23748-25692
+- dia_20_mais C17: Página15 | Sem nematoide | linhas 25693-27194
+
+Candidatos de corte por pressao:
+- Total de eventos candidatos: 6938
+- antes_dia_20 | dia 11 - Soja Heterodera Vaso 7 | Tempo 253.01 | delta_pressao 7.2000 | corte linhas 2881-2941
+- antes_dia_20 | dia 18 - Soja Saudavel Vaso 4 | Tempo 163.79 | delta_pressao 7.1600 | corte linhas 36349-36409
+- antes_dia_20 | dia 11 - Soja Saudavel Vaso 5 | Tempo 327.49 | delta_pressao 6.6100 | corte linhas 51444-51504
+- antes_dia_20 | dia 18 - Soja Saudavel Vaso 4 | Tempo 163.99 | delta_pressao 6.5600 | corte linhas 36350-36410
+- antes_dia_20 | dia 12 - Soja Heterodera Vaso 1 | Tempo 320.99 | delta_pressao 6.5000 | corte linhas 15363-15423
