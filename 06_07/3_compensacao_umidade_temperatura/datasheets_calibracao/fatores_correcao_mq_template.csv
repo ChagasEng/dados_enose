@@ -1,0 +1,7 @@
+sensor,temp_ref_c,rh_ref_percent,gas_referencia_datasheet,valor_referencia_datasheet,metodo_correcao,precisa_digitar_curva,observacao
+MQ2,20,55,propane C3H8,2000 ppm,Rs_Rso_por_temperatura_umidade,sim,"extrair pontos da curva Fig4 do manual Winsen"
+MQ3,20,55,alcool C2H5OH,125 ppm,Rs_Rso_por_temperatura_umidade,sim,"manual localizado e MQ-3B; confirmar se o sensor fisico e essa variante"
+MQ7,20,55,CO,150 ppm,Rs_Rso_por_temperatura_umidade,sim,"manual localizado e MQ-7B; confirmar ciclo de aquecimento alto/baixo"
+MQ8,20,55,H2,1000 ppm,Rs_Rso_por_temperatura_umidade,sim,"extrair pontos da curva Fig4 do manual Winsen"
+MQ135,20,55,H2,400 ppm,Rs_Rso_por_temperatura_umidade,sim,"manual traz curva ambiental em 400 ppm H2"
+MQ138,20,55,tolueno,50 ppm,Rs_Rso_por_temperatura_umidade,sim,"extrair pontos da curva Fig4 do manual Winsen"
