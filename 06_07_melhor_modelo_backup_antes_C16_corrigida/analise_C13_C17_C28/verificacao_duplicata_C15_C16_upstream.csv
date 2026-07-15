@@ -1,0 +1,5 @@
+base_verificada,coleta_a,coleta_b,linhas_a,linhas_b,resultado
+dataset_processado_por_dia_vaso_sem_vref0/dataset_unico_por_dia_vaso_sem_vref0.csv,dia 19 - Soja Heterodera Vaso 8,dia 19 - Soja Heterodera Vaso 9,1513,1513,100% identicas antes do corte por pressao
+comparacao/datasets_com_ambiente/antes_dia_20_com_ambiente.csv,dia 19 - Soja Heterodera Vaso 8,dia 19 - Soja Heterodera Vaso 9,1513,1513,100% identicas antes do corte por pressao
+06_07/2_filtragem_ruidos_anomalias/datasets_filtrados/antes_dia_20_pressao_filtrada_estrito.csv,dia 19 - Soja Heterodera Vaso 8,dia 19 - Soja Heterodera Vaso 9,1322,1322,100% identicas depois do corte por pressao
+06_07_melhor_modelo/dados/dataset_melhor_modelo_sensores_corrigidos.csv,dia 19 - Soja Heterodera Vaso 8,dia 19 - Soja Heterodera Vaso 9,1322,1322,100% identicas no dataset final corrigido

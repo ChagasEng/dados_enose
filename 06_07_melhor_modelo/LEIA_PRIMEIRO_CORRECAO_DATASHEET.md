@@ -38,7 +38,7 @@ Os sinais MQ foram corrigidos por uma compensacao ambiental orientada pelos data
 
 ```text
 ExtraTrees - MQ corrigido + ambiente
-Accuracy: 93,20%
-Balanced accuracy: 93,00%
-F1 macro: 93,15%
+Accuracy: 90,83%
+Balanced accuracy: 90,73%
+F1 macro: 90,80%
 ```

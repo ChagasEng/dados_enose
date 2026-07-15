@@ -24,12 +24,12 @@ Como o BMP280 nao mede umidade relativa do ar, nao foi aplicada uma correcao com
 
 | cenario | accuracy | balanced_accuracy | f1_macro | top1_nativo | top1_permutacao |
 |---|---:|---:|---:|---|---|
-| 01_mq_cru | 0.8996 | 0.9000 | 0.8996 | MQ8 | MQ8 |
-| 02_mq_ambiente_confirmado | 0.9151 | 0.9128 | 0.9143 | MQ8 | Pres_kPa |
-| 03_mq_corrigido_ambiente | 0.8572 | 0.8553 | 0.8562 | MQ138_corrigido_env | MQ135_corrigido_env |
-| 04_mq_corrigido_ambiente_com_contexto | 0.9320 | 0.9300 | 0.9315 | Pres_kPa | Pres_kPa |
+| 01_mq_cru | 0.8986 | 0.8990 | 0.8986 | MQ8 | MQ8 |
+| 02_mq_ambiente_confirmado | 0.8793 | 0.8789 | 0.8791 | MQ8 | Pres_kPa |
+| 03_mq_corrigido_ambiente | 0.8648 | 0.8637 | 0.8643 | MQ138_corrigido_env | MQ135_corrigido_env |
+| 04_mq_corrigido_ambiente_com_contexto | 0.9083 | 0.9073 | 0.9080 | Pres_kPa | Pres_kPa |
 
-Melhor cenario por accuracy: `04_mq_corrigido_ambiente_com_contexto` com accuracy `0.9320`.
+Melhor cenario por accuracy: `04_mq_corrigido_ambiente_com_contexto` com accuracy `0.9083`.
 
 ## Arquivos principais
 

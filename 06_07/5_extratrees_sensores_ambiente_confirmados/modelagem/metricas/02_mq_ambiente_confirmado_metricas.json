@@ -14,77 +14,77 @@
     "Temp_C",
     "Pres_kPa"
   ],
-  "linhas_dataset": 63373,
-  "linhas_treino": 41258,
+  "linhas_dataset": 63492,
+  "linhas_treino": 41377,
   "linhas_teste": 22115,
   "coletas_total": 36,
   "split": "70/30 por grupos de Coleta dentro de cada classe",
   "extra_trees": {
-    "accuracy": 0.9150802622654307,
-    "balanced_accuracy": 0.912819202017232,
-    "f1_macro": 0.9142963887742468
+    "accuracy": 0.8792674655211395,
+    "balanced_accuracy": 0.8788983288311448,
+    "f1_macro": 0.8790549583209732
   },
   "top5_importancia_nativa": [
     {
       "feature": "MQ8",
       "tipo": "mq_cru",
-      "importancia": 0.21064406017941503
+      "importancia": 0.22054039542869383
     },
     {
       "feature": "Pres_kPa",
       "tipo": "ambiente_confirmado",
-      "importancia": 0.1899925847159536
-    },
-    {
-      "feature": "Soil_indice_0_1",
-      "tipo": "ambiente_confirmado",
-      "importancia": 0.13157431866283198
+      "importancia": 0.17230889416419365
     },
     {
       "feature": "MQ7",
       "tipo": "mq_cru",
-      "importancia": 0.13074177312624133
+      "importancia": 0.1335733373194623
     },
     {
       "feature": "Temp_C",
       "tipo": "ambiente_confirmado",
-      "importancia": 0.11817068206752568
+      "importancia": 0.12986888085450368
+    },
+    {
+      "feature": "Soil_indice_0_1",
+      "tipo": "ambiente_confirmado",
+      "importancia": 0.11744231789560207
     }
   ],
   "top5_importancia_permutacao": [
     {
       "feature": "Pres_kPa",
       "tipo": "ambiente_confirmado",
-      "importancia_media": 0.10508389184420608,
-      "importancia_desvio": 0.002854092797421915,
+      "importancia_media": 0.06793212439733447,
+      "importancia_desvio": 0.0035425941316163654,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ8",
       "tipo": "mq_cru",
-      "importancia_media": 0.03447761232295057,
-      "importancia_desvio": 0.0016771277669656638,
+      "importancia_media": 0.020346391485434778,
+      "importancia_desvio": 0.0010235731893731821,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ7",
       "tipo": "mq_cru",
-      "importancia_media": 0.0315089864175883,
-      "importancia_desvio": 0.003346223411256445,
+      "importancia_media": 0.016906613580385678,
+      "importancia_desvio": 0.0033034641248279786,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ138",
+      "tipo": "mq_cru",
+      "importancia_media": 0.01438088818845884,
+      "importancia_desvio": 0.0017077423489104597,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ3",
       "tipo": "mq_cru",
-      "importancia_media": 0.016618614752966065,
-      "importancia_desvio": 0.0020923643744509357,
-      "amostra_teste_usada": 8000
-    },
-    {
-      "feature": "MQ2",
-      "tipo": "mq_cru",
-      "importancia_media": 0.015523322514852445,
-      "importancia_desvio": 0.002078308335498266,
+      "importancia_media": 0.010223111078928548,
+      "importancia_desvio": 0.0011591577471119707,
       "amostra_teste_usada": 8000
     }
   ]

@@ -11,9 +11,9 @@ MQ corrigido + ambiente confirmado
 Metricas no teste:
 
 ```text
-Accuracy: 93,20%
-Balanced accuracy: 93,00%
-F1 macro: 93,15%
+Accuracy: 90,83%
+Balanced accuracy: 90,73%
+F1 macro: 90,80%
 ```
 
 Split usado:
@@ -75,7 +75,7 @@ O modelo melhorou quando usamos os MQ corrigidos junto com o contexto ambiental 
 Conclusao honesta:
 
 ```text
-O melhor modelo chegou a 93,20%, mas a interpretacao cientifica exige validar se a pressao interna representa sinal biologico/respiratorio ou artefato fisico da camara.
+Depois da substituicao da C16 duplicada pelos dados corretos, o melhor modelo chegou a 90,83%. A interpretacao cientifica ainda exige validar se a pressao interna representa sinal biologico/respiratorio ou artefato fisico da camara.
 ```
 
 ## Diagnostico C13-C17 e C28
@@ -86,4 +86,4 @@ Achados principais:
 
 - `C28` nao e a coleta mais ruidosa em Pres.+MQ; ela tem poucos saltos, mas degraus grandes em alguns MQ e muito ruido no `Soil_indice_0_1`.
 - `C17` e a coleta mais critica por ruido nos MQ, com 1484 saltos abruptos em Pres.+MQ, sendo 1480 nos MQ.
-- `C15` e `C16` sao 100% identicas linha a linha desde bases anteriores, antes da correcao. Isso deve ser auditado na planilha/origem antes de conclusao biologica.
+- A duplicacao entre `C15` e `C16` foi resolvida: a C16 foi substituida pelos dados corretos, filtrada e reprocessada como classe 0. As duas coletas agora possuem sinais diferentes.

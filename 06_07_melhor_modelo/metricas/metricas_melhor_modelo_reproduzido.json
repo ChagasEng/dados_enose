@@ -13,12 +13,12 @@
     "Temp_C",
     "Pres_kPa"
   ],
-  "linhas_treino": 41258,
+  "linhas_treino": 41377,
   "linhas_teste": 22115,
   "split": "Mesmo split 70/30 por Coleta salvo na coluna Conjunto.",
   "extra_trees": {
-    "accuracy": 0.9320370789057201,
-    "balanced_accuracy": 0.9299628757807419,
-    "f1_macro": 0.9314687051946788
+    "accuracy": 0.9082975356093149,
+    "balanced_accuracy": 0.9073036690084336,
+    "f1_macro": 0.9079631495525959
   }
 }

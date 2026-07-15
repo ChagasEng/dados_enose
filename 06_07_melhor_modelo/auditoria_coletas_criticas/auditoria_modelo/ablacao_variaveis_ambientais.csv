@@ -1,0 +1,7 @@
+﻿cenario,linhas_avaliadas,accuracy,balanced_accuracy,f1_macro,variaveis_usadas_na_compensacao,features
+corrigido_mais_ambiente,22115,0.9082975356093149,0.9073036690084336,0.9079631495525959,Soil_indice_0_1 | Temp_C | Pres_kPa,MQ2_corrigido_env | MQ3_corrigido_env | MQ7_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env | Soil_indice_0_1 | Temp_C | Pres_kPa
+recompensado_sem_soil,22115,0.8394754691385937,0.8376219225327457,0.8383989426432108,Temp_C | Pres_kPa,MQ2_corrigido_env | MQ3_corrigido_env | MQ7_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env | Temp_C | Pres_kPa
+recompensado_sem_temp,22115,0.887678046574723,0.8844643165531161,0.8860077320827549,Soil_indice_0_1 | Pres_kPa,MQ2_corrigido_env | MQ3_corrigido_env | MQ7_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env | Soil_indice_0_1 | Pres_kPa
+recompensado_sem_pressao,22115,0.9501695681664029,0.9503397335886321,0.9501260845215453,Soil_indice_0_1 | Temp_C,MQ2_corrigido_env | MQ3_corrigido_env | MQ7_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env | Soil_indice_0_1 | Temp_C
+somente_mq_corrigido,22115,0.8648428668324667,0.8636635810100416,0.8642896332559737,Soil_indice_0_1 | Temp_C | Pres_kPa,MQ2_corrigido_env | MQ3_corrigido_env | MQ7_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env
+somente_mq_cru,22115,0.8986208455799232,0.899014420695706,0.8985740545724271,nenhuma,MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138

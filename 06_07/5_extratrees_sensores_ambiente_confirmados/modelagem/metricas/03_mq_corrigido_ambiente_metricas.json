@@ -11,77 +11,77 @@
     "MQ135_corrigido_env",
     "MQ138_corrigido_env"
   ],
-  "linhas_dataset": 63373,
-  "linhas_treino": 41258,
+  "linhas_dataset": 63492,
+  "linhas_treino": 41377,
   "linhas_teste": 22115,
   "coletas_total": 36,
   "split": "70/30 por grupos de Coleta dentro de cada classe",
   "extra_trees": {
-    "accuracy": 0.8572009947999095,
-    "balanced_accuracy": 0.8552856500014938,
-    "f1_macro": 0.8561869709876582
+    "accuracy": 0.8648428668324667,
+    "balanced_accuracy": 0.8636635810100416,
+    "f1_macro": 0.8642896332559737
   },
   "top5_importancia_nativa": [
     {
       "feature": "MQ138_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.19727565845501188
+      "importancia": 0.19676587353552136
     },
     {
       "feature": "MQ135_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.17704430717225914
+      "importancia": 0.18290320007359454
     },
     {
       "feature": "MQ8_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.16299054865657014
+      "importancia": 0.17100648992811499
     },
     {
       "feature": "MQ7_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.1627483461920896
+      "importancia": 0.16652531134448317
     },
     {
       "feature": "MQ3_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.15143342754408387
+      "importancia": 0.14357272571193472
     }
   ],
   "top5_importancia_permutacao": [
     {
       "feature": "MQ135_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.07631055974648449,
-      "importancia_desvio": 0.005276416218582666,
+      "importancia_media": 0.09031329197410787,
+      "importancia_desvio": 0.004869220095475342,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ138_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.0605130765049372,
-      "importancia_desvio": 0.00428341952110948,
-      "amostra_teste_usada": 8000
-    },
-    {
-      "feature": "MQ2_corrigido_env",
-      "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.015883544597297194,
-      "importancia_desvio": 0.0013317753087025053,
+      "importancia_media": 0.05955564626713006,
+      "importancia_desvio": 0.0038718401521142995,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ8_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": -0.01031755158288048,
-      "importancia_desvio": 0.0017575249586719408,
+      "importancia_media": -0.012133194189448493,
+      "importancia_desvio": 0.001178794190399022,
       "amostra_teste_usada": 8000
     },
     {
-      "feature": "MQ7_corrigido_env",
+      "feature": "MQ3_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": -0.01747055526676673,
-      "importancia_desvio": 0.000914337998398948,
+      "importancia_media": -0.01877814635608046,
+      "importancia_desvio": 0.0024031113127925816,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ2_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": -0.025255653126776113,
+      "importancia_desvio": 0.0016014177328503567,
       "amostra_teste_usada": 8000
     }
   ]

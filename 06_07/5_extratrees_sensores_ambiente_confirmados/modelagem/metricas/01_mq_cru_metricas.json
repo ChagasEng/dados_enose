@@ -11,77 +11,77 @@
     "MQ135",
     "MQ138"
   ],
-  "linhas_dataset": 63373,
-  "linhas_treino": 41258,
+  "linhas_dataset": 63492,
+  "linhas_treino": 41377,
   "linhas_teste": 22115,
   "coletas_total": 36,
   "split": "70/30 por grupos de Coleta dentro de cada classe",
   "extra_trees": {
-    "accuracy": 0.8996156454894868,
-    "balanced_accuracy": 0.8999974604761314,
-    "f1_macro": 0.8995677390809576
+    "accuracy": 0.8986208455799232,
+    "balanced_accuracy": 0.899014420695706,
+    "f1_macro": 0.8985740545724271
   },
   "top5_importancia_nativa": [
     {
       "feature": "MQ8",
       "tipo": "mq_cru",
-      "importancia": 0.3686245688633978
+      "importancia": 0.3763533340807974
     },
     {
       "feature": "MQ7",
       "tipo": "mq_cru",
-      "importancia": 0.21169651671212508
+      "importancia": 0.21207091163186392
     },
     {
       "feature": "MQ2",
       "tipo": "mq_cru",
-      "importancia": 0.14552409028692623
+      "importancia": 0.13393907749348902
     },
     {
       "feature": "MQ138",
       "tipo": "mq_cru",
-      "importancia": 0.100038644092618
+      "importancia": 0.10271581592568374
     },
     {
       "feature": "MQ135",
       "tipo": "mq_cru",
-      "importancia": 0.09659702615008287
+      "importancia": 0.09954229370774804
     }
   ],
   "top5_importancia_permutacao": [
     {
       "feature": "MQ8",
       "tipo": "mq_cru",
-      "importancia_media": 0.08304841415553284,
-      "importancia_desvio": 0.0020836770908284996,
+      "importancia_media": 0.09546865044876274,
+      "importancia_desvio": 0.0023360471005133983,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ135",
       "tipo": "mq_cru",
-      "importancia_media": 0.06794047228005813,
-      "importancia_desvio": 0.0036786490678697055,
+      "importancia_media": 0.09392412956439244,
+      "importancia_desvio": 0.004934466346821689,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ7",
       "tipo": "mq_cru",
-      "importancia_media": 0.046094976144127366,
-      "importancia_desvio": 0.0021495974977929744,
+      "importancia_media": 0.04200163093241345,
+      "importancia_desvio": 0.0023592148309574583,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ3",
       "tipo": "mq_cru",
-      "importancia_media": 0.043158090952402105,
-      "importancia_desvio": 0.0013201430396123726,
+      "importancia_media": 0.03863465156719148,
+      "importancia_desvio": 0.0011100689151205812,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ2",
       "tipo": "mq_cru",
-      "importancia_media": 0.03678229703592632,
-      "importancia_desvio": 0.001624443507264749,
+      "importancia_media": 0.02355636812449462,
+      "importancia_desvio": 0.0004399965279428049,
       "amostra_teste_usada": 8000
     }
   ]

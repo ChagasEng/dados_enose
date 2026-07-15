@@ -1,0 +1,10 @@
+﻿C,decisao,motivo
+C15,manter uma unica representante,duplicada exata de C16
+C16,remover como duplicata,duplicada exata de C15
+C17,quarentena,ruido multissensor extremo
+C24,manter marcada e conferir origem,57 eventos isolados em MQ138
+C28,quarentena provisoria,degrau multissensor e Soil instavel
+C29,manter marcada,forte assinatura Soil/dia 13 no treino
+C30,manter marcada,assinatura ambiental dia 13 e 100% no teste
+C31,manter marcada,forte assinatura Soil/dia 13 no treino
+C32,quarentena,ruido multissensor extremo

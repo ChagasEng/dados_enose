@@ -14,77 +14,77 @@
     "Temp_C",
     "Pres_kPa"
   ],
-  "linhas_dataset": 63373,
-  "linhas_treino": 41258,
+  "linhas_dataset": 63492,
+  "linhas_treino": 41377,
   "linhas_teste": 22115,
   "coletas_total": 36,
   "split": "70/30 por grupos de Coleta dentro de cada classe",
   "extra_trees": {
-    "accuracy": 0.9320370789057201,
-    "balanced_accuracy": 0.9299628757807419,
-    "f1_macro": 0.9314687051946788
+    "accuracy": 0.9082975356093149,
+    "balanced_accuracy": 0.9073036690084336,
+    "f1_macro": 0.9079631495525959
   },
   "top5_importancia_nativa": [
     {
       "feature": "Pres_kPa",
       "tipo": "ambiente_confirmado",
-      "importancia": 0.22632382780361246
+      "importancia": 0.20331685129289787
     },
     {
       "feature": "Soil_indice_0_1",
       "tipo": "ambiente_confirmado",
-      "importancia": 0.16609204785763057
+      "importancia": 0.16279016964291115
     },
     {
       "feature": "Temp_C",
       "tipo": "ambiente_confirmado",
-      "importancia": 0.13651636322414448
+      "importancia": 0.14933592549149768
     },
     {
       "feature": "MQ138_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.10456865389580877
+      "importancia": 0.11070453409365891
     },
     {
-      "feature": "MQ7_corrigido_env",
+      "feature": "MQ2_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia": 0.07849575586568848
+      "importancia": 0.08385523354943697
     }
   ],
   "top5_importancia_permutacao": [
     {
       "feature": "Pres_kPa",
       "tipo": "ambiente_confirmado",
-      "importancia_media": 0.12850020938490864,
-      "importancia_desvio": 0.004558061983812755,
+      "importancia_media": 0.08098428603310419,
+      "importancia_desvio": 0.0029112781326014925,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ2_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.07192323774788753,
-      "importancia_desvio": 0.0008690372279788852,
+      "importancia_media": 0.0762247422614658,
+      "importancia_desvio": 0.0018202938036535772,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ138_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.06011040215596732,
-      "importancia_desvio": 0.003198063157931445,
+      "importancia_media": 0.06696119372596891,
+      "importancia_desvio": 0.003156322771511626,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "Soil_indice_0_1",
       "tipo": "ambiente_confirmado",
-      "importancia_media": 0.030531502501957332,
-      "importancia_desvio": 0.0013790015120083673,
+      "importancia_media": 0.029234935620315518,
+      "importancia_desvio": 0.0015290520694299448,
       "amostra_teste_usada": 8000
     },
     {
       "feature": "MQ8_corrigido_env",
       "tipo": "mq_corrigido_ambiente",
-      "importancia_media": 0.020702993025484683,
-      "importancia_desvio": 0.0011761223308054225,
+      "importancia_media": 0.026525963259686192,
+      "importancia_desvio": 0.0020928270749877606,
       "amostra_teste_usada": 8000
     }
   ]
