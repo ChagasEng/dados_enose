@@ -17,7 +17,12 @@ OUT = BASE / "graficos"
 MAPA_OUT = OUT / "mapa_coletas_nematoide_dia_20_mais.csv"
 FIG_OUT = OUT / "coletas_por_nematoide_dia_20_mais_estilo_06_07.png"
 
-FEATURES = ["Soil", "Temp.", "Pres.", "MQ2", "MQ3", "MQ7", "MQ8", "MQ135", "MQ138"]
+FEATURES = ["Soil_indice_0_1", "Temp.", "Pres.", "MQ2", "MQ3", "MQ7", "MQ8", "MQ135", "MQ138"]
+FEATURE_LABELS = {
+    "Soil_indice_0_1": "Soil\nindice 0-1",
+    "Temp.": "Temp.\nBMP280",
+    "Pres.": "Pres.\nkPa",
+}
 CLASS_LABEL = {0: "Com nematoide", 1: "Sem nematoide"}
 CLASS_COLOR = {0: "#f7d8d5", 1: "#dcefe3"}
 CLASS_LINE = {0: "#e57373", 1: "#6ab187"}
@@ -57,9 +62,12 @@ def plot(df: pd.DataFrame, segments: pd.DataFrame) -> None:
 
         values = pd.to_numeric(df[feature], errors="coerce").rolling(35, center=True, min_periods=1).median()
         ax.plot(x, values, color="#34495e", linewidth=0.85)
-        ax.set_ylabel(feature, fontsize=9)
+        ax.set_ylabel(FEATURE_LABELS.get(feature, feature), fontsize=9)
         ax.grid(axis="y", alpha=0.16)
         ax.set_xlim(0, len(df))
+        if feature == "Soil_indice_0_1":
+            ax.set_ylim(0, 1)
+            ax.set_yticks(np.linspace(0, 1, 6))
 
     for _, segment in segments.iterrows():
         classe = int(segment["Classe"])
@@ -81,7 +89,7 @@ def plot(df: pd.DataFrame, segments: pd.DataFrame) -> None:
     ]
     axes[0].legend(handles=handles, loc="upper right", fontsize=8)
     axes[-1].set_xlabel("Indice da linha no dataset")
-    fig.suptitle("Dia 20+ - coletas demarcadas por nematoide com MQ + ambiente", y=0.996)
+    fig.suptitle("Dia 20+ - coletas demarcadas por nematoide com sensores originais", y=0.996)
     fig.tight_layout(rect=[0, 0, 1, 0.982])
     fig.savefig(FIG_OUT, dpi=180)
     plt.close(fig)
@@ -90,6 +98,9 @@ def plot(df: pd.DataFrame, segments: pd.DataFrame) -> None:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(DATASET)
+    soil = pd.to_numeric(df["Soil"], errors="coerce")
+    soil_range = soil.max() - soil.min()
+    df["Soil_indice_0_1"] = 0.0 if soil_range == 0 else (soil - soil.min()) / soil_range
     segments = build_segments(df)
     segments.to_csv(MAPA_OUT, index=False, encoding="utf-8-sig")
     plot(df, segments)

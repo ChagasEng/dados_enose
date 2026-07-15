@@ -18,7 +18,10 @@ ANALISE = BASE / "analise_C13_C17_C28"
 
 MQ_RAW = ["MQ2", "MQ3", "MQ7", "MQ8", "MQ135", "MQ138"]
 MQ_CORR = [f"{sensor}_corrigido_env" for sensor in MQ_RAW]
-PANELS_UPDATED = ["Soil_indice_0_1", "Temp_C", "Pres_kPa", *MQ_CORR]
+# O painel "estilo original" deve mostrar os canais medidos, sem a
+# compensacao ambiental. Os sinais corrigidos permanecem nos graficos
+# especificos de analise/modelagem.
+PANELS_UPDATED = ["Soil_indice_0_1", "Temp_C", "Pres_kPa", *MQ_RAW]
 PANELS_DIAG = ["Pres_kPa", *MQ_RAW]
 SELECTED = ["C13", "C14", "C15", "C16", "C17", "C28"]
 
@@ -98,12 +101,12 @@ def plot_updated_style(ordered: pd.DataFrame, blocks: pd.DataFrame) -> None:
         "Soil_indice_0_1": "Soil\nindice 0-1",
         "Temp_C": "Temp.\nBMP280",
         "Pres_kPa": "Pres.\nkPa",
-        "MQ2_corrigido_env": "MQ2\ncorr.",
-        "MQ3_corrigido_env": "MQ3\ncorr.",
-        "MQ7_corrigido_env": "MQ7\ncorr.",
-        "MQ8_corrigido_env": "MQ8\ncorr.",
-        "MQ135_corrigido_env": "MQ135\ncorr.",
-        "MQ138_corrigido_env": "MQ138\ncorr.",
+        "MQ2": "MQ2",
+        "MQ3": "MQ3",
+        "MQ7": "MQ7",
+        "MQ8": "MQ8",
+        "MQ135": "MQ135",
+        "MQ138": "MQ138",
     }
 
     for ax, feature in zip(axes_list, PANELS_UPDATED):
@@ -119,7 +122,7 @@ def plot_updated_style(ordered: pd.DataFrame, blocks: pd.DataFrame) -> None:
     axes_list[0].legend(handles=handles, loc="upper right", fontsize=8)
     axes_list[-1].set_xlabel("Indice da linha no dataset")
     fig.suptitle(
-        "Melhor modelo - coletas demarcadas por nematoide com sensores corrigidos",
+        "Melhor modelo - coletas demarcadas por nematoide com sinais originais",
         y=0.996,
     )
     fig.tight_layout(rect=[0, 0, 1, 0.982])
