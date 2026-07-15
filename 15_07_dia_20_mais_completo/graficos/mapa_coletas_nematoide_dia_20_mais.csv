@@ -1,0 +1,18 @@
+﻿Coleta_plot,Coleta,Classe,Nematoide,inicio,fim,linhas
+C1,dia 20 sem pressao - Soja Heter,0,Com nematoide,0,1578,1579
+C2,Página3,0,Com nematoide,1579,3137,1559
+C3,Página4,0,Com nematoide,3138,4711,1574
+C4,Página5,0,Com nematoide,4712,6291,1580
+C5,Página6,0,Com nematoide,6292,7679,1388
+C6,dia 21 sem pressao - Soja Heter,0,Com nematoide,7680,9355,1676
+C7,Página7,0,Com nematoide,9356,10811,1456
+C8,Página8,0,Com nematoide,10812,12332,1521
+C9,dia 20 sem pressao - Soja Sauda,1,Sem nematoide,12333,13742,1410
+C10,Página9,1,Sem nematoide,13743,15330,1588
+C11,Página10,1,Sem nematoide,15331,16904,1574
+C12,Página11,1,Sem nematoide,16905,18506,1602
+C13,Página12,1,Sem nematoide,18507,19918,1412
+C14,dia 21 sem pressao - Soja Sauda,1,Sem nematoide,19919,21832,1914
+C15,Página13,1,Sem nematoide,21833,23747,1915
+C16,Página14,1,Sem nematoide,23748,25692,1945
+C17,Página15,1,Sem nematoide,25693,27194,1502

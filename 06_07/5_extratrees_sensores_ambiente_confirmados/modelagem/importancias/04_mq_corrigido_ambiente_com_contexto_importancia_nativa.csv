@@ -1,0 +1,10 @@
+﻿feature,tipo,importancia
+Pres_kPa,ambiente_confirmado,0.22632382780361246
+Soil_indice_0_1,ambiente_confirmado,0.16609204785763057
+Temp_C,ambiente_confirmado,0.13651636322414448
+MQ138_corrigido_env,mq_corrigido_ambiente,0.10456865389580877
+MQ7_corrigido_env,mq_corrigido_ambiente,0.07849575586568848
+MQ135_corrigido_env,mq_corrigido_ambiente,0.07717417012209153
+MQ2_corrigido_env,mq_corrigido_ambiente,0.07524529605441323
+MQ8_corrigido_env,mq_corrigido_ambiente,0.06908951982053457
+MQ3_corrigido_env,mq_corrigido_ambiente,0.0664943653560759

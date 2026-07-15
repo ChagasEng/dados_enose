@@ -1,0 +1,16 @@
+{
+  "cenario": "01_dataset_completo_dia_20_mais_mq",
+  "pasta": ".",
+  "dataset": "dados\\dataset_dia_20_mais.csv",
+  "features": "MQ2, MQ3, MQ7, MQ8, MQ135, MQ138",
+  "linhas_dataset": 27195,
+  "linhas_teste": 9353,
+  "extra_trees_accuracy": 0.81866780712071,
+  "extra_trees_balanced_accuracy": 0.8083182640144666,
+  "extra_trees_f1_macro": 0.8080372719249636,
+  "rede_neural_accuracy": 0.7968566235432482,
+  "rede_neural_balanced_accuracy": 0.7861885611120956,
+  "rede_neural_f1_macro": 0.7844371028983225,
+  "top1_extra_trees": "MQ135",
+  "top1_rede_neural_permutacao": "MQ2"
+}

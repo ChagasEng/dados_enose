@@ -1,0 +1,5 @@
+﻿cenario,titulo,features,linhas_treino,linhas_teste,accuracy,balanced_accuracy,f1_macro,top1_nativo,top1_permutacao
+01_mq_cru,MQ cru,"MQ2, MQ3, MQ7, MQ8, MQ135, MQ138",41258,22115,0.8996156454894868,0.8999974604761314,0.8995677390809576,MQ8,MQ8
+02_mq_ambiente_confirmado,MQ + BMP280 + solo capacitivo,"MQ2, MQ3, MQ7, MQ8, MQ135, MQ138, Soil_indice_0_1, Temp_C, Pres_kPa",41258,22115,0.9150802622654307,0.912819202017232,0.9142963887742468,MQ8,Pres_kPa
+03_mq_corrigido_ambiente,MQ corrigido por ambiente,"MQ2_corrigido_env, MQ3_corrigido_env, MQ7_corrigido_env, MQ8_corrigido_env, MQ135_corrigido_env, MQ138_corrigido_env",41258,22115,0.8572009947999095,0.8552856500014938,0.8561869709876582,MQ138_corrigido_env,MQ135_corrigido_env
+04_mq_corrigido_ambiente_com_contexto,MQ corrigido + ambiente,"MQ2_corrigido_env, MQ3_corrigido_env, MQ7_corrigido_env, MQ8_corrigido_env, MQ135_corrigido_env, MQ138_corrigido_env, Soil_indice_0_1, Temp_C, Pres_kPa",41258,22115,0.9320370789057201,0.9299628757807419,0.9314687051946788,Pres_kPa,Pres_kPa

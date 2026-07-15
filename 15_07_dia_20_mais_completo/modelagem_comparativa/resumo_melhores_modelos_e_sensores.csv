@@ -1,0 +1,5 @@
+cenario,melhor_modelo,melhor_accuracy,top1_extra_trees,top1_rede_neural_permutacao
+01_baseline_dia_20_mais_mq_ambiente,ExtraTrees,0.8443280230941944,Temp.,Pres.
+02_filtrado_pressao_dia_20_mais_mq,ExtraTrees,0.81866780712071,MQ135,MQ2
+03_filtrado_pressao_dia_20_mais_mq_ambiente,ExtraTrees,0.8443280230941944,Temp.,Pres.
+04_polido_final_dia_20_mais_mq,ExtraTrees,0.81866780712071,MQ135,MQ2

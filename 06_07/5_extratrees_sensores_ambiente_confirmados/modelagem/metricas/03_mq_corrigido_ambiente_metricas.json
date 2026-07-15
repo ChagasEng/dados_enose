@@ -1,0 +1,88 @@
+{
+  "cenario": "03_mq_corrigido_ambiente",
+  "titulo": "MQ corrigido por ambiente",
+  "descricao": "MQ com componente linear de Soil/Temp/Pres removida a partir do treino.",
+  "dataset": "3_compensacao_umidade_temperatura\\dados_base\\antes_dia_20_pressao_filtrada_estrito_com_ambiente.csv",
+  "features": [
+    "MQ2_corrigido_env",
+    "MQ3_corrigido_env",
+    "MQ7_corrigido_env",
+    "MQ8_corrigido_env",
+    "MQ135_corrigido_env",
+    "MQ138_corrigido_env"
+  ],
+  "linhas_dataset": 63373,
+  "linhas_treino": 41258,
+  "linhas_teste": 22115,
+  "coletas_total": 36,
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "extra_trees": {
+    "accuracy": 0.8572009947999095,
+    "balanced_accuracy": 0.8552856500014938,
+    "f1_macro": 0.8561869709876582
+  },
+  "top5_importancia_nativa": [
+    {
+      "feature": "MQ138_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia": 0.19727565845501188
+    },
+    {
+      "feature": "MQ135_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia": 0.17704430717225914
+    },
+    {
+      "feature": "MQ8_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia": 0.16299054865657014
+    },
+    {
+      "feature": "MQ7_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia": 0.1627483461920896
+    },
+    {
+      "feature": "MQ3_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia": 0.15143342754408387
+    }
+  ],
+  "top5_importancia_permutacao": [
+    {
+      "feature": "MQ135_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": 0.07631055974648449,
+      "importancia_desvio": 0.005276416218582666,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ138_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": 0.0605130765049372,
+      "importancia_desvio": 0.00428341952110948,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ2_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": 0.015883544597297194,
+      "importancia_desvio": 0.0013317753087025053,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ8_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": -0.01031755158288048,
+      "importancia_desvio": 0.0017575249586719408,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ7_corrigido_env",
+      "tipo": "mq_corrigido_ambiente",
+      "importancia_media": -0.01747055526676673,
+      "importancia_desvio": 0.000914337998398948,
+      "amostra_teste_usada": 8000
+    }
+  ]
+}

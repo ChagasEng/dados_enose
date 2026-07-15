@@ -1,0 +1,7 @@
+﻿feature,tipo,importancia_media,importancia_desvio,amostra_teste_usada
+MQ135_corrigido_env,mq_corrigido_ambiente,0.07631055974648449,0.005276416218582666,8000
+MQ138_corrigido_env,mq_corrigido_ambiente,0.0605130765049372,0.00428341952110948,8000
+MQ2_corrigido_env,mq_corrigido_ambiente,0.015883544597297194,0.0013317753087025053,8000
+MQ8_corrigido_env,mq_corrigido_ambiente,-0.01031755158288048,0.0017575249586719408,8000
+MQ7_corrigido_env,mq_corrigido_ambiente,-0.01747055526676673,0.000914337998398948,8000
+MQ3_corrigido_env,mq_corrigido_ambiente,-0.018684837662445265,0.003211565828986374,8000

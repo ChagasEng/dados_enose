@@ -1,0 +1,88 @@
+{
+  "cenario": "01_mq_cru",
+  "titulo": "MQ cru",
+  "descricao": "Somente MQ, depois do corte de pressao.",
+  "dataset": "3_compensacao_umidade_temperatura\\dados_base\\antes_dia_20_pressao_filtrada_estrito_com_ambiente.csv",
+  "features": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "linhas_dataset": 63373,
+  "linhas_treino": 41258,
+  "linhas_teste": 22115,
+  "coletas_total": 36,
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "extra_trees": {
+    "accuracy": 0.8996156454894868,
+    "balanced_accuracy": 0.8999974604761314,
+    "f1_macro": 0.8995677390809576
+  },
+  "top5_importancia_nativa": [
+    {
+      "feature": "MQ8",
+      "tipo": "mq_cru",
+      "importancia": 0.3686245688633978
+    },
+    {
+      "feature": "MQ7",
+      "tipo": "mq_cru",
+      "importancia": 0.21169651671212508
+    },
+    {
+      "feature": "MQ2",
+      "tipo": "mq_cru",
+      "importancia": 0.14552409028692623
+    },
+    {
+      "feature": "MQ138",
+      "tipo": "mq_cru",
+      "importancia": 0.100038644092618
+    },
+    {
+      "feature": "MQ135",
+      "tipo": "mq_cru",
+      "importancia": 0.09659702615008287
+    }
+  ],
+  "top5_importancia_permutacao": [
+    {
+      "feature": "MQ8",
+      "tipo": "mq_cru",
+      "importancia_media": 0.08304841415553284,
+      "importancia_desvio": 0.0020836770908284996,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ135",
+      "tipo": "mq_cru",
+      "importancia_media": 0.06794047228005813,
+      "importancia_desvio": 0.0036786490678697055,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ7",
+      "tipo": "mq_cru",
+      "importancia_media": 0.046094976144127366,
+      "importancia_desvio": 0.0021495974977929744,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ3",
+      "tipo": "mq_cru",
+      "importancia_media": 0.043158090952402105,
+      "importancia_desvio": 0.0013201430396123726,
+      "amostra_teste_usada": 8000
+    },
+    {
+      "feature": "MQ2",
+      "tipo": "mq_cru",
+      "importancia_media": 0.03678229703592632,
+      "importancia_desvio": 0.001624443507264749,
+      "amostra_teste_usada": 8000
+    }
+  ]
+}

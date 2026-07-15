@@ -1,0 +1,2 @@
+dataset,linhas_originais,linhas_removidas,linhas_mantidas,percentual_removido,eventos_pressao_detectados,limiar_delta_pressao,janela_linhas_antes_depois,pressao_min_original,pressao_max_original,pressao_min_filtrado,pressao_max_filtrado
+dia_20_mais,27195,0,27195,0.0,0,0.1,30,93.61,93.93,93.61,93.93
