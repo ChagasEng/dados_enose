@@ -1,0 +1,29 @@
+{
+  "metodo": "Mesmo ExtraTrees e mesmo split 70/30 por Coleta do modelo-base; as tres variaveis ambientais foram mantidas em todos os cenarios.",
+  "baseline_todos_os_6_MQ_balanced_accuracy": 0.9073036690084336,
+  "melhor_combinacao_absoluta": {
+    "sensores_mantidos": "MQ2 | MQ3 | MQ8 | MQ135 | MQ138",
+    "sensores_removidos": "MQ7",
+    "qtd_sensores": 5,
+    "features": "MQ2_corrigido_env | MQ3_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | MQ138_corrigido_env | Soil_indice_0_1 | Temp_C | Pres_kPa",
+    "accuracy": 0.9128193533800588,
+    "balanced_accuracy": 0.9117040922547683,
+    "f1_macro": 0.912463007483844,
+    "cenario": "5_MQ__MQ2_MQ3_MQ8_MQ135_MQ138",
+    "delta_balanced_accuracy_pp_vs_baseline": 0.4400423246334717
+  },
+  "menor_combinacao_dentro_da_tolerancia": {
+    "sensores_mantidos": "MQ2 | MQ8 | MQ135",
+    "sensores_removidos": "MQ3 | MQ7 | MQ138",
+    "qtd_sensores": 3,
+    "features": "MQ2_corrigido_env | MQ8_corrigido_env | MQ135_corrigido_env | Soil_indice_0_1 | Temp_C | Pres_kPa",
+    "accuracy": 0.9025096088627629,
+    "balanced_accuracy": 0.9012569283714394,
+    "f1_macro": 0.9020668392362867,
+    "cenario": "3_MQ__MQ2_MQ8_MQ135",
+    "delta_balanced_accuracy_pp_vs_baseline": -0.6046740636994175
+  },
+  "tolerancia_pontos_percentuais": 1.0,
+  "linhas_treino": 41377,
+  "linhas_teste": 22115
+}

@@ -1,0 +1,30 @@
+{
+  "metodo": "Mesmo ExtraTrees e mesmo split 70/30 por Coleta do modelo-base; as tres variaveis ambientais foram mantidas em todos os cenarios.",
+  "baseline_todos_os_6_MQ_balanced_accuracy": 0.9290161312914677,
+  "melhor_combinacao_absoluta": {
+    "sensores_mantidos": "MQ3 | MQ135",
+    "sensores_removidos": "MQ2 | MQ7 | MQ8 | MQ138",
+    "qtd_sensores": 2,
+    "features": "MQ3_corrigido_env | MQ135_corrigido_env | Soil_indice_0_1 | Temp_C | Pres_kPa",
+    "accuracy": 0.9412163689803301,
+    "balanced_accuracy": 0.9390774120251935,
+    "f1_macro": 0.9407013456123794,
+    "cenario": "2_MQ__MQ3_MQ135",
+    "delta_balanced_accuracy_pp_vs_baseline": 1.0061280733725808
+  },
+  "menor_combinacao_dentro_da_tolerancia": {
+    "sensores_mantidos": "MQ2",
+    "sensores_removidos": "MQ3 | MQ7 | MQ8 | MQ135 | MQ138",
+    "qtd_sensores": 1,
+    "features": "MQ2_corrigido_env | Soil_indice_0_1 | Temp_C | Pres_kPa",
+    "accuracy": 0.9279674429120507,
+    "balanced_accuracy": 0.9257671990871407,
+    "f1_macro": 0.9273195477721817,
+    "cenario": "1_MQ__MQ2",
+    "delta_balanced_accuracy_pp_vs_baseline": -0.3248932204326982
+  },
+  "tolerancia_pontos_percentuais": 1.0,
+  "linhas_treino": 39936,
+  "linhas_teste": 22115,
+  "coleta_removida_do_treino": "dia 19 - Soja Heterodera Vaso 9"
+}

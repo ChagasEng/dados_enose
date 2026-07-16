@@ -1,0 +1,63 @@
+{
+  "modelo": "modelo\\modelo_extra_trees_melhor_93_20.joblib",
+  "dataset": "dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "metodo": "Mesmo modelo treinado no conjunto Treino; estratificacao posterior apenas no conjunto Teste.",
+  "corte_soil_indice_0_1": 0.4,
+  "convencao": "Regra operacional definida: indice <= 0,4 = seco; indice > 0,4 = molhado.",
+  "resultados": [
+    {
+      "faixa": "molhado",
+      "regra_soil": "Soil_indice_0_1 > 0.4",
+      "linhas_teste": 5423,
+      "soil_indice_min": 0.6841750841750842,
+      "soil_indice_max": 0.9861952861952862,
+      "soil_indice_mediana": 0.9484848484848484,
+      "classe_0_com_nematoide": 4152,
+      "classe_1_sem_nematoide": 1271,
+      "acertos": 4038,
+      "erros": 1385,
+      "accuracy": 0.7446063064724322,
+      "balanced_accuracy": 0.6295794240573396,
+      "f1_macro": 0.6332730898742407,
+      "acerto_classe_0": 0.8460982658959537,
+      "acerto_classe_1": 0.41306058221872544,
+      "matriz_confusao": [
+        [
+          3513,
+          639
+        ],
+        [
+          746,
+          525
+        ]
+      ]
+    },
+    {
+      "faixa": "seco",
+      "regra_soil": "Soil_indice_0_1 <= 0.4",
+      "linhas_teste": 16692,
+      "soil_indice_min": 0.0407407407407407,
+      "soil_indice_max": 0.3205387205387205,
+      "soil_indice_mediana": 0.076094276094276,
+      "classe_0_com_nematoide": 6507,
+      "classe_1_sem_nematoide": 10185,
+      "acertos": 16049,
+      "erros": 643,
+      "accuracy": 0.9614785526000479,
+      "balanced_accuracy": 0.950591670508683,
+      "f1_macro": 0.9587117494459734,
+      "acerto_classe_0": 0.901183341017366,
+      "acerto_classe_1": 1.0,
+      "matriz_confusao": [
+        [
+          5864,
+          643
+        ],
+        [
+          0,
+          10185
+        ]
+      ]
+    }
+  ]
+}
