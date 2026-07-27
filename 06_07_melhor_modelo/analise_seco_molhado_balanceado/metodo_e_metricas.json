@@ -1,0 +1,119 @@
+{
+  "entrada": "analise_seco_molhado\\predicoes_teste_com_faixa_soil.csv",
+  "metodo": "Balanceamento por faixa Soil no Teste; excedentes reservados para validacao complementar.",
+  "random_state": 42,
+  "faixas": [
+    {
+      "faixa_soil": "seco",
+      "classe_majoritaria_excedente": "saudaveis_classe_1",
+      "linhas_antes": 16692,
+      "por_classe_balanceado": 6507,
+      "linhas_balanceadas": 13014,
+      "linhas_validacao_sobra": 3678
+    },
+    {
+      "faixa_soil": "molhado",
+      "classe_majoritaria_excedente": "doentes_classe_0",
+      "linhas_antes": 5423,
+      "por_classe_balanceado": 1271,
+      "linhas_balanceadas": 2542,
+      "linhas_validacao_sobra": 2881
+    }
+  ],
+  "metricas": [
+    {
+      "conjunto": "avaliacao_balanceada",
+      "linhas": 15556,
+      "doentes_classe_0": 7778,
+      "saudaveis_classe_1": 7778,
+      "acertos": 13955,
+      "erros": 1601,
+      "accuracy": 0.8970815119568012,
+      "balanced_accuracy": 0.8970815119568012,
+      "f1_macro": 0.897076458694434,
+      "acerto_doentes_classe_0": 0.8900745692980201,
+      "acerto_saudaveis_classe_1": 0.9040884546155824,
+      "matriz_confusao": [
+        [
+          6923,
+          855
+        ],
+        [
+          746,
+          7032
+        ]
+      ]
+    },
+    {
+      "conjunto": "validacao_sobra",
+      "linhas": 6559,
+      "doentes_classe_0": 2881,
+      "saudaveis_classe_1": 3678,
+      "acertos": 6132,
+      "erros": 427,
+      "accuracy": 0.9348986125933831,
+      "balanced_accuracy": 0.9258937868795557,
+      "f1_macro": 0.9325496742052253,
+      "acerto_doentes_classe_0": 0.8517875737591114,
+      "acerto_saudaveis_classe_1": 1.0,
+      "matriz_confusao": [
+        [
+          2454,
+          427
+        ],
+        [
+          0,
+          3678
+        ]
+      ]
+    }
+  ],
+  "metricas_por_faixa_balanceada": [
+    {
+      "conjunto": "seco_balanceado",
+      "linhas": 13014,
+      "doentes_classe_0": 6507,
+      "saudaveis_classe_1": 6507,
+      "acertos": 12371,
+      "erros": 643,
+      "accuracy": 0.950591670508683,
+      "balanced_accuracy": 0.950591670508683,
+      "f1_macro": 0.9504707605702389,
+      "acerto_doentes_classe_0": 0.901183341017366,
+      "acerto_saudaveis_classe_1": 1.0,
+      "matriz_confusao": [
+        [
+          5864,
+          643
+        ],
+        [
+          0,
+          6507
+        ]
+      ]
+    },
+    {
+      "conjunto": "molhado_balanceado",
+      "linhas": 2542,
+      "doentes_classe_0": 1271,
+      "saudaveis_classe_1": 1271,
+      "acertos": 1584,
+      "erros": 958,
+      "accuracy": 0.6231313926042487,
+      "balanced_accuracy": 0.6231313926042487,
+      "f1_macro": 0.6057324667519778,
+      "acerto_doentes_classe_0": 0.8332022029897719,
+      "acerto_saudaveis_classe_1": 0.41306058221872544,
+      "matriz_confusao": [
+        [
+          1059,
+          212
+        ],
+        [
+          746,
+          525
+        ]
+      ]
+    }
+  ]
+}
