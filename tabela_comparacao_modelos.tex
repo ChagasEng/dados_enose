@@ -1,0 +1,27 @@
+% Tabela para a seção de resultados. Requer \usepackage{float} caso seja usado [H].
+\begin{table}[H]
+    \centering
+    \caption{Comparação da acurácia dos classificadores sem e com controle de pressão.}
+    \label{tab:comparacao_modelos}
+    \footnotesize
+    \begin{tabular}{l c c c}
+        \hline
+        \textbf{Classificador} & \textbf{Sem controle (\%)} & \textbf{Com controle (\%)} & \textbf{Variação (p.p.)} \\
+        \hline
+        Extra Trees & \textbf{87,58} & \textbf{90,83} & \textbf{+3,25} \\
+        Random Forest & 86,10 & 92,11 & +6,02 \\
+        XGBoost & 81,03 & 92,82 & +11,79 \\
+        HistGradientBoosting & 76,04 & 88,08 & +12,03 \\
+        Regressão logística & 80,39 & 91,64 & +11,24 \\
+        Naive Bayes Gaussiano & 73,13 & 87,26 & +14,13 \\
+        Naive Bayes Multinomial & 72,70 & 57,85 & -14,85 \\
+        Naive Bayes Complementar & 53,68 & 78,95 & +25,27 \\
+        SVM linear & 87,01 & 91,94 & +4,93 \\
+        KNN ($k=5$) & 79,43 & 79,40 & -0,02 \\
+        MLP & 85,91 & 87,23 & +1,33 \\
+        \hline
+    \end{tabular}
+    \fonte{Elaborado pelo autor (2026).}
+    \vspace{0.15cm}
+    \parbox{0.94\textwidth}{\footnotesize\textit{Nota:} a avaliação utilizou holdout de 70/30\% separado por coleta. Sem controle: 25.488 leituras de teste, com sinais MQ crus e variáveis ambientais. Com controle: 22.115 leituras de teste, após corte estrito por pressão, compensação ambiental dos sinais MQ ajustada apenas no conjunto de treino e manutenção das variáveis ambientais como contexto. K-means e DBSCAN não foram incluídos por serem métodos não supervisionados, para os quais a acurácia não é aplicável diretamente.}
+\end{table}

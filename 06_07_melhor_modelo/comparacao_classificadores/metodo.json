@@ -1,0 +1,17 @@
+{
+  "dataset": "dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "atributos": [
+    "MQ2_corrigido_env",
+    "MQ3_corrigido_env",
+    "MQ7_corrigido_env",
+    "MQ8_corrigido_env",
+    "MQ135_corrigido_env",
+    "MQ138_corrigido_env",
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "split_externo": "70/30 por coleta, previamente salvo na coluna Conjunto",
+  "selecao_ensembles": "4-fold StratifiedGroupKFold somente no treino; metrica balanced_accuracy",
+  "observacao": "SVM e MLP foram ajustados em pipelines com StandardScaler."
+}

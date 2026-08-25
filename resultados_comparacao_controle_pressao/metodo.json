@@ -1,0 +1,5 @@
+{
+  "split": "70/30 por grupos de Coleta dentro de cada classe",
+  "sem_controle": "MQ crus + Soil + Temp. + Pres., antes do corte por pressão",
+  "com_controle": "corte estrito por pressão; MQ compensados com HuberRegressor ajustado somente no treino; Soil, Temp. e Pres. mantidos como contexto"
+}

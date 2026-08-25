@@ -1,0 +1,28 @@
+\begin{table}[H]
+    \centering
+    \caption{Desempenho dos classificadores no conjunto de teste.}
+    \label{tab:comparacao_classificadores_classicos}
+    \footnotesize
+    \begin{tabular}{lccc}
+        \hline
+        \textbf{Classificador} & \textbf{Acurácia (\%)} &
+        \textbf{Acurácia balanceada (\%)} & \textbf{F1 macro (\%)} \\
+        \hline
+        Random Forest & \textbf{92,37} & \textbf{92,20} & \textbf{92,32} \\
+        SVM linear & 91,94 & 91,65 & 91,83 \\
+        Extra Trees & 90,83 & 90,73 & 90,80 \\
+        MLP & 87,45 & 87,56 & 87,45 \\
+        \hline
+    \end{tabular}
+    \fonte{Elaborado pelo autor (2026).}
+    \vspace{0.15cm}
+    \parbox{0.96\textwidth}{\footnotesize\textit{Nota:} todos os modelos foram
+    avaliados nas mesmas 22.115 leituras de teste, pertencentes a 12 coletas não
+    usadas no treinamento. Os hiperparâmetros do Extra Trees e do Random Forest
+    foram selecionados exclusivamente no treino por validação cruzada estratificada
+    em quatro partições, agrupada por coleta. SVM e MLP foram precedidos por
+    padronização dos atributos. Para o Extra Trees, foram usados diretamente os
+    resultados da matriz de confusão do melhor modelo: 9.377 verdadeiros da classe
+    com nematoide, 1.282 erros dessa classe, 10.710 verdadeiros da classe saudável
+    e 746 erros dessa classe.}
+\end{table}

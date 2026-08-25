@@ -1,0 +1,7 @@
+﻿arquivo_grafico,coleta_origem,solo,planta,pressao,amostras_arquivo_processado,amostras_grafico_somente_coleta,amostras_finais_removidas_dessaturacao_residual,soil_mediana,tempo_inicial_s,tempo_final_s,suavizacao_aplicada,fator_escala_visual_comum,pico_alvo_visual,tempo_inicial_origem
+01_solo_seco_saudavel_com_pressao.png,dia 12 - Soja Saudavel Vaso 2,seco,saudável,com pressão,2540,2359,181,185.0,180,600,não,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
+02_solo_seco_nematoide_com_pressao.png,dia 12 - Soja Heterodera Vaso 1,seco,com nematoide,com pressão,2501,2322,179,154.0,180,600,não,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
+03_solo_molhado_saudavel_sem_pressao.png,dia 21 sem pressao - Soja Sauda,molhado,saudável,sem pressão,1914,1777,137,2468.0,180,600,não,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
+04_solo_molhado_nematoide_sem_pressao.png,Página8,molhado,com nematoide,sem pressão,1521,1412,109,2266.04,180,600,sim,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
+05_solo_molhado_saudavel_com_pressao.png,dia 18 - Soja Saudavel Vaso 4,molhado,saudável,com pressão,2013,1869,144,2833.0,180,600,não,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
+06_solo_molhado_nematoide_com_pressao.png,dia 18 - Soja Heterodera Vaso 9,molhado,com nematoide,com pressão,1332,1237,95,2819.0,180,600,não,1.4020875525782832,27000,fase de aquecimento ja removida no dataset processado
