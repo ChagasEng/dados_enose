@@ -1,0 +1,13 @@
+Coleta,classe_real,probabilidade_saudavel,classe_prevista
+dia 11 - Soja Saudavel Vaso 1,1,1.0,1
+dia 11 - Soja Saudavel Vaso 3,1,0.92833805,1
+dia 11 - Soja Saudavel Vaso 4,1,1.0,1
+dia 12 - Soja Heterodera Vaso 1,0,0.42104667,0
+dia 12 - Soja Heterodera Vaso 7,0,0.018481936,0
+dia 12 - Soja Heterodera Vaso 8,0,0.016509525,0
+dia 13 - Soja Saudavel Vaso 1,1,1.0,1
+dia 13 - Soja Saudavel Vaso 4,1,1.0,1
+dia 18 - Soja Heterodera Vaso 6,0,0.9102688,1
+dia 18 - Soja Heterodera Vaso 9,0,0.4045341,0
+dia 19 - Soja Heterodera Vaso 6,0,9.875123e-17,0
+dia 19 - Soja Saudavel Vaso 1,1,0.0035808012,0

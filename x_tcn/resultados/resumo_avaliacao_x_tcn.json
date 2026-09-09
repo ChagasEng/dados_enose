@@ -1,0 +1,29 @@
+{
+  "modelo": "X-TCN",
+  "dataset": "06_07\\4_polimento_inicial_modelagem\\datasets_limpos\\antes_dia_20_pressao_filtrada_estrito.csv",
+  "features": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "janela": 128,
+  "stride": 64,
+  "epocas": 60,
+  "dispositivo": "cpu",
+  "metricas_por_janela": {
+    "accuracy": 0.799410029498525,
+    "balanced_accuracy": 0.7961691299498048,
+    "f1_macro": 0.7967195767195767
+  },
+  "metricas_por_coleta": {
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.8333333333333334,
+    "f1_macro": 0.8333333333333334
+  },
+  "n_janelas_treino": 636,
+  "n_janelas_teste": 339,
+  "n_coletas_teste": 12
+}
