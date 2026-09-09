@@ -1,0 +1,125 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage[sort&compress,numbers]{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\geometry{margin=2.5cm}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.25}
+
+\title{Estado da arte: detecção de \textit{Heterodera glycines} por assinatura volátil, nariz eletrônico e aprendizado de máquina}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Estado da arte}
+
+O diagnóstico do nematoide de cisto da soja (SCN), \textit{Heterodera glycines}, permanece condicionado por uma tensão entre especificidade analítica e capacidade de amostragem. A infestação pode reduzir o desempenho da cultura sem produzir sintomas aéreos inequívocos, enquanto a população do nematoide apresenta distribuição agregada e heterogênea no interior dos talhões. Estudos geoestatísticos demonstraram que zonas de alta e baixa densidade podem persistir espacialmente, embora a intensidade da infestação varie entre anos e locais \cite{avendano2003,poromarto2019}. Consequentemente, a utilidade agronômica do diagnóstico depende não apenas da acurácia de uma análise isolada, mas também da possibilidade de aumentar a densidade espacial das observações. Esse requisito favorece tecnologias de triagem rápidas e portáteis, desde que seu desempenho seja demonstrado em condições independentes e que resultados positivos sejam interpretados como indicação de risco, e não como substituição imediata da confirmação nematológica.
+
+Os métodos convencionais continuam sendo a referência para confirmar a presença e estimar a densidade populacional de \textit{H. glycines}. Protocolos oficiais combinam amostragem de solo ou raízes, extração de cistos e juvenis, caracterização morfológica e, quando necessário, ensaios moleculares \cite{eppo2018}. A especificidade desses procedimentos contrasta com sua dependência de amostras representativas, preparo laboratorial e pessoal treinado. Ensaios de reação em cadeia da polimerase quantitativa (qPCR) reduziram parte dessa carga analítica: \citet{li2014qpcr} detectaram e estimaram \textit{H. glycines} a partir de DNA metagenômico extraído diretamente de solo agrícola, inclusive em amostras contendo outros nematoides, mas observaram discrepâncias entre contagem e estimativa molecular e apontaram a composição do solo como fonte potencial de variação. Posteriormente, \citet{baidoo2021} desenvolveram um ensaio de qPCR capaz de discriminar \textit{H. glycines} de \textit{H. schachtii} e relataram limite de detecção equivalente a um ovo em 20~g de solo, com elevada correlação em amostras de 34 campos. Esses resultados estabelecem um padrão robusto de especificidade, porém preservam etapas de coleta, extração de DNA, reagentes e instrumentação que dificultam medições densas e repetidas no próprio talhão.
+
+A automação por visão computacional e o sensoriamento remoto atacam limitações diferentes do fluxo diagnóstico. A NemaNet, treinada com 3.063 imagens microscópicas de cinco grupos de fitonematoides relevantes à soja, alcançou acurácia média de 98,82\% com transferência de aprendizado \cite{abade2022}. Apesar do desempenho elevado, a abordagem automatiza a identificação após a obtenção de imagens microscópicas e, portanto, não elimina a coleta e a preparação da amostra. Em outra escala, \citet{santos2022} combinaram imagens multiespectrais obtidas por aeronave remotamente pilotada e algoritmos de aprendizado de máquina para distinguir áreas de soja sintomáticas e assintomáticas em três campos comerciais. A melhor configuração atingiu acurácia próxima de 0,71 e dependeu principalmente das bandas verde e do infravermelho próximo. Como o rótulo representava dano sintomático associado a diferentes fitonematoides, esse tipo de sensoriamento é apropriado ao mapeamento de estresse já expresso no dossel, mas não equivale à identificação específica e pré-sintomática de \textit{H. glycines}.
+
+Uma rota complementar consiste em explorar a reprogramação metabólica induzida pela interação planta--nematoide. \citet{constantino2021} forneceram a evidência experimental mais direta para esse princípio em soja: por cromatografia gasosa acoplada à espectrometria de massas (GC--MS), identificaram 107 compostos voláteis comuns, dos quais 33 tiveram a identidade confirmada, e observaram separação entre plantas inoculadas e controles por análise de componentes principais a partir do quinto dia após a infestação. Alterações em estireno, D-limoneno, tetradecano, derivados de butil-hidroxitolueno e etil-hexil-benzoato antecederam o nanismo significativo, observado apenas mais tarde no experimento. O estudo demonstra que a infecção radicular produz informação química detectável antes de sintomas aéreos evidentes e propõe explicitamente esses compostos como base para futuros sistemas de nariz eletrônico. Entretanto, o arranjo experimental isolou o solo e as raízes com Parafilm e analisou exclusivamente os compostos orgânicos voláteis (VOCs) foliares; portanto, não demonstrou que a mesma assinatura permaneça discriminável no \textit{headspace} integrado de solo, raízes e parte aérea.
+
+A relevância do compartimento radicular é reforçada por estudos de ecologia química. \citet{velloso2021} demonstraram que VOCs emitidos por raízes e folhas de diferentes espécies modificam a eclosão de juvenis de \textit{H. glycines} e identificaram, por GC--MS, álcoois, cetonas, aldeídos, terpenos e outros compostos nas emissões vegetais. A contribuição desse trabalho é mostrar que moléculas voláteis participam da interface química entre planta e nematoide; ele não fornece, contudo, uma assinatura diagnóstica de plantas infectadas. Em conjunto, os estudos de \citet{constantino2021} e \citet{velloso2021} sustentam a plausibilidade biológica da detecção baseada em voláteis, mas deixam em aberto qual compartimento---parte aérea, rizosfera ou sistema solo--planta---oferece maior relação sinal--ruído e melhor especificidade frente a outros estresses.
+
+Narizes eletrônicos abordam essa questão de forma distinta da GC--MS. Em vez de separar e identificar analitos individuais, utilizam respostas parcialmente seletivas e sobrepostas de uma matriz sensorial para representar uma amostra como uma assinatura multivariada. Essa propriedade permite instrumentação mais compacta e de menor custo, mas desloca a seletividade do sensor individual para o conjunto formado por protocolo de amostragem, matriz de sensores, processamento do sinal e modelo preditivo. A viabilidade dessa arquitetura para fitopatologia foi demonstrada por \citet{feng2022}, que utilizaram nove sensores de baixo custo---incluindo MQ-3, MQ-7, MQ-8, MQ-135, MQ-138 e sensores adicionais---para detectar \textit{Fusarium oxysporum} em tomateiro e no solo. Modelos baseados em redes neurais distinguiram condições de infecção antes do aparecimento de sintomas claros, com acurácias globais de 95,2\% para plantas e 96,22\% para o experimento de solo em comparações iniciais. O trabalho constitui o análogo tecnológico mais próximo da detecção de SCN no sistema solo--planta, embora trate de um fungo, outra cultura e condições controladas.
+
+A soja, por sua vez, já foi avaliada por nariz eletrônico em um contexto abiótico. \citet{herrmann2024} monitoraram plantas irrigadas e sob déficit hídrico, em diferentes horários e estádios até V5, obtendo 94,4\% de acurácia com um classificador baseado em árvore de decisão. O resultado confirma que alterações fisiológicas da soja são recuperáveis por assinaturas gasosas, mas também evidencia um problema central de especificidade: o próprio estado hídrico, a fase fenológica e o horário de coleta podem gerar padrões discriminatórios. Do mesmo modo, \citet{decesare2011} mostraram que um nariz eletrônico foi capaz de diferenciar fases de atividade de \textit{Pseudomonas fluorescens} em microcosmos de solo e que suas respostas se correlacionaram com respiração, atividade enzimática e biomassa microbiana. Assim, uma assinatura obtida sobre o solo não representa apenas o patógeno-alvo; ela integra metabolismo vegetal, microbiota, matéria orgânica e condições físico-químicas. Para aplicações nematológicas, essa sensibilidade sistêmica é simultaneamente a fonte do sinal e a principal ameaça à validade externa.
+
+O avanço mais recente da área consiste em aproximar a seleção sensorial da química do fenômeno biológico. Em arroz, \citet{li2025planthopper} utilizaram GC--MS para identificar 105 VOCs associados ao dano por cigarrinhas, selecionaram oito sensores MOS segundo os grupos químicos encontrados e alcançaram 95,45\% de acurácia com SVM após seleção de atributos. Outro estudo combinou uma matriz MOS, fusão de dados e SVM para reconhecer brusone do arroz ainda no estágio assintomático \cite{wang2025riceblast}. Esses trabalhos sugerem que o estado da arte está migrando de matrizes genéricas avaliadas apenas por acurácia para sistemas nos quais biomarcadores, escolha dos sensores, extração de atributos e objetivo biológico são projetados em conjunto. Para o SCN, a lista de VOCs proposta por \citet{constantino2021} oferece um ponto de partida para verificar se a matriz MQ responde às classes químicas relevantes e para orientar versões futuras com sensores mais seletivos.
+
+Além da composição da matriz, a física da amostragem determina quais voláteis chegam aos sensores. Experimentos com solo mostraram que umidade, temperatura e presença de raízes alteram tanto a emissão quanto a absorção de VOCs, com aumento da retenção de diversos compostos em condições mais úmidas \cite{asensio2007}. Em colunas de solo, o aumento do teor de água também reduziu substancialmente a migração e a perda por volatilização de um composto-modelo \cite{sun2023}. Ao mesmo tempo, o vapor d'água interfere diretamente na superfície reativa de sensores MOS. \citet{yan2021} demonstraram experimentalmente essa dependência para acetona, etanol e metanol e melhoraram o reconhecimento do nariz eletrônico por compensação baseada em umidade absoluta. A umidade deve, portanto, ser tratada em dois níveis causais: como variável que modifica a geração e o transporte do \textit{headspace} no sistema solo--planta e como interferente na transdução do sensor. Pressão, vazão, volume da câmara, tempo de enriquecimento, purga e recuperação também não são detalhes instrumentais intercambiáveis; eles definem a distribuição de concentração apresentada ao classificador.
+
+Essa dependência do protocolo limita a interpretação de métricas obtidas em uma única campanha. Em um nariz eletrônico compacto testado com 53 odores, a acurácia \textit{offline} atingiu 95,0\%, mas caiu para 82,1\% em validação embarcada realizada ao longo de vários dias, quando passaram a atuar deriva temporal e inconsistência das amostras \cite{sun2025enose}. Em dados biológicos, nos quais leituras sucessivas da mesma coleta, planta ou vaso são correlacionadas, uma divisão aleatória por linha tende a produzir estimativas excessivamente otimistas. Estratégias de validação em blocos são recomendadas quando há dependência temporal, espacial ou hierárquica, devendo o agrupamento representar a unidade para a qual se pretende generalizar \cite{roberts2017}. Para narizes eletrônicos agrícolas, isso implica separar treinamento e teste por planta ou vaso, dia ou lote experimental e, idealmente, campanha ou local; ajustar normalização, compensação ambiental e seleção de atributos somente no treinamento; e reportar desempenho por unidade biológica, acompanhado de intervalos de confiança, além das métricas calculadas por leitura.
+
+À luz desse conjunto de evidências, a lacuna relevante não é a inexistência de métodos capazes de detectar \textit{H. glycines}, mas a ausência, na literatura localizada até setembro de 2026, de uma demonstração revisada por pares que integre: (i) o \textit{headspace} do sistema solo--soja infectado por SCN; (ii) uma matriz portátil e de baixo custo; (iii) controle explícito das condições de transporte e aquisição dos voláteis; e (iv) validação de modelos de aprendizado de máquina em unidades biológicas independentes. O presente estudo aborda essa interseção ao investigar se a resposta combinada de seis sensores MQ contém informação suficiente para diferenciar plantas inoculadas e não inoculadas sob diferentes condições de umidade e amostragem com ou sem pressão forçada. Nessa etapa, o alcance científico mais defensável é o de prova de conceito para triagem em ambiente controlado. A transição para diagnóstico específico e aplicação em campo exigirá testar diferentes cultivares, estádios fenológicos, texturas e microbiomas do solo, níveis de infestação e estresses concorrentes, além de comparar as previsões do nariz eletrônico com contagem nematológica e/ou qPCR em validação externa.
+
+\section{Síntese comparativa da literatura}
+
+\small
+\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.16\textwidth} >{\RaggedRight\arraybackslash}p{0.23\textwidth} >{\RaggedRight\arraybackslash}p{0.24\textwidth} >{\RaggedRight\arraybackslash}p{0.27\textwidth}}
+\caption{Síntese das abordagens relacionadas à detecção de \textit{H. glycines} e ao emprego de narizes eletrônicos em sistemas agrícolas.}
+\label{tab:estado-arte}\\
+\toprule
+\textbf{Linha tecnológica} & \textbf{Evidência mais próxima} & \textbf{Principal contribuição} & \textbf{Limitação em relação ao problema} \\
+\midrule
+\endfirsthead
+
+\multicolumn{4}{c}{\tablename\ \thetable{} -- continuação}\\
+\toprule
+\textbf{Linha tecnológica} & \textbf{Evidência mais próxima} & \textbf{Principal contribuição} & \textbf{Limitação em relação ao problema} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{Continua na próxima página}\\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+Diagnóstico oficial & Extração, morfologia e confirmação molecular de \textit{H. glycines} \cite{eppo2018} & Referência para identificação específica & Requer amostragem, preparo e infraestrutura laboratorial. \\
+
+qPCR em solo & Ensaios em solo agrícola \cite{li2014qpcr,baidoo2021} & Detecção específica e quantitativa & Depende de extração de DNA, reagentes e controle dos efeitos da matriz. \\
+
+Visão computacional & NemaNet, com 3.063 imagens e cinco grupos de nematoides \cite{abade2022} & Automatiza a identificação microscópica & Não elimina a extração nem a aquisição de imagens microscópicas. \\
+
+Sensoriamento remoto & Soja sintomática versus assintomática em três campos \cite{santos2022} & Mapeamento não destrutivo em escala de talhão & Sinal indireto, pós-expressão fisiológica e não específico para SCN. \\
+
+VOCs de soja infectada por SCN & GC--MS de voláteis foliares ao longo de 14 dias \cite{constantino2021} & Evidência de alteração pré-sintomática e candidatos a biomarcadores & Solo e raízes foram isolados; requer equipamento laboratorial. \\
+
+Ecologia química do SCN & VOCs vegetais modificaram a eclosão de J2 \cite{velloso2021} & Confirma comunicação química relevante na rizosfera & Não constitui ensaio diagnóstico de plantas infectadas. \\
+
+E-nose para patógeno de solo & \textit{F. oxysporum} em tomateiro e solo com sensores MQ \cite{feng2022} & Demonstra triagem pré-sintomática de baixo custo & Patógeno e hospedeiro diferentes; ambiente controlado. \\
+
+E-nose em soja & Déficit hídrico classificado com 94,4\% de acurácia \cite{herrmann2024} & Confirma a sensibilidade da assinatura gasosa da soja & Demonstra que estresse abiótico pode confundir a classificação de SCN. \\
+
+E-nose e microbiota do solo & Atividade de \textit{P. fluorescens} em microcosmos \cite{decesare2011} & Demonstra que o \textit{headspace} captura atividade microbiana & A microbiota constitui uma fonte concorrente de sinal. \\
+
+Sistema orientado por biomarcadores & GC--MS, seleção de sensores e SVM em pragas do arroz \cite{li2025planthopper} & Integra química analítica e desenho da matriz sensorial & Integração ainda não demonstrada para SCN. \\
+
+\end{longtable}
+\normalsize
+
+% A seção abaixo contém recomendações para os autores e não deve ser enviada
+% literalmente como parte do manuscrito.
+\section*{Notas críticas aos autores}
+
+\begin{enumerate}
+    \item \textbf{Evitar ``detecção precoce'' como conclusão já estabelecida.} O estudo atual demonstra discriminação entre condições experimentais. Para reivindicar precocidade, é necessário definir o tempo pós-inoculação, registrar o aparecimento de sintomas e mostrar desempenho antes desse marco.
+
+    \item \textbf{Adotar o vaso ou a planta como unidade independente.} O documento de qualificação informa divisão por coleta, mas coletas diferentes do mesmo vaso podem ainda aparecer nos conjuntos de treinamento e teste. Recomenda-se agrupar no nível mais alto compartilhado---vaso ou planta e, se possível, dia ou lote experimental---e incluir uma análise de sensibilidade \textit{leave-one-vase-out}.
+
+    \item \textbf{Não tratar 63.492 leituras como 63.492 réplicas biológicas.} As leituras são observações temporais correlacionadas provenientes de 36 coletas. Devem ser reportados os números de vasos, coletas e campanhas, com avaliação adicional de uma predição por ciclo ou coleta obtida por agregação temporal ou por atributos da curva.
+
+    \item \textbf{Separar os efeitos de pressão e umidade.} No desenho preliminar, o protocolo sem pressão não recebeu a mesma estratificação de umidade. Uma conclusão causal sobre pressão exige comparação fatorial em faixas de umidade equivalentes.
+
+    \item \textbf{Calibrar a umidade.} O limiar normalizado de 0,4 é operacional e não corresponde ao teor volumétrico de água. Para publicação, recomenda-se associar o sensor capacitivo a uma referência gravimétrica ou volumétrica e descrever a incerteza.
+
+    \item \textbf{Distinguir identificação específica de triagem.} Um nariz eletrônico pode aprender diferenças entre dois grupos controlados sem provar especificidade para \textit{H. glycines}. Quando possível, devem ser incluídos estresses concorrentes, solo sem planta, planta sem nematoide, outros fitonematoides e confirmação por contagem ou qPCR.
+
+    \item \textbf{Relatar incerteza e generalização.} Além de acurácia, acurácia balanceada e F1 macro, recomenda-se reportar sensibilidade e especificidade por coleta ou vaso, intervalos de confiança por \textit{bootstrap} agrupado e desempenho em uma campanha externa.
+
+    \item \textbf{Auditar a bibliografia da qualificação.} Entradas com volume ou páginas pendentes de verificação, duplicatas e fontes não localizáveis não devem migrar para o artigo.
+\end{enumerate}
+
+\bibliographystyle{plainnat}
+\bibliography{referencias_estado_da_arte}
+
+\end{document}

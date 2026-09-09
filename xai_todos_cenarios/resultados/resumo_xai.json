@@ -1,0 +1,109 @@
+{
+  "metodo": "SHAP TreeExplainer",
+  "classe_explicada": "0 = com nematoide",
+  "criterio_amostragem": "Ate 2000 linhas de teste por cenario, balanceadas por coleta e classe.",
+  "cenarios": [
+    {
+      "cenario": "a_solo_seco_com_pressao",
+      "titulo": "a) Solo seco sob pressão forçada",
+      "modelo_real": "ExtraTreesClassifier",
+      "linhas_teste": 16692,
+      "coletas_teste": 8,
+      "matriz_confusao": [
+        [
+          5864,
+          643
+        ],
+        [
+          0,
+          10185
+        ]
+      ],
+      "amostra_shap_balanceada_por_coleta_classe": 2000,
+      "classe_explicada": "0 = com nematoide",
+      "top_3": [
+        {
+          "feature": "MQ138_corrigido_env",
+          "percentual_importancia": 17.673967056174234
+        },
+        {
+          "feature": "Pres_kPa",
+          "percentual_importancia": 15.73384495464121
+        },
+        {
+          "feature": "Soil_indice_0_1",
+          "percentual_importancia": 15.344121989567679
+        }
+      ],
+      "maior_erro_aditividade_local": 2.5309615514501616e-14
+    },
+    {
+      "cenario": "b_solo_umido_com_pressao",
+      "titulo": "b) Solo úmido sob pressão forçada",
+      "modelo_real": "ExtraTreesClassifier",
+      "linhas_teste": 5423,
+      "coletas_teste": 4,
+      "matriz_confusao": [
+        [
+          3513,
+          639
+        ],
+        [
+          746,
+          525
+        ]
+      ],
+      "amostra_shap_balanceada_por_coleta_classe": 2000,
+      "classe_explicada": "0 = com nematoide",
+      "top_3": [
+        {
+          "feature": "Temp_C",
+          "percentual_importancia": 20.66886294671187
+        },
+        {
+          "feature": "Pres_kPa",
+          "percentual_importancia": 15.500520875733962
+        },
+        {
+          "feature": "Soil_indice_0_1",
+          "percentual_importancia": 13.374282855216785
+        }
+      ],
+      "maior_erro_aditividade_local": 7.105427357601002e-15
+    },
+    {
+      "cenario": "c_sem_pressao_sem_estratificacao",
+      "titulo": "c) Sem pressão forçada, sem estratificação por umidade",
+      "modelo_real": "ExtraTreesClassifier",
+      "linhas_teste": 9353,
+      "coletas_teste": 6,
+      "matriz_confusao": [
+        [
+          2968,
+          1456
+        ],
+        [
+          0,
+          4929
+        ]
+      ],
+      "amostra_shap_balanceada_por_coleta_classe": 2000,
+      "classe_explicada": "0 = com nematoide",
+      "top_3": [
+        {
+          "feature": "Pres.",
+          "percentual_importancia": 24.65442525771887
+        },
+        {
+          "feature": "Temp.",
+          "percentual_importancia": 21.562164211519445
+        },
+        {
+          "feature": "MQ2",
+          "percentual_importancia": 13.844169452305007
+        }
+      ],
+      "maior_erro_aditividade_local": 4.440892098500626e-15
+    }
+  ]
+}
