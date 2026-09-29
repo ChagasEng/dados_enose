@@ -1,0 +1,13 @@
+coleta,classe_real,probabilidade_com_nematoide,probabilidade_saudavel,numero_janelas,classe_prevista
+dia 11 - Soja Saudavel Vaso 1,1,0.429552,0.570448,33,1
+dia 11 - Soja Saudavel Vaso 3,1,0.429552,0.570448,33,1
+dia 11 - Soja Saudavel Vaso 4,1,0.429552,0.57044804,34,1
+dia 12 - Soja Heterodera Vaso 1,0,0.429552,0.57044804,33,1
+dia 12 - Soja Heterodera Vaso 7,0,0.4295519,0.5704481,34,1
+dia 12 - Soja Heterodera Vaso 8,0,0.42955205,0.570448,33,1
+dia 13 - Soja Saudavel Vaso 1,1,0.429552,0.57044804,33,1
+dia 13 - Soja Saudavel Vaso 4,1,0.42955205,0.570448,24,1
+dia 18 - Soja Heterodera Vaso 6,0,0.429552,0.57044804,25,1
+dia 18 - Soja Heterodera Vaso 9,0,0.42955193,0.57044804,20,1
+dia 19 - Soja Heterodera Vaso 6,0,0.42955193,0.5704481,18,1
+dia 19 - Soja Saudavel Vaso 1,1,0.42955193,0.5704481,19,1

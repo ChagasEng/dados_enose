@@ -1,0 +1,92 @@
+{
+  "modelo": "X-TCN 2D com atencao dupla e Grad-CAM",
+  "dados": "reais",
+  "dataset": "C:\\Users\\Matheus Bastos Chaga\\Documents\\dados_enose\\06_07\\4_polimento_inicial_modelagem\\datasets_limpos\\antes_dia_20_pressao_filtrada_estrito.csv",
+  "sensores": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "classes": {
+    "0": "Com nematoide",
+    "1": "Saudavel/sem nematoide"
+  },
+  "protocolo_split": "por coleta; teste 30%; validacao retirada do desenvolvimento",
+  "parametros": {
+    "seed": 42,
+    "window": 128,
+    "stride": 64,
+    "baseline_samples": 20,
+    "sampling_rate": 4.0,
+    "epochs": 40,
+    "selected_epoch_by_validation_accuracy": 33,
+    "final_training_collections": 24,
+    "batch_size": 24,
+    "learning_rate": 0.001,
+    "device": "cpu"
+  },
+  "quantidades": {
+    "linhas": 63492,
+    "coletas_treino": 19,
+    "coletas_validacao": 5,
+    "coletas_teste": 12,
+    "janelas_treino": 486,
+    "janelas_validacao": 150,
+    "janelas_teste": 339
+  },
+  "metricas_por_janela": {
+    "accuracy": 0.6371681415929203,
+    "balanced_accuracy": 0.6446772169548243,
+    "precision_macro": 0.668925518925519,
+    "recall_macro": 0.6446772169548243,
+    "f1_macro": 0.6262269512446552
+  },
+  "metricas_por_coleta": {
+    "accuracy": 0.6666666666666666,
+    "balanced_accuracy": 0.6666666666666667,
+    "precision_macro": 0.6875,
+    "recall_macro": 0.6666666666666667,
+    "f1_macro": 0.6571428571428571
+  },
+  "matriz_confusao_por_coleta": [
+    [
+      5,
+      1
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "relatorio_por_classe": {
+    "Com nematoide": {
+      "precision": 0.625,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.7142857142857143,
+      "support": 6.0
+    },
+    "Saudavel/sem nematoide": {
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1-score": 0.6,
+      "support": 6.0
+    },
+    "accuracy": 0.6666666666666666,
+    "macro avg": {
+      "precision": 0.6875,
+      "recall": 0.6666666666666667,
+      "f1-score": 0.6571428571428571,
+      "support": 12.0
+    },
+    "weighted avg": {
+      "precision": 0.6875,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6571428571428571,
+      "support": 12.0
+    }
+  },
+  "nota": "A base real possui duas classes, nao seis tratamentos rotulados."
+}

@@ -1,0 +1,103 @@
+TESTE REAL — X-TCN ALINHADA AO ARTIGO
+====================================================================
+Gerado em: 2026-09-29T09:00:17
+Dataset: C:\Users\Matheus Bastos Chaga\Documents\dados_enose\06_07\4_polimento_inicial_modelagem\datasets_limpos\antes_dia_20_pressao_filtrada_estrito.csv
+Parametros treinaveis: 1561476
+Sensores: MQ-2, MQ-3, MQ-7, MQ-8, MQ-135, MQ-138
+Classes: 0=com nematoide; 1=saudavel/sem nematoide.
+
+ALINHAMENTO IMPLEMENTADO
+--------------------------------------------------------------------
+Backbone de blocos invertidos, SE interno, Hardswish, saída 576 canais,
+CBAM com reducao 16, classificador 576->1024->2 e dropout 0.2.
+Fingerprint 224x224 RGB crest, descritores nas linhas e sensores nas colunas.
+Min-Max por sensor/caracteristica ajustado somente no treino.
+Normalizacao ImageNet, Adam, CrossEntropyLoss e Grad-CAM na convolucao final.
+Janela=128; stride=64; G0=20 amostras; taxa=4.0 Hz.
+DFC: 3 componentes; FTF: 10 bins.
+
+LIMITACAO DE REPRODUCAO
+--------------------------------------------------------------------
+O suplemento define ES, PSD, DFC e FTF como vetores, mas o fingerprint reserva
+uma celula por descritor e o repositorio nao publica o codigo que os reduz a
+escalares. Foram usadas reducoes explicitamente documentadas no codigo.
+
+1) RESULTADO PRINCIPAL — SPLIT POR COLETA
+--------------------------------------------------------------------
+Nenhuma coleta aparece em mais de uma particao.
+Melhor epoca escolhida na validacao: 22/30.
+Treino: 19 coletas, 486 janelas.
+Validacao: 5 coletas, 150 janelas.
+Teste: 12 coletas, 339 janelas.
+
+Metricas por janela:
+  accuracy: 0.607670 (60.77%)
+  balanced_accuracy: 0.607432 (60.74%)
+  precision_macro: 0.607319 (60.73%)
+  recall_macro: 0.607432 (60.74%)
+  f1_macro: 0.607328 (60.73%)
+
+Metricas por coleta:
+  accuracy: 0.666667 (66.67%)
+  balanced_accuracy: 0.666667 (66.67%)
+  precision_macro: 0.666667 (66.67%)
+  recall_macro: 0.666667 (66.67%)
+  f1_macro: 0.666667 (66.67%)
+
+Matriz por coleta [linhas=reais, colunas=previstas]:
+  [[4, 2],
+   [2, 4]]
+
+Por classe:
+  0 Com nematoide: precision=0.6667, recall=0.6667, f1=0.6667, suporte=6
+  1 Saudavel/sem nematoide: precision=0.6667, recall=0.6667, f1=0.6667, suporte=6
+
+2) DIAGNOSTICO — SPLIT ALEATORIO 80/20 DE JANELAS
+--------------------------------------------------------------------
+Epocas: 30; coletas presentes simultaneamente nos dois lados: 36.
+Este resultado se aproxima da divisao textual do artigo, mas NAO e uma
+estimativa valida de generalizacao no nosso conjunto: janelas sobrepostas da
+mesma coleta podem ficar no treino e no teste.
+  accuracy: 0.723077 (72.31%)
+  balanced_accuracy: 0.729966 (73.00%)
+  precision_macro: 0.731438 (73.14%)
+  recall_macro: 0.729966 (73.00%)
+  f1_macro: 0.723011 (72.30%)
+Matriz por janela:
+  [[72, 17],
+   [37, 69]]
+
+IMPORTANCIA GRAD-CAM — TESTE AGRUPADO
+--------------------------------------------------------------------
+Sensores:
+  MQ-7: 20.767%
+  MQ-3: 19.133%
+  MQ-8: 18.572%
+  MQ-135: 16.168%
+  MQ-2: 14.616%
+  MQ-138: 10.745%
+Caracteristicas:
+  Var: 17.282%
+  PP: 17.077%
+  PW: 15.344%
+  DFC: 14.203%
+  PSD: 12.164%
+  FTF: 11.200%
+  ES: 8.085%
+  AUC: 4.646%
+
+COMPARACAO DE ACURACIA
+--------------------------------------------------------------------
+X-TCN temporal 1D anterior, por coleta: 83.33%
+X-TCN fingerprint compacta anterior, por coleta: 66.67%
+X-TCN alinhada, split por coleta: 66.67%
+X-TCN alinhada, split aleatorio de janelas: 72.31%
+X-TCN do artigo, amostras controladas de insetos: 99.28%
+Os 99.28% nao sao diretamente comparaveis aos nossos dados de solo-soja.
+
+INTERPRETACAO
+--------------------------------------------------------------------
+A metrica cientifica principal e a acuracia por coleta do protocolo 1.
+O protocolo 2 mede o quanto o modelo reconhece janelas parecidas das mesmas
+coletas e tende a ser otimista. A arquitetura alinhada nao elimina a diferenca
+entre 36 coletas reais e as 700 amostras controladas do artigo.

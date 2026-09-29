@@ -1,0 +1,118 @@
+RELATORIO COMPLETO — X-TCN/XAI COM DADOS REAIS
+==============================================================
+Gerado em: 2026-09-29T08:20:33
+Dataset: C:\Users\Matheus Bastos Chaga\Documents\dados_enose\06_07\4_polimento_inicial_modelagem\datasets_limpos\antes_dia_20_pressao_filtrada_estrito.csv
+Escopo: somente os seis sensores MQ; sem variaveis ambientais como entrada.
+Sensores: MQ-2, MQ-3, MQ-7, MQ-8, MQ-135, MQ-138
+Classes reais disponiveis: 0 = com nematoide; 1 = saudavel/sem nematoide.
+IMPORTANTE: a base nao possui rotulos dos seis tratamentos solicitados; por isso,
+esta avaliacao real e binaria. Nenhum rotulo foi inferido ou fabricado.
+
+PROTOCOLO
+--------------------------------------------------------------
+Split estratificado por coleta: aproximadamente 70% desenvolvimento e 30% teste.
+A validacao foi retirada apenas do desenvolvimento. Nao ha coleta compartilhada
+entre treino, validacao e teste.
+Janela: 128; stride: 64; baseline G0: 20 amostras.
+Epocas solicitadas para selecao: 40; epoca escolhida pela maior acuracia de validacao: 33.
+Apos a escolha, o modelo final foi reinicializado e retreinado nas 24 coletas
+de desenvolvimento (treino + validacao) pelo numero de epocas escolhido.
+Seed: 42; dispositivo: cpu.
+
+DADOS E PARTICOES
+--------------------------------------------------------------
+Linhas validas totais: 63492
+Treino: 19 coletas (classe 0=9, classe 1=10), 486 janelas
+Validacao: 5 coletas (classe 0=2, classe 1=3), 150 janelas
+Teste: 12 coletas (classe 0=6, classe 1=6), 339 janelas
+
+METRICAS POR JANELA
+  accuracy: 0.637168 (63.72%)
+  balanced_accuracy: 0.644677 (64.47%)
+  precision_macro: 0.668926 (66.89%)
+  recall_macro: 0.644677 (64.47%)
+  f1_macro: 0.626227 (62.62%)
+
+METRICAS PRINCIPAIS POR COLETA
+  accuracy: 0.666667 (66.67%)
+  balanced_accuracy: 0.666667 (66.67%)
+  precision_macro: 0.687500 (68.75%)
+  recall_macro: 0.666667 (66.67%)
+  f1_macro: 0.657143 (65.71%)
+
+MATRIZ DE CONFUSAO POR COLETA
+--------------------------------------------------------------
+Linhas = classe real; colunas = classe prevista
+                         Prev. com nematoide  Prev. saudavel
+Real com nematoide                 5                 1
+Real saudavel                      3                 3
+
+METRICAS POR CLASSE (POR COLETA)
+--------------------------------------------------------------
+0 — Com nematoide: precision=0.625000, recall=0.833333, f1=0.714286, suporte=6
+1 — Saudavel/sem nematoide: precision=0.750000, recall=0.500000, f1=0.600000, suporte=6
+
+IMPORTANCIA GLOBAL GRAD-CAM POR SENSOR
+--------------------------------------------------------------
+MQ-8: 26.096%
+MQ-135: 21.867%
+MQ-7: 18.455%
+MQ-138: 14.257%
+MQ-3: 12.820%
+MQ-2: 6.505%
+
+IMPORTANCIA GLOBAL GRAD-CAM POR CARACTERISTICA
+--------------------------------------------------------------
+PP: 16.622%
+DFC: 14.947%
+Var: 13.757%
+FTF: 13.215%
+ES: 11.012%
+PSD: 10.820%
+PW: 10.735%
+AUC: 8.893%
+
+TOP 15 COMBINACOES SENSOR x CARACTERISTICA
+--------------------------------------------------------------
+01. MQ-8 / PP: 4.259%
+02. MQ-8 / DFC: 3.921%
+03. MQ-135 / PP: 3.803%
+04. MQ-8 / FTF: 3.633%
+05. MQ-8 / Var: 3.591%
+06. MQ-135 / DFC: 3.359%
+07. MQ-7 / PP: 3.180%
+08. MQ-135 / Var: 3.164%
+09. MQ-8 / PW: 2.823%
+10. MQ-8 / ES: 2.810%
+11. MQ-8 / PSD: 2.761%
+12. MQ-7 / DFC: 2.734%
+13. MQ-135 / FTF: 2.728%
+14. MQ-7 / Var: 2.643%
+15. MQ-7 / FTF: 2.599%
+
+COMPARACAO COM A X-TCN TEMPORAL ANTERIOR
+--------------------------------------------------------------
+X-TCN 2D fingerprint/XAI atual — acuracia por coleta: 66.67%
+X-TCN 2D fingerprint/XAI atual — acuracia por janela: 63.72%
+X-TCN temporal 1D anterior — acuracia por coleta: 83.33%
+X-TCN temporal 1D anterior — acuracia por janela: 79.94%
+A X-TCN anterior recebe as series temporais padronizadas diretamente e usa
+Integrated Gradients. A atual aplica G/G0, resume cada janela em 48 descritores,
+gera fingerprint 2D, usa atencao dupla e Grad-CAM. Logo, os numeros medem
+pipelines diferentes e nao devem ser apresentados como repeticoes do mesmo modelo.
+
+INTERPRETACAO E LIMITACOES
+--------------------------------------------------------------
+A acuracia por coleta e a metrica principal porque as janelas da mesma coleta
+sao correlacionadas. O Grad-CAM indica regioes que influenciaram as previsoes,
+mas nao demonstra causalidade biologica. O teste possui poucas coletas e pertence
+ao mesmo conjunto experimental; e necessaria validacao externa em novas campanhas.
+Os percentuais Grad-CAM foram normalizados para somar 100% no conjunto de teste.
+
+ARQUIVOS GERADOS
+--------------------------------------------------------------
+metricas_reais.json; predicoes_por_janela.csv; predicoes_por_coleta.csv;
+matriz_confusao_por_coleta.csv/png; historico_treino.csv/png; split_coletas.csv;
+gradcam_sensor_caracteristica_percentual.csv; gradcam_por_classe_percentual.csv;
+importancia_sensores_gradcam.csv; importancia_caracteristicas_gradcam.csv;
+gradcam_medio_teste_real.png; xtcn_real_checkpoint.pt.

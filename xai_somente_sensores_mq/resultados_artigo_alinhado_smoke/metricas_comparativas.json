@@ -1,0 +1,73 @@
+{
+  "modelo": "X-TCN alinhada ao artigo Chen et al. (2026)",
+  "doi": "10.1016/j.snb.2026.140724",
+  "parametros": 1561476,
+  "classes_reais": {
+    "0": "Com nematoide",
+    "1": "Saudavel/sem nematoide"
+  },
+  "configuracao": {
+    "epochs_grouped": 1,
+    "best_epoch_grouped": 1,
+    "epochs_random_80_20": 1,
+    "batch_size": 32,
+    "window": 128,
+    "stride": 64,
+    "baseline_samples": 20,
+    "sampling_rate": 4.0,
+    "dominant_count": 3,
+    "fourier_bins": 10,
+    "learning_rate": 0.001,
+    "seed": 42,
+    "device": "cpu"
+  },
+  "principal_split_por_coleta": {
+    "metricas_por_janela": {
+      "accuracy": 0.5191740412979351,
+      "balanced_accuracy": 0.5,
+      "precision_macro": 0.25958702064896755,
+      "recall_macro": 0.5,
+      "f1_macro": 0.341747572815534
+    },
+    "metricas_por_coleta": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "precision_macro": 0.25,
+      "recall_macro": 0.5,
+      "f1_macro": 0.3333333333333333
+    },
+    "matriz_confusao_por_coleta": [
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "coletas_teste": 12
+  },
+  "diagnostico_split_aleatorio_80_20": {
+    "metricas_por_janela": {
+      "accuracy": 0.5435897435897435,
+      "balanced_accuracy": 0.5,
+      "precision_macro": 0.2717948717948718,
+      "recall_macro": 0.5,
+      "f1_macro": 0.3521594684385382
+    },
+    "matriz_confusao": [
+      [
+        0,
+        89
+      ],
+      [
+        0,
+        106
+      ]
+    ],
+    "coletas_compartilhadas": 36,
+    "aviso": "Nao representa generalizacao: ha janelas da mesma coleta nos dois lados."
+  },
+  "limitacao": "O repositorio oficial nao publica a reducao vetorial para escalar de ES, PSD, DFC e FTF; as reducoes usadas estao documentadas no codigo."
+}
