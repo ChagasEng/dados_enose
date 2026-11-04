@@ -1,0 +1,49 @@
+% Resultados exclusivamente por coleta.
+% Fontes: validacao_cruzada_126_combinacoes.csv e
+% exploracao_teste_126_combinacoes.csv.
+\subsection{Análise combinatória dos sensores por coleta}
+
+Foram avaliados os 63 subconjuntos não vazios dos seis sensores MQ em dois
+cenários: sinais MQ brutos isolados e os mesmos sinais acrescidos do índice de
+umidade do solo, temperatura e pressão. Empregou-se Extra Trees com 900 árvores
+e hiperparâmetros fixos. As 24 coletas de treinamento foram divididas em quatro
+partições estratificadas por classe, sempre mantendo cada coleta integralmente
+em uma partição. As probabilidades das leituras de uma coleta foram agregadas
+pela média, produzindo uma única previsão por coleta. Todas as métricas e
+seleções desta análise foram calculadas nesse nível.
+
+\begin{table}[htbp]
+\centering
+\caption{Acurácia balanceada por coleta na análise combinatória. CV:
+validação cruzada nas 24 coletas de treinamento; teste: 12 coletas.}
+\label{tab:combinatoria_mq_ambiente_coleta}
+\begin{tabular}{llrrr}
+\hline
+Cenário & Sensores MQ & $n_{MQ}$ & CV (\%) & Teste (\%) \\
+\hline
+MQ & MQ7 (melhor CV) & 1 & 71,68 & 75,00 \\
+MQ & MQ2, MQ3, MQ8, MQ135, MQ138 (exploratório) & 5 & 66,43 & 91,67 \\
+MQ & Todos os seis & 6 & 65,73 & 91,67 \\
+MQ + ambiente & MQ2 (melhor CV) & 1 & 74,83 & 83,33 \\
+MQ + ambiente & MQ2, MQ135, MQ138 (exploratório) & 3 & 74,13 & 91,67 \\
+MQ + ambiente & Todos os seis & 6 & 70,28 & 83,33 \\
+\hline
+\end{tabular}
+\end{table}
+
+Na validação cruzada, a inclusão das variáveis ambientais elevou a acurácia
+balanceada por coleta em 59 dos 63 pares de subconjuntos MQ idênticos, reduziu
+em um e não a alterou em três. Os melhores subconjuntos selecionados apenas no
+treinamento foram MQ7 sem ambiente e MQ2 com ambiente. No teste, acertaram,
+respectivamente, 9 e 10 das 12 coletas. Os seis MQ sem ambiente acertaram
+11 das 12 coletas, enquanto os seis MQ com ambiente acertaram 10 das 12.
+
+Em uma busca exploratória que avaliou as 126 configurações nas 12 coletas de
+teste, 34 empataram no maior desempenho, com 11 acertos. Entre elas, o conjunto
+MQ2, MQ135 e MQ138 acrescido de solo, temperatura e pressão apresentou a maior
+acurácia balanceada por coleta na validação cruzada do treino (74,13\%).
+Restrita aos MQ, a mesma regra selecionou MQ2, MQ3, MQ8, MQ135 e MQ138
+(66,43\% na validação). Como o teste participou dessa seleção, 91,67\% descreve
+o desempenho observado nessas coletas e não estima de forma imparcial o
+desempenho futuro dos conjuntos escolhidos. Novas coletas independentes são
+necessárias para confirmar a configuração antes de fixá-la para o hardware.

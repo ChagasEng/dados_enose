@@ -1,0 +1,23 @@
+{
+  "dataset": "06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "linhas_treino": 41377,
+  "coletas_treino": 24,
+  "linhas_teste": 22115,
+  "coletas_teste": 12,
+  "combinacoes_por_cenario": 63,
+  "seed": 42,
+  "modelo": "ExtraTreesClassifier(n_estimators=900, max_features='sqrt', min_samples_leaf=10, bootstrap=False)",
+  "validacao": "4 folds estratificados por rotulo da coleta, apenas nas 24 coletas de treino; predicoes fora da amostra agregadas por coleta",
+  "selecao": "Maior acuracia balanceada por coleta na validacao; desempates por F1 macro por coleta, menor n_mq e nome",
+  "teste": "Teste preexistente de 12 coletas; avaliado apenas para o melhor da CV e o baseline de 6 MQ de cada cenario; modelos identicos avaliados uma vez",
+  "mq": "Sinais brutos; sem compensacao ambiental nos dois cenarios",
+  "ambiente": [
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "unidade_de_avaliacao": "Coleta em todos os cenarios, folds, rankings e metricas; nenhuma metrica por leitura",
+  "predicao_coleta": "Media das probabilidades da classe 1 das leituras da coleta; limiar 0.5",
+  "classe_0": "Com nematoide",
+  "classe_1": "Sem nematoide"
+}
