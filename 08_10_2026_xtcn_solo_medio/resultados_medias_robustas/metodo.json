@@ -1,0 +1,65 @@
+{
+  "dataset": "06_07\\4_polimento_inicial_modelagem\\datasets_limpos\\antes_dia_20_pressao_filtrada_estrito.csv",
+  "features_por_cenario": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_solo_bruto": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil"
+    ],
+    "mq_solo_media_sem_filtro": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_media_sem_filtro"
+    ],
+    "mq_solo_medio": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_medio"
+    ],
+    "mq_temperatura_media": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Temp_media"
+    ],
+    "mq_solo_temperatura_medios": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_medio",
+      "Temp_media"
+    ]
+  },
+  "outliers": "Cercas de Tukey (Q1 - 1,5*IQR; Q3 + 1,5*IQR) por coleta e variavel; remove apenas da media",
+  "split": "70/30 por coleta em cada classe, seed 42",
+  "epocas_xtcn": 60,
+  "janela_xtcn": 128,
+  "stride_xtcn": 64,
+  "dispositivo": "cpu"
+}

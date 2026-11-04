@@ -1,0 +1,2 @@
+experimento,origem,n_coletas_treino,n_coletas_teste,n_janelas_teste,accuracy_janela,balanced_accuracy_janela,f1_macro_janela,accuracy_coleta,balanced_accuracy_coleta,f1_macro_coleta
+X-TCN MQ + Soil leitura a leitura,nova_execucao,24,12,339,0.8466076696165191,0.8447957334076965,0.8456284153005464,0.8333333333333334,0.8333333333333334,0.8333333333333334

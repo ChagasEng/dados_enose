@@ -1,0 +1,3 @@
+cenario,unidade,n,n_coletas,accuracy,balanced_accuracy,f1_macro,recall_com_nematoide,recall_sem_nematoide
+c_sem_pressao_sem_estratificacao,janela,143,6,0.8181818181818182,0.8059701492537313,0.8065959217644612,0.6119402985074627,1.0
+c_sem_pressao_sem_estratificacao,leitura,9353,6,0.8306425745750027,0.8209764918625678,0.8217504949305712,0.6419529837251357,1.0

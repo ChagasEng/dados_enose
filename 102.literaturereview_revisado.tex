@@ -1,0 +1,175 @@
+% 102.literaturereview.tex
+
+\section{Estado da Arte}
+\label{sec:estado_arte}
+
+\subsection{Trabalhos relacionados à detecção de nematoides}
+\label{subsec:trabalhos_nematoides}
+
+A detecção de nematoides fitoparasitas na soja emprega sensoriamento remoto,
+visão computacional, análise química e sensores de gases. Essas abordagens
+exploram respostas espectrais das plantas, imagens dos organismos e perfis
+químicos associados às interações biológicas.
+
+No sensoriamento remoto, \cite{wang2025scn} identificaram \textit{Heterodera
+glycines} em plantas de soja por dados hiperespectrais e aprendizado de
+máquina. O índice espectral SCNVI associado ao XGBoost obteve 70\% de acurácia
+na classificação de três níveis de infestação. \cite{katari2026} avaliaram
+redes neurais convolucionais (CNN) e Vision Transformers (ViT) em imagens
+multiespectrais de áreas infestadas pelo nematoide de cisto da soja.
+\cite{dellasilva2025} utilizaram dados hiperespectrais e classificadores para
+avaliar níveis de infestação por \textit{Aphelenchoides besseyi} em soja. Esses
+métodos dependem da resposta espectral da planta e não analisam gases
+provenientes do solo.
+
+Na análise por imagens microscópicas, \cite{park2026} avaliaram YOLO e
+Detectron2 para detectar e segmentar fêmeas de \textit{H. glycines}. O YOLOv11
+apresentou o melhor desempenho. A aplicação exige coleta das amostras, preparo
+do material e aquisição das imagens. \cite{neupane2025} revisaram técnicas de
+processamento de imagens e aprendizado de máquina para detecção e classificação
+de nematoides. A revisão mostra o predomínio de métodos baseados em
+características visuais.
+
+Na análise química, \cite{rocha2023} investigaram solos associados à supressão
+de \textit{H. glycines} em cultivos de soja e trigo. A extração por solvente e
+a cromatografia gasosa acoplada à espectrometria de massas (GC--MS)
+identificaram 51 compostos e diferenças entre os tratamentos. \cite{zhao2025}
+avaliaram o efeito nematicida de \textit{Microbacterium maritypicum} Sneb159
+contra \textit{H. glycines} e caracterizaram compostos voláteis bacterianos por
+SPME-GC--MS. Esses estudos tratam de supressão e controle biológico, não da
+detecção de solos infestados por sensores de gases.
+
+No uso de nariz eletrônico, \cite{chen2026xtcn} combinaram sensores MOS, GC--MS
+e uma rede convolucional temporal explicável, denominada X-TCN, para reconhecer
+três espécies de insetos-praga de acervos culturais. O modelo obteve 99,28\% de
+acurácia, 99,31\% de precisão, 99,26\% de recall e 99,27\% de F1. Os mapas de
+atenção identificaram as regiões dos sinais com maior contribuição para a
+classificação. O estudo demonstra o uso da X-TCN na análise temporal de sinais
+de nariz eletrônico, mas não aborda nematoides, soja ou gases do solo.
+
+\cite{herrmann2024} aplicaram sensores de gases e aprendizado de máquina à
+identificação de estresse hídrico em plantas de soja. O modelo alcançou 94,4\%
+de acurácia. \cite{kong2025} utilizaram nariz eletrônico, SVM e Random Forest
+para detectar hidrocarbonetos de petróleo e pesticidas orgânicos em amostras
+de solo. Esses estudos confirmam a aplicação de sensores de gases em problemas
+agrícolas, mas não investigam nematoides fitoparasitas.
+
+Os trabalhos mostram avanços na detecção de nematoides e no uso de narizes
+eletrônicos. Métodos baseados em imagens dependem de características visuais ou
+espectrais. Análises químicas exigem instrumentação laboratorial. Narizes
+eletrônicos permitem a análise de perfis gasosos, mas os estudos encontrados
+tratam de outros organismos, contaminantes ou condições de estresse.
+
+Não foi localizado estudo que reúna nariz eletrônico, extração de gases sob
+pressão forçada e variáveis ambientais para classificar solos cultivados com
+soja com e sem \textit{H. glycines}. Esta pesquisa avalia essa combinação e
+considera os efeitos da umidade do solo e da pressão nas respostas dos sensores
+e no desempenho dos classificadores.
+
+A Tabela~\ref{tab:trabalhos_relacionados_nematoides} compara as aplicações, as
+tecnologias e as limitações dos estudos em relação a esta pesquisa.
+
+% Impede que a tabela anteceda o texto da revisão.
+\clearpage
+
+\begin{table*}[!t]
+\centering
+\caption{Estudos relacionados à detecção de nematoides e ao uso de nariz eletrônico (2023--2026).}
+\label{tab:trabalhos_relacionados_nematoides}
+
+\renewcommand{\arraystretch}{1.20}
+\setlength{\tabcolsep}{3.5pt}
+\footnotesize
+
+\begin{tabularx}{\textwidth}{@{}
+>{\raggedright\arraybackslash}p{2.15cm}
+>{\centering\arraybackslash}p{0.85cm}
+>{\raggedright\arraybackslash}p{2.45cm}
+>{\raggedright\arraybackslash}p{2.85cm}
+>{\centering\arraybackslash}p{0.95cm}
+>{\raggedright\arraybackslash}X
+@{}}
+
+\toprule
+\textbf{Autor} &
+\textbf{Ano} &
+\textbf{Aplicação} &
+\textbf{Tecnologia} &
+\textbf{ML} &
+\textbf{Limitação frente à proposta} \\
+\midrule
+
+Chen et al. \cite{chen2026xtcn}
+& 2026
+& Insetos-praga de acervos culturais
+& Sensores MOS, GC--MS, X-TCN e IA explicável
+& Sim
+& Não avalia nematoides, soja ou gases do solo \\
+
+Katari et al. \cite{katari2026}
+& 2026
+& \textit{H. glycines} em soja
+& Imagens multiespectrais, CNN e ViT
+& Sim
+& Não analisa gases provenientes do solo \\
+
+Park et al. \cite{park2026}
+& 2026
+& \textit{H. glycines} em solo
+& Microscopia RGB, YOLO e Detectron2
+& Sim
+& Exige preparo das amostras e microscopia \\
+
+Wang et al. \cite{wang2025scn}
+& 2025
+& \textit{H. glycines} em soja
+& Hiperespectral, SCNVI e XGBoost
+& Sim
+& Depende da resposta espectral da planta \\
+
+Della-Silva et al. \cite{dellasilva2025}
+& 2025
+& \textit{A. besseyi} em soja
+& Hiperespectral e classificadores
+& Sim
+& Outra espécie; não analisa gases do solo \\
+
+Rocha et al. \cite{rocha2023}
+& 2023
+& Solos supressivos a \textit{H. glycines}
+& Extração por solvente e GC--MS
+& Não
+& Caracterização química, sem diagnóstico por sensores \\
+
+Zhao et al. \cite{zhao2025}
+& 2025
+& VOCs bacterianos contra \textit{H. glycines}
+& SPME-GC--MS e bioensaios
+& Não
+& Avalia atividade nematicida, não detecção \\
+
+Herrmann et al. \cite{herrmann2024}
+& 2024
+& Estresse hídrico em soja
+& Nariz eletrônico e ML
+& Sim
+& Não avalia infestação por nematoides \\
+
+Kong et al. \cite{kong2025}
+& 2025
+& Contaminantes químicos no solo
+& Nariz eletrônico, SVM e RF
+& Sim
+& Não avalia patógenos do solo \\
+
+Neupane et al. \cite{neupane2025}
+& 2025
+& Detecção de nematoides (revisão)
+& Visão computacional e ML
+& Rev.
+& Ênfase em dados de imagem \\
+
+\bottomrule
+
+\end{tabularx}
+\end{table*}

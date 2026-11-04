@@ -1,0 +1,31 @@
+{
+  "dataset": "15_07_dia_20_mais_completo\\dados\\dataset_dia_20_mais_com_ambiente.csv",
+  "split": "70/30 por Coleta dentro de cada Classe, seed 42; 17842/9353 leituras; 11/6 coletas",
+  "features": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil",
+    "Temp.",
+    "Pres."
+  ],
+  "epocas_xtcn": 60,
+  "janela": 128,
+  "stride": 64,
+  "por_leitura": "media das probabilidades de janelas que cobrem cada leitura",
+  "sem_estratificacao": true,
+  "referencia": {
+    "accuracy": 0.8443280230941944,
+    "balanced_accuracy": 0.8354430379746836,
+    "f1_macro": 0.8371700922964844
+  },
+  "metricas_por_coleta": {
+    "n_coletas": 6,
+    "accuracy": 0.8333333333333334,
+    "balanced_accuracy": 0.8333333333333333,
+    "f1_macro": 0.8285714285714285
+  }
+}

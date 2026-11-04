@@ -1,0 +1,315 @@
+\section{Resultados e Discussão}
+
+Os resultados apresentados nesta seção referem-se exclusivamente às coletas
+realizadas a vácuo.
+
+\subsection{Análise das Respostas dos Sensores}
+
+As respostas médias dos sensores MQ variaram entre as classes e entre as
+condições de umidade do solo, conforme apresentado na Tabela
+\ref{tab:medias_mq_vacuo}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Médias dos sinais dos sensores MQ nas coletas a vácuo.}
+    \label{tab:medias_mq_vacuo}
+    \scriptsize
+    \begin{tabular}{llrrrrrr}
+        \hline
+        \textbf{Solo} & \textbf{Classe} & \textbf{MQ2} & \textbf{MQ3} &
+        \textbf{MQ7} & \textbf{MQ8} & \textbf{MQ135} & \textbf{MQ138} \\
+        \hline
+        Seco  & Com nematoide  & 8.563,16  & 16.596,73 & 877,35   & 3.818,48 & 19.343,26 & 9.600,27  \\
+        Seco  & Sem nematoide  & 15.020,93 & 14.428,36 & 8.215,06 & 6.438,71 & 16.538,29 & 14.843,42 \\
+        Úmido & Com nematoide  & 11.395,97 & 14.653,63 & 2.971,30 & 4.222,65 & 17.230,14 & 10.453,63 \\
+        Úmido & Sem nematoide  & 10.259,75 & 16.964,65 & 796,36   & 3.390,74 & 20.011,21 & 9.325,97  \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+No solo seco, as maiores diferenças entre as classes ocorreram nos sensores
+MQ7, MQ2, MQ138 e MQ8. As plantas sem nematoide apresentaram médias superiores
+nesses quatro sensores, enquanto MQ3 e MQ135 apresentaram médias superiores nas
+plantas com nematoide. Portanto, a separação entre as classes resultou da
+resposta conjunta dos sensores, e não do aumento uniforme de todos os sinais.
+
+No solo úmido, parte dessas relações foi invertida e as diferenças entre as
+classes foram menos consistentes. Essa alteração do perfil dos sinais indica
+maior dificuldade de discriminação nessa condição, o que também foi observado
+nos resultados dos classificadores.
+
+\subsection{Resultados da Coleta a Vácuo em Solo Seco}
+
+No solo seco, a X-TCN apresentou o melhor desempenho nas três métricas, como
+mostra a Tabela~\ref{tab:resultados_solo_seco_vacuo}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Desempenho dos classificadores no solo seco com coleta a vácuo.}
+    \label{tab:resultados_solo_seco_vacuo}
+    \begin{tabular}{lrrr}
+        \hline
+        \textbf{Modelo} & \textbf{Acurácia (\%)} &
+        \textbf{Acurácia balanceada (\%)} & \textbf{F1 macro (\%)} \\
+        \hline
+        a) X-TCN         & \textbf{98,47} & \textbf{98,03} & \textbf{98,38} \\
+        b) Random Forest & 96,15          & 95,06          & 95,87          \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+Em relação ao Random Forest, a X-TCN apresentou ganhos de 2,32 pontos
+percentuais em acurácia, 2,97 pontos percentuais em acurácia balanceada e 2,51
+pontos percentuais em F1 macro. A rede classificou corretamente todas as
+leituras sem nematoide e alcançou recall de 96,07\% nas leituras com nematoide.
+O Random Forest também reconheceu todas as leituras sem nematoide, mas obteve
+recall de 90,12\% para a classe com nematoide.
+
+A Figura~\ref{fig:matrizes_confusao_solo_seco_vacuo} apresenta as matrizes de
+confusão dos dois classificadores no solo seco.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/matrizes_solo_seco.png}
+    \caption{Matrizes de confusão no teste em solo seco: (a) X-TCN e
+    (b) Random Forest. As linhas representam as classes reais e as colunas,
+    as classes previstas; os percentuais são relativos à classe real.}
+    \label{fig:matrizes_confusao_solo_seco_vacuo}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{figure}
+
+A X-TCN reduziu o número de erros de 643 para 256 leituras, correspondendo a
+uma redução de 60,19\%. Esse resultado mostra que a representação temporal dos
+sinais favoreceu a classificação no solo seco. Contudo, como as leituras de
+uma mesma coleta são correlacionadas, o desempenho deve ser confirmado em
+novas coletas independentes.
+
+\subsection{Resultados da Coleta a Vácuo em Solo Úmido}
+
+No solo úmido, o Random Forest superou a X-TCN nas três métricas avaliadas,
+conforme a Tabela~\ref{tab:resultados_solo_umido_vacuo}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Desempenho dos classificadores no solo úmido com coleta a vácuo.}
+    \label{tab:resultados_solo_umido_vacuo}
+    \begin{tabular}{lrrr}
+        \hline
+        \textbf{Modelo} & \textbf{Acurácia (\%)} &
+        \textbf{Acurácia balanceada (\%)} & \textbf{F1 macro (\%)} \\
+        \hline
+        Random Forest & \textbf{74,46} & \textbf{62,96} & \textbf{63,33} \\
+        X-TCN         & 63,58          & 41,52          & 38,87          \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+O Random Forest obteve recall de 84,61\% para as leituras com nematoide e de
+41,31\% para as leituras sem nematoide. A diferença entre a acurácia de 74,46\%
+e a acurácia balanceada de 62,96\% mostra que o resultado foi influenciado pelo
+desbalanceamento entre as classes.
+
+A X-TCN alcançou recall de 83,04\% para a classe com nematoide, mas não
+reconheceu nenhuma leitura da classe sem nematoide. Por esse motivo, apesar da
+acurácia de 63,58\%, a acurácia balanceada caiu para 41,52\% e o F1 macro para
+38,87\%. O resultado mostra que o padrão temporal identificado no solo seco
+não se manteve estável no solo úmido.
+
+A Figura~\ref{fig:matrizes_confusao_solo_umido_vacuo} apresenta as matrizes de
+confusão dos dois classificadores no solo úmido.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/matrizes_solo_umido.png}
+    \caption{Matrizes de confusão no teste em solo úmido: (a) X-TCN e
+    (b) Random Forest. As linhas representam as classes reais e as colunas,
+    as classes previstas; os percentuais são relativos à classe real.}
+    \label{fig:matrizes_confusao_solo_umido_vacuo}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{figure}
+
+\subsection{Comparação entre as Condições de Umidade do Solo}
+
+Os dois modelos apresentaram desempenho superior no solo seco. As diferenças
+entre as condições são apresentadas na Tabela
+\ref{tab:comparacao_umidade_vacuo}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Comparação do desempenho entre solo seco e solo úmido nas coletas a vácuo.}
+    \label{tab:comparacao_umidade_vacuo}
+    \footnotesize
+    \begin{tabular}{llrrr}
+        \hline
+        \textbf{Modelo} & \textbf{Condição} & \textbf{Acurácia (\%)} &
+        \textbf{Acurácia bal. (\%)} & \textbf{F1 macro (\%)} \\
+        \hline
+        Random Forest & Solo seco  & 96,15 & 95,06 & 95,87 \\
+                      & Solo úmido & 74,46 & 62,96 & 63,33 \\
+                      & Diferença  & 21,69 & 32,10 & 32,54 \\
+        \hline
+        X-TCN         & Solo seco  & 98,47 & 98,03 & 98,38 \\
+                      & Solo úmido & 63,58 & 41,52 & 38,87 \\
+                      & Diferença  & 34,89 & 56,51 & 59,51 \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+No Random Forest, a mudança do solo seco para o solo úmido reduziu a acurácia
+em 21,69 pontos percentuais, a acurácia balanceada em 32,10 pontos percentuais
+e o F1 macro em 32,54 pontos percentuais. Na X-TCN, as reduções foram de 34,89,
+56,51 e 59,51 pontos percentuais, respectivamente.
+
+A queda mais acentuada das métricas balanceadas confirma que a condição de
+umidade afetou principalmente a distinção equilibrada entre as classes. A
+X-TCN foi mais sensível a essa mudança, enquanto o Random Forest manteve maior
+capacidade de classificação no solo úmido.
+
+\subsection{Comparação dos Modelos de Classificação}
+
+A superioridade dos modelos dependeu da condição do solo. No solo seco, a
+X-TCN apresentou os melhores resultados, alcançando 98,47\% de acurácia,
+98,03\% de acurácia balanceada e 98,38\% de F1 macro. No solo úmido, o Random
+Forest foi superior, com 74,46\%, 62,96\% e 63,33\%, respectivamente.
+
+Ao considerar conjuntamente todas as leituras coletadas a vácuo, o Random
+Forest atingiu 90,83\% de acurácia e a X-TCN atingiu 89,91\%. Essa diferença
+global é pequena, mas oculta comportamentos distintos: a X-TCN foi mais eficaz
+no solo seco e falhou na identificação da classe sem nematoide no solo úmido,
+enquanto o Random Forest apresentou maior estabilidade entre as condições.
+
+Assim, os resultados não indicam superioridade geral de um único modelo. A
+X-TCN mostrou maior capacidade de explorar os padrões temporais quando as
+respostas dos sensores estavam mais bem separadas. O Random Forest, por sua
+vez, foi menos afetado pela alteração do perfil dos sinais no solo úmido.
+
+\subsection{Importância das Variáveis e dos Sensores}
+
+% Nomenclatura provisória solicitada: o modelo arbóreo executado é ExtraTreesClassifier.
+Para comparar a contribuição das entradas nos dois classificadores, foi
+realizada uma análise adicional com os mesmos conjuntos de treinamento e teste,
+separados por coleta. Em cada classificador foram ajustadas duas versões: uma
+com os seis sinais MQ brutos (MQ2, MQ3, MQ7, MQ8, MQ135 e MQ138) e outra com
+esses sinais acrescidos do índice de umidade do solo, da temperatura e da
+pressão interna. Os sinais MQ brutos foram mantidos nas duas versões porque os
+MQ corrigidos utilizados na análise anterior já incorporam uma compensação
+estatística baseada nas variáveis ambientais. Assim, os resultados desta
+ablação não substituem os percentuais apresentados nas tabelas anteriores.
+O modelo arbóreo utilizou 900 árvores, seleção de atributos pela raiz
+quadrada do número de entradas e mínimo de dez amostras por folha. A X-TCN
+foi treinada por 60 épocas com janelas de 128 leituras e passo de 64; a
+semente aleatória foi 42 nos dois casos.
+
+O teste incluiu 22.115 leituras de 12 coletas, das quais 16.692 leituras de
+oito coletas foram classificadas operacionalmente como solo seco e 5.423
+leituras de quatro coletas como solo úmido. Cada modelo foi treinado uma única
+vez com todas as coletas de treinamento; a separação por condição do solo foi
+aplicada apenas à avaliação. Na X-TCN, a probabilidade atribuída a cada
+leitura corresponde à média das probabilidades das janelas temporais que a
+contêm. A Tabela~\ref{tab:ablacao_ambiente_vacuo} apresenta os resultados
+obtidos por leitura.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Desempenho dos classificadores com e sem variáveis ambientais nas coletas a vácuo.}
+    \label{tab:ablacao_ambiente_vacuo}
+    \scriptsize
+    \begin{tabular}{llrrrr}
+        \hline
+        \textbf{Modelo} & \textbf{Entradas} &
+        \textbf{Acurácia total (\%)} &
+        \textbf{Bal. total (\%)} &
+        \textbf{Bal. seco (\%)} &
+        \textbf{Bal. úmido (\%)} \\
+        \hline
+        Random Forest & MQ              & 89,86 & 89,90 & 99,93 & 38,56 \\
+        Random Forest & MQ + ambiente   & 87,93 & 87,89 & 99,92 & 33,30 \\
+        X-TCN         & MQ              & 80,06 & 79,77 & 91,50 & 26,07 \\
+        X-TCN         & MQ + ambiente   & 89,41 & 89,54 & 95,12 & 46,15 \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Bal. = acurácia balanceada. Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+Para medir a importância das entradas nos dois modelos, foi adotada a
+\emph{importância por permutação} (\emph{permutation feature importance}),
+conforme o princípio de perturbar uma variável por vez e medir a alteração do
+desempenho do modelo \cite{fisher2019modelreliance}. Em cada repetição, os
+valores de uma coluna foram embaralhados entre as leituras do teste completo,
+mantendo-se o modelo treinado e as demais colunas. A importância corresponde à
+diferença entre a acurácia balanceada original e a obtida após a permutação,
+expressa em pontos percentuais. Foram realizadas três permutações por variável
+em cada cenário. O mesmo procedimento e a mesma métrica foram usados para o
+Random Forest e para a X-TCN; nesta última, as janelas foram reconstruídas a
+partir das leituras perturbadas antes da predição. A
+Tabela~\ref{tab:importancia_variaveis_vacuo} apresenta a média das três quedas.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Importância por permutação no teste completo: queda da acurácia balanceada, em pontos percentuais.}
+    \label{tab:importancia_variaveis_vacuo}
+    \scriptsize
+    \begin{tabular}{lrrrr}
+        \hline
+        \textbf{Variável} &
+        \textbf{RF: MQ} &
+        \textbf{X-TCN: MQ} &
+        \textbf{RF: MQ + amb.} &
+        \textbf{X-TCN: MQ + amb.} \\
+        \hline
+        Pressão interna & --    & --    & 7,13  & 23,49 \\
+        Umidade do solo & --    & --    & -0,37 & 8,12  \\
+        Temperatura     & --    & --    & -2,60 & -1,01 \\
+        MQ2             & 2,40  & -3,68 & -0,24 & 17,64 \\
+        MQ3             & 3,84  & -8,92 & 1,13  & -3,77 \\
+        MQ7             & 3,88  & -1,14 & 1,63  & 3,07  \\
+        MQ8             & 9,28  & -5,11 & 1,96  & 5,25  \\
+        MQ135           & 9,40  & 8,20  & 0,57  & 3,77  \\
+        MQ138           & 0,17  & -5,13 & 1,43  & 10,59 \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize -- = variável ausente do modelo. Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+Com as variáveis ambientais, a pressão interna produziu a maior queda de
+acurácia balanceada nos dois modelos: 7,13 pontos percentuais no Random Forest
+e 23,49 na X-TCN. Na X-TCN, também se destacaram MQ2 (17,64), MQ138 (10,59)
+e o índice de umidade do solo (8,12 pontos percentuais). Sem as entradas
+ambientais, MQ135 apresentou a maior queda nos dois classificadores. Essas
+diferenças mostram que a posição de um sensor no ranking depende das demais
+entradas oferecidas ao modelo. Valores negativos indicam que, nessa avaliação,
+o embaralhamento da variável aumentou a acurácia balanceada; não representam
+uma influência física negativa do sensor sobre a presença de nematoides.
+
+A inclusão das variáveis ambientais elevou a acurácia balanceada total da
+X-TCN de 79,77\% para 89,54\%, mas reduziu a do Random Forest de 89,90\% para
+87,89\%. No recorte úmido, a X-TCN passou de 26,07\% para 46,15\% e o Random
+Forest passou de 38,56\% para 33,30\%. Portanto, o ganho da X-TCN com as
+informações ambientais não eliminou a dificuldade de classificação nessa
+condição. A distinção entre solo seco e úmido foi feita por um índice
+operacional do sensor de solo, sem medição calibrada da água em diferentes
+profundidades. Como o teste úmido contém apenas quatro coletas e a condição de
+umidade também varia com o dia de coleta, esses resultados não isolam um efeito
+causal da água sobre os gases ou sobre os nematoides. A importância preditiva
+da pressão também pode refletir características da câmara e da operação do
+sistema de vácuo.

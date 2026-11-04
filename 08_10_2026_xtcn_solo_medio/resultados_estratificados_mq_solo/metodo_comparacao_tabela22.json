@@ -1,0 +1,11 @@
+{
+  "referencia_dataset": "06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "modelo_xtcn": "MQ + Soil bruto, 60 epocas; previsoes por janela de predicoes_por_janela.csv",
+  "mesmas_coletas_teste": true,
+  "leituras_secas_referencia": 16692,
+  "agregacao": "media das probabilidades de todas as janelas que cobrem cada leitura",
+  "limiar_classe": 0.5,
+  "limiar_solo_seco": "Soil_indice_0_1 <= 0.4",
+  "accuracy_referencia": 0.9614785526000479,
+  "observacao": "comparacao pontual no mesmo teste; validacao em 4 folds registrada separadamente"
+}

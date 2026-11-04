@@ -1,0 +1,45 @@
+{
+  "dataset": "06_07\\4_polimento_inicial_modelagem\\datasets_limpos\\antes_dia_20_pressao_filtrada_estrito.csv",
+  "grupo": "Coleta",
+  "faixa": "media de Soil por coleta, indice <=0.4",
+  "folds": "4-fold StratifiedGroupKFold em 17 coletas secas, seed 42",
+  "n_arvores": 300,
+  "class_weight": "balanced",
+  "features": {
+    "RF MQ": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "RF MQ + Soil bruto": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil"
+    ],
+    "RF MQ + media de Soil": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_media_coleta"
+    ],
+    "Extra Trees MQ + Soil bruto": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil"
+    ]
+  }
+}

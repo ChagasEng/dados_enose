@@ -1,0 +1,22 @@
+{
+  "dataset": "06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "split": "coluna Conjunto preexistente: 41377 leituras no treino, 22115 no teste; 24/12 coletas",
+  "features": [
+    "MQ2_corrigido_env",
+    "MQ3_corrigido_env",
+    "MQ7_corrigido_env",
+    "MQ8_corrigido_env",
+    "MQ135_corrigido_env",
+    "MQ138_corrigido_env",
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "epocas_xtcn": 60,
+  "janela": 128,
+  "stride": 64,
+  "por_leitura": "media das probabilidades das janelas que cobrem cada leitura",
+  "faixa_seca": "Soil_indice_0_1 <= 0.4",
+  "accuracy_tabela22": 0.9614785526000479,
+  "comparacao": "mesmas entradas, coletas, leituras e faixa; classificador trocado por X-TCN"
+}

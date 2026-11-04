@@ -1,0 +1,6 @@
+modelo,unidade,n,accuracy,balanced_accuracy,f1_macro,recall_classe_0,recall_classe_1
+X-TCN MQ + Soil bruto,janela,558,0.910394265232975,0.9163105413105412,0.909274193548387,0.9529914529914529,0.8796296296296297
+X-TCN MQ + Soil bruto,coleta,17,0.9411764705882353,0.95,0.9403508771929825,1.0,0.9
+X-TCN MQ + media de Soil por coleta,janela,558,0.931899641577061,0.9401709401709402,0.9312067690151447,0.9914529914529915,0.8888888888888888
+X-TCN MQ + media de Soil por coleta,coleta,17,0.9411764705882353,0.95,0.9403508771929825,1.0,0.9
+"Arvore de 1 corte, somente media de Soil",coleta,17,1.0,1.0,1.0,1.0,1.0

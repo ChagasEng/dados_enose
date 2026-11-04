@@ -1,0 +1,32 @@
+{
+  "dataset": "06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "split": "Coluna Conjunto preexistente; 24 coletas treino, 12 teste",
+  "entradas": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "mq": "brutos em ambos os cenarios; sem compensacao ambiental",
+  "floresta": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "xtcn": "60 epocas, janela=128, passo=64, lote=32, seed=42",
+  "metrica": "por leitura; X-TCN usa media das probabilidades de janelas que cobrem a leitura",
+  "importancia": "queda da acuracia balanceada no teste completo ao permutar uma coluna de leituras; mesmo algoritmo nos dois modelos",
+  "repeticoes": 3,
+  "limiar_solo": "Soil_indice_0_1 <= 0.4; indice operacional, nao teor calibrado de agua"
+}

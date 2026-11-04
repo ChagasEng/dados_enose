@@ -1,0 +1,14 @@
+{
+  "split": "StratifiedGroupKFold 4 folds, shuffle=True, random_state=42, groups=Coleta",
+  "features": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil"
+  ],
+  "faixa": "media de Soil por coleta; indice <=0.4 seco, >0.4 umido",
+  "metricas": "predicoes fora do treino agregadas sobre todos os folds"
+}

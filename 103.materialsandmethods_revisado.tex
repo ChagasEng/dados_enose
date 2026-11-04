@@ -1,0 +1,239 @@
+\section{Materiais e Métodos}
+\label{sec:material_metodos}
+
+A metodologia compreendeu a construção do nariz eletrônico, o delineamento
+experimental, a aquisição dos sinais do sistema solo--planta, o
+pré-processamento das séries temporais e a classificação das coletas a vácuo.
+
+\subsection{Sistema de nariz eletrônico}
+\label{subsec:sistema_nariz}
+
+O nariz eletrônico foi desenvolvido para registrar a resposta a compostos
+voláteis presentes no \textit{headspace} do sistema solo--planta. O protótipo
+foi composto por microcontrolador ESP32, seis sensores de gases MQ, sensor de
+umidade do solo, sensor BMP280 de temperatura e pressão, bomba de vácuo,
+válvulas, tubo de PVC acoplado ao vaso, mangueiras, câmara sensorial de vidro
+e estrutura externa de MDF. O ESP32 registrou os sinais e controlou a bomba
+e as válvulas; uma interface web acessada por Wi-Fi permitiu iniciar e
+acompanhar as aquisições.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.40\textwidth]{figures/completo.jpeg}
+    \caption{Estrutura externa do nariz eletrônico.}
+    \label{fig:estrutura_nariz_eletronico}
+\end{figure}
+
+\subsubsection{Matriz de sensores de gases}
+\label{subsubsec:matriz_sensores}
+
+A matriz foi constituída por MQ-2, MQ-3, MQ-7, MQ-8, MQ-135 e MQ-138,
+posicionados na câmara de vidro sob o mesmo fluxo de amostra. Esses sensores
+semicondutores de óxido metálico apresentam sensibilidades parcialmente
+sobrepostas. Por isso, a classificação utilizou o padrão conjunto das seis
+respostas, sem atribuir a um sensor isolado a identificação química de um
+composto. As curvas de sensibilidade dos fabricantes foram empregadas apenas
+para descrever as respostas nominais dos modelos MQ.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.40\textwidth]{figures/matriz.png}
+    \caption{Matriz dos seis sensores de gases na câmara sensorial.}
+    \label{fig:matriz_sensores}
+\end{figure}
+
+\subsection{Delineamento experimental e material vegetal}
+\label{subsec:delineamento}
+
+O experimento foi conduzido na Estação de Pesquisas Agronema, em Grandes
+Rios, Paraná, Brasil, nas coordenadas $24{,}186^{\circ}$ S e
+$51{,}399^{\circ}$ O. Foram utilizados dez vasos com plantas de soja,
+distribuídos em dois grupos experimentais de cinco vasos cada: controle e
+inoculado. Os vasos constituíram as unidades biológicas do experimento.
+
+As aquisições começaram aproximadamente 35 dias após a inoculação. A base
+utilizada para a análise com coleta a vácuo contém 36 coletas identificadas
+pelos dias experimentais 11, 12, 13, 18 e 19: respectivamente 7, 6, 4, 9 e
+10 coletas. Cada vaso foi medido em três ou quatro desses dias, com uma
+coleta por vaso em cada dia em que aparece no registro. As coletas dos dias
+20 e 21, realizadas sob outro protocolo, sem a mesma condição de pressão
+forçada, não foram incluídas nesta análise.
+
+
+
+\subsection{Vasos saudáveis e vasos inoculados com \textit{Heterodera glycines}}
+\label{subsec:classes_experimentais}
+
+Conforme o delineamento experimental, os vasos 1 a 5 formaram o grupo
+controle e os vasos 6 a 10 formaram o grupo inoculado. Os vasos inoculados
+receberam aproximadamente 100 mil juvenis de segundo estádio (J2) de
+\textit{H. glycines} por vaso. Na base de classificação, a \textbf{classe 0}
+identifica o grupo inoculado, ou com nematoide, e a \textbf{classe 1}
+identifica o grupo controle, ou saudável. Assim, ao longo do artigo,
+``recall da classe com nematoide'' significa o recall da classe 0.
+
+\subsection{Protocolo de aquisição de dados por coleta a vácuo}
+\label{subsec:protocolo_aquisicao}
+
+O tubo de PVC foi acoplado ao vaso para delimitar o espaço de amostragem.
+A bomba conduziu o ar do \textit{headspace} pela tubulação até a câmara dos
+sensores. Uma execução completa do ciclo, registrada sob um identificador
+próprio de vaso e dia, foi definida como uma coleta. Em cada leitura, o
+ESP32 registrou o tempo decorrido, os seis sinais MQ, a leitura do sensor de
+solo, a temperatura e a pressão.
+
+O ciclo de referência ilustrado na Figura~4 compreendeu aquecimento dos
+sensores, aproximadamente entre 0 e 180~s; uma transição operacional até
+cerca de 200~s; amostragem do \textit{headspace}, aproximadamente entre 200
+e 800~s; e desaturação ou recuperação, aproximadamente entre 800 e 900~s.
+Esses intervalos descrevem o protocolo de referência, não limites rígidos
+aplicados a todas as séries: a duração efetiva das coletas variou, e parte
+dos registros terminou antes de 900~s. O controle da bomba e das válvulas
+foi realizado pelo ESP32 durante o ciclo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{figures/vasos_experimentos.png}
+    \caption{Protótipo posicionado sobre o vaso de soja durante a coleta a vácuo.}
+    \label{fig:vasos_experimento}
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+A condição de solo seco ou úmido foi definida pelo índice operacional
+\texttt{Soil\_indice\_0\_1}, obtido pela normalização mínimo--máximo da
+leitura do sensor de umidade do solo na base consolidada:
+\begin{equation}
+    I_{\mathrm{solo}} =
+    \frac{\mathrm{Soil}-\min(\mathrm{Soil})}
+         {\max(\mathrm{Soil})-\min(\mathrm{Soil})}.
+\end{equation}
+Leituras com $I_{\mathrm{solo}}\leq 0{,}4$ foram denominadas \emph{solo
+seco}; leituras com $I_{\mathrm{solo}}>0{,}4$, \emph{solo úmido}. No
+conjunto de teste, todas as leituras de cada coleta ficaram do mesmo lado
+desse limiar, permitindo classificar também a coleta inteira como seca ou
+úmida. O índice não representa porcentagem calibrada de água no solo nem
+umidade relativa do ar.
+
+\subsection{Pré-processamento dos sinais e janelamento}
+\label{subsec:preprocessamento}
+
+Cada planilha da base original representou uma coleta. As leituras foram
+associadas ao identificador da coleta, ao dia, ao vaso e à classe. Na
+consolidação, foram removidos 15\% dos registros iniciais e 15\% dos
+registros finais de cada série para reduzir a contribuição dos transientes
+de início e fim do ciclo. Esse recorte proporcional não equivale a impor
+os mesmos limites de tempo a todas as coletas: permaneceu a faixa central
+de 70\% de cada série, que pode conter trechos fora da amostragem nominal
+de 200 a 800~s. As colunas necessárias foram
+convertidas para formato numérico, e registros sem valores válidos nessas
+colunas foram descartados.
+
+Para remover transientes de pressão, calculou-se
+$\Delta P_t=|P_t-P_{t-1}|$ dentro de cada coleta. Quando
+$\Delta P_t\geq 0{,}10$~kPa, foram excluídas a leitura do evento e até
+30 leituras anteriores e 30 posteriores. Na versão estrita do filtro,
+também foram removidas leituras fora da faixa definida pela mediana global
+da pressão $\pm 0{,}50$~kPa, calculada sobre a base consolidada. Após a
+filtragem estrita, a base de coletas a vácuo continha 63.492 leituras de
+36 coletas. Não foi aplicada média móvel nem outra suavização temporal
+aos sinais usados pelos classificadores.
+
+Para a modelagem principal, as entradas foram seis sinais MQ corrigidos
+estatisticamente, o índice de solo, a temperatura em $^{\circ}$C e a
+pressão em kPa. Para cada MQ, ajustou-se somente com as coletas de
+treinamento um \texttt{HuberRegressor} que estimou a componente associada
+ao índice de solo, à temperatura e à pressão. Essa componente foi
+centralizada pela média das previsões no treinamento e subtraída do
+sinal original, conforme a Equação~\eqref{eq:compensacao_mq}:
+\begin{equation}
+    \label{eq:compensacao_mq}
+    MQ_{s,t}^{\mathrm{corr}} = MQ_{s,t} -
+    \left(\widehat{MQ}_{s,t}^{\mathrm{amb}}-
+    \overline{\widehat{MQ}_{s}^{\mathrm{amb}}}_{\mathrm{treino}}\right).
+\end{equation}
+Nessa equação, $s$ identifica o sensor MQ, $t$ identifica a leitura, e a
+barra representa a média das previsões nas leituras de treinamento. Os
+``MQ corrigidos'' são, portanto, sinais com compensação \emph{estatística}
+da associação linear estimada com essas três variáveis. Eles não resultam
+de calibração física para concentração de gases ou umidade relativa do ar.
+As seis entradas MQ, o índice de solo, a temperatura e a pressão totalizaram
+nove canais por leitura.
+
+Para a X-TCN, as leituras foram ordenadas por coleta e tempo e segmentadas
+em janelas de 128 leituras, com passo de 64 leituras e sobreposição nominal
+de 50\%, sem atravessar limites entre coletas. Quando necessário, uma
+janela adicional foi alinhada ao fim da coleta para incluir as últimas
+leituras; sua sobreposição podia superar 50\%. Cada janela teve formato de
+$9\times128$ (canais $\times$ leituras). Essas nove entradas foram
+padronizadas pelo \texttt{StandardScaler} ajustado apenas no treinamento.
+O modelo arbóreo recebeu diretamente as nove entradas por leitura, sem
+essa padronização adicional. O treinamento foi feito com a base que
+incluía as condições secas e úmidas; a estratificação por umidade ocorreu
+somente na análise do teste.
+
+\subsection{Modelos de aprendizado de máquina}
+\label{subsec:modelos}
+
+Foram comparados um classificador arbóreo denominado \emph{Random Forest}
+nas tabelas deste manuscrito e uma rede X-TCN, sigla de \emph{Explainable
+Temporal Convolutional Network} (rede convolucional temporal explicável)
+\cite{chen2026xtcn}. A implementação local do modelo arbóreo usa
+\texttt{ExtraTreesClassifier}, com 900 árvores,
+\texttt{max\_features="sqrt"}, mínimo de dez amostras por folha,
+\texttt{bootstrap=False}, sem pesos de classe e semente 42.
+
+% Conferir a denominação final: ExtraTreesClassifier não é RandomForestClassifier.
+% A X-TCN implementada aqui não inclui o mecanismo de atenção de Chen et al.;
+% sua explicação de variáveis é calculada após o treinamento.
+
+A X-TCN implementada neste trabalho usou três blocos convolucionais
+temporais residuais, com 24, 24 e 32 canais, convoluções de núcleo 3 e
+dilatações 1, 2 e 4. A saída dos blocos passou por agregação média global
+no tempo, \emph{dropout} de 0,20 e camada linear de duas classes. O
+treinamento utilizou 60 épocas, lotes de 32 janelas, otimizador AdamW com
+taxa de aprendizado $10^{-3}$ e \emph{weight decay} de $10^{-4}$, e
+entropia cruzada com pesos inversamente proporcionais à frequência das
+classes nas janelas de treinamento. A semente aleatória foi 42. A rede
+produziu probabilidades por janela; para avaliar cada leitura, foi usada
+a média das probabilidades das janelas que a cobriam, com limiar 0,5 para
+a classe 1. A arquitetura implementada não incluiu o mecanismo de atenção
+descrito para a X-TCN de \cite{chen2026xtcn}.
+
+Cada classificador foi ajustado uma vez com todas as coletas de treinamento
+sob pressão forçada. Solo seco e solo úmido foram dois recortes do mesmo
+conjunto de teste, não dois treinamentos independentes.
+
+\subsection{Estratégia de treinamento e teste}
+\label{subsec:treinamento_teste}
+
+A divisão foi feita por \emph{coleta}, dentro de cada classe, com
+proporção nominal de 70\% para treinamento e 30\% para teste e semente 42.
+Todas as leituras e janelas de uma coleta permaneceram em um único conjunto.
+Das 36 coletas, 24 foram destinadas ao treinamento (41.377 leituras: 11
+coletas da classe 0 e 13 da classe 1) e 12 ao teste (22.115 leituras:
+seis coletas de cada classe).
+
+Essa separação evita que janelas da mesma aquisição apareçam nos dois
+conjuntos. Entretanto, alguns vasos aparecem em ambos porque foram medidos
+em dias distintos. Assim, o teste avalia novas \emph{coletas}, não vasos
+biologicamente independentes, e as métricas não demonstram generalização
+para plantas ou vasos nunca vistos pelo modelo.
+
+No teste, o recorte seco incluiu 16.692 leituras de oito coletas: 6.507
+leituras da classe 0 e 10.185 da classe 1. O recorte úmido incluiu 5.423
+leituras de quatro coletas: 4.152 da classe 0 e 1.271 da classe 1. Essa
+distribuição desigual motivou o relato da acurácia balanceada junto da
+acurácia convencional.
+
+\subsection{Métricas de desempenho}
+\label{subsec:metricas}
+
+Foram calculadas acurácia, acurácia balanceada, F1 macro e matrizes de
+confusão no conjunto de teste. A acurácia é a fração de leituras
+classificadas corretamente; a acurácia balanceada é a média dos recalls
+das classes 0 e 1; e a F1 macro é a média simples das medidas F1 das duas
+classes. O recall da classe com nematoide corresponde à sensibilidade
+para a classe 0, ou seja, à fração de leituras de vasos inoculados
+corretamente identificadas. As métricas foram calculadas separadamente
+para os recortes seco e úmido do mesmo teste.

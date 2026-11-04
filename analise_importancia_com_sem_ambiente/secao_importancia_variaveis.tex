@@ -1,0 +1,114 @@
+\subsection{Importância das Variáveis e dos Sensores}
+
+% Nomenclatura provisória solicitada: o modelo arbóreo executado é ExtraTreesClassifier.
+Para comparar a contribuição das entradas nos dois classificadores, foi
+realizada uma análise adicional com os mesmos conjuntos de treinamento e teste,
+separados por coleta. Em cada classificador foram ajustadas duas versões: uma
+com os seis sinais MQ brutos (MQ2, MQ3, MQ7, MQ8, MQ135 e MQ138) e outra com
+esses sinais acrescidos do índice de umidade do solo, da temperatura e da
+pressão interna. Os sinais MQ brutos foram mantidos nas duas versões porque os
+MQ corrigidos utilizados na análise anterior já incorporam uma compensação
+estatística baseada nas variáveis ambientais. Assim, os resultados desta
+ablação não substituem os percentuais apresentados nas tabelas anteriores.
+O modelo arbóreo utilizou 900 árvores, seleção de atributos pela raiz
+quadrada do número de entradas e mínimo de dez amostras por folha. A X-TCN
+foi treinada por 60 épocas com janelas de 128 leituras e passo de 64; a
+semente aleatória foi 42 nos dois casos.
+
+O teste incluiu 22.115 leituras de 12 coletas, das quais 16.692 leituras de
+oito coletas foram classificadas operacionalmente como solo seco e 5.423
+leituras de quatro coletas como solo úmido. Cada modelo foi treinado uma única
+vez com todas as coletas de treinamento; a separação por condição do solo foi
+aplicada apenas à avaliação. Na X-TCN, a probabilidade atribuída a cada
+leitura corresponde à média das probabilidades das janelas temporais que a
+contêm. A Tabela~\ref{tab:ablacao_ambiente_vacuo} apresenta os resultados
+obtidos por leitura.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Desempenho dos classificadores com e sem variáveis ambientais nas coletas a vácuo.}
+    \label{tab:ablacao_ambiente_vacuo}
+    \scriptsize
+    \begin{tabular}{llrrrr}
+        \hline
+        \textbf{Modelo} & \textbf{Entradas} &
+        \textbf{Acurácia total (\%)} &
+        \textbf{Bal. total (\%)} &
+        \textbf{Bal. seco (\%)} &
+        \textbf{Bal. úmido (\%)} \\
+        \hline
+        Random Forest & MQ              & 89,86 & 89,90 & 99,93 & 38,56 \\
+        Random Forest & MQ + ambiente   & 87,93 & 87,89 & 99,92 & 33,30 \\
+        X-TCN         & MQ              & 80,06 & 79,77 & 91,50 & 26,07 \\
+        X-TCN         & MQ + ambiente   & 89,41 & 89,54 & 95,12 & 46,15 \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Bal. = acurácia balanceada. Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+Para medir a importância das entradas nos dois modelos, foi adotada a
+\emph{importância por permutação} (\emph{permutation feature importance}),
+conforme o princípio de perturbar uma variável por vez e medir a alteração do
+desempenho do modelo \cite{fisher2019modelreliance}. Em cada repetição, os
+valores de uma coluna foram embaralhados entre as leituras do teste completo,
+mantendo-se o modelo treinado e as demais colunas. A importância corresponde à
+diferença entre a acurácia balanceada original e a obtida após a permutação,
+expressa em pontos percentuais. Foram realizadas três permutações por variável
+em cada cenário. O mesmo procedimento e a mesma métrica foram usados para o
+Random Forest e para a X-TCN; nesta última, as janelas foram reconstruídas a
+partir das leituras perturbadas antes da predição. A
+Tabela~\ref{tab:importancia_variaveis_vacuo} apresenta a média das três quedas.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Importância por permutação no teste completo: queda da acurácia balanceada, em pontos percentuais.}
+    \label{tab:importancia_variaveis_vacuo}
+    \scriptsize
+    \begin{tabular}{lrrrr}
+        \hline
+        \textbf{Variável} &
+        \textbf{RF: MQ} &
+        \textbf{X-TCN: MQ} &
+        \textbf{RF: MQ + amb.} &
+        \textbf{X-TCN: MQ + amb.} \\
+        \hline
+        Pressão interna & --    & --    & 7,13  & 23,49 \\
+        Umidade do solo & --    & --    & -0,37 & 8,12  \\
+        Temperatura     & --    & --    & -2,60 & -1,01 \\
+        MQ2             & 2,40  & -3,68 & -0,24 & 17,64 \\
+        MQ3             & 3,84  & -8,92 & 1,13  & -3,77 \\
+        MQ7             & 3,88  & -1,14 & 1,63  & 3,07  \\
+        MQ8             & 9,28  & -5,11 & 1,96  & 5,25  \\
+        MQ135           & 9,40  & 8,20  & 0,57  & 3,77  \\
+        MQ138           & 0,17  & -5,13 & 1,43  & 10,59 \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize -- = variável ausente do modelo. Fonte: Elaborado pelo autor (2026).}
+\end{table}
+
+Com as variáveis ambientais, a pressão interna produziu a maior queda de
+acurácia balanceada nos dois modelos: 7,13 pontos percentuais no Random Forest
+e 23,49 na X-TCN. Na X-TCN, também se destacaram MQ2 (17,64), MQ138 (10,59)
+e o índice de umidade do solo (8,12 pontos percentuais). Sem as entradas
+ambientais, MQ135 apresentou a maior queda nos dois classificadores. Essas
+diferenças mostram que a posição de um sensor no ranking depende das demais
+entradas oferecidas ao modelo. Valores negativos indicam que, nessa avaliação,
+o embaralhamento da variável aumentou a acurácia balanceada; não representam
+uma influência física negativa do sensor sobre a presença de nematoides.
+
+A inclusão das variáveis ambientais elevou a acurácia balanceada total da
+X-TCN de 79,77\% para 89,54\%, mas reduziu a do Random Forest de 89,90\% para
+87,89\%. No recorte úmido, a X-TCN passou de 26,07\% para 46,15\% e o Random
+Forest passou de 38,56\% para 33,30\%. Portanto, o ganho da X-TCN com as
+informações ambientais não eliminou a dificuldade de classificação nessa
+condição. A distinção entre solo seco e úmido foi feita por um índice
+operacional do sensor de solo, sem medição calibrada da água em diferentes
+profundidades. Como o teste úmido contém apenas quatro coletas e a condição de
+umidade também varia com o dia de coleta, esses resultados não isolam um efeito
+causal da água sobre os gases ou sobre os nematoides. A importância preditiva
+da pressão também pode refletir características da câmara e da operação do
+sistema de vácuo.

@@ -1,0 +1,77 @@
+\chapter{INTRODUÇÃO}\label{Cap1}
+
+Os nematoides fitoparasitas limitam a produtividade de culturas como soja, milho e café. Esses organismos atacam o sistema radicular, comprometem a absorção de água e nutrientes e reduzem o vigor e o rendimento das plantas. O diagnóstico tardio amplia as perdas e restringe as opções de manejo \cite{embrapa2021}.
+
+Entre as espécies associadas à soja, destaca-se o nematoide de cisto, \textit{Heterodera glycines} Ichinohe, um dos principais agentes de perdas na cultura \cite{bent2022,aegro2024}. Os juvenis infectivos penetram as raízes e estabelecem sítios de alimentação no cilindro vascular. A infecção prejudica o desenvolvimento radicular e pode causar clorose, redução do porte e queda de produtividade. A ausência de sintomas aéreos específicos dificulta o reconhecimento por inspeção visual. Os cistos permanecem viáveis no solo por períodos de 10 a 12 anos, o que impede a erradicação e exige o monitoramento das áreas infestadas.
+
+O diagnóstico convencional utiliza amostras de solo e raízes, seguidas de extração, contagem e identificação morfológica ou molecular \cite{luc2005,perry2013}. A identificação morfológica exige microscopia e conhecimento taxonômico. Os métodos moleculares oferecem especificidade, mas requerem preparo da amostra, reagentes e equipamentos. O processamento demanda tempo, infraestrutura e mão de obra especializada. Coleta, acondicionamento, transporte e análise elevam o custo do diagnóstico em áreas extensas \cite{neupane2025}.
+
+A qualidade do resultado depende das etapas entre o campo e o laboratório. As amostras devem representar a área, receber identificação, manter condições adequadas de conservação e chegar ao laboratório sem perda de qualidade \cite{favoreto2019}. A distância até os centros de análise aumenta a dependência da logística e o intervalo entre a coleta e o resultado \cite{fao2018}.
+
+A distribuição de \textit{H. glycines} no campo apresenta agregação e variação de densidade dentro do mesmo talhão \cite{avendano2003,poromarto2019}. Por isso, a quantidade e a posição dos pontos de amostragem afetam a representatividade do diagnóstico. O aumento da densidade amostral melhora a caracterização espacial, mas exige mais recipientes, registros, transporte e análises.
+
+Uma ferramenta portátil de triagem pode ampliar o número de pontos avaliados e indicar locais que exigem confirmação laboratorial. Seu papel não é substituir o diagnóstico nematológico nem reverter danos causados pelo parasitismo. A função é apoiar a seleção de amostras, o mapeamento da área e o planejamento de medidas como rotação de culturas, uso de cultivares resistentes e manejo localizado.
+
+Sensores de pH, condutividade elétrica, umidade e temperatura do solo, além de sistemas ópticos, têm sido usados no monitoramento agrícola \cite{santos2022}. Essas variáveis descrevem o ambiente e o estado da cultura, mas possuem baixa especificidade para nematoides. Déficit hídrico, compactação, desequilíbrio nutricional, atividade microbiana e outros agentes bióticos podem produzir respostas semelhantes.
+
+A análise de compostos orgânicos voláteis (VOCs) oferece outra fonte de informação. Alterações fisiológicas e metabólicas causadas pela interação entre planta e patógeno modificam o perfil químico do \textit{headspace}. Esse princípio permite investigar a presença de padrões associados à infestação antes da manifestação de sintomas visuais.
+
+\citeonline{constantino2021} analisaram VOCs emitidos pela parte aérea de plantas de soja infestadas por \textit{H. glycines}. O estudo avaliou amostras nos dias 1, 3, 5, 7, 10 e 14 após a infestação por meio de cromatografia gasosa acoplada à espectrometria de massas (GC--MS). O sistema isolou o solo e as raízes com Parafilm e direcionou ar filtrado às câmaras que continham plantas infestadas e plantas do grupo controle. Uma bomba de vácuo manteve o fluxo, e tubos com HayeSepQ retiveram os compostos para análise.
+
+O estudo detectou 107 compostos voláteis comuns e confirmou a identidade de 33. A análise de componentes principais separou os grupos a partir do quinto dia após a infestação, com variância acumulada de 60,2\%. Entre os compostos identificados estavam D-limoneno, tetradecano, 2,6-di-terc-butil-4-metileno-2,5-ciclohexadien-1-ona, butil-hidroxitolueno e etil-hexil benzoato. As diferenças observadas sustentam a hipótese de que a infecção por \textit{H. glycines} altera o perfil de VOCs da soja.
+
+O experimento de \citeonline{constantino2021} concentrou-se na parte aérea e excluiu o sistema solo--raiz da coleta. A técnica de GC--MS identifica compostos individuais, mas depende de instrumentação, preparação das amostras e pessoal especializado. Essas exigências limitam seu uso em medições distribuídas no campo. Permanece a necessidade de verificar se sensores de gases conseguem distinguir os grupos a partir do \textit{headspace} integrado do sistema solo--planta.
+
+Narizes eletrônicos utilizam matrizes de sensores com seletividade parcial. Cada sensor responde a grupos de gases, e o conjunto das respostas forma uma assinatura multivariada, chamada assinatura olfativa \cite{berna2010}. A comparação entre assinaturas dispensa a identificação de cada composto. Esses sistemas têm sido estudados na detecção de alterações associadas a pragas e doenças vegetais \cite{cui2018}.
+
+Na diagnose nematológica, um nariz eletrônico portátil pode reconhecer padrões associados aos grupos inoculado e controle e selecionar pontos para análise complementar. A ampliação do número de leituras pode apoiar a construção de mapas da área e o manejo por local. O resultado sensorial deve ser interpretado como triagem, com confirmação por métodos nematológicos ou moleculares.
+
+A resposta dos sensores depende do perfil volátil e das condições de aquisição. Umidade e temperatura afetam sensores semicondutores de óxido metálico. O teor de água no solo interfere na liberação e na retenção dos compostos. O modo de coleta modifica o transporte dos gases, a amplitude dos sinais, o tempo de exposição e o perfil temporal da resposta.
+
+Neste trabalho, a coleta a vácuo conduz o \textit{headspace} do sistema solo--planta até a câmara sensorial. A coleta passiva depende da difusão dos gases. A comparação entre esses protocolos permite verificar se o classificador reconhece a condição biológica ou características do processo de aquisição. O experimento considera condições distintas de umidade para medir a estabilidade da classificação.
+
+Os sinais do nariz eletrônico formam séries temporais multivariadas. Cada coleta contém transientes e regiões de resposta produzidos pela interação entre gases e sensores. Algoritmos de aprendizado de máquina podem extrair padrões dessas sequências e classificar as condições experimentais. A avaliação deve separar as coletas entre os conjuntos de treinamento e teste. A divisão de leituras da mesma coleta entre os dois conjuntos causa vazamento de dados e favorece o reconhecimento da unidade experimental em lugar da condição biológica.
+
+Diante desse contexto, este trabalho investiga a seguinte questão de pesquisa:
+
+\begin{quote}
+É possível identificar padrões associados à presença de \textit{Heterodera glycines} no sistema solo--planta cultivado com soja, em ambiente controlado, por meio de um nariz eletrônico associado a algoritmos de aprendizado de máquina?
+\end{quote}
+
+O estudo adota as seguintes hipóteses:
+
+\begin{description}
+    \item[H1:] A inoculação com \textit{Heterodera glycines} produz diferenças nas respostas da matriz de sensores do nariz eletrônico.
+
+    \item[H2:] As respostas multivariadas permitem distinguir o grupo inoculado do grupo controle.
+
+    \item[H3:] Algoritmos de aprendizado de máquina identificam padrões discriminatórios nos sinais sensoriais.
+
+    \item[H4:] A umidade do solo e o modo de coleta influenciam a resposta dos sensores e o desempenho dos classificadores.
+\end{description}
+
+\section{Objetivos}
+
+\subsection{Objetivo geral}
+
+Investigar a capacidade de um nariz eletrônico de baixo custo para distinguir, em ambiente controlado, plantas de soja do grupo inoculado com \textit{Heterodera glycines} e do grupo controle por meio dos VOCs do sistema solo--planta e de algoritmos de aprendizado de máquina.
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+    \item Adaptar o nariz eletrônico para adquirir sinais de seis sensores de gases (MQ-2, MQ-3, MQ-7, MQ-8, MQ-135 e MQ-138), temperatura, umidade do solo e pressão;
+
+    \item padronizar protocolos de coleta a vácuo e coleta passiva em ambiente controlado;
+
+    \item avaliar amostras dos grupos inoculado e controle sob diferentes condições de umidade do solo;
+
+    \item organizar os sinais em séries temporais e separar os conjuntos de treinamento e teste por coleta;
+
+    \item aplicar algoritmos de aprendizado de máquina à classificação das condições experimentais;
+
+    \item comparar o desempenho dos modelos por acurácia, acurácia balanceada e F1-macro;
+
+    \item analisar a contribuição individual e conjunta dos sensores para a classificação; e
+
+    \item medir a influência da umidade do solo e do modo de coleta sobre os sinais e o desempenho dos modelos.
+\end{itemize}
