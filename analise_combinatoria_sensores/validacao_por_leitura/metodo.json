@@ -1,0 +1,62 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "configuracoes": {
+    "melhor_mq4_loso": [
+      "MQ2",
+      "MQ3",
+      "MQ135",
+      "MQ138"
+    ],
+    "candidato_mq_ambiente": [
+      "MQ2",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "candidato_so_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "seis_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "seis_mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "mq7_ambiente": [
+      "MQ7",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "total_leituras_cruas": 63492,
+  "total_blocos_media_4": 15861,
+  "leituras_descartadas_media_4": 48,
+  "media_4": "Quatro leituras consecutivas da mesma coleta, ordenadas por Tempo; medias dos atributos; ultimo bloco incompleto descartado",
+  "unidade_de_avaliacao": "Leitura crua ou bloco medio de 4, conforme a representacao",
+  "unidade_de_separacao_loso": "Vaso biologico inteiro (10 folds); todas as coletas e amostras do vaso ficam fora do treino",
+  "unidade_de_separacao_70_30_vaso": "Sete vasos treino, tres teste; semente 42",
+  "split_historico": "Por coleta, 24 treino e 12 teste; oito vasos repetidos nos dois lados",
+  "metrica": "Acuracia normal = amostras corretas / amostras avaliadas",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "limite": "Leituras dentro da mesma coleta e coletas do mesmo vaso sao correlacionadas; quantidade de leituras nao equivale a quantidade de unidades biologicas independentes"
+}

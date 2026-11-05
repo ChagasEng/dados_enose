@@ -1,0 +1,28 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "sensores_avaliados": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "variaveis_ambientais": "Excluidas de todos os modelos",
+  "numero_combinacoes": 63,
+  "validacao": "LOSO por vaso biologico (10 folds); cada vaso e todas as suas coletas ficam fora do treino uma vez",
+  "unidade_de_avaliacao": "Coleta; media das probabilidades das leituras, limiar 0.5",
+  "metrica_principal": "Acuracia normal por coleta = numero de coletas corretas / 36",
+  "desempate": "Menor numero de MQ; depois ordem alfabetica do conjunto",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "melhor_observado": {
+    "ranking": 1,
+    "sensores_mq": "MQ2 | MQ3 | MQ135 | MQ138",
+    "n_mq": 4,
+    "n_coletas": 36,
+    "n_acertos": 30,
+    "acuracia_coleta": 0.8333333333333334,
+    "vasos_sem_erros": 6
+  },
+  "limite": "O conjunto e escolhido com os mesmos dez vasos usados para estimar seu desempenho; necessita confirmacao em vasos novos"
+}

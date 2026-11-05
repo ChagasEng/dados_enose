@@ -1,0 +1,4 @@
+configuracao,sensores,n_sensores,n_leituras_treino,n_leituras_teste,n_acertos_teste,acuracia_normal,n_coletas_treino,n_coletas_teste,n_vasos_treino,n_vasos_teste
+melhor_mq_loso_cru,MQ2 | MQ7 | MQ8 | MQ135 | MQ138,5,44444,19048,18578,0.9753254934901302,36,36,10,10
+cinco_mq_pareado,MQ2 | MQ3 | MQ8 | MQ135 | MQ138,5,44444,19048,18586,0.9757454850902982,36,36,10,10
+cinco_mq_ambiente,MQ2 | MQ3 | MQ8 | MQ135 | MQ138 | Soil_indice_0_1 | Temp_C | Pres_kPa,8,44444,19048,18643,0.9787379252414952,36,36,10,10

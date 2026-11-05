@@ -1,0 +1,35 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "configuracoes": {
+    "melhor_mq_loso_cru": [
+      "MQ2",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "cinco_mq_pareado": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "cinco_mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "divisao": "train_test_split por indice de leitura crua, test_size=0.30, stratify=Classe, random_state=42",
+  "metrica": "Acuracia normal por leitura crua, limiar de probabilidade 0.5",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "coletas_compartilhadas_treino_teste": 36,
+  "vasos_compartilhados_treino_teste": 10,
+  "interpretacao": "Avalia novas leituras de coletas e vasos ja vistos no treino; LOSO por vaso avalia vasos nao vistos"
+}

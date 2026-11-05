@@ -1,0 +1,7 @@
+cenario,n_coletas_modificadas,coletas_modificadas,n_leituras_total,n_acertos_total,acuracia_normal_total,n_leituras_quatro_destacadas,n_acertos_quatro_destacadas,acuracia_nas_quatro_destacadas,delta_acertos_vs_original,delta_acuracia_pp_vs_original
+original,0,nenhuma,63492,55916,0.8806778806778807,6285,234,0.037231503579952266,0,0.0
+individual_1,1,dia 12 - Soja Saudavel Vaso 2,63492,55957,0.8813236313236313,6285,239,0.03802704852824185,41,0.06457506457506756
+individual_2,1,dia 19 - Soja Heterodera Vaso 9,63492,56072,0.8831348831348831,6285,353,0.05616547334924423,156,0.24570024570024218
+individual_3,1,dia 19 - Soja Saudavel Vaso 2,63492,55629,0.8761576261576262,6285,5,0.0007955449482895784,-287,-0.45202545202545075
+individual_4,1,dia 19 - Soja Saudavel Vaso 1,63492,56030,0.8824733824733825,6285,252,0.04009546539379475,114,0.17955017955018082
+quatro_juntas,4,dia 12 - Soja Saudavel Vaso 2 | dia 19 - Soja Heterodera Vaso 9 | dia 19 - Soja Saudavel Vaso 2 | dia 19 - Soja Saudavel Vaso 1,63492,56060,0.8829458829458829,6285,291,0.04630071599045346,144,0.22680022680022782

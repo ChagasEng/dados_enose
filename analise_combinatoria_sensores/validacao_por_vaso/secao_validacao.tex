@@ -1,0 +1,51 @@
+% Analise complementar por coleta. A validacao principal por leitura esta em
+% ../validacao_por_leitura/secao_para_artigo.tex.
+% Conferir no cadastro original a numeracao dos vasos
+% inoculados: o CSV usa 1, 6, 7, 8 e 9, enquanto o metodo atual cita 6 a 10.
+\subsection{Validação por coleta e por vaso}
+
+As configurações de sensores selecionadas na análise combinatória foram
+avaliadas com o mesmo classificador Extra Trees, sem novo ajuste de
+hiperparâmetros. Cada coleta recebeu uma única previsão, obtida pela média
+das probabilidades de suas leituras. A unidade de avaliação foi a coleta em
+todos os protocolos. Para identificar as unidades biológicas, combinou-se
+a classe experimental com o número do vaso, pois o número 1 aparece em ambos
+os grupos no arquivo analisado.
+
+Foram considerados três protocolos. O split original reservou 12 das 36
+coletas para teste, aproximadamente um terço da base, mas oito dos dez vasos
+aparecem tanto no treino quanto no teste. Em uma divisão adicional, sete vasos
+foram destinados ao treino e três ao teste, com estratificação pela classe e
+semente 42. Por fim, a validação \textit{leave-one-subject-out} (LOSO) realizou
+dez rodadas; em cada uma, todas as coletas de um vaso foram testadas após
+treinar o modelo nos outros nove vasos. A acurácia balanceada do LOSO foi
+calculada após reunir as 36 previsões de coleta, pois cada rodada individual
+contém apenas uma das classes.
+
+\begin{table}[htbp]
+\centering
+\caption{Acurácia balanceada por coleta nos protocolos de validação. Os
+valores entre parênteses indicam coletas corretamente classificadas.}
+\label{tab:validacao_vaso_loso}
+\begin{tabular}{lrrr}
+\hline
+Sensores & Split original & 70/30 por vaso & LOSO por vaso \\
+\hline
+MQ2, MQ135, MQ138 + ambiente & 91,67\% (11/12) & 91,67\% (9/10) & 89,16\% (32/36) \\
+MQ2, MQ3, MQ8, MQ135, MQ138 & 91,67\% (11/12) & 91,67\% (9/10) & 80,65\% (29/36) \\
+Seis MQ & 91,67\% (11/12) & 91,67\% (9/10) & 77,71\% (28/36) \\
+Seis MQ + ambiente & 83,33\% (10/12) & 100,00\% (10/10) & 86,22\% (31/36) \\
+MQ7 + ambiente & 75,00\% (9/12) & 91,67\% (9/10) & 86,53\% (31/36) \\
+\hline
+\end{tabular}
+\end{table}
+
+O conjunto MQ2, MQ135 e MQ138 acrescido das variáveis ambientais manteve o
+maior resultado LOSO entre as cinco configurações avaliadas: 32 das 36
+coletas corretas e 89,16\% de acurácia balanceada. No LOSO, acertou 16 das
+17 coletas inoculadas e 16 das 19 coletas saudáveis. A avaliação 70/30 por
+vaso envolve somente três vasos de teste e depende fortemente dos vasos
+sorteados; por isso, o LOSO fornece uma visão mais abrangente dos dez vasos.
+Como os conjuntos de sensores foram escolhidos anteriormente com estes mesmos
+dados, os resultados constituem validação interna exploratória. A confirmação
+final requer novos vasos ou campanhas independentes.

@@ -1,0 +1,64 @@
+% Analise principal: somente leituras cruas. A media de quatro foi apenas
+% um exemplo discutido pelo orientador e nao integra esta secao.
+% Conferir cadastro: o CSV usa vasos inoculados 1, 6, 7, 8 e 9, enquanto
+% o texto atual de metodos cita 6 a 10.
+\subsection{Validação por leitura crua: divisão 70/30 e LOSO}
+
+Os dez vasos biológicos foram medidos em diferentes dias, gerando 36
+coletas e, ao todo, 63.492 leituras cruas. Cada leitura foi classificada
+individualmente; as previsões não foram agregadas para produzir uma única
+decisão por coleta. Assim, acertos e erros que ocorrem ao longo de um mesmo
+arquivo contribuíram separadamente para a acurácia.
+
+Na etapa 70/30, as leituras foram sorteadas com estratificação pela classe
+e semente 42: 44.444 leituras para treinamento e 19.048 para teste. A mesma
+divisão foi usada em todas as configurações destacadas. O conjunto MQ2,
+MQ3, MQ8, MQ135 e MQ138 acertou 18.586/19.048 leituras (97,57\%) sem
+ambiente e 18.643/19.048 (97,87\%) com solo, temperatura e pressão.
+Como a separação foi feita por leitura, as 36 coletas e os dez vasos têm
+dados em ambos os lados. Esse protocolo mede desempenho em novas leituras
+de coletas e vasos já representados no treinamento.
+
+Na etapa \textit{leave-one-subject-out} (LOSO), todas as leituras de um
+vaso foram retiradas do treinamento e testadas em uma das dez rodadas.
+Repetiu-se o procedimento até que cada vaso tivesse sido testado uma vez.
+Foram avaliados os 63 subconjuntos não vazios dos seis sensores MQ brutos,
+primeiro sem e depois com as entradas de solo, temperatura e pressão.
+Todos os modelos usaram Extra Trees com 900 árvores e hiperparâmetros fixos.
+A métrica de seleção foi a acurácia convencional, calculada como leituras
+corretas divididas pelas 63.492 leituras testadas no conjunto das rodadas.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Acurácia convencional por leitura crua na validação LOSO por vaso.}
+\label{tab:loso_leituras_cruas}
+\begin{tabular}{lrr}
+\hline
+Sensores & Leituras corretas & Acurácia (\%) \\
+\hline
+MQ2, MQ3, MQ8, MQ135, MQ138 + ambiente & 55.916/63.492 & 88,07 \\
+MQ2, MQ135, MQ138 + ambiente (conjunto anterior) & 55.549/63.492 & 87,49 \\
+Todos os seis MQ + ambiente & 55.136/63.492 & 86,84 \\
+MQ2, MQ7, MQ8, MQ135, MQ138 & 51.180/63.492 & 80,61 \\
+Todos os seis MQ & 50.041/63.492 & 78,81 \\
+\hline
+\end{tabular}
+\end{table}
+
+O melhor resultado observado com ambiente foi obtido por MQ2, MQ3, MQ8,
+MQ135 e MQ138 acrescidos de solo, temperatura e pressão (88,07\%). Sem as
+entradas ambientais, MQ2, MQ7, MQ8, MQ135 e MQ138 produziram o maior
+resultado entre as 63 combinações MQ (80,61\%). Com os mesmos cinco MQ do
+vencedor com ambiente, porém sem as três entradas
+ambientais, a acurácia LOSO foi 50.308/63.492 (79,24\%). Essa comparação
+pareada de entradas mostra a diferença observada para esse subconjunto MQ.
+O valor 70/30 por leitura é maior do que o LOSO porque os dois protocolos
+testam situações diferentes: o LOSO reserva vasos inteiros para teste e
+permite observar o desempenho em vasos não representados no treinamento.
+
+As 63.492 leituras não correspondem a 63.492 unidades biológicas
+independentes: elas provêm de apenas dez vasos e são correlacionadas dentro
+das coletas. Além disso, os subconjuntos foram escolhidos ao comparar 63
+alternativas nesses mesmos vasos. Os percentuais dos vencedores são,
+portanto, exploratórios e requerem confirmação em novos vasos.

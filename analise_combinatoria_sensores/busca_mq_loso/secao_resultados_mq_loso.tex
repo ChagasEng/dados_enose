@@ -1,0 +1,38 @@
+% Resultado exploratorio: selecao e avaliacao nos mesmos dez vasos.
+\subsection{Busca combinatória dos sensores MQ com validação LOSO}
+
+Para avaliar uma configuração sem os três sensores ambientais, foram testados
+todos os 63 subconjuntos não vazios dos seis MQ brutos. Cada subconjunto foi
+avaliado por validação \textit{leave-one-subject-out} (LOSO) dos dez vasos
+biológicos. Em cada rodada, o modelo Extra Trees, com 900 árvores e
+hiperparâmetros fixos, foi treinado nos outros nove vasos e testado em todas
+as coletas do vaso excluído. As probabilidades das leituras foram agregadas
+pela média para produzir uma única previsão por coleta. A métrica de seleção
+foi a acurácia convencional nas 36 coletas reunidas das dez rodadas.
+
+\begin{table}[htbp]
+\centering
+\caption{Combinações MQ selecionadas da busca exaustiva por LOSO, avaliadas
+por acurácia convencional por coleta.}
+\label{tab:busca_mq_loso}
+\begin{tabular}{lrr}
+\hline
+Sensores MQ & Coletas corretas & Acurácia (\%) \\
+\hline
+MQ2, MQ3, MQ135, MQ138 & 30/36 & 83,33 \\
+MQ2, MQ3 & 29/36 & 80,56 \\
+MQ2, MQ3, MQ8 & 29/36 & 80,56 \\
+MQ2, MQ3, MQ8, MQ135, MQ138 & 29/36 & 80,56 \\
+Todos os seis MQ & 28/36 & 77,78 \\
+\hline
+\end{tabular}
+\end{table}
+
+MQ2, MQ3, MQ135 e MQ138 formaram o único subconjunto com 30 acertos em 36
+coletas, sendo 15 de 17 coletas inoculadas e 15 de 19 coletas saudáveis.
+O candidato anterior que incluía MQ2, MQ135, MQ138 e as três variáveis
+ambientais havia alcançado 32/36 coletas no mesmo protocolo. A busca dos MQ
+reduziu a diferença para duas coletas, sem usar entradas ambientais. Como o
+subconjunto vencedor foi escolhido após comparar 63 alternativas nos mesmos
+dez vasos, esta estimativa ainda pode favorecer a configuração selecionada;
+novos vasos são necessários para confirmar seu desempenho.

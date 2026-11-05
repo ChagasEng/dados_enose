@@ -1,0 +1,24 @@
+{
+  "objetivo": "Sensibilidade a ruido por coleta, mantendo todos os dez vasos",
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "entradas": [
+    "MQ2",
+    "MQ3",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "regra_exploratoria": "Sinalizar coleta com >=5% das leituras com salto em dois ou mais MQ, segundo auditoria de eventos p99.5",
+  "fracao_minima": 0.05,
+  "coletas_sinalizadas": [
+    "dia 19 - Soja Heterodera Vaso 1",
+    "dia 19 - Soja Saudavel Vaso 1"
+  ],
+  "validacao": "LOSO por vaso, 10 folds, nove vasos treino e um teste; uma predicao por leitura",
+  "comparacao": "Previsoes originais restritas as mesmas 34 coletas versus novo treino com essas 34 coletas",
+  "limite": "Regra de qualidade definida apos inspecao dos dados; analise exploratoria, nao desempenho externo"
+}

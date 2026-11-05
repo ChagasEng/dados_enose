@@ -1,0 +1,8 @@
+Vaso_id,Classe,leituras,acertos,erros,acuracia_normal
+classe_0_vaso_1,0,4801,4654,147,0.9693813788794001
+classe_0_vaso_6,0,7193,6342,851,0.8816905324621159
+classe_0_vaso_7,0,7180,7180,0,1.0
+classe_0_vaso_8,0,4895,4895,0,1.0
+classe_1_vaso_3,1,5421,5196,225,0.9584947426674045
+classe_1_vaso_4,1,6661,6661,0,1.0
+classe_1_vaso_5,1,7334,6944,390,0.9468230160894464

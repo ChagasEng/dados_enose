@@ -1,5 +1,7 @@
 # Analise combinatoria por coleta
 
+**Atualizacao metodologica:** a analise principal do artigo usa **cada leitura crua como uma previsao**, com separacao por vaso no LOSO. Consulte `validacao_por_leitura/README.md`, `busca_mq_loso_leituras/README.md` e `busca_mq_ambiente_loso_leituras/README.md`. A media de quatro foi apenas um exemplo do orientador; o ensaio correspondente ficou salvo como exploracao e nao entra no texto principal. Os resultados desta pagina agregam cada coleta em uma unica previsao e tambem sao complementares.
+
 Esta analise usa a **coleta** como unica unidade de avaliacao. Cada modelo gera probabilidades para as leituras de uma coleta; a media dessas probabilidades produz **uma previsao por coleta** (limiar 0,5). Todas as metricas, selecoes e comparacoes usam essas previsoes agregadas. Nenhuma metrica por leitura entra no ranking.
 
 Foram testados os 63 subconjuntos nao vazios dos seis MQ em dois cenarios: MQ brutos e os mesmos MQ brutos acrescidos de `Soil_indice_0_1`, `Temp_C` e `Pres_kPa` (126 configuracoes). Os sinais `MQ*_corrigido_env` nao sao usados porque ja incorporam informacao ambiental. O classificador foi Extra Trees, com 900 arvores, `max_features=sqrt`, `min_samples_leaf=10` e semente 42.
@@ -40,3 +42,12 @@ Execute a partir da raiz do projeto:
 - `metodo.json`: parametros e regras da validacao original.
 - `resultados_para_artigo.tex`: texto e tabela para revisao no artigo.
 - `LEMBRETE_RESULTADO.md`: anotacao curta do conjunto e dos percentuais, incluindo o valor 91,36% mencionado na conversa e a verificacao contra os resultados calculados.
+- `validacao_por_vaso/README.md`: comparacao do split original, 70/30 por vaso e LOSO por vaso, sempre com metricas por coleta.
+- `busca_mq_loso/README.md`: busca das 63 combinacoes apenas MQ por LOSO, usando acuracia normal por coleta.
+- `validacao_por_leitura/README.md`: validação 70/30 e LOSO com uma previsao por leitura crua ou bloco medio de quatro.
+- `validacao_70_30_por_leitura/README.md`: divisao 70/30 feita diretamente nas leituras cruas para os conjuntos selecionados.
+- `validacao_sem_vasos_criticos/README.md`: ensaio exploratorio excluindo os tres vasos com erros mais concentrados e comparando as mesmas leituras dos vasos restantes.
+- `validacao_qualidade_por_coleta/README.md`: LOSO com dez vasos e exclusao apenas das duas coletas com ruido multissensor extremo; comparacao com as mesmas 34 coletas na analise original.
+- `media_movel_10_coletas_destacadas/README.md`: ensaio exploratorio de media movel de dez leituras nas quatro coletas com maioria errada, uma a uma e juntas.
+- `busca_mq_loso_leituras/README.md`: busca das 63 combinacoes apenas MQ nas duas representacoes, usando acuracia normal por amostra.
+- `busca_mq_ambiente_loso_leituras/README.md`: busca das 63 combinacoes MQ mais ambiente nas duas representacoes, usando acuracia normal por amostra.

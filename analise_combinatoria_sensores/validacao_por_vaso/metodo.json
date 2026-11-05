@@ -1,0 +1,68 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "modelo": "Mesmo ExtraTrees 900 arvores da analise combinatoria",
+  "configuracoes": {
+    "candidato_mq_ambiente": [
+      "MQ2",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "candidato_so_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "seis_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "seis_mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "mq7_ambiente": [
+      "MQ7",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "unidade_de_avaliacao": "Coleta; media das probabilidades das leituras, limiar 0.5",
+  "vaso_id": "Classe + numero Vaso; numero 1 aparece nas duas classes e representa vasos distintos",
+  "70_30_coleta_historico": "Coluna Conjunto; 24 coletas treino, 12 teste; pode repetir vaso nos dois lados",
+  "vasos_em_ambos_lados_historico": [
+    "classe_0_vaso_1",
+    "classe_0_vaso_6",
+    "classe_0_vaso_7",
+    "classe_0_vaso_8",
+    "classe_0_vaso_9",
+    "classe_1_vaso_1",
+    "classe_1_vaso_3",
+    "classe_1_vaso_4"
+  ],
+  "70_30_vaso": "train_test_split estratificado por classe do vaso; 7 vasos treino, 3 teste; seed 42",
+  "vasos_teste_70_30": [
+    "classe_0_vaso_1",
+    "classe_0_vaso_8",
+    "classe_1_vaso_5"
+  ],
+  "loso": "10 folds LeaveOneGroupOut por vaso; 9 vasos treino, 1 vaso teste; metricas calculadas nas 36 predicoes de coleta reunidas",
+  "observacao": "Cada fold LOSO testa uma unica classe; balanced accuracy somente apos reunir as previsoes das 10 rodadas",
+  "limite": "Conjuntos de sensores escolhidos anteriormente nos mesmos dados; esta validacao e exploratoria, nao confirmacao externa"
+}

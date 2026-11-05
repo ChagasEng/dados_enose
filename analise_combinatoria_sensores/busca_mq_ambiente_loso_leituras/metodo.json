@@ -1,0 +1,45 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "mq": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138"
+  ],
+  "ambiente": [
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "combinacoes_por_representacao": 63,
+  "representacoes": {
+    "cru": 63492,
+    "media_4": 15861
+  },
+  "media_4": "Medias de quatro leituras consecutivas da mesma coleta, ordenadas por Tempo; ultimo bloco incompleto descartado",
+  "validacao": "10 folds LOSO por vaso biologico; todas as amostras e coletas do vaso ficam fora do treino",
+  "metrica": "Acuracia normal por leitura crua ou por bloco medio de 4; nao agrega previsoes por coleta",
+  "desempate": "Menor numero de MQ; depois ordem alfabetica do conjunto",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "vencedores": {
+    "cru": {
+      "ranking": 1,
+      "sensores_mq": "MQ2 | MQ3 | MQ8 | MQ135 | MQ138",
+      "n_mq": 5,
+      "n_amostras": 63492,
+      "n_acertos": 55916,
+      "acuracia_normal": 0.8806778806778807
+    },
+    "media_4": {
+      "ranking": 1,
+      "sensores_mq": "MQ3 | MQ7",
+      "n_mq": 2,
+      "n_amostras": 15861,
+      "n_acertos": 14042,
+      "acuracia_normal": 0.8853161843515541
+    }
+  },
+  "limite": "Selecao e avaliacao usam os mesmos dez vasos; amostras dentro de vasos sao correlacionadas"
+}

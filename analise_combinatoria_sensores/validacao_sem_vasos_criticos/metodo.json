@@ -1,0 +1,25 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "sensores": [
+    "MQ2",
+    "MQ3",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "vasos_excluidos": [
+    "classe_0_vaso_9",
+    "classe_1_vaso_1",
+    "classe_1_vaso_2"
+  ],
+  "criterio_exclusao": "Tres vasos citados na analise anterior de erros do vencedor com ambiente",
+  "loso_reduzido": "Sete folds; treina em seis vasos e testa todas as leituras do setimo",
+  "comparacao_pareada": "Previsoes LOSO originais do modelo treinado com nove vasos, filtradas para as mesmas leituras dos sete vasos restantes",
+  "70_30_reduzido": "train_test_split por leitura, test_size=0.30, stratify=Classe, random_state=42; novo split no conjunto reduzido",
+  "metrica": "Acuracia normal por leitura crua",
+  "limite": "Excluir vasos selecionados por seus erros muda a populacao de teste; aumento da acuracia nao comprova melhor generalizacao"
+}

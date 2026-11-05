@@ -1,0 +1,26 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "coletas_destacadas": [
+    "dia 12 - Soja Saudavel Vaso 2",
+    "dia 19 - Soja Heterodera Vaso 9",
+    "dia 19 - Soja Saudavel Vaso 2",
+    "dia 19 - Soja Saudavel Vaso 1"
+  ],
+  "regra_media_movel": "Primeiras 9 leituras originais; da 10a em diante, media das 10 leituras originais consecutivas terminando na posicao atual",
+  "colunas_suavizadas": [
+    "MQ2",
+    "MQ3",
+    "MQ7",
+    "MQ8",
+    "MQ135",
+    "MQ138",
+    "Soil_indice_0_1",
+    "Temp_C",
+    "Pres_kPa"
+  ],
+  "cenario_individual": "Cada uma das quatro coletas e modificada separadamente, mantendo as outras 35 originais",
+  "cenario_conjunto": "As quatro coletas modificadas simultaneamente, mantendo as outras 32 originais",
+  "validacao": "LOSO por vaso em todas as 36 coletas, com 10 vasos; mesma arquitetura e hiperparametros do modelo original",
+  "comparacao": "Mesmas 63.492 leituras de teste em todos os cenarios; acuracia normal por leitura",
+  "limite": "As coletas foram escolhidas porque ja apresentaram erros; o resultado e exploratorio e pode refletir ajuste a casos conhecidos"
+}

@@ -1,0 +1,4 @@
+cenario,n_vasos,n_coletas,n_leituras,acertos,erros,acuracia_por_leitura
+loso_original_36_coletas,10,36,63492,55916,7576,0.8806778806778807
+loso_original_mesmas_34_coletas,10,34,60960,54675,6285,0.8968996062992126
+loso_retreinado_34_coletas_10_vasos,10,34,60960,54655,6305,0.8965715223097113

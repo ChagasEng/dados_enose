@@ -1,0 +1,5 @@
+cenario,n_vasos,n_coletas,n_leituras_teste,n_acertos,n_erros,acuracia_normal
+loso_10_vasos_original,10,36,63492,55916,7576,0.8806778806778807
+loso_10_vasos_so_7_testes_restantes,7,25,43485,42028,1457,0.966494193400023
+loso_7_vasos_retreinado,7,25,43485,41872,1613,0.9629067494538347
+70_30_por_leitura_7_vasos,7,25,13046,13042,4,0.999693392610762

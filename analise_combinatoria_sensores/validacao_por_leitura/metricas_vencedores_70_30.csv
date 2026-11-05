@@ -1,0 +1,9 @@
+representacao,cenario,protocolo,sensores,n_vasos_treino,n_vasos_teste,n_coletas_teste,n_amostras_teste,n_acertos,acuracia_normal
+cru,mq,70_30_coleta_historico,MQ2 | MQ7 | MQ8 | MQ135 | MQ138,10,8,12,22115,18905,0.8548496495591228
+cru,mq,70_30_vaso,MQ2 | MQ7 | MQ8 | MQ135 | MQ138,7,3,10,17030,15605,0.9163241338813858
+cru,mq_ambiente,70_30_coleta_historico,MQ2 | MQ3 | MQ8 | MQ135 | MQ138 | Soil_indice_0_1 | Temp_C | Pres_kPa,10,8,12,22115,20152,0.9112367171602984
+cru,mq_ambiente,70_30_vaso,MQ2 | MQ3 | MQ8 | MQ135 | MQ138 | Soil_indice_0_1 | Temp_C | Pres_kPa,7,3,10,17030,16305,0.9574280681150911
+media_4,mq,70_30_coleta_historico,MQ2 | MQ3 | MQ8 | MQ135 | MQ138,10,8,12,5524,4950,0.8960897900072411
+media_4,mq,70_30_vaso,MQ2 | MQ3 | MQ8 | MQ135 | MQ138,7,3,10,4254,3885,0.9132581100141044
+media_4,mq_ambiente,70_30_coleta_historico,MQ3 | MQ7 | Soil_indice_0_1 | Temp_C | Pres_kPa,10,8,12,5524,4967,0.8991672700941347
+media_4,mq_ambiente,70_30_vaso,MQ3 | MQ7 | Soil_indice_0_1 | Temp_C | Pres_kPa,7,3,10,4254,4029,0.9471086036671368

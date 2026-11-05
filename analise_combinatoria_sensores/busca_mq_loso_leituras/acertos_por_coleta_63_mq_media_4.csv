@@ -1,0 +1,2269 @@
+sensores_mq,Coleta,Vaso_id,Classe,n_amostras,n_acertos,acuracia_dentro_da_coleta
+MQ2,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,409,0.7303571428571428
+MQ2,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,352,0.6848249027237354
+MQ2,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,499,0.9960079840319361
+MQ2,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,528,0.9962264150943396
+MQ2,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,554,0.9946140035906643
+MQ2,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,273,0.48576512455516013
+MQ2,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,531,0.9851576994434137
+MQ2,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,532,0.99812382739212
+MQ2,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,540,0.9818181818181818
+MQ2,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,525,0.9868421052631579
+MQ2,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,340,0.9855072463768116
+MQ2,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,373,0.9255583126550868
+MQ2,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,165,0.41044776119402987
+MQ2,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,36,0.10256410256410256
+MQ2,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,7,0.021021021021021023
+MQ2,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,262,0.5861297539149888
+MQ2,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,298,0.6882217090069284
+MQ2,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,260,0.5842696629213483
+MQ2,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,284,0.9015873015873016
+MQ2,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,263,0.7897897897897898
+MQ2,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,113,0.3424242424242424
+MQ2,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,13,0.03611111111111111
+MQ2,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,110,0.3470031545741325
+MQ2,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,56,0.18360655737704917
+MQ2,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,214,0.7430555555555556
+MQ2,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,284,0.5071428571428571
+MQ3,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,363,0.7062256809338522
+MQ3,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,393,0.7291280148423006
+MQ3,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,75,0.1497005988023952
+MQ3,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,128,0.24150943396226415
+MQ3,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,124,0.22262118491921004
+MQ3,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,5,0.008896797153024912
+MQ3,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,446,0.8274582560296846
+MQ3,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,276,0.5178236397748592
+MQ3,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,227,0.41651376146788993
+MQ3,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,323,0.5959409594095941
+MQ3,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,383,0.6963636363636364
+MQ3,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,0,0.0
+MQ3,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,303,0.8782608695652174
+MQ3,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,206,0.511166253101737
+MQ3,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,296,0.736318407960199
+MQ3,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,195,0.5555555555555556
+MQ3,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,116,0.3483483483483483
+MQ3,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ3,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,338,0.756152125279642
+MQ3,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,174,0.4018475750577367
+MQ3,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,165,0.3707865168539326
+MQ3,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,117,0.37142857142857144
+MQ3,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,2,0.006060606060606061
+MQ3,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,2,0.005555555555555556
+MQ3,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,232,0.7318611987381703
+MQ3,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,194,0.6360655737704918
+MQ3,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,244,0.7922077922077922
+MQ3,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,186,0.6458333333333334
+MQ3,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,220,0.7508532423208191
+MQ7,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,456,0.8142857142857143
+MQ7,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,77,0.14980544747081712
+MQ7,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,0,0.0
+MQ7,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ7,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,482,0.909433962264151
+MQ7,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ7,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,35,0.06227758007117438
+MQ7,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,6,0.011131725417439703
+MQ7,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,512,0.9606003752345216
+MQ7,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,153,0.28073394495412846
+MQ7,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,178,0.3284132841328413
+MQ7,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,0,0.0
+MQ7,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,527,0.9906015037593985
+MQ7,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,256,0.7420289855072464
+MQ7,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,354,0.8784119106699751
+MQ7,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,237,0.7117117117117117
+MQ7,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,524,0.9961977186311787
+MQ7,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,4,0.008948545861297539
+MQ7,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,3,0.006928406466512702
+MQ7,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ7,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,314,0.9968253968253968
+MQ7,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,333,1.0
+MQ7,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,329,0.996969696969697
+MQ7,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ7,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,40,0.12618296529968454
+MQ7,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,76,0.24918032786885247
+MQ7,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,172,0.5584415584415584
+MQ7,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,216,0.75
+MQ7,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,120,0.40955631399317405
+MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,58,0.11284046692607004
+MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,458,0.849721706864564
+MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,377,0.7524950099800399
+MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,271,0.4865350089766607
+MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,454,0.8423005565862709
+MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,383,0.7185741088180112
+MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,149,0.27339449541284405
+MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,302,0.5571955719557196
+MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,496,0.9018181818181819
+MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,588,1.0
+MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,472,0.8872180451127819
+MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,111,0.27543424317617865
+MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,399,0.9925373134328358
+MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,97,0.2912912912912913
+MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,2,0.004618937644341801
+MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,157,0.4984126984126984
+MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,0,0.0
+MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,40,0.12012012012012012
+MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,321,0.9727272727272728
+MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,8,0.025236593059936908
+MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,0,0.0
+MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,0,0.0
+MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,169,0.30178571428571427
+MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,231,0.4494163424124514
+MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,298,0.5528756957328386
+MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,283,0.564870259481038
+MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,308,0.5811320754716981
+MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,378,0.6786355475763016
+MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,422,0.7508896797153025
+MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,520,0.9647495361781077
+MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,430,0.8067542213883677
+MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,503,0.9229357798165138
+MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,534,0.985239852398524
+MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,537,0.9763636363636363
+MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,0,0.0
+MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,10,0.028985507246376812
+MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,37,0.09181141439205956
+MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,46,0.11442786069651742
+MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,30,0.08547008547008547
+MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,1,0.003003003003003003
+MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,289,0.6465324384787472
+MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,306,0.7066974595842956
+MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,240,0.5393258426966292
+MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,44,0.13968253968253969
+MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,0,0.0
+MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,89,0.2672672672672673
+MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,85,0.25757575757575757
+MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,259,0.7194444444444444
+MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,119,0.3753943217665615
+MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,31,0.10163934426229508
+MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,153,0.4967532467532468
+MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,108,0.375
+MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,195,0.6655290102389079
+MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,60,0.10714285714285714
+MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,69,0.13424124513618677
+MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,259,0.4805194805194805
+MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,197,0.3932135728542914
+MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,431,0.8132075471698114
+MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,308,0.5529622980251346
+MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,308,0.5480427046263345
+MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,379,0.7031539888682746
+MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,70,0.13133208255159476
+MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,152,0.27889908256880735
+MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,268,0.4944649446494465
+MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,364,0.6618181818181819
+MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,275,0.7971014492753623
+MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,254,0.630272952853598
+MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,182,0.4527363184079602
+MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,233,0.6638176638176638
+MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,311,0.933933933933934
+MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,205,0.3897338403041825
+MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,4,0.008948545861297539
+MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,50,0.11547344110854503
+MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,18,0.04044943820224719
+MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,14,0.044444444444444446
+MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,29,0.09634551495016612
+MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,44,0.13213213213213212
+MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,53,0.1606060606060606
+MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,22,0.06111111111111111
+MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,3,0.009836065573770493
+MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,106,0.34415584415584416
+MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,123,0.4270833333333333
+MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,50,0.17064846416382254
+MQ2 | MQ3,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,500,0.8928571428571429
+MQ2 | MQ3,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,501,0.9747081712062257
+MQ2 | MQ3,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,529,0.9814471243042672
+MQ2 | MQ3,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,436,0.8226415094339623
+MQ2 | MQ3,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,295,0.5249110320284698
+MQ2 | MQ3,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,414,0.7680890538033395
+MQ2 | MQ3,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,419,0.7618181818181818
+MQ2 | MQ3,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,360,0.8933002481389578
+MQ2 | MQ3,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,265,0.6592039800995025
+MQ2 | MQ3,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,230,0.6552706552706553
+MQ2 | MQ3,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,226,0.6786786786786787
+MQ2 | MQ3,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,323,0.7225950782997763
+MQ2 | MQ3,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,212,0.4896073903002309
+MQ2 | MQ3,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,225,0.5056179775280899
+MQ2 | MQ3,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,268,0.8507936507936508
+MQ2 | MQ3,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,78,0.23423423423423423
+MQ2 | MQ3,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,69,0.20909090909090908
+MQ2 | MQ3,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ3,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,132,0.416403785488959
+MQ2 | MQ3,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,77,0.25245901639344265
+MQ2 | MQ3,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,232,0.7532467532467533
+MQ2 | MQ3,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,197,0.6840277777777778
+MQ2 | MQ3,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,518,0.925
+MQ2 | MQ7,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,160,0.311284046692607
+MQ2 | MQ7,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,82,0.15213358070500926
+MQ2 | MQ7,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,202,0.3594306049822064
+MQ2 | MQ7,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,65,0.12059369202226346
+MQ2 | MQ7,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ7,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,526,0.9887218045112782
+MQ2 | MQ7,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,343,0.9942028985507246
+MQ2 | MQ7,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,403,1.0
+MQ2 | MQ7,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,393,0.9776119402985075
+MQ2 | MQ7,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ7,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ7,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,347,0.7762863534675615
+MQ2 | MQ7,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,391,0.9030023094688222
+MQ2 | MQ7,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ7,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,292,0.926984126984127
+MQ2 | MQ7,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,324,0.972972972972973
+MQ2 | MQ7,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,133,0.403030303030303
+MQ2 | MQ7,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ2 | MQ7,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,13,0.04100946372239748
+MQ2 | MQ7,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,5,0.01639344262295082
+MQ2 | MQ7,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ7,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,275,0.9548611111111112
+MQ2 | MQ7,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,300,0.5836575875486382
+MQ2 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,394,0.701067615658363
+MQ2 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,249,0.45688073394495415
+MQ2 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,0,0.0
+MQ2 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,17,0.03803131991051454
+MQ2 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,256,0.5912240184757506
+MQ2 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,372,0.8359550561797753
+MQ2 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,255,0.8095238095238095
+MQ2 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,135,0.4090909090909091
+MQ2 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,8,0.022222222222222223
+MQ2 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,17,0.05362776025236593
+MQ2 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,152,0.4935064935064935
+MQ2 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,383,0.6839285714285714
+MQ2 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,331,0.6439688715953308
+MQ2 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,522,0.9684601113172542
+MQ2 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,498,0.9940119760479041
+MQ2 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,515,0.9716981132075472
+MQ2 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,551,0.9892280071813285
+MQ2 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,388,0.6903914590747331
+MQ2 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,456,0.8460111317254174
+MQ2 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,515,0.9662288930581614
+MQ2 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,366,0.6654545454545454
+MQ2 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,527,0.9906015037593985
+MQ2 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,282,0.8173913043478261
+MQ2 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,383,0.9503722084367245
+MQ2 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,214,0.5323383084577115
+MQ2 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,91,0.25925925925925924
+MQ2 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,43,0.12912912912912913
+MQ2 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,298,0.6666666666666666
+MQ2 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,259,0.5981524249422633
+MQ2 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,60,0.1348314606741573
+MQ2 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,254,0.8063492063492064
+MQ2 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,113,0.33933933933933935
+MQ2 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,94,0.28484848484848485
+MQ2 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,2,0.005555555555555556
+MQ2 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,87,0.2744479495268139
+MQ2 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,36,0.1180327868852459
+MQ2 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ2 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,176,0.6111111111111112
+MQ2 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,302,0.5392857142857143
+MQ2 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,249,0.48443579766536965
+MQ2 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,513,0.9679245283018868
+MQ2 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,312,0.5551601423487544
+MQ2 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,406,0.7532467532467533
+MQ2 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,533,0.9779816513761468
+MQ2 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,469,0.8653136531365314
+MQ2 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,519,0.9436363636363636
+MQ2 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,343,0.9942028985507246
+MQ2 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,296,0.7344913151364765
+MQ2 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,173,0.43034825870646765
+MQ2 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,50,0.14245014245014245
+MQ2 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,56,0.16816816816816818
+MQ2 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,11,0.02091254752851711
+MQ2 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ2 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,62,0.14318706697459585
+MQ2 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,299,0.9492063492063492
+MQ2 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,58,0.17575757575757575
+MQ2 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ2 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,95,0.2996845425867508
+MQ2 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,21,0.06885245901639345
+MQ2 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,206,0.7152777777777778
+MQ2 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,81,0.1575875486381323
+MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,0,0.0
+MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,225,0.4491017964071856
+MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,382,0.720754716981132
+MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,457,0.8204667863554758
+MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,0,0.0
+MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,127,0.23562152133580705
+MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,188,0.344954128440367
+MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,160,0.2952029520295203
+MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,277,0.8028985507246377
+MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,383,0.9503722084367245
+MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,350,0.9971509971509972
+MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,379,0.8752886836027713
+MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,174,0.39101123595505616
+MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,302,0.9587301587301588
+MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,219,0.6576576576576577
+MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,124,0.37575757575757573
+MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,2,0.005555555555555556
+MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,76,0.23974763406940064
+MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,388,0.754863813229572
+MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,524,0.9721706864564007
+MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,343,0.6846307385229541
+MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,511,0.9641509433962264
+MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,502,0.9012567324955116
+MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,467,0.8309608540925267
+MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,490,0.9040590405904059
+MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,360,0.6976744186046512
+MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,214,0.5310173697270472
+MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,350,0.9971509971509972
+MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,123,0.36936936936936937
+MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,152,0.3510392609699769
+MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,229,0.5146067415730337
+MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,223,0.707936507936508
+MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,79,0.23939393939393938
+MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,2,0.006309148264984227
+MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,99,0.32142857142857145
+MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,425,0.7589285714285714
+MQ3 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,386,0.7509727626459144
+MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,479,0.8886827458256029
+MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,495,0.9880239520958084
+MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,355,0.6698113207547169
+MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,406,0.7289048473967684
+MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,470,0.8362989323843416
+MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,503,0.9437148217636022
+MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,531,0.9743119266055046
+MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,0,0.0
+MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,326,0.8089330024813896
+MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,298,0.7412935323383084
+MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,163,0.46438746438746437
+MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,189,0.5675675675675675
+MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,445,0.9955257270693513
+MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,50,0.11547344110854503
+MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,170,0.38202247191011235
+MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,162,0.5142857142857142
+MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,2,0.006060606060606061
+MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,176,0.555205047318612
+MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,70,0.22950819672131148
+MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,232,0.7532467532467533
+MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,137,0.4756944444444444
+MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,123,0.4197952218430034
+MQ3 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,7,0.0125
+MQ3 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,0,0.0
+MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,443,0.8218923933209648
+MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,74,0.14770459081836326
+MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,214,0.4037735849056604
+MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,146,0.2621184919210054
+MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,0,0.0
+MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,408,0.7569573283858998
+MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,26,0.04878048780487805
+MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,70,0.12844036697247707
+MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,343,0.6328413284132841
+MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,509,0.9254545454545454
+MQ3 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,294,0.8521739130434782
+MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,287,0.7121588089330024
+MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,288,0.7164179104477612
+MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,271,0.7720797720797721
+MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,241,0.7237237237237237
+MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,4,0.008948545861297539
+MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,57,0.13163972286374134
+MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,67,0.15056179775280898
+MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,302,0.9587301587301588
+MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,36,0.11356466876971609
+MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,13,0.04262295081967213
+MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,256,0.8888888888888888
+MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,282,0.962457337883959
+MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,40,0.07782101167315175
+MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,1,0.0018552875695732839
+MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,353,0.7045908183632734
+MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,17,0.03153988868274583
+MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,209,0.3856088560885609
+MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,160,0.2909090909090909
+MQ7 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,588,1.0
+MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,13,0.03225806451612903
+MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,229,0.6876876876876877
+MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,156,0.36027713625866054
+MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,298,0.946031746031746
+MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,330,1.0
+MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,3,0.00946372239747634
+MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,32,0.1038961038961039
+MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,6,0.020833333333333332
+MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,120,0.21428571428571427
+MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,125,0.24319066147859922
+MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,252,0.4675324675324675
+MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,526,0.9924528301886792
+MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,527,0.9461400359066428
+MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,319,0.5676156583629893
+MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,235,0.4359925788497217
+MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,507,0.9512195121951219
+MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,266,0.48807339449541287
+MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,481,0.8874538745387454
+MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,492,0.8945454545454545
+MQ7 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,183,0.5304347826086957
+MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,365,0.9057071960297767
+MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,324,0.7248322147651006
+MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,12,0.02696629213483146
+MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,315,1.0
+MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,333,1.0
+MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,294,0.8909090909090909
+MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,16,0.050473186119873815
+MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,496,0.8857142857142857
+MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,35,0.06809338521400778
+MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,1,0.0018552875695732839
+MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,411,0.8203592814371258
+MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,503,0.9490566037735849
+MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,555,0.9964093357271095
+MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,38,0.06761565836298933
+MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,207,0.38404452690166974
+MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,172,0.3155963302752294
+MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,106,0.19557195571955718
+MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ7 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,403,1.0
+MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,303,0.9099099099099099
+MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,16,0.035794183445190156
+MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,223,0.5150115473441108
+MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,311,0.9873015873015873
+MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,108,0.32432432432432434
+MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,77,0.23333333333333334
+MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,18,0.05
+MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,346,0.6178571428571429
+MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,113,0.2198443579766537
+MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,522,0.9684601113172542
+MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,492,0.9820359281437125
+MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,527,0.9943396226415094
+MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,426,0.799249530956848
+MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,232,0.42568807339449544
+MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,256,0.49612403100775193
+MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,23,0.05707196029776675
+MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,140,0.42042042042042044
+MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,37,0.08545034642032333
+MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,22,0.04943820224719101
+MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,282,0.8952380952380953
+MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,330,1.0
+MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,6,0.016666666666666666
+MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,0,0.0
+MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,68,0.2361111111111111
+MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,194,0.377431906614786
+MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,537,0.9962894248608535
+MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,418,0.8343313373253493
+MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,208,0.3734290843806104
+MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,201,0.3688073394495413
+MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,457,0.8431734317343174
+MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,55,0.13647642679900746
+MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,194,0.5825825825825826
+MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,19,0.04387990762124711
+MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,1,0.0022471910112359553
+MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,295,0.9365079365079365
+MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,0,0.0
+MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,330,1.0
+MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,21,0.058333333333333334
+MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,96,0.3116883116883117
+MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,253,0.4517857142857143
+MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,268,0.5214007782101168
+MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,469,0.8701298701298701
+MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,458,0.9141716566866267
+MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,432,0.8150943396226416
+MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,517,0.9281867145421903
+MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,500,0.9276437847866419
+MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,445,0.8348968105065666
+MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,439,0.8055045871559633
+MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,541,0.9981549815498155
+MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,526,0.9563636363636364
+MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,106,0.3072463768115942
+MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,248,0.6153846153846154
+MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,143,0.35572139303482586
+MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,271,0.7720797720797721
+MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,227,0.6816816816816816
+MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,68,0.15704387990762125
+MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,37,0.08314606741573034
+MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,311,0.9873015873015873
+MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,14,0.04242424242424243
+MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,26,0.08201892744479496
+MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,6,0.019672131147540985
+MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,221,0.7175324675324676
+MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,125,0.4340277777777778
+MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,172,0.5870307167235495
+MQ2 | MQ3 | MQ7,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,557,0.9946428571428572
+MQ2 | MQ3 | MQ7,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,126,0.245136186770428
+MQ2 | MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,459,0.8515769944341373
+MQ2 | MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,209,0.3718861209964413
+MQ2 | MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,181,0.3358070500927644
+MQ2 | MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,343,0.9942028985507246
+MQ2 | MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,375,0.9305210918114144
+MQ2 | MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,343,0.8532338308457711
+MQ2 | MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,270,0.7692307692307693
+MQ2 | MQ3 | MQ7,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,182,0.5465465465465466
+MQ2 | MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,383,0.8568232662192393
+MQ2 | MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,369,0.8521939953810623
+MQ2 | MQ3 | MQ7,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,145,0.3258426966292135
+MQ2 | MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,287,0.9111111111111111
+MQ2 | MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,69,0.2072072072072072
+MQ2 | MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,69,0.20909090909090908
+MQ2 | MQ3 | MQ7,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,132,0.416403785488959
+MQ2 | MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,2,0.006557377049180328
+MQ2 | MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,285,0.9895833333333334
+MQ2 | MQ3 | MQ7,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,319,0.6206225680933852
+MQ2 | MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,471,0.8380782918149466
+MQ2 | MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,276,0.5064220183486239
+MQ2 | MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,284,0.7047146401985112
+MQ2 | MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,196,0.5885885885885885
+MQ2 | MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,358,0.8267898383371824
+MQ2 | MQ3 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,254,0.5707865168539326
+MQ2 | MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,245,0.7777777777777778
+MQ2 | MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ3 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ2 | MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,9,0.028391167192429023
+MQ2 | MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,268,0.8701298701298701
+MQ2 | MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,482,0.8607142857142858
+MQ2 | MQ3 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,407,0.791828793774319
+MQ2 | MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,520,0.9647495361781077
+MQ2 | MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,434,0.8188679245283019
+MQ2 | MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,458,0.8149466192170819
+MQ2 | MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,528,0.9795918367346939
+MQ2 | MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,547,0.9945454545454545
+MQ2 | MQ3 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,16,0.031007751937984496
+MQ2 | MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,342,0.8486352357320099
+MQ2 | MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,261,0.6492537313432836
+MQ2 | MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,149,0.42450142450142453
+MQ2 | MQ3 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,195,0.5855855855855856
+MQ2 | MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,374,0.8366890380313199
+MQ2 | MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,85,0.19630484988452657
+MQ2 | MQ3 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,114,0.25617977528089886
+MQ2 | MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,272,0.8634920634920635
+MQ2 | MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ3 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,115,0.3627760252365931
+MQ2 | MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,51,0.16721311475409836
+MQ2 | MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,226,0.7337662337662337
+MQ2 | MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,200,0.6944444444444444
+MQ2 | MQ3 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,188,0.3357142857142857
+MQ2 | MQ3 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,285,0.5544747081712063
+MQ2 | MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,459,0.9161676646706587
+MQ2 | MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,444,0.8377358490566038
+MQ2 | MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,208,0.3701067615658363
+MQ2 | MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,407,0.7551020408163265
+MQ2 | MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,527,0.9887429643527205
+MQ2 | MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,540,0.9908256880733946
+MQ2 | MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,524,0.9527272727272728
+MQ2 | MQ3 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,338,0.9797101449275363
+MQ2 | MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,322,0.7990074441687345
+MQ2 | MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,201,0.5
+MQ2 | MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,257,0.7321937321937322
+MQ2 | MQ3 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,228,0.6846846846846847
+MQ2 | MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,37,0.08277404921700224
+MQ2 | MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,49,0.11316397228637413
+MQ2 | MQ3 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,18,0.04044943820224719
+MQ2 | MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,292,0.926984126984127
+MQ2 | MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ3 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,97,0.305993690851735
+MQ2 | MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,21,0.06885245901639345
+MQ2 | MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,225,0.7305194805194806
+MQ2 | MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,181,0.6284722222222222
+MQ2 | MQ3 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,157,0.30544747081712065
+MQ2 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,446,0.7935943060498221
+MQ2 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,218,0.4
+MQ2 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,1,0.0024813895781637717
+MQ2 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,425,0.9815242494226328
+MQ2 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,284,0.9015873015873016
+MQ2 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,173,0.5242424242424243
+MQ2 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ2 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,104,0.33766233766233766
+MQ2 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,404,0.7214285714285714
+MQ2 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,198,0.3852140077821012
+MQ2 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,462,0.8571428571428571
+MQ2 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,552,0.9910233393177738
+MQ2 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,318,0.5658362989323843
+MQ2 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,343,0.6363636363636364
+MQ2 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,527,0.9906015037593985
+MQ2 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,309,0.8956521739130435
+MQ2 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,401,0.9950372208436724
+MQ2 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,373,0.927860696517413
+MQ2 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,179,0.50997150997151
+MQ2 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,177,0.5315315315315315
+MQ2 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,389,0.8702460850111857
+MQ2 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,404,0.9330254041570438
+MQ2 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,293,0.9301587301587302
+MQ2 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,139,0.4174174174174174
+MQ2 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,92,0.2787878787878788
+MQ2 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,79,0.24921135646687698
+MQ2 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,298,0.9675324675324676
+MQ2 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,389,0.6946428571428571
+MQ2 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,124,0.24124513618677043
+MQ2 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,534,0.9907235621521335
+MQ2 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,207,0.3683274021352313
+MQ2 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,301,0.5584415584415584
+MQ2 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,537,0.9853211009174312
+MQ2 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,532,0.981549815498155
+MQ2 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,368,0.913151364764268
+MQ2 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,248,0.6169154228855721
+MQ2 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,74,0.21082621082621084
+MQ2 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,96,0.18250950570342206
+MQ2 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ2 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,0,0.0
+MQ2 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,303,0.9619047619047619
+MQ2 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,5,0.013888888888888888
+MQ2 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,71,0.22397476340694006
+MQ2 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,244,0.8472222222222222
+MQ2 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,254,0.49416342412451364
+MQ2 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,486,0.8647686832740213
+MQ2 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,541,0.9926605504587156
+MQ2 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,34,0.08436724565756824
+MQ2 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,181,0.5435435435435435
+MQ2 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,362,0.836027713625866
+MQ2 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,103,0.23146067415730337
+MQ2 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,255,0.8095238095238095
+MQ2 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,98,0.296969696969697
+MQ2 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,2,0.005555555555555556
+MQ2 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ2 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,118,0.38311688311688313
+MQ2 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,203,0.3949416342412451
+MQ2 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,486,0.8647686832740213
+MQ2 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,237,0.43486238532110094
+MQ2 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,12,0.02977667493796526
+MQ2 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,193,0.5795795795795796
+MQ2 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,0,0.0
+MQ2 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,294,0.9333333333333333
+MQ2 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,16,0.044444444444444446
+MQ2 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,175,0.5681818181818182
+MQ2 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,323,0.5767857142857142
+MQ2 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,329,0.6400778210116731
+MQ2 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,533,0.9888682745825603
+MQ2 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,486,0.9169811320754717
+MQ2 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,451,0.802491103202847
+MQ2 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,408,0.7569573283858998
+MQ2 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,505,0.926605504587156
+MQ2 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,525,0.9545454545454546
+MQ2 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,242,0.7014492753623188
+MQ2 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,276,0.684863523573201
+MQ2 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,98,0.24378109452736318
+MQ2 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,112,0.3190883190883191
+MQ2 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,133,0.3993993993993994
+MQ2 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,243,0.4619771863117871
+MQ2 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ2 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,14,0.03233256351039261
+MQ2 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ2 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,298,0.946031746031746
+MQ2 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ2 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,90,0.28391167192429023
+MQ2 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,16,0.05245901639344262
+MQ2 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ2 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,154,0.5347222222222222
+MQ2 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,163,0.31712062256809337
+MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,502,0.9313543599257885
+MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,376,0.7504990019960079
+MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,530,0.9430604982206405
+MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,376,0.6937269372693727
+MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,136,0.337468982630273
+MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,109,0.2449438202247191
+MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,293,0.9301587301587302
+MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,166,0.503030303030303
+MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,1,0.002777777777777778
+MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,2,0.006309148264984227
+MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,105,0.3409090909090909
+MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,548,0.9785714285714285
+MQ3 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,151,0.29377431906614787
+MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,399,0.7402597402597403
+MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,473,0.8924528301886793
+MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,512,0.9192100538599641
+MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,397,0.7064056939501779
+MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,519,0.9522935779816514
+MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,475,0.8763837638376384
+MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,297,0.8608695652173913
+MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,340,0.8436724565756824
+MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,379,0.9427860696517413
+MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,272,0.7749287749287749
+MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,177,0.5315315315315315
+MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,286,0.6605080831408776
+MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,123,0.27640449438202247
+MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,305,0.9682539682539683
+MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,85,0.26813880126182965
+MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,9,0.029508196721311476
+MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,235,0.762987012987013
+MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,194,0.3464285714285714
+MQ3 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,0,0.0
+MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,370,0.686456400742115
+MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,202,0.4031936127744511
+MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,478,0.9018867924528302
+MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,407,0.7307001795332136
+MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,0,0.0
+MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,259,0.4805194805194805
+MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,419,0.7861163227016885
+MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,180,0.3302752293577982
+MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,110,0.2029520295202952
+MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,301,0.8724637681159421
+MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,294,0.7295285359801489
+MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,398,0.9900497512437811
+MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,272,0.7749287749287749
+MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,12,0.022813688212927757
+MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,93,0.2080536912751678
+MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,223,0.5150115473441108
+MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,302,0.9587301587301588
+MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,9,0.028391167192429023
+MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,296,0.961038961038961
+MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,260,0.5058365758754864
+MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,472,0.9421157684630739
+MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,495,0.9339622641509434
+MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,559,0.994661921708185
+MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,215,0.3944954128440367
+MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,41,0.07945736434108527
+MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,278,0.6898263027295285
+MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,316,0.9002849002849003
+MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,126,0.3783783783783784
+MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,48,0.11085450346420324
+MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,13,0.029213483146067417
+MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,284,0.9015873015873016
+MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,2,0.005555555555555556
+MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,12,0.03896103896103896
+MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,285,0.9895833333333334
+MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,180,0.35019455252918286
+MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,367,0.7325349301397206
+MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,511,0.9641509433962264
+MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,322,0.578096947935368
+MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,429,0.7633451957295374
+MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,203,0.3724770642201835
+MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,409,0.7546125461254612
+MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,236,0.5856079404466501
+MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,197,0.5915915915915916
+MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,412,0.9217002237136466
+MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,129,0.2979214780600462
+MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,47,0.10561797752808989
+MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,287,0.9111111111111111
+MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,9,0.025
+MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,66,0.21428571428571427
+MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,238,0.425
+MQ3 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,271,0.5272373540856031
+MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,506,0.9387755102040817
+MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,454,0.906187624750499
+MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,391,0.7377358490566037
+MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,495,0.8886894075403949
+MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,456,0.8113879003558719
+MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,500,0.9276437847866419
+MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,345,0.6472795497185742
+MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,510,0.9357798165137615
+MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,277,0.8028985507246377
+MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,274,0.6799007444168734
+MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,231,0.5746268656716418
+MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,246,0.7008547008547008
+MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,230,0.6906906906906907
+MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,65,0.12357414448669202
+MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,14,0.03233256351039261
+MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,58,0.1303370786516854
+MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,305,0.9682539682539683
+MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,128,0.4037854889589905
+MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,12,0.03934426229508197
+MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,181,0.6284722222222222
+MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,214,0.7303754266211604
+MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,381,0.6803571428571429
+MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,88,0.17120622568093385
+MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,428,0.7940630797773655
+MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,489,0.9760479041916168
+MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,206,0.3779816513761468
+MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,497,0.9169741697416974
+MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ7 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,18,0.04466501240694789
+MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,194,0.5825825825825826
+MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,366,0.8452655889145496
+MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,2,0.0044943820224719105
+MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,304,0.9650793650793651
+MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,330,1.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,0,0.0
+MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,208,0.7222222222222222
+MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,109,0.21206225680933852
+MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,75,0.1391465677179963
+MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,423,0.844311377245509
+MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,537,0.9555160142348754
+MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,192,0.3522935779816514
+MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,216,0.3985239852398524
+MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ7 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,39,0.0967741935483871
+MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,194,0.5825825825825826
+MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,199,0.45958429561200925
+MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,306,0.9714285714285714
+MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,330,1.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,14,0.03888888888888889
+MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,102,0.33116883116883117
+MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,322,0.575
+MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,153,0.29766536964980544
+MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,372,0.6901669758812616
+MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,466,0.9301397205588823
+MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,517,0.9754716981132076
+MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,542,0.9730700179533214
+MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,396,0.7046263345195729
+MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,281,0.5213358070500927
+MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,210,0.3853211009174312
+MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,403,0.7435424354243543
+MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ7 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,199,0.5768115942028985
+MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,287,0.7121588089330024
+MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,401,0.9975124378109452
+MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,292,0.8319088319088319
+MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,0,0.0
+MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,320,0.7390300230946882
+MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,313,0.9936507936507937
+MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,34,0.10303030303030303
+MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,260,0.8873720136518771
+MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,197,0.3832684824902724
+MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,519,0.9628942486085343
+MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,465,0.9281437125748503
+MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,31,0.07692307692307693
+MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,196,0.5885885885885885
+MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,0,0.0
+MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,0,0.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,307,0.9746031746031746
+MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,12,0.03636363636363636
+MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,16,0.044444444444444446
+MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,9,0.02922077922077922
+MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,258,0.5019455252918288
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,521,0.9666048237476809
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,465,0.8274021352313167
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,381,0.6990825688073394
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,46,0.1141439205955335
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,30,0.057034220532319393
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,382,0.8584269662921349
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,284,0.9015873015873016
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,219,0.6636363636363637
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,2,0.006309148264984227
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,201,0.6525974025974026
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ8,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,558,0.9964285714285714
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,208,0.4046692607003891
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,472,0.87569573283859
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,523,0.9867924528301887
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,292,0.5195729537366548
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,122,0.22634508348794063
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,403,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,350,0.9971509971509972
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,428,0.9884526558891455
+MQ2 | MQ3 | MQ7 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,231,0.5191011235955056
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,294,0.9333333333333333
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,256,0.7687687687687688
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,200,0.6060606060606061
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,19,0.05993690851735016
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,301,0.9772727272727273
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,145,0.2821011673151751
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,524,0.9721706864564007
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,209,0.3718861209964413
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,143,0.2653061224489796
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,392,0.9727047146401985
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,341,0.9715099715099715
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,402,0.8993288590604027
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,225,0.5056179775280899
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,296,0.9396825396825397
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,309,0.9279279279279279
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,124,0.37575757575757573
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,81,0.2555205047318612
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,349,0.6789883268482491
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,517,0.9199288256227758
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,258,0.5
+MQ2 | MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,194,0.4813895781637717
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,196,0.5885885885885885
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,431,0.9953810623556582
+MQ2 | MQ3 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,406,0.9123595505617977
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,274,0.8698412698412699
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,92,0.2787878787878788
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,5,0.013888888888888888
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,3,0.00946372239747634
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,235,0.762987012987013
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,388,0.754863813229572
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,486,0.8647686832740213
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,255,0.46788990825688076
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,94,0.23325062034739455
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,196,0.5885885885885885
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,434,0.9752808988764045
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,289,0.9174603174603174
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,23,0.0696969696969697
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,10,0.027777777777777776
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,240,0.7792207792207793
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,524,0.9357142857142857
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,448,0.8715953307392996
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,463,0.8735849056603774
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,483,0.8594306049822064
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,310,0.575139146567718
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,426,0.799249530956848
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,523,0.9509090909090909
+MQ2 | MQ3 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,296,0.7344913151364765
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,330,0.8208955223880597
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,268,0.7635327635327636
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,236,0.7087087087087087
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,365,0.8165548098434005
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,294,0.6789838337182448
+MQ2 | MQ3 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,269,0.604494382022472
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,297,0.9428571428571428
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,172,0.5165165165165165
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,71,0.21515151515151515
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,74,0.2334384858044164
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,19,0.06229508196721312
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,222,0.7207792207792207
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,164,0.5694444444444444
+MQ2 | MQ3 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,257,0.8771331058020477
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,212,0.41245136186770426
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,530,0.9833024118738405
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,518,0.9217081850533808
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,530,0.9724770642201835
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,37,0.09181141439205956
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,299,0.6719101123595506
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,292,0.926984126984127
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,287,0.8696969696969697
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,253,0.8214285714285714
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,198,0.3852140077821012
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,475,0.8451957295373665
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,345,0.6330275229357798
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,46,0.1141439205955335
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,416,0.9348314606741573
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,293,0.9301587301587302
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,188,0.5696969696969697
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,16,0.044444444444444446
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,224,0.7272727272727273
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,506,0.9035714285714286
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,225,0.4377431906614786
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,514,0.9536178107606679
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,321,0.5711743772241993
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,166,0.3079777365491651
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,403,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,93,0.17680608365019013
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,370,0.8277404921700223
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,218,0.4898876404494382
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,297,0.9428571428571428
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,241,0.7237237237237237
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,198,0.6
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,3,0.008333333333333333
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,66,0.2082018927444795
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,337,0.6556420233463035
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,534,0.9501779359430605
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,537,0.9853211009174312
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,31,0.07692307692307693
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,194,0.5825825825825826
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,432,0.9976905311778291
+MQ2 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,377,0.8471910112359551
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,293,0.9301587301587302
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,40,0.12121212121212122
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,16,0.044444444444444446
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,271,0.8798701298701299
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,269,0.5233463035019456
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,472,0.87569573283859
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,475,0.9481037924151696
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,258,0.47339449541284406
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,111,0.27543424317617865
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,194,0.5825825825825826
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,224,0.503370786516854
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,305,0.9682539682539683
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,329,0.996969696969697
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,164,0.5324675324675324
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,283,0.5505836575875487
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,442,0.8200371057513914
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,390,0.7784431137724551
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,557,0.9911032028469751
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,427,0.7878228782287823
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,38,0.09429280397022333
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,298,0.6696629213483146
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,302,0.9587301587301588
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,155,0.4696969696969697
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,8,0.022222222222222223
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,249,0.8084415584415584
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,190,0.36964980544747084
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,428,0.7940630797773655
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,478,0.9018867924528302
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,547,0.9820466786355476
+MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,464,0.8256227758007118
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,271,0.5027829313543599
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,520,0.9541284403669725
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,508,0.9372693726937269
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,311,0.9014492753623189
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,334,0.8287841191066998
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,82,0.155893536121673
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,439,0.9821029082774049
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,432,0.9976905311778291
+MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,197,0.44269662921348313
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,305,0.9682539682539683
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,226,0.6786786786786787
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,163,0.49393939393939396
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,11,0.03470031545741325
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,302,0.9805194805194806
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,369,0.7178988326848249
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,530,0.9833024118738405
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,496,0.9900199600798403
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,518,0.9773584905660377
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,210,0.3853211009174312
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,200,0.49627791563275436
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,199,0.5975975975975976
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,422,0.9745958429561201
+MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,371,0.8337078651685393
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,305,0.9682539682539683
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,47,0.14242424242424243
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,7,0.019444444444444445
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,195,0.6331168831168831
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,253,0.49221789883268485
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,405,0.75139146567718
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,461,0.9201596806387226
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,207,0.3798165137614679
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,36,0.08933002481389578
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,184,0.4134831460674157
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,312,0.9904761904761905
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,252,0.7636363636363637
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,15,0.041666666666666664
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,302,0.9805194805194806
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,223,0.433852140077821
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,505,0.9369202226345084
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,515,0.9163701067615658
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,198,0.4913151364764268
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,307,0.5836501901140685
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,364,0.8179775280898877
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,290,0.9206349206349206
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,208,0.6303030303030303
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,4,0.011111111111111112
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,304,0.987012987012987
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,194,0.377431906614786
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,460,0.8185053380782918
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,331,0.6073394495412844
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,222,0.5508684863523573
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,389,0.8741573033707866
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,295,0.9365079365079365
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,177,0.5363636363636364
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,11,0.030555555555555555
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,1,0.0031545741324921135
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,300,0.974025974025974
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,242,0.4708171206225681
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,505,0.9369202226345084
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,528,0.9962264150943396
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,304,0.5409252669039146
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,177,0.32838589981447125
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,402,0.9975186104218362
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,338,0.9629629629629629
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,190,0.5705705705705706
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,427,0.9552572706935123
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,429,0.9907621247113164
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,316,0.7101123595505618
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,299,0.9492063492063492
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,236,0.7087087087087087
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,112,0.3393939393939394
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,1,0.002777777777777778
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,69,0.21766561514195584
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,270,0.8766233766233766
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,362,0.7042801556420234
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,540,0.9608540925266904
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,284,0.7047146401985112
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,196,0.5885885885885885
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,429,0.9907621247113164
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,406,0.9123595505617977
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,291,0.9238095238095239
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,43,0.1303030303030303
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,9,0.025
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,307,0.9967532467532467
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,252,0.490272373540856
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,534,0.9501779359430605
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,522,0.9577981651376147
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,57,0.141439205955335
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,337,0.7573033707865169
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,298,0.946031746031746
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,160,0.48484848484848486
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,11,0.030555555555555555
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,239,0.4649805447470817
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,487,0.9035250463821892
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,496,0.9900199600798403
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,562,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,208,0.381651376146789
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,165,0.4094292803970223
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,332,0.7460674157303371
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,306,0.9714285714285714
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,124,0.37575757575757573
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,7,0.019444444444444445
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,304,0.987012987012987
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,560,560,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,514,240,0.4669260700389105
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,501,501,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,530,530,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,557,557,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 11 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,562,530,0.9430604982206405
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,539,539,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,533,533,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,545,545,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,542,542,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,550,550,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 12 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,588,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,516,516,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,386,386,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 13 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,532,532,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,345,345,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,403,285,0.707196029776675
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,402,402,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,351,351,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,333,192,0.5765765765765766
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,526,526,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,447,447,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,433,433,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 18 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,445,388,0.8719101123595505
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 1,classe_0_vaso_1,0,315,297,0.9428571428571428
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 6,classe_0_vaso_6,0,301,301,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 7,classe_0_vaso_7,0,333,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 8,classe_0_vaso_8,0,330,114,0.34545454545454546
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Heterodera Vaso 9,classe_0_vaso_9,0,360,8,0.022222222222222223
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 1,classe_1_vaso_1,1,317,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 2,classe_1_vaso_2,1,305,0,0.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 3,classe_1_vaso_3,1,308,308,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 4,classe_1_vaso_4,1,288,288,1.0
+MQ2 | MQ3 | MQ7 | MQ8 | MQ135 | MQ138,dia 19 - Soja Saudavel Vaso 5,classe_1_vaso_5,1,293,293,1.0

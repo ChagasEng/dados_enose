@@ -1,0 +1,11 @@
+Vaso_id,Classe,leituras,acertos,erros,acuracia_normal,maioria_errada
+classe_1_vaso_2,1,7368,3795,3573,0.5150651465798045,False
+classe_0_vaso_9,0,4975,3466,1509,0.6966834170854271,False
+classe_1_vaso_1,1,7664,6627,1037,0.8646920668058455,False
+classe_0_vaso_6,0,7193,6411,782,0.8912831919922146,False
+classe_1_vaso_5,1,7334,6954,380,0.9481865284974094,False
+classe_0_vaso_1,0,4801,4547,254,0.947094355342637,False
+classe_1_vaso_3,1,5421,5380,41,0.9924368197749492,False
+classe_0_vaso_8,0,4895,4895,0,1.0,False
+classe_0_vaso_7,0,7180,7180,0,1.0,False
+classe_1_vaso_4,1,6661,6661,0,1.0,False
