@@ -1,0 +1,6 @@
+modelo,acertos,vasos,proporcao,limite_inferior_95,limite_superior_95,metodo
+cinco_mq_ambiente_selecionado,9,10,0.9,0.5549838829718047,0.9974714214555382,Clopper-Pearson; condicional ao modelo e a escolha das entradas
+logistica_nove_entradas,8,10,0.8,0.4439045376923585,0.9747892736731666,Clopper-Pearson; condicional ao modelo e a escolha das entradas
+nove_entradas,9,10,0.9,0.5549838829718047,0.9974714214555382,Clopper-Pearson; condicional ao modelo e a escolha das entradas
+somente_ambientais,10,10,1.0,0.6915028921812392,1.0,Clopper-Pearson; condicional ao modelo e a escolha das entradas
+somente_mq,9,10,0.9,0.5549838829718047,0.9974714214555382,Clopper-Pearson; condicional ao modelo e a escolha das entradas

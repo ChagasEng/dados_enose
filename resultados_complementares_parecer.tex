@@ -1,0 +1,137 @@
+% Inserir na seção de Resultados, após a apresentação do LOSO na base completa.
+% Os testes usam as 36 coletas, salvo quando o recorte é indicado.
+
+\subsection{Influência do dia e da condição do solo}
+\label{subsec:resultados_dia_periodo}
+
+A classe majoritária calculada nas próprias coletas de cada dia acertou
+24 de 36 coletas (66,67\%). Esse valor é descritivo, pois usa os rótulos
+das coletas avaliadas. Quando a classe majoritária de cada dia foi
+estimada somente nas coletas dos outros nove vasos em cada rodada LOSO,
+com desempate pela classe majoritária no treinamento, o acerto foi de
+14 de 36 coletas (38,89\%). O empate entre as classes no dia 19 tornou
+essa regra instável à retirada de um único vaso.
+
+No LOSO restrito aos dias 18 e 19 de maio de 2026, o Extra Trees (ET)
+com as nove entradas acertou 22.249 de 27.365 leituras (81,30\%) e 15
+de 19 coletas (78,95\%). Com somente seis MQ, acertou 17.537 leituras
+(64,09\%) e 13 coletas; com somente índice de solo, temperatura e pressão,
+20.539 leituras (75,06\%) e 14 coletas. Nesse recorte, houve dez coletas
+inoculadas e nove controles.
+
+Ao treinar o ET de nove entradas nas coletas dos dias 11 a 13 e testar
+nas dos dias 18 e 19, a acurácia caiu para 9 de 19 coletas (47,37\%;
+acurácia balanceada de 50,00\%). No sentido inverso, o acerto foi de
+6 de 17 coletas (35,29\%; acurácia balanceada de 30,00\%). Esses testes
+medem a transferência entre períodos nos mesmos vasos; a irrigação
+ocorrida entre 13 e 18 de maio alterou a condição do solo entre os
+períodos. Os resultados não sustentam extrapolação do desempenho LOSO
+para coletas de outro período.
+
+\subsection{Entradas fixas e seleção de sensores}
+\label{subsec:resultados_entradas_fixas}
+
+Na base completa, o ET com as nove entradas fixas acertou 55.136 de
+63.492 leituras (86,84\%), 31 de 36 coletas e 9 de 10 vasos. O conjunto
+de cinco MQ selecionado entre 63 subconjuntos, acompanhado das três
+variáveis ambientais, acertou 55.916 leituras (88,07\%), 32 coletas e
+9 vasos. O resultado com nove entradas constitui a referência sem
+seleção de subconjunto de sensores. A diferença de 1,23 ponto percentual
+entre essas duas configurações não isola o efeito da seleção, pois as
+entradas também mudam. Nas 63 combinações MQ mais ambiente, a acurácia
+por leitura variou de 82,47\% a 88,07\%, com mediana de 86,39\%.
+
+O ET com apenas as três variáveis ambientais acertou 53.787 leituras
+(84,71\%), 29 coletas e 10 vasos; com apenas os seis MQ, 50.041 leituras
+(78,81\%), 28 coletas e 9 vasos. A diferença média de acurácia por
+leitura dentro de vaso entre as nove entradas e somente ambiente foi de
+2,80 pontos percentuais. A enumeração exploratória das 1.024 inversões
+de sinal das dez diferenças por vaso resultou em $p=0{,}348$; por acurácia
+por coleta dentro de vaso, $p=0{,}50$. Essas comparações não demonstram
+ganho estável dos MQ além das variáveis ambientais.
+
+Das cinco coletas retiradas apenas da análise de sensibilidade, uma era
+da classe minoritária no próprio dia: o controle do vaso 2 em 12 de maio.
+As outras quatro ocorreram em 19 de maio, quando havia cinco coletas de
+cada grupo. A exclusão continua sujeita a viés porque foi definida após
+examinar os erros do modelo.
+
+\subsection{Busca combinatória na base após exclusões}
+\label{subsec:resultados_busca_combinatoria_filtrada}
+
+Na análise de sensibilidade com cinco coletas excluídas, restaram 31
+coletas e 55.946 leituras dos dez vasos. O ET avaliou os 63 subconjuntos
+não vazios de MQ isoladamente e, em outra busca, os mesmos 63 subconjuntos
+acompanhados de solo, temperatura e pressão. A
+Tabela~\ref{tab:busca_mq_filtrada} apresenta o primeiro colocado em cada
+cenário.
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \caption{Melhores subconjuntos de MQ no LOSO exploratório com 31 coletas.}
+    \label{tab:busca_mq_filtrada}
+    \begin{tabular}{p{0.17\textwidth}p{0.48\textwidth}cc}
+        \hline
+        Cenário & Entradas do primeiro colocado & Acertos/leituras & Acurácia \\
+        \hline
+        Só MQ & MQ2, MQ3, MQ7, MQ8, MQ135 e MQ138 & 53.388/55.946 & 95,43\% \\
+        MQ + ambiente & MQ2, MQ3, MQ8, MQ135 e MQ138 + solo, temperatura e pressão & 54.783/55.946 & 97,92\% \\
+        \hline
+    \end{tabular}
+\end{table}
+O MQ7, portanto, integrou a melhor combinação \emph{somente MQ}; ele
+ficou fora apenas da combinação vencedora com as variáveis ambientais.
+A busca mais ampla das 511 combinações individuais das nove variáveis
+também colocou os cinco MQ mais solo, temperatura e pressão em primeiro
+lugar, com 54.783 acertos.
+
+Para comparar ET, Random Forest e TCN nas mesmas entradas, fixaram-se
+MQ2, MQ3, MQ8, MQ135 e MQ138 para os três modelos. Sem ambiente, o ET
+acertou 53.015/55.946 leituras (94,76\%), o Random Forest
+47.172/55.946 (84,32\%) e a TCN 49.352/55.946 (88,21\%). Ao adicionar
+solo, temperatura e pressão a esses cinco MQ, os acertos foram,
+respectivamente, 54.783/55.946 (97,92\%), 53.385/55.946 (95,42\%) e
+49.789/55.946 (88,99\%). O resultado de 53.388 acertos da busca
+\emph{somente MQ} não pertence ao conjunto fixo de cinco sensores, pois
+inclui também o MQ7. Todos esses resultados condicionam-se à exclusão
+exploratória das cinco coletas e não estimam desempenho externo.
+
+\subsection{Fase temporal e pressão}
+\label{subsec:resultados_fase_pressao}
+
+O recorte proporcional original conservou 11.604 leituras anteriores a
+200~s (18,28\% das 63.492) e 51.888 leituras entre 200 e 800~s. Após
+reajustar o ET somente com essa janela fixa, o modelo de nove entradas
+acertou 46.053 de 51.888 leituras (88,75\%) e 32 de 36 coletas. Os
+modelos com seis MQ e com somente ambiente acertaram, respectivamente,
+41.252 leituras (79,50\%; 27 coletas) e 44.312 leituras (85,40\%;
+31 coletas). A restrição por tempo modificou as métricas, mas manteve
+desempenho elevado das entradas ambientais. Como não há marca da abertura
+da válvula em cada série analisada, o intervalo de 200--800~s não foi
+tomado como equivalente à fase de amostragem em todas as coletas.
+
+Após a retirada dos saltos de pressão, a mediana global foi 93,69~kPa;
+a segunda etapa do filtro reteve a faixa de 93,19 a 94,19~kPa. Essa
+etapa adicional excluiu 906 leituras da classe inoculada (2,81\% das
+originais dessa classe) e 1.683 dos controles (4,31\%). A
+Tabela~\ref{tab:pressao_classe_final} resume a distribuição de pressão
+retida em cada classe.
+\begin{table}[H]
+    \centering
+    \caption{Distribuição descritiva da pressão após a filtragem estrita, em kPa.}
+    \label{tab:pressao_classe_final}
+    \begin{tabular}{lcccc}
+        \hline
+        Grupo & Média $\pm$ DP & Mediana & P5--P95 & Mínimo--máximo \\
+        \hline
+        Inoculado & $93{,}633\pm0{,}085$ & 93,69 & 93,52--93,73 & 93,47--93,75 \\
+        Controle & $93{,}672\pm0{,}120$ & 93,71 & 93,51--93,86 & 93,49--93,88 \\
+        \hline
+    \end{tabular}
+\end{table}
+Nas abas
+originais, os mínimos de pressão variaram de 43,38 a 83,53~kPa; logo,
+70~kPa descreve o alvo operacional, não um valor idêntico registrado em
+todas as coletas. Segundo o fluxograma, a válvula de entrada permaneceu
+aberta durante a aquisição e a análise das respostas, com a bomba
+desligada; na desaturação, a válvula foi fechada e a bomba expulsou o ar.

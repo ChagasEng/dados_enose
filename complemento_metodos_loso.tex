@@ -1,0 +1,210 @@
+
+\subsection{Auditoria exploratória das coletas}
+\label{subsec:auditoria_coletas_loso}
+
+Além do filtro de pressão descrito acima, examinou-se a estabilidade dos
+seis sinais MQ em cada coleta. Para o sensor $s$, a coleta $c$ e a leitura
+$t>1$, calcularam-se a variação absoluta entre leituras consecutivas e o
+limiar de cada sensor conforme a Equação~\eqref{eq:salto_mq_loso}:
+\begin{equation}
+    d_{s,c,t}=\left|x_{s,c,t}-x_{s,c,t-1}\right|,
+    \qquad
+    q_s=Q_{0{,}995}\!\left(\{d_{s,c,t}:c,\ t>1\}\right),
+    \label{eq:salto_mq_loso}
+\end{equation}
+em que $x_{s,c,t}$ é o sinal bruto do MQ e $Q_{0{,}995}$ é o percentil
+99,5 das variações reunidas de todas as coletas para aquele sensor.
+As diferenças foram calculadas dentro de cada coleta, sem conectar o fim
+de uma coleta ao início de outra. Definiu-se uma leitura com salto
+multissensor quando pelo menos dois dos seis MQ superaram seus respectivos
+limiares. O indicador de salto e a fração de leituras sinalizadas na coleta
+foram calculados pela Equação~\eqref{eq:ruido_multissensor_loso}:
+\begin{equation}
+    J_{c,t}=\mathbf{1}\!\left\{
+      \sum_{s\in\mathcal{S}_{\mathrm{MQ}}}
+      \mathbf{1}\{d_{s,c,t}\geq q_s\}\geq 2
+    \right\},
+    \qquad
+    R_c=\frac{1}{n_c}\sum_{t=1}^{n_c}J_{c,t},
+    \label{eq:ruido_multissensor_loso}
+\end{equation}
+em que $n_c$ é o número de leituras da coleta. A regra exploratória de
+qualidade sinalizou coletas com $R_c\geq 0{,}05$. A avaliação visual das
+séries foi usada para contextualizar os saltos. O limiar foi aplicado à
+coleta individual, de forma que as demais coletas do mesmo vaso permaneceram
+elegíveis. Os percentis e a regra de exclusão foram definidos após a
+inspeção da base completa; sua utilização constitui análise de
+sensibilidade, e não um protocolo de qualidade estabelecido antes da
+aquisição.
+
+Separadamente, as previsões da análise inicial de Extra Trees com MQ2,
+MQ3, MQ8, MQ135, MQ138 e as três entradas ambientais foram agrupadas por
+coleta. A fração de erros de cada coleta foi calculada pela
+Equação~\eqref{eq:erro_coleta_loso}:
+\begin{equation}
+    E_c=\frac{1}{n_c}\sum_{t=1}^{n_c}
+    \mathbf{1}\{\widehat y_{c,t}\neq y_c\},
+    \label{eq:erro_coleta_loso}
+\end{equation}
+em que $y_c$ é a classe experimental da coleta. Foram examinadas as
+coletas com $E_c>0{,}5$. Na análise de sensibilidade com exclusões,
+retiraram-se as quatro coletas identificadas por esse critério e uma
+coleta adicional sinalizada pela auditoria multissensor; uma das quatro
+também satisfazia o critério de ruído. A seleção por $E_c$ utilizou os
+erros do próprio classificador na mesma base, e não demonstra defeito de
+aquisição nas coletas selecionadas. Por isso, todas as comparações após
+essas exclusões são exploratórias e condicionadas a essa seleção.
+
+\subsection{Validação complementar com coletas agrupadas por vaso}
+\label{subsec:loso_complementar}
+
+Para examinar o efeito das coletas repetidas de um mesmo vaso na avaliação,
+primeiro foram retiradas somente as cinco coletas selecionadas na análise
+de sensibilidade. Nenhum vaso foi excluído: suas outras coletas
+permaneceram na base. Em seguida, aplicou-se a validação
+\textit{leave-one-vase-out} (LOSO) às coletas restantes, agrupadas pelo
+vaso de origem. Em cada rodada, todas as coletas restantes de um mesmo
+vaso foram separadas juntas para teste. O agrupamento utilizou a
+combinação entre
+classe experimental e código de vaso. Essa chave técnica evitou uma colisão
+de identificadores na
+planilha derivada, que contém registros da classe inoculada com código
+numérico de vaso 1; no delineamento físico, os vasos 1 a 5 são controles
+e os vasos 6 a 10 são inoculados. Para cada vaso $v$, a separação entre
+as coletas de treinamento e de teste seguiu a
+Equação~\eqref{eq:particao_loso}:
+\begin{equation}
+    \begin{aligned}
+        \mathcal{C}_v
+        &=\{c\in\mathcal{C}:v(c)=v\},\\
+        \mathcal{D}^{\mathrm{teste}}_v
+        &=\bigcup_{c\in\mathcal{C}_v}\mathcal{D}_c,\\
+        \mathcal{D}^{\mathrm{treino}}_v
+        &=\bigcup_{c\in\mathcal{C}\setminus\mathcal{C}_v}\mathcal{D}_c,
+    \end{aligned}
+    \label{eq:particao_loso}
+\end{equation}
+em que $\mathcal{C}$ é o conjunto de coletas elegíveis, $v(c)$ identifica
+o vaso da coleta $c$ e $\mathcal{D}_c$ reúne suas leituras e classes.
+Em cada uma das dez rodadas, treinou-se um modelo com as coletas dos
+nove outros vasos e testou-se com todas as coletas elegíveis do vaso
+reservado. Assim, coletas do mesmo vaso não participaram simultaneamente
+do treinamento e do teste em uma mesma rodada, e cada leitura elegível
+recebeu uma previsão fora do grupo usado no ajuste. O procedimento
+preservou os dez vasos; apenas as cinco coletas retiradas antes do LOSO
+deixaram de contribuir com leituras.
+
+Para Extra Trees, usaram-se sinais MQ brutos, sem a compensação estatística
+da Equação~\eqref{eq:compensacao_mq}, e, quando previstos na configuração,
+o índice operacional do solo, a temperatura e a pressão. O classificador
+foi reajustado em cada rodada com 900 árvores,
+\texttt{max\_features="sqrt"}, \texttt{min\_samples\_leaf=10},
+\texttt{bootstrap=False} e semente 42. A previsão por leitura foi a classe
+com probabilidade estimada de classe 1 igual ou superior a 0,5.
+
+Como comparação complementar, \textit{Random Forest} e a rede temporal
+descrita anteriormente foram reajustados em cada rodada LOSO em duas
+configurações fixas: MQ2, MQ3, MQ8, MQ135 e MQ138, isoladamente ou
+acompanhados das três variáveis ambientais. O Random Forest usou 300
+árvores, \texttt{class\_weight="balanced"} e semente 42. Na rede temporal,
+a padronização das entradas foi estimada apenas no treinamento de cada
+rodada. As janelas mantiveram 128 leituras e passo de 64, com cinco ou oito
+canais conforme a configuração; nenhuma janela atravessou o limite de
+uma coleta. Para uma leitura $i$ coberta pelo conjunto $\mathcal{W}(i)$
+de janelas, a probabilidade da classe 1 e a previsão final foram obtidas
+pela Equação~\eqref{eq:agregacao_janelas_loso}:
+\begin{equation}
+    \widehat p_i(1)=
+    \frac{1}{|\mathcal{W}(i)|}
+    \sum_{w\in\mathcal{W}(i)}\widehat p_w(1),
+    \qquad
+    \widehat y_i=\mathbf{1}\{\widehat p_i(1)\geq 0{,}5\}.
+    \label{eq:agregacao_janelas_loso}
+\end{equation}
+Os modelos foram comparados por leitura após reunir as previsões de todas
+as rodadas. Essa avaliação não corresponde à partição por coleta de 70\%/30\%
+descrita anteriormente. A implementação \texttt{ExtraTreesClassifier}
+descrita para a análise anterior é tecnicamente Extra Trees; nesta
+comparação, \textit{Random Forest} designa especificamente a implementação
+\texttt{RandomForestClassifier}. A rede temporal é identificada aqui como
+TCN, pois a implementação usada não possui módulo de atenção ou de
+explicabilidade integrado.
+
+\subsection{Busca combinatória das entradas}
+\label{subsec:busca_combinatoria_loso}
+
+A busca de entradas foi realizada com Extra Trees e a mesma divisão LOSO.
+As nove variáveis candidatas estão definidas na
+Equação~\eqref{eq:conjunto_entradas_loso}:
+\begin{equation}
+    \mathcal{F}=\{\mathrm{MQ2},\mathrm{MQ3},\mathrm{MQ7},\mathrm{MQ8},
+    \mathrm{MQ135},\mathrm{MQ138},I_{\mathrm{solo}},T,P\}.
+    \label{eq:conjunto_entradas_loso}
+\end{equation}
+Foram avaliados todos os subconjuntos não vazios $A\subseteq\mathcal{F}$.
+Cada uma das nove variáveis pode estar presente ou ausente, produzindo
+$2^9$ subconjuntos. Um deles é o conjunto vazio, sem qualquer variável
+de entrada para o classificador; por isso, ele foi excluído da busca.
+O número de configurações avaliadas foi calculado pela
+Equação~\eqref{eq:combinacoes_loso}:
+\begin{equation}
+    \left|\{A\subseteq\mathcal{F}:A\neq\emptyset\}\right|
+    =2^{|\mathcal{F}|}-1=2^9-1=511.
+    \label{eq:combinacoes_loso}
+\end{equation}
+Solo, temperatura e pressão variaram separadamente nessa busca,
+inclusive nas configurações sem sensores MQ. O BMP280 fornece
+temperatura e pressão como duas variáveis, embora seja um único componente
+físico; portanto, a contagem de configurações acima se refere a entradas
+do modelo, não a componentes de hardware. Se temperatura e pressão forem
+tratadas como um bloco indivisível, passam a existir oito componentes
+selecionáveis: seis sensores MQ, o sensor de solo e o BMP280. Cada
+componente pode estar presente ou ausente, gerando $2^8$ combinações.
+Excluindo a combinação vazia, sem nenhum componente, restam
+$2^8-1=255$ configurações de componentes possíveis.
+
+Para cada subconjunto $A$, o mesmo classificador e as mesmas dez partições
+por vaso foram usados. A ordenação adotou a acurácia por leitura reunida
+entre as rodadas; empates foram resolvidos por menor número total de
+variáveis, depois por maior número de MQ e, por fim, por ordem alfabética
+dos nomes das entradas. Random Forest e rede temporal não participaram
+dessa busca exaustiva. A escolha da configuração e sua avaliação ocorreram
+nos mesmos vasos, sem validação aninhada nem conjunto biológico externo;
+portanto, a ordenação das configurações é exploratória.
+
+\subsection{Cálculo das métricas na validação por vaso}
+\label{subsec:metricas_loso_complementar}
+
+Com as previsões das rodadas LOSO reunidas, a acurácia por leitura foi
+calculada conforme a Equação~\eqref{eq:acuracia_loso}:
+\begin{equation}
+    \mathrm{Acc}=\frac{1}{N}
+    \sum_{i=1}^{N}\mathbf{1}\{\widehat y_i=y_i\},
+    \label{eq:acuracia_loso}
+\end{equation}
+em que $N$ é o total de leituras avaliadas. Para cada classe
+$k\in\{0,1\}$, o recall, a precisão e a medida F1 foram calculados
+pela Equação~\eqref{eq:metricas_classe_loso}:
+\begin{equation}
+    \mathrm{Recall}_k=\frac{TP_k}{TP_k+FN_k},\qquad
+    \mathrm{Prec}_k=\frac{TP_k}{TP_k+FP_k},\qquad
+    F1_k=\frac{2\,\mathrm{Prec}_k\,\mathrm{Recall}_k}
+    {\mathrm{Prec}_k+\mathrm{Recall}_k},
+    \label{eq:metricas_classe_loso}
+\end{equation}
+em que $TP_k$, $FN_k$ e $FP_k$ são, respectivamente, verdadeiros positivos,
+falsos negativos e falsos positivos ao tomar $k$ como classe positiva.
+A acurácia balanceada e a média macro de F1 foram calculadas conforme a
+Equação~\eqref{eq:metricas_resumo_loso}:
+\begin{equation}
+    \mathrm{Acc}_{\mathrm{bal}}=
+    \frac{\mathrm{Recall}_0+\mathrm{Recall}_1}{2},
+    \qquad
+    F1_{\mathrm{macro}}=\frac{F1_0+F1_1}{2}.
+    \label{eq:metricas_resumo_loso}
+\end{equation}
+O recall da classe 0 descreve a identificação de leituras do grupo
+inoculado; os denominadores das métricas são leituras, não vasos. As
+leituras sucessivas de uma mesma coleta e as coletas repetidas do mesmo
+vaso não constituem réplicas biológicas independentes. Em particular,
+a acurácia reunida atribui mais peso a coletas com maior número de leituras.

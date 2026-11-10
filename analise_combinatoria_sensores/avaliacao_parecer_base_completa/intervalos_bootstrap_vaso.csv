@@ -1,0 +1,4 @@
+unidade,repeticoes,limite_inferior_95,limite_superior_95,metodo
+leitura,10000,0.7840135332560867,0.9645751513412519,"bootstrap estratificado por classe, reamostrando vasos; IC condicional ao modelo e as entradas ja escolhidas"
+coleta,10000,0.7833333333333333,1.0,"bootstrap estratificado por classe, reamostrando vasos; IC condicional ao modelo e as entradas ja escolhidas"
+vaso,10000,0.7,1.0,"bootstrap estratificado por classe, reamostrando vasos; IC condicional ao modelo e as entradas ja escolhidas"

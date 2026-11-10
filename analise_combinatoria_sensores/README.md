@@ -48,6 +48,12 @@ Execute a partir da raiz do projeto:
 - `validacao_70_30_por_leitura/README.md`: divisao 70/30 feita diretamente nas leituras cruas para os conjuntos selecionados.
 - `validacao_sem_vasos_criticos/README.md`: ensaio exploratorio excluindo os tres vasos com erros mais concentrados e comparando as mesmas leituras dos vasos restantes.
 - `validacao_qualidade_por_coleta/README.md`: LOSO com dez vasos e exclusao apenas das duas coletas com ruido multissensor extremo; comparacao com as mesmas 34 coletas na analise original.
+- `validacao_sem_quatro_coletas_erradas/README.md`: LOSO com dez vasos e exclusao das quatro coletas com mais erros; Random Forest, TCN e busca completa de 63 combinacoes de MQ com e sem ambiente.
+- `validacao_sem_cinco_coletas/README.md`: cenario corrigido com dez vasos e cinco coletas excluidas, incluindo a inoculada ruidosa do dia 19; Random Forest, TCN e busca completa de Extra Trees.
+- `busca_nove_variaveis_loso/README.md`: busca exaustiva de 511 combinacoes dos seis MQ, solo, temperatura e pressao por LOSO; inclui alternativas ambientais parciais e baselines sem MQ.
 - `media_movel_10_coletas_destacadas/README.md`: ensaio exploratorio de media movel de dez leituras nas quatro coletas com maioria errada, uma a uma e juntas.
 - `busca_mq_loso_leituras/README.md`: busca das 63 combinacoes apenas MQ nas duas representacoes, usando acuracia normal por amostra.
 - `busca_mq_ambiente_loso_leituras/README.md`: busca das 63 combinacoes MQ mais ambiente nas duas representacoes, usando acuracia normal por amostra.
+- `avaliar_confundimento_dia.py`: baseline por dia, LOSO restrito a 18--19 de maio, transferência entre períodos, normalização MQ por dia ajustada dentro de cada fold e comparação pareada nove entradas versus ambiente. Resultados em `confundimento_dia/`.
+- `avaliar_fase_temporal.py`: LOSO nas 36 coletas após restringir as leituras a 200--800 s; resultados em `confundimento_dia/`.
+- `resumir_coletas_originais.py`: duração e pressão mínima nas abas originais correspondentes às 36 coletas; resultados em `confundimento_dia/`.

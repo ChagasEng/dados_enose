@@ -1,0 +1,6 @@
+Coleta,Classe,Vaso_id,n_leituras,motivo
+dia 12 - Soja Saudavel Vaso 2,1,classe_1_vaso_2,2352,erro_concentrado_loso_original
+dia 19 - Soja Heterodera Vaso 1,0,classe_0_vaso_1,1261,ruido_multissensor
+dia 19 - Soja Heterodera Vaso 9,0,classe_0_vaso_9,1441,erro_concentrado_loso_original
+dia 19 - Soja Saudavel Vaso 1,1,classe_1_vaso_1,1271,erro_concentrado_loso_original;ruido_multissensor
+dia 19 - Soja Saudavel Vaso 2,1,classe_1_vaso_2,1221,erro_concentrado_loso_original

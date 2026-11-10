@@ -1,0 +1,34 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "coletas_excluidas": [
+    "dia 12 - Soja Saudavel Vaso 2",
+    "dia 19 - Soja Heterodera Vaso 9",
+    "dia 19 - Soja Saudavel Vaso 2",
+    "dia 19 - Soja Saudavel Vaso 1",
+    "dia 19 - Soja Heterodera Vaso 1"
+  ],
+  "motivo_exploratorio": "Quatro coletas com maioria de leituras incorretas no Extra Trees original; mais uma coleta ruidosa na auditoria",
+  "entradas": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "validacao": "LOSO por vaso, 10 folds, 31 coletas; uma predicao por leitura",
+  "rf": "RandomForestClassifier 300 arvores, class_weight=balanced, seed=42",
+  "tcn": "Rede convolucional temporal do projeto, 60 epocas, janela 128, passo 64, StandardScaler ajustado no treino de cada fold; media das probabilidades das janelas que cobrem cada leitura",
+  "limite": "Selecao das coletas por erros do proprio modelo; resultados condicionais e exploratorios"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "coletas_excluidas": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\analise_combinatoria_sensores\\validacao_sem_cinco_coletas\\coletas_excluidas.csv",
+  "validacao": "LOSO por vaso, 10 folds, 31 coletas, 55946 leituras",
+  "modelo": "ExtraTreesClassifier, 900 arvores, max_features=sqrt, min_samples_leaf=10, seed=42",
+  "busca": "Todos os subconjuntos nao vazios de seis MQ + tres variaveis ambientais: 511",
+  "reaproveitados": 126,
+  "novos": 385,
+  "ranking": "Acuracia normal por leitura, desempate por menos variaveis e depois mais MQ",
+  "limite": "Busca e avaliacao nos mesmos vasos; cinco coletas retiradas apos inspecao dos dados, tres por erros do modelo"
+}
