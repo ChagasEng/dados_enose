@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+    \centering
+    \footnotesize
+    \caption{Desempenho por leitura dos classificadores individuais nas 31 coletas, com validação LOSO por vaso.}
+    \label{tab:metricas_classificadores_loso_filtrado}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{llrrrr}
+        \hline
+        Cenário & Modelo & Acurácia (\%) & Acurácia bal. (\%) & Recall (\%) & F1 macro (\%) \\
+        \hline
+        Cinco MQ & Extra Trees & 94,76 & 94,47 & 89,56 & 94,70 \\
+        Cinco MQ & Random Forest & 84,32 & 83,87 & 76,20 & 84,07 \\
+        Cinco MQ & TCN & 88,21 & 87,63 & 77,64 & 87,94 \\
+        Cinco MQ & k-NN & 88,96 & 88,66 & 83,62 & 88,84 \\
+        Cinco MQ & MLP (ANN) & 89,58 & 89,22 & 82,95 & 89,44 \\
+        Cinco MQ & SVM linear & 66,16 & 65,51 & 54,31 & 65,38 \\
+        Cinco MQ & LDA & 66,97 & 66,61 & 60,58 & 66,64 \\
+        \hline
+        Cinco MQ + ambiente & Extra Trees & 97,92 & 97,88 & 97,12 & 97,91 \\
+        Cinco MQ + ambiente & Random Forest & 95,42 & 95,31 & 93,38 & 95,40 \\
+        Cinco MQ + ambiente & TCN & 88,99 & 88,75 & 84,61 & 88,90 \\
+        Cinco MQ + ambiente & k-NN & 95,06 & 94,86 & 91,37 & 95,02 \\
+        Cinco MQ + ambiente & MLP (ANN) & 96,07 & 96,08 & 96,25 & 96,06 \\
+        Cinco MQ + ambiente & SVM linear & 76,29 & 76,36 & 77,58 & 76,26 \\
+        Cinco MQ + ambiente & LDA & 76,80 & 77,22 & 84,38 & 76,79 \\
+        \hline
+    \end{tabular}
+    }
+\end{table}

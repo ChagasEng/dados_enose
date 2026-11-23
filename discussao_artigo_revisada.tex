@@ -1,0 +1,141 @@
+% Requer \usepackage{xcolor} no preâmbulo do documento principal.
+\begingroup
+\color{blue}
+\section{Discussão}
+\label{sec:discussao}
+
+Na base completa, o Extra Trees (ET) com seis sensores MQ e três variáveis
+ambientais identificou corretamente 9 de 10 vasos, 31 de 36 coletas e
+55.136 de 63.492 leituras (86,84\%) na validação que reservou um vaso por
+rodada. A separação entre os grupos mostra que, nas condições avaliadas, os
+sinais registrados continham informação sobre a atribuição dos vasos ao
+grupo inoculado ou ao controle. Ela não identifica, por si, a fonte dessa
+informação: os rótulos representam a inoculação planejada, sem confirmação
+nematológica individual, e a matriz de sensores responde a misturas gasosas
+sem identificar compostos. Tampouco demonstra reconhecimento específico de
+\textit{H. glycines} ou desempenho no diagnóstico de infestação natural.
+As leituras de um mesmo vaso são repetidas e correlacionadas; a unidade
+biológica independente é o vaso, não cada uma das 63.492 leituras. Com
+apenas cinco vasos por grupo, o intervalo binomial exato de 95\% para o
+acerto de 9/10 vasos é amplo (55,50--99,75\%).
+
+O contraste entre conjuntos de entradas restringe a interpretação do
+sinal dos MQ. O ET com somente índice de umidade do solo, temperatura e
+pressão acertou 84,71\% das leituras, 29 coletas e 10 vasos; com somente os
+seis MQ, acertou 78,81\% das leituras, 28 coletas e 9 vasos. A inclusão dos
+MQ elevou a acurácia por leitura em 2,13 pontos percentuais em relação ao
+modelo ambiental, mas reduziu de 10 para 9 o número de vasos corretos.
+A diferença média de acurácia por leitura dentro de vaso foi de 2,80
+pontos percentuais, e o contraste exploratório por inversões de sinal não
+forneceu evidência de ganho estável ($p=0{,}348$). Esse resultado não prova
+que os MQ sejam irrelevantes; mostra que sua contribuição adicional ainda
+não foi estabelecida neste conjunto de vasos. O índice de solo acompanha
+a irrigação e o período de coleta; temperatura e pressão também podem
+carregar informação compartilhada pelas medições de uma sessão. Além
+disso, essas condições podem alterar o \textit{headspace} e a resposta dos
+MQ. Assim, a classificação baseada em ambiente pode explorar diferenças
+associadas ao calendário e ao procedimento de aquisição, inclusive quando
+elas não são específicas do nematoide. Na análise de importância por
+permutação do teste por coleta, a pressão teve grande contribuição
+preditiva, sobretudo na TCN, mas essa medida não distingue um efeito
+biológico da dinâmica da câmara e da operação do vácuo.
+
+A dificuldade de generalização temporal reforça essa cautela. No ET com
+nove entradas, a validação por vaso acertou 31/36 coletas, ao passo que a
+avaliação que reservou uma data inteira acertou 10/36 com a faixa estrita
+de pressão e 13/36 sem ela. As duas avaliações respondem a perguntas
+distintas: a primeira testa novos vasos em datas já representadas no
+treinamento; a segunda testa datas novas, mas pode manter os mesmos vasos
+nos dois conjuntos. A queda é compatível com dependência de condições
+temporais, ambientais ou operacionais e não permite determinar qual delas
+responde pelo efeito. Na transferência entre os períodos de 11--13 e
+18--19 de maio, o ET com nove entradas acertou 9/19 coletas no sentido
+anterior--posterior e 6/17 no inverso. A irrigação entre esses períodos
+coincidiu com a mudança do índice de solo, mas também mudaram as datas e
+possivelmente outras condições de aquisição; essas comparações não isolam
+o efeito causal da irrigação.
+
+A posição relativa dos modelos variou entre os recortes exploratórios do
+índice operacional do solo. No recorte denominado solo seco, a
+TCN apresentou os melhores resultados, alcançando 98,47\% de acurácia,
+98,03\% de acurácia balanceada e 98,38\% de F1 macro. No solo úmido, o
+Extra Trees foi superior, com 74,46\%, 62,96\% e 63,33\%, respectivamente.
+
+Ao considerar conjuntamente todas as leituras coletadas a vácuo, o Extra
+Trees atingiu 90,83\% de acurácia e a TCN atingiu 89,91\%. Essa diferença
+global é pequena, mas oculta comportamentos distintos: a TCN foi mais
+eficaz no recorte seco e falhou na identificação da classe controle no recorte
+úmido, enquanto o Extra Trees apresentou menor variação das métricas entre os
+dois recortes.
+
+Assim, os resultados não indicam superioridade geral de um único modelo.
+A TCN apresentou métricas mais altas no recorte seco; o Extra Trees manteve
+métricas mais altas no recorte úmido. Como os recortes correspondem a datas
+distintas e houve irrigação entre esses períodos, essa comparação não identifica o
+efeito da água sobre nenhum dos modelos.
+
+Essa comparação pertence à partição histórica por coleta, na qual os
+mesmos vasos puderam aparecer em treinamento e teste em dias distintos.
+No recorte úmido, a TCN não reconheceu nenhuma leitura controle; sua
+acurácia simples, influenciada pelo desbalanceamento, superestima a
+capacidade de distinguir os dois grupos. O teste úmido reuniu somente
+quatro coletas, e a distinção entre solo seco e úmido se baseou em um
+índice operacional, sem medida calibrada da água em diferentes
+profundidades. Há explicações concorrentes para a queda: a água pode
+modificar a emissão, a retenção e o transporte dos voláteis no solo;
+pode alterar a fisiologia da soja e da microbiota; o vapor de água pode
+modificar a resposta dos sensores; e o protocolo, a composição das
+classes ou a deriva instrumental podem diferir entre datas
+\cite{asensio2007,cellini2017}. Como esses fatores variaram conjuntamente,
+os dados não permitem escolher uma causa nem afirmar que a água reduziu
+um sinal específico de \textit{H. glycines}.
+
+A plausibilidade biológica da detecção por voláteis encontra apoio em
+\cite{constantino2021}, que identificaram por GC--MS diferenças nas emissões
+foliares de soja inoculada com \textit{H. glycines} antes de sintomas
+evidentes. Nesse experimento, solo e raízes foram isolados durante a
+coleta; portanto, seus compostos candidatos não demonstram que a mesma
+assinatura esteja presente, ou seja detectada pelos MQ, no
+\textit{headspace} integrado do sistema solo--planta estudado aqui. A
+comparação com aplicações agrícolas de narizes eletrônicos também exige
+atenção à especificidade. \cite{herrmann2024} distinguiram estresse hídrico
+em soja com um nariz eletrônico e observaram variação dos sinais entre
+períodos do dia. Logo, um padrão gasoso discriminatório pode refletir
+estado hídrico ou horário, além da condição fitossanitária. O presente
+resultado apoia a investigação de uma ferramenta de triagem em condições
+controladas; sua utilidade agrícola dependerá de manter a discriminação
+frente a esses fatores e a outros estresses, com confirmação independente
+dos casos.
+
+O alcance das estimativas também é limitado pelo desenho e pelas decisões
+analíticas. Não há, nesta base, confirmação nematológica individual nem
+registro de que os controles receberam o mesmo veículo e procedimento de
+inoculação sem juvenis. Posição dos vasos e ordem de medição não foram
+documentadas para esta análise, impedindo descartar efeitos de posição,
+sequência ou deriva. A busca de subconjuntos de MQ utilizou os mesmos
+vasos empregados na avaliação; por isso, o melhor resultado dessa busca
+pode ser otimista. Cinco coletas foram excluídas após inspeção de erros e
+sinais, sem comprovação de falha instrumental em todas elas. A acurácia
+de 97,92\% obtida após essas exclusões é exploratória, não uma estimativa
+independente do desempenho. Nenhum modelo foi validado em vasos, campanhas
+ou locais externos ao experimento, e a validação por data já indica
+instabilidade sob mudança de condições.
+
+Os próximos ensaios devem separar as explicações concorrentes em um
+desenho fatorial com mais vasos independentes: inoculação confirmada e
+controle com inoculação simulada, cruzados com níveis de água do solo
+medidos por método calibrado, em todas as datas. A posição dos vasos e a
+ordem de amostragem devem ser aleatorizadas, enquanto horário, temperatura,
+umidade do gás, pressão, vazão e fases da coleta são registrados. Controles
+com outros nematoides, doenças, microbiotas e estresses abióticos testarão
+se a resposta é específica de \textit{H. glycines}; diferentes cargas do
+nematoide e tempos após a inoculação testarão o limite de detecção. A
+coleta pareada de GC--MS e dos sinais MQ, inclusive em compartimentos
+foliar e solo--raiz separados, poderá verificar quais compostos chegam à
+matriz e se explicam a classificação. Por fim, seleção de entradas,
+ajuste do modelo e definição de limiares devem ocorrer apenas nos dados
+de treinamento, seguidos de avaliação cega em novos vasos e campanhas e,
+depois, em amostras de campo com diagnóstico nematológico de referência.
+Sensibilidade, especificidade e erros por vaso nessas condições determinarão
+se o sistema é útil para triagem prática.
+\endgroup

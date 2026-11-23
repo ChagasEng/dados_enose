@@ -1,0 +1,46 @@
+{
+  "fonte": "comparacao\\pressao_filtrada\\antes_dia_20_pressao_filtrada.csv",
+  "fonte_preprocessada": "Recorte central de 70% e filtro fixo de saltos de pressao ja aplicados por coleta",
+  "validacao": "Dez rodadas LeaveOneGroupOut por vaso; parametros ajustados so nos nove vasos de treino",
+  "solo": "Minimo e maximo do Soil bruto no treino apos eventual faixa estrita; teste pode ficar fora de [0,1]",
+  "faixa_estrita": "Mediana de Pres. somente no treino antes da faixa +/- 0,50 kPa; aplicada a treino e teste",
+  "sem_faixa_estrita": "Mantem filtro fixo de saltos; nao aplica banda por mediana",
+  "modelo": "ExtraTreesClassifier 900 arvores, max_features=sqrt, min_samples_leaf=10, bootstrap=False, seed=42",
+  "configuracoes": {
+    "nove_entradas": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "somente_ambientais": [
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "somente_mq": [
+      "MQ2",
+      "MQ3",
+      "MQ7",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "cinco_mq_ambiente_exploratorio": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "limites": "Cinco MQ foram selecionados anteriormente nos mesmos dados; esse cenario continua exploratorio. Nao ha selecao aninhada de entradas."
+}

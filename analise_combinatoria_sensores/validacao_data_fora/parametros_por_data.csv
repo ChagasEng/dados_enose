@@ -1,0 +1,11 @@
+cenario,dia_teste,leituras_treino_antes_filtro,leituras_teste_antes_filtro,mediana_pressao_treino_kpa,limite_pressao_inferior_kpa,limite_pressao_superior_kpa,solo_min_treino,solo_max_treino,leituras_treino_apos_filtro,leituras_teste_apos_filtro,teste_solo_fora_escala_0_1
+faixa_estrita_treino,11,49544,16537,93.68,93.18,94.18,122.0,2971.0,48430,15062,4039
+faixa_estrita_treino,12,52235,13846,93.57,93.07,94.07,1.0,2971.0,50299,13193,0
+faixa_estrita_treino,13,58042,8039,93.7,93.2,94.2,1.0,2971.0,55620,7872,0
+faixa_estrita_treino,18,51330,14751,93.7,93.2,94.2,1.0,2955.0,48741,14751,3
+faixa_estrita_treino,19,53173,12908,93.57,93.07,94.07,1.0,2971.0,50878,12614,0
+sem_faixa_estrita,11,49544,16537,93.68,,,122.0,2971.0,49544,16537,4039
+sem_faixa_estrita,12,52235,13846,93.57,,,1.0,2971.0,52235,13846,0
+sem_faixa_estrita,13,58042,8039,93.7,,,1.0,2971.0,58042,8039,0
+sem_faixa_estrita,18,51330,14751,93.7,,,1.0,2955.0,51330,14751,3
+sem_faixa_estrita,19,53173,12908,93.57,,,1.0,2971.0,53173,12908,0

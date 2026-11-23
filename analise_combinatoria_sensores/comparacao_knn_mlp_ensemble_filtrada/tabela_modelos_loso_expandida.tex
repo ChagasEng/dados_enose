@@ -1,0 +1,20 @@
+% Substitui a tabela tab:modelos_cinco_mq_filtrado no artigo, se desejado.
+% ANN = MLP; o ensemble usa media das probabilidades dos quatro componentes.
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \caption{Desempenho por leitura dos classificadores com os mesmos cinco MQ, na base de 31 coletas e dez vasos. O ensemble combina ANN (MLP), k-NN, SVM linear e LDA.}
+    \label{tab:modelos_cinco_mq_filtrado}
+    \begin{tabular}{lcc}
+        \hline
+        Modelo & Cinco MQ & Cinco MQ + ambiente \\
+        \hline
+        Extra Trees & 53.015/55.946 (94,76\%) & 54.783/55.946 (97,92\%) \\
+        Random Forest & 47.172/55.946 (84,32\%) & 53.385/55.946 (95,42\%) \\
+        TCN & 49.352/55.946 (88,21\%) & 49.789/55.946 (88,99\%) \\
+        k-NN & 49.767/55.946 (88,96\%) & 53.183/55.946 (95,06\%) \\
+        MLP (ANN) & 50.118/55.946 (89,58\%) & 53.746/55.946 (96,07\%) \\
+        Ensemble (4 modelos) & 49.867/55.946 (89,13\%) & 51.677/55.946 (92,37\%) \\
+        \hline
+    \end{tabular}
+\end{table}

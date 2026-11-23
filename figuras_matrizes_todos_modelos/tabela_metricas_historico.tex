@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+    \centering
+    \footnotesize
+    \caption{Desempenho por leitura no teste histórico por coleta, nos recortes de solo seco e úmido.}
+    \label{tab:metricas_classificadores_historico}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{llrrrr}
+        \hline
+        Cenário & Modelo & Acurácia (\%) & Acurácia bal. (\%) & Recall (\%) & F1 macro (\%) \\
+        \hline
+        Solo seco & TCN & 98,47 & 98,03 & 96,07 & 98,38 \\
+        Solo seco & Extra Trees & 96,15 & 95,06 & 90,12 & 95,87 \\
+        Solo úmido & TCN & 63,58 & 41,52 & 83,04 & 38,87 \\
+        Solo úmido & Extra Trees & 74,46 & 62,96 & 84,61 & 63,33 \\
+        \hline
+    \end{tabular}
+    }
+\end{table}

@@ -1,0 +1,44 @@
+% Primeira subseção de Resultados, antes da análise dos sinais dos sensores.
+\subsection{Caracterização da base de dados}
+\label{subsec:caracterizacao_base_resultados}
+
+A base analisada reúne 55.946 leituras em um arquivo CSV com 33 colunas.
+Cada linha representa um registro temporal do nariz eletrônico durante
+uma coleta de ar do espaço acima do solo de um vaso. Os registros incluem
+os sinais dos seis sensores MQ, solo, temperatura, pressão, tempo,
+identificação da coleta e classe experimental, além de colunas derivadas.
+As leituras correspondem a 31 coletas realizadas em dez vasos, cinco do
+grupo inoculado (classe 0) e cinco do grupo controle não inoculado
+(classe 1). O número de leituras por coleta variou de 1.153 a 2.251,
+com mediana de 2.005.
+
+O grupo inoculado reuniu 26.342 leituras em 15 coletas, enquanto o grupo
+controle reuniu 29.604 leituras em 16 coletas. A
+Tabela~\ref{tab:distribuicao_base_resultados} apresenta a distribuição
+das unidades experimentais e das leituras. Cada vaso foi medido em mais
+de uma coleta; portanto, as 55.946 leituras não correspondem a 55.946
+unidades biológicas independentes.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Distribuição das leituras e coletas na base analisada.}
+    \label{tab:distribuicao_base_resultados}
+    \begin{tabular}{lrrr}
+        \hline
+        Grupo & Vasos & Coletas & Leituras \\
+        \hline
+        Inoculado (classe 0) & 5 & 15 & 26.342 \\
+        Controle (classe 1) & 5 & 16 & 29.604 \\
+        \hline
+        Total & 10 & 31 & 55.946 \\
+        \hline
+    \end{tabular}
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{table}
+
+Nos resultados de validação LOSO, o tamanho do treinamento variou de
+48.612 a 52.412 leituras entre as dez rodadas; o conjunto de avaliação
+de cada rodada continha de 3.534 a 7.334 leituras. Ao reunir as rodadas,
+cada uma das 55.946 leituras recebeu uma previsão de avaliação.
+Não houve um conjunto independente de validação nessa comparação.

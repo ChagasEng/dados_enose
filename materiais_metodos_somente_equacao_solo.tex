@@ -1,0 +1,652 @@
+\section{Materiais e Métodos}
+\label{sec:material_metodos}
+
+A metodologia compreendeu a construção do nariz eletrônico, o delineamento
+experimental, a aquisição dos sinais do sistema solo--planta, o
+pré-processamento das séries temporais e a classificação das coletas a vácuo.
+A validação agrupada por vaso foi usada para avaliar as coletas da base
+completa; a partição histórica por coleta e a exclusão exploratória de
+coletas foram examinadas separadamente.
+
+\subsection{Sistema de nariz eletrônico}
+\label{subsec:sistema_nariz}
+
+O nariz eletrônico foi desenvolvido para registrar a assinatura de compostos
+voláteis.
+Foi composto por microcontrolador ESP32, seis sensores de gases MQ, sensor de
+umidade do solo, sensor BMP280 de temperatura e pressão, bomba de vácuo,
+válvulas, tubo de PVC acoplado ao vaso, mangueiras, câmara sensorial de vidro
+e estrutura externa de MDF. O ESP32 registrou os sinais e controlou a bomba
+e as válvulas; uma interface web acessada por Wi-Fi permitiu iniciar e
+acompanhar as aquisições.
+O BMP280 forneceu temperatura e pressão medidas no equipamento, não uma
+medida de umidade relativa do ar na câmara sensorial. A leitura do sensor
+de solo foi tratada como índice operacional do substrato, sem equivalência
+com uma medida calibrada de água no solo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.30\textwidth]{figures/completo.jpeg}
+    \caption{Estrutura externa do nariz eletrônico.}
+    \label{fig:estrutura_nariz_eletronico}
+\end{figure}
+
+\subsubsection{Matriz de sensores de gases}
+\label{subsubsec:matriz_sensores}
+
+A matriz foi constituída por MQ-2, MQ-3, MQ-7, MQ-8, MQ-135 e MQ-138,
+posicionados na câmara de vidro sob o mesmo fluxo de amostra. Esses sensores
+semicondutores de óxido metálico apresentam sensibilidades parcialmente
+sobrepostas. Por isso, a classificação utilizou o padrão conjunto das seis
+respostas, sem atribuir a um sensor isolado a identificação química de um
+composto. As curvas de sensibilidade dos fabricantes foram empregadas apenas
+para descrever as respostas nominais dos modelos MQ. As leituras registradas
+foram sinais instrumentais, sem conversão para concentrações de compostos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.30\textwidth]{figures/matriz.png}
+    \caption{Matriz dos seis sensores de gases na câmara sensorial.}
+    \label{fig:matriz_sensores}
+\end{figure}
+
+\subsection{Delineamento experimental e material vegetal}
+\label{subsec:delineamento}
+
+O experimento foi conduzido na Estação de Pesquisas Agronema, em Grandes
+Rios, Paraná, Brasil, nas coordenadas $24{,}186^{\circ}$ S e
+$51{,}399^{\circ}$ O. Foram utilizados dez vasos com plantas de soja,
+distribuídos em dois grupos experimentais de cinco vasos cada: controle e
+inoculado. Os vasos constituíram as unidades biológicas do experimento.
+Leituras sucessivas e coletas repetidas do mesmo vaso não foram tratadas
+como réplicas biológicas independentes.
+
+As aquisições começaram aproximadamente 35 dias após a inoculação, em
+11 de maio de 2026. A base utilizada para a análise com coleta a vácuo
+contém 36 coletas realizadas em 11, 12, 13, 18 e 19 de maio de 2026,
+correspondentes, aproximadamente, a 35, 36, 37, 42 e 43 dias após a
+inoculação. Cada vaso foi amostrado em três ou quatro dessas ocasiões.
+Das 36 coletas, 17 pertenciam ao grupo inoculado e 19 ao controle.
+Houve irrigação entre as coletas de 13 e 18 de maio, o que contribuiu
+para a mudança da faixa operacional do índice de solo entre esses períodos.
+
+
+
+
+\subsection{Vasos controle e vasos inoculados com \textit{Heterodera glycines}}
+\label{subsec:classes_experimentais}
+
+Conforme o delineamento experimental, os vasos 1 a 5 formaram o
+grupo controle, considerado saudável e não inoculado. Os vasos
+6 a 10 formaram o grupo inoculado e receberam aproximadamente
+100 mil juvenis de segundo estádio (J2) de
+\textit{H. glycines} por vaso.
+
+A Figura \ref{fig:vasos_experimento} apresenta os vasos
+utilizados no experimento, divididos entre os grupos
+controle e inoculado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{figures/vasos_experimento.png}
+    \caption{Vasos de soja utilizados no experimento,
+    divididos entre os grupos controle não inoculado
+    e inoculado com \textit{H. glycines}.}
+    \label{fig:vasos_experimento}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{figure}
+
+Na base de classificação, a \textbf{classe 0} identifica o grupo
+experimentalmente inoculado e a \textbf{classe 1} identifica o controle
+não inoculado. Esses rótulos representam a alocação experimental, não a
+confirmação nematológica individual de cada vaso. Neste artigo, o recall
+da classe inoculada corresponde ao recall da classe 0.
+
+
+\subsection{Protocolo de aquisição de dados por coleta a vácuo}
+\label{subsec:protocolo_aquisicao}
+
+O tubo de PVC foi acoplado ao vaso para delimitar o espaço de amostragem
+(Figura~\ref{fig:vasos_experimentos}). Antes da entrada da amostra, a
+bomba, controlada pelo ESP32, reduzia a pressão interna do sistema para
+aproximadamente 70~kPa, enquanto a pressão externa estava próxima de
+94~kPa. O valor de 70~kPa era a referência operacional; o ESP32 comandava
+o encerramento da depressurização e a abertura da válvula. Na entrada inicial da
+amostra, a diferença de pressão conduzia o ar do \textit{headspace} do vaso pela
+tubulação até a câmara dos sensores. Após essa admissão, o ar permanecia
+retido na câmara durante a aquisição; na etapa de desaturação, o ar era
+liberado. O protocolo não pressupõe fluxo contínuo de amostra durante
+todo o intervalo de leitura. Uma execução
+completa do ciclo, registrada sob um identificador próprio de vaso e dia, foi
+definida como uma coleta. Em cada leitura, o ESP32 registrou o tempo decorrido,
+os seis sinais MQ, a leitura do sensor de solo, a temperatura e a pressão.
+Somente as coletas realizadas no protocolo de amostragem a vácuo integraram
+a base analisada.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{figures/vasos_experimentos.png}
+    \caption{Protótipo posicionado sobre o vaso de soja durante a coleta a vácuo.}
+    \label{fig:vasos_experimentos}
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{figure}
+
+A Figura~\ref{fig:ciclo_coleta} apresenta as etapas de operação do sistema
+com e sem pré-depressurização. O termo ``coletas a vácuo'' designa aqui as
+aquisições em que a câmara foi previamente depressurizada pela bomba e
+recebeu a amostra após a abertura da válvula. Coletas de outros protocolos
+não foram combinadas com elas nesta análise. A pressão registrada como
+entrada dos classificadores corresponde às leituras retidas após o recorte
+temporal e o filtro descritos adiante, não ao valor-alvo de 70~kPa usado
+na preparação da câmara.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fluxo_en.png}
+    \caption{Fluxograma dos ciclos de coleta com pré-depressurização
+    e esquema do sistema de amostragem.}
+    \label{fig:ciclo_coleta}
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{figure}
+
+O ciclo de referência, ilustrado na Figura 5, compreendeu quatro etapas operacionais: aquecimento dos sensores, durante os primeiros 180 s (3 minutos); extração do ar, realizada até que a pressão interna do sistema atingisse 70 kPa; obtenção da amostra e análise das respostas dos sensores, durante 600 s (10 minutos); e desaturação dos sensores, durante 180 s (3 minutos).
+
+O controle da bomba e das válvulas foi realizado pelo ESP32 ao longo do ciclo. O protocolo apresentou duração nominal de 960 s (16 minutos).
+
+A condição de solo seco ou úmido foi definida pelo índice operacional
+\texttt{Soil\_indice\_0\_1}, obtido pela normalização mínimo--máximo da leitura
+do sensor de umidade do solo na base consolidada, conforme a
+Equação~\eqref{eq:indice_solo}:
+\begin{equation}
+    I_{\mathrm{solo}} =
+    \frac{\mathrm{Soil}-\min(\mathrm{Soil})}
+         {\max(\mathrm{Soil})-\min(\mathrm{Soil})},
+    \label{eq:indice_solo}
+\end{equation}
+em que $\mathrm{Soil}$ é a leitura bruta do sensor de umidade do solo, e
+$\min(\mathrm{Soil})$ e $\max(\mathrm{Soil})$ são, respectivamente, os valores
+mínimo e máximo dessa leitura na base consolidada.
+Esses extremos foram determinados antes das divisões de treino e teste;
+portanto, as leituras posteriormente destinadas ao teste participaram da
+definição da escala do índice. A escala não foi ajustada novamente dentro
+de cada rodada de validação.
+
+Leituras com $I_{\mathrm{solo}}\leq 0{,}4$ foram denominadas \emph{solo seco};
+leituras com $I_{\mathrm{solo}}>0{,}4$, \emph{solo úmido}. No conjunto de
+teste, todas as leituras de cada coleta ficaram do mesmo lado desse limiar,
+permitindo classificar também a coleta inteira como seca ou úmida. O índice não
+representa porcentagem calibrada de água no solo.
+
+
+
+\subsection{Pré-processamento dos sinais e janelamento}
+\label{subsec:preprocessamento}
+
+Cada planilha da base original representou uma coleta. As leituras foram associadas ao identificador da coleta, ao dia, ao vaso e à respectiva classe. Na etapa de pré-processamento, foram removidos os registros correspondentes ao período de aquecimento dos sensores (180 s iniciais) e ao período de desaturação dos sensores (180 s finais), com o objetivo de eliminar as leituras associadas à estabilização inicial e à recuperação dos sensores. Dessa forma, foram mantidos os registros referentes à etapa de obtenção da amostra e análise das respostas dos sensores, com duração de 600 s (10 minutos), considerada a janela de interesse para a classificação.
+
+Para remover transientes de pressão, calculou-se
+$\Delta P_t=|P_t-P_{t-1}|$ dentro de cada coleta. Quando
+$\Delta P_t\geq 0{,}10$~kPa, foram excluídas a leitura do evento e até
+30 leituras anteriores e 30 posteriores. Na versão estrita do filtro,
+também foram removidas leituras fora da faixa definida pela mediana global
+da pressão $\pm 0{,}50$~kPa, calculada após o filtro de saltos na base
+consolidada. Essa mediana foi 93,69~kPa, resultando na faixa de
+93,19 a 94,19~kPa. O filtro reteve principalmente leituras próximas à
+pressão externa após a entrada inicial da amostra, não as leituras da
+depressurização até cerca de 70~kPa. Após a
+filtragem estrita, a base de coletas a vácuo continha 63.492 leituras de
+36 coletas. Não foi aplicada média móvel nem outra suavização temporal
+aos sinais usados pelos classificadores.
+A exclusão em janelas de até 30 leituras de cada lado do evento retirou
+2.276 de 32.226 leituras da classe 0 (7,06\%) e 2.945 de 39.076 da
+classe 1 (7,54\%). A restrição adicional pela faixa de pressão removeu
+mais 906 leituras da classe 0 (2,81\% das 32.226 originais) e 1.683 da
+classe 1 (4,31\% das 39.076 originais). Considerando as duas
+etapas, foram retirados 9,87\% e 11,84\% das leituras originais dessas
+classes, respectivamente.
+A mediana de pressão também foi calculada antes das divisões de treino e
+teste. A faixa central proporcional não corresponde necessariamente apenas
+à fase nominal de exposição ao \textit{headspace}.
+
+Na análise histórica com divisão por coleta, as entradas foram seis
+sinais MQ corrigidos estatisticamente, o índice de solo, a temperatura em $^{\circ}$C e a
+pressão em kPa. Para cada MQ, ajustou-se somente com as coletas de
+treinamento um \texttt{HuberRegressor} que estimou a componente associada
+ao índice de solo, à temperatura e à pressão.
+% Essa componente foi
+% centralizada pela média das previsões no treinamento e subtraída do
+% sinal original, conforme a Equação~\eqref{eq:compensacao_mq}:
+% \begin{equation}
+%     \label{eq:compensacao_mq}
+%     MQ_{s,t}^{\mathrm{corr}} = MQ_{s,t} -
+%     \left(\widehat{MQ}_{s,t}^{\mathrm{amb}}-
+%     \overline{\widehat{MQ}_{s}^{\mathrm{amb}}}_{\mathrm{treino}}\right).
+% \end{equation}
+% Nessa equação, $s$ identifica o sensor MQ, $t$ identifica a leitura, e a
+% barra representa a média das previsões nas leituras de treinamento.
+Os
+``MQ corrigidos'' são, portanto, sinais com compensação \emph{estatística}
+da associação linear estimada com essas três variáveis. Eles não resultam
+de calibração física para concentração de gases ou umidade relativa do ar.
+Essa compensação pertence à análise histórica por coleta; as análises LOSO
+descritas adiante utilizaram sinais MQ brutos. As seis entradas MQ, o
+índice de solo, a temperatura e a pressão totalizaram nove canais por
+leitura na análise histórica.
+
+Para a TCN, as leituras foram ordenadas por coleta e tempo e segmentadas
+em janelas de 128 leituras, com passo de 64 leituras e sobreposição nominal
+de 50\%, sem atravessar limites entre coletas. Quando necessário, uma
+janela adicional foi alinhada ao fim da coleta para incluir as últimas
+leituras; sua sobreposição podia superar 50\%. Cada janela teve formato de
+$9\times128$ (canais $\times$ leituras) na análise histórica. As entradas
+da rede foram padronizadas com parâmetros estimados somente nas coletas de
+treinamento. Na base processada, o intervalo mediano observado entre
+leituras consecutivas da mesma coleta foi de aproximadamente 0,24~s;
+como há lacunas de aquisição, 128 leituras não equivalem sempre à mesma
+duração em segundos.
+
+
+\subsection{Modelos de aprendizado de máquina}
+\label{subsec:modelos}
+
+Foram utilizados três classificadores em análises distintas:
+\emph{Extra Trees} (ET), \emph{Random Forest} (RF) e uma rede
+convolucional temporal (TCN). A validação principal por vaso empregou
+ET; a análise histórica com separação por coleta comparou ET e TCN; e
+a análise exploratória após a exclusão de cinco coletas comparou os
+três modelos.
+
+As configurações dos três classificadores são apresentadas na
+Tabela~\ref{tab:configuracao_modelos}.
+
+\begin{table}[H]
+    \centering
+    \small
+    \caption{Configurações dos modelos de aprendizado de máquina.}
+    \label{tab:configuracao_modelos}
+    \begin{tabular}{p{0.13\linewidth}p{0.22\linewidth}p{0.54\linewidth}}
+        \hline
+        \textbf{Modelo} & \textbf{Aspecto} & \textbf{Configuração} \\
+        \hline
+        ET & Implementação &
+        \texttt{ExtraTreesClassifier}; 900 árvores;
+        \texttt{max\_features="sqrt"}; mínimo de dez amostras por folha;
+        \texttt{bootstrap=False}; sem pesos de classe; semente 42. \\
+        \hline
+        RF & Implementação &
+        \texttt{RandomForestClassifier}; 300 árvores;
+        \texttt{class\_weight="balanced"}; semente 42. Utilizado na
+        comparação LOSO após as exclusões. \\
+        \hline
+        TCN & Arquitetura &
+        Três blocos convolucionais temporais residuais, com 24, 24 e
+        32 canais; duas convoluções de núcleo 3 por bloco; dilatações
+        1, 2 e 4; agregação média global no tempo; \emph{dropout} de
+        0,20; camada linear de duas classes. \\
+        & Treinamento &
+        Janelas de 128 leituras; 60 épocas; lotes de 32 janelas;
+        otimizador AdamW; taxa de aprendizado $10^{-3}$;
+        \emph{weight decay} de $10^{-4}$; entropia cruzada com pesos
+        inversamente proporcionais à frequência das classes nas
+        janelas de treinamento; semente 42. \\
+        & Predição por leitura &
+        Média das probabilidades das janelas que cobriam cada leitura,
+        com limiar de 0,5 para a classe 1. \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.1cm}
+    {\footnotesize Fonte: Elaborado pelos autores (2026).}
+\end{table}
+
+Na TCN, as duas convoluções em cada bloco resultam em um campo
+receptivo local de $1+4(1+2+4)=29$ leituras, equivalente a cerca de
+6,7~s para o intervalo mediano de 0,24~s entre leituras. A agregação
+média global combina as saídas locais de toda a janela de 128 leituras.
+As 60 épocas e os demais hiperparâmetros foram mantidos fixos, sem
+seleção por validação interna ou parada antecipada.
+
+Na análise histórica, ET e TCN foram ajustados uma vez com as coletas
+de treinamento. Solo seco e solo úmido foram dois recortes do mesmo
+conjunto de teste, não dois treinamentos independentes. Nas análises
+LOSO, os modelos foram reajustados em cada rodada, conforme descrito
+adiante.
+
+\subsection{Análise histórica com separação por coleta}
+\label{subsec:treinamento_teste}
+
+A divisão foi feita por \emph{coleta}, dentro de cada classe, com
+proporção nominal de 70\% para treinamento e 30\% para teste e semente 42.
+Todas as leituras e janelas de uma coleta permaneceram em um único conjunto.
+Das 36 coletas, 24 foram destinadas ao treinamento (41.377 leituras: 11
+coletas da classe 0 e 13 da classe 1) e 12 ao teste (22.115 leituras:
+seis coletas de cada classe).
+
+Essa separação evita que janelas da mesma aquisição apareçam nos dois
+conjuntos. Entretanto, oito dos dez vasos aparecem em ambos porque foram
+medidos em dias distintos. Assim, o teste avalia novas \emph{coletas}, não vasos
+biologicamente independentes, e as métricas não demonstram generalização
+para plantas ou vasos nunca vistos pelo modelo. Essa partição foi mantida
+como comparação histórica; a validação agrupada por vaso foi usada como
+referência principal para as análises com sinais MQ brutos.
+
+No teste, o recorte seco incluiu 16.692 leituras de oito coletas: 6.507
+leituras da classe 0 e 10.185 da classe 1. O recorte úmido incluiu 5.423
+leituras de quatro coletas: 4.152 da classe 0 e 1.271 da classe 1. Essa
+distribuição desigual motivou o relato da acurácia balanceada junto da
+acurácia convencional. Como análise adicional da partição histórica,
+foram usadas previsões já obtidas no teste para formar um subconjunto
+com igual número de leituras das duas classes em cada faixa: 6.507 de
+cada classe na faixa seca e 1.271 de cada classe na faixa úmida. Todas
+as leituras da classe minoritária foram mantidas e a classe majoritária
+foi subamostrada com semente 42; as leituras excedentes foram examinadas
+separadamente. Essa subamostragem ocorreu somente depois da predição,
+sem retreinamento, e foi tratada como análise de sensibilidade a um
+sorteio específico, não como resultado principal.
+
+\subsection{Métricas da análise histórica}
+\label{subsec:metricas}
+
+Na partição histórica foram calculadas acurácia, acurácia balanceada,
+F1 macro e matrizes de confusão no conjunto de teste. A acurácia é a
+fração de leituras
+classificadas corretamente; a acurácia balanceada é a média dos recalls
+das classes 0 e 1; e a F1 macro é a média simples das medidas F1 das duas
+classes. O recall da classe inoculada corresponde à sensibilidade
+para a classe 0, ou seja, à fração de leituras de vasos inoculados
+corretamente identificadas. As métricas foram calculadas separadamente
+para os recortes seco e úmido do mesmo teste. A avaliação por
+subamostragem balanceada foi descrita separadamente da análise do teste
+completo.
+
+\subsection{Sequência das análises}
+\label{subsec:sequencia_analises}
+
+A Tabela~\ref{tab:cronologia_analises} distingue as bases e as decisões
+tomadas em cada etapa. A busca de subconjuntos e a inspeção dos erros
+ocorreram antes da análise pós-exclusão; os controles de entradas fixas
+foram acrescentados posteriormente para examinar a dependência dos
+sinais ambientais.
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \caption{Sequência das análises, base utilizada e decisão correspondente.}
+    \label{tab:cronologia_analises}
+    \begin{tabular}{p{0.07\textwidth}p{0.20\textwidth}p{0.61\textwidth}}
+        \hline
+        Etapa & Base & Objetivo e decisão \\
+        \hline
+        1 & 36 coletas & Recorte temporal e filtro estrito de pressão; definição da base comum. \\
+        2 & 36 coletas & Partição histórica por coleta; comparação dos modelos com MQ corrigidos e avaliação adicional por condição do solo. \\
+        3 & 36 coletas & Busca LOSO de 63 subconjuntos MQ com solo, temperatura e pressão fixos; seleção do conjunto MQ2, MQ3, MQ8, MQ135 e MQ138 e obtenção das previsões fora de cada vaso. \\
+        4 & 36 coletas & Auditoria de saltos e de erros por coleta; definição exploratória das cinco coletas excluídas apenas da análise de sensibilidade. \\
+        5 & 31 coletas & LOSO após exclusões; comparação de ET, Random Forest e TCN em entradas fixas e busca ET das 511 combinações. \\
+        6 & 36 coletas & Controles LOSO com todas as nove entradas, somente MQ, somente variáveis ambientais e regressão logística, sem seleção de subconjunto nessa etapa. \\
+        7 & 36 coletas ou recortes por dia/tempo & Sensibilidade por dia, período e fase temporal; comparação pareada das configurações fixas. \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+
+\subsection{Validação principal com coletas agrupadas por vaso}
+\label{subsec:loso_complementar}
+
+Para avaliar coletas de vasos não vistos durante o ajuste, aplicou-se a
+validação \textit{leave-one-subject-out} (LOSO) inicialmente à base completa,
+sem excluir coletas. Todas as coletas de um mesmo vaso foram agrupadas:
+em cada rodada, as coletas de um vaso constituíram o teste e as dos outros
+nove constituíram o treinamento. Na base derivada, um vaso da classe
+inoculada aparece com código numérico 1, embora a planilha de origem o
+identifique como vaso 10. Por isso, a chave técnica de agrupamento combinou
+classe e código de vaso, evitando colisão com o vaso 1 controle e mantendo
+dez grupos distintos.
+% Para cada vaso $v$, a separação das coletas de
+% treinamento e de teste seguiu a
+% Equação~\eqref{eq:particao_loso}:
+% \begin{equation}
+%     \begin{aligned}
+%         \mathcal{C}_v&=\{c\in\mathcal{C}:v(c)=v\},\\
+%         \mathcal{D}^{\mathrm{teste}}_v
+%         &=\bigcup_{c\in\mathcal{C}_v}\mathcal{D}_c,\\
+%         \mathcal{D}^{\mathrm{treino}}_v
+%         &=\bigcup_{c\in\mathcal{C}\setminus\mathcal{C}_v}\mathcal{D}_c,
+%     \end{aligned}
+%     \label{eq:particao_loso}
+% \end{equation}
+% em que $\mathcal{C}$ representa as coletas incluídas no cenário analisado,
+% $v(c)$ identifica o vaso da coleta $c$ e $\mathcal{D}_c$ reúne suas
+% leituras e classes.
+A base completa e a base da análise de sensibilidade
+foram avaliadas separadamente com essa mesma regra. No segundo cenário,
+retiraram-se apenas as cinco coletas descritas acima, mantendo os dez
+vasos e suas demais coletas. Em nenhuma rodada coletas do vaso de teste
+entraram no treinamento; cada leitura incluída foi testada uma vez.
+
+Na base completa, o ET foi avaliado com MQ2, MQ3, MQ8, MQ135 e MQ138 mais
+o índice de solo, a temperatura e a pressão. Essa configuração havia sido
+escolhida entre subconjuntos de MQ avaliados nos mesmos vasos; o LOSO da
+base completa é uma avaliação interna, não uma validação externa da
+escolha das entradas.
+% Os sinais MQ foram usados em sua forma bruta, sem
+% a compensação da Equação~\eqref{eq:compensacao_mq}.
+O ET foi reajustado em
+cada rodada com 900 árvores,
+\texttt{max\_features="sqrt"}, \texttt{min\_samples\_leaf=10},
+\texttt{bootstrap=False} e semente 42. A previsão por leitura foi a classe
+com probabilidade estimada de classe 1 igual ou superior a 0,5.
+
+Para distinguir a contribuição das entradas sem selecionar previamente
+um subconjunto, o mesmo LOSO na base completa foi repetido com três
+configurações fixas de ET: os seis MQ mais solo, temperatura e pressão;
+somente os seis MQ; e somente solo, temperatura e pressão. Também se
+avaliou, com as nove entradas, uma regressão logística como modelo
+simples de referência. Nessa regressão, a padronização das entradas foi
+ajustada somente nas coletas de treinamento de cada rodada; usaram-se
+\texttt{LogisticRegression}, \texttt{max\_iter=2000}, sem pesos de classe,
+e semente 42. Esses controles compartilham as mesmas dez divisões por
+vaso e os mesmos pré-processamentos globais já descritos; não constituem
+uma validação externa do protocolo experimental.
+
+Na base após exclusão das cinco coletas, ET, \textit{Random Forest}
+(\texttt{RandomForestClassifier}) e TCN foram reajustados em cada rodada
+LOSO em duas configurações fixas: MQ2, MQ3, MQ8, MQ135 e MQ138, isoladamente ou
+acompanhados das três variáveis ambientais. O Random Forest usou 300
+árvores, \texttt{class\_weight="balanced"} e semente 42. Na rede temporal,
+a padronização das entradas foi estimada apenas no treinamento de cada
+rodada. As janelas mantiveram 128 leituras e passo de 64, com cinco ou oito
+canais conforme a configuração; nenhuma janela atravessou o limite de
+uma coleta.
+% Para uma leitura $i$ coberta pelo conjunto $\mathcal{W}(i)$
+% de janelas, a probabilidade da classe 1 e a previsão final foram obtidas
+% pela Equação~\eqref{eq:agregacao_janelas_loso}:
+% \begin{equation}
+%     \widehat p_i(1)=
+%     \frac{1}{|\mathcal{W}(i)|}
+%     \sum_{w\in\mathcal{W}(i)}\widehat p_w(1),
+%     \qquad
+%     \widehat y_i=\mathbf{1}\{\widehat p_i(1)\geq 0{,}5\}.
+%     \label{eq:agregacao_janelas_loso}
+% \end{equation}
+Os modelos foram comparados por leitura após reunir as previsões de todas
+as rodadas. Essa avaliação não corresponde à partição por coleta de 70\%/30\%
+descrita anteriormente. No treinamento e no teste LOSO, não houve
+subamostragem, sobreamostragem nem geração de leituras sintéticas para
+igualar o tamanho das classes. A subamostragem da partição histórica
+ocorreu apenas depois das previsões. O ET
+foi treinado sem pesos de classe; o Random Forest usou
+\texttt{class\_weight="balanced"}, e a TCN usou pesos inversamente
+proporcionais à frequência das classes nas janelas de treinamento.
+Portanto, os três modelos não receberam o mesmo tratamento do
+desbalanceamento. A acurácia balanceada, o F1 macro e os recalls por
+classe foram relatados junto da acurácia simples para avaliar as duas
+classes separadamente; essas métricas não modificam o treinamento do ET.
+
+\subsection{Busca combinatória das entradas}
+\label{subsec:busca_combinatoria_loso}
+
+A busca exaustiva de entradas foi realizada somente com ET, na base após
+as cinco exclusões, usando a mesma divisão LOSO por vaso. Ela não foi
+aplicada ao Random Forest nem à TCN.
+% As nove variáveis candidatas estão definidas na
+% Equação~\eqref{eq:conjunto_entradas_loso}:
+% \begin{equation}
+%     \mathcal{F}=\{\mathrm{MQ2},\mathrm{MQ3},\mathrm{MQ7},\mathrm{MQ8},
+%     \mathrm{MQ135},\mathrm{MQ138},I_{\mathrm{solo}},T,P\}.
+%     \label{eq:conjunto_entradas_loso}
+% \end{equation}
+% Foram avaliados todos os subconjuntos não vazios $A\subseteq\mathcal{F}$.
+% Cada variável pode estar presente ou ausente. Das $2^9$ possibilidades,
+% uma corresponde ao conjunto vazio, sem entradas para o classificador;
+% por isso, ela foi excluída.
+% O número de configurações foi calculado pela
+% Equação~\eqref{eq:combinacoes_loso}:
+% \begin{equation}
+%     \left|\{A\subseteq\mathcal{F}:A\neq\emptyset\}\right|
+%     =2^{|\mathcal{F}|}-1=2^9-1=511.
+%     \label{eq:combinacoes_loso}
+% \end{equation}
+Solo, temperatura e pressão variaram separadamente nessa busca,
+inclusive nas configurações sem sensores MQ. O BMP280 fornece
+temperatura e pressão como duas variáveis, embora seja um único componente
+físico; portanto, as 511 configurações correspondem a combinações de
+variáveis de entrada, não de componentes.
+% Se temperatura e pressão forem
+% tratadas como um bloco indivisível, há oito componentes selecionáveis:
+% seis sensores MQ, o sensor de solo e o BMP280. Cada componente pode estar
+% presente ou ausente. Excluindo a combinação sem nenhum componente, o
+% número de configurações físicas é dado pela
+% Equação~\eqref{eq:combinacoes_componentes_loso}:
+% \begin{equation}
+%     N_{\mathrm{componentes}}=2^8-1=255.
+%     \label{eq:combinacoes_componentes_loso}
+% \end{equation}
+% Esse total é uma contagem teórica de opções de hardware; a busca
+% computacional avaliou os 511 subconjuntos de variáveis.
+
+% Na busca das variáveis de entrada, cada subconjunto não vazio
+% $A\subseteq\mathcal{F}$ foi avaliado uma única vez. A ordem em que os
+% sensores aparecem não definiu novas configurações: conjuntos com as
+% mesmas variáveis foram considerados a mesma combinação, e as colunas
+% foram fornecidas ao classificador em uma ordem fixa. Para cada
+% combinação $A$, o Extra Trees foi reajustado nas dez rodadas LOSO,
+% usando somente as variáveis pertencentes a $A$. A acurácia dessa
+% combinação foi calculada após reunir as previsões por leitura de
+% todas as rodadas, conforme a Equação~\eqref{eq:acuracia_combinacao_loso}:
+% \begin{equation}
+%     \mathrm{Acc}(A)=
+%     \frac{
+%         \displaystyle\sum_{v\in\mathcal{V}}
+%         \sum_{i\in\mathcal{I}_v}
+%         \mathbf{1}\{\widehat{y}_{i}^{(A,v)}=y_i\}
+%     }{
+%         \displaystyle\sum_{v\in\mathcal{V}}|\mathcal{I}_v|
+%     },
+%     \label{eq:acuracia_combinacao_loso}
+% \end{equation}
+% em que $\mathcal{V}$ é o conjunto de vasos, $\mathcal{I}_v$ contém os
+% índices das leituras das coletas restantes do vaso reservado para
+% teste na rodada $v$, $y_i$ é a classe experimental e
+% $\widehat{y}_{i}^{(A,v)}$ é a previsão obtida com a combinação $A$
+% após treinar o modelo com as coletas dos outros nove vasos. Assim,
+% a mesma equação foi aplicada às 511 combinações; a ordem das colunas
+% não constituiu uma configuração distinta.
+
+As combinações foram ordenadas pela acurácia por leitura. Em caso de
+empate, preferiu-se a configuração com menos variáveis; persistindo
+o empate, a que continha mais sensores MQ e, em seguida, a ordem
+alfabética dos nomes das entradas. Como análise complementar do mesmo
+ranking, a acurácia balanceada de cada combinação foi calculada a partir
+dos recalls das duas classes
+% , pela Equação~\eqref{eq:metricas_resumo_loso},
+sem treinar novamente os modelos. A escolha original da configuração
+utilizou a acurácia por leitura; o ranking balanceado foi examinado como
+análise de sensibilidade. A escolha da configuração
+e sua avaliação ocorreram nos mesmos vasos, sem validação aninhada
+nem conjunto biológico externo; portanto, a ordenação das
+configurações é exploratória.
+
+\subsection{Métricas da validação por vaso}
+\label{subsec:metricas_loso_complementar}
+
+% Com as previsões das rodadas LOSO reunidas, a acurácia por leitura foi
+% calculada conforme a Equação~\eqref{eq:acuracia_loso}:
+% \begin{equation}
+%     \mathrm{Acc}=\frac{1}{N}
+%     \sum_{i=1}^{N}\mathbf{1}\{\widehat y_i=y_i\},
+%     \label{eq:acuracia_loso}
+% \end{equation}
+% em que $N$ é o total de leituras avaliadas. Para cada classe
+% $k\in\{0,1\}$, o recall, a precisão e a medida F1 foram calculados
+% pela Equação~\eqref{eq:metricas_classe_loso}:
+% \begin{equation}
+%     \mathrm{Recall}_k=\frac{TP_k}{TP_k+FN_k},\qquad
+%     \mathrm{Prec}_k=\frac{TP_k}{TP_k+FP_k},\qquad
+%     F1_k=\frac{2\,\mathrm{Prec}_k\,\mathrm{Recall}_k}
+%     {\mathrm{Prec}_k+\mathrm{Recall}_k},
+%     \label{eq:metricas_classe_loso}
+% \end{equation}
+% em que $TP_k$, $FN_k$ e $FP_k$ são, respectivamente, verdadeiros positivos,
+% falsos negativos e falsos positivos ao tomar $k$ como classe positiva.
+% A acurácia balanceada e a média macro de F1 foram calculadas conforme a
+% Equação~\eqref{eq:metricas_resumo_loso}:
+% \begin{equation}
+%     \mathrm{Acc}_{\mathrm{bal}}=
+%     \frac{\mathrm{Recall}_0+\mathrm{Recall}_1}{2},
+%     \qquad
+%     F1_{\mathrm{macro}}=\frac{F1_0+F1_1}{2}.
+%     \label{eq:metricas_resumo_loso}
+% \end{equation}
+O recall da classe 0 descreve a identificação de leituras do grupo
+inoculado; nas métricas por leitura, os denominadores são leituras, não
+vasos. As leituras sucessivas de uma mesma coleta e as coletas repetidas do mesmo
+vaso não constituem réplicas biológicas independentes. Em particular,
+a acurácia reunida atribui mais peso a coletas com maior número de leituras.
+
+% Para a configuração ET avaliada na base completa, as previsões LOSO também
+% foram agregadas em decisões por coleta e por vaso. Calculou-se a média
+% das probabilidades das leituras de cada coleta; em seguida, as probabilidades
+% das coletas de um vaso receberam o mesmo peso para formar sua decisão,
+% conforme a Equação~\eqref{eq:agregacao_coleta_vaso}:
+% \begin{equation}
+%     \widehat p_c(1)=\frac{1}{n_c}\sum_{i\in\mathcal I_c}\widehat p_i(1),
+%     \qquad
+%     \widehat p_v(1)=\frac{1}{|\mathcal C_v|}
+%     \sum_{c\in\mathcal C_v}\widehat p_c(1).
+%     \label{eq:agregacao_coleta_vaso}
+% \end{equation}
+% em que $\mathcal I_c$ contém as leituras da coleta $c$ e $n_c$ é o seu
+% número de leituras.
+As decisões de coleta e vaso utilizaram limiar de
+0,5 para a classe 1.
+As mesmas métricas foram calculadas separadamente nas três unidades:
+leitura, coleta e vaso. Na unidade vaso, a proporção de acertos foi
+expressa como $k/10$ e acompanhada por intervalo binomial exato de
+95\% pelo método de Clopper--Pearson. Como medida exploratória adicional,
+para a acurácia balanceada foi calculado um intervalo por 10.000
+reamostragens estratificadas com reposição de
+cinco vasos por classe; cada vaso levou consigo todas as suas previsões
+fora de treino. Usaram-se os percentis 2,5 e 97,5 das estimativas
+reamostradas, com semente 42. Esses intervalos são condicionais ao modelo
+e às entradas já escolhidas, sem incorporar a incerteza da seleção da
+configuração entre os subconjuntos avaliados. Com apenas dez vasos, o
+intervalo por reamostragem foi tratado como descritivo.
+
+Para os controles fixos de ET e a regressão logística na base completa,
+assim como para a comparação ET, Random Forest e TCN na base com cinco
+coletas excluídas, calculou-se a área sob a curva ROC (AUC) por coleta a
+partir das probabilidades médias%
+% $\widehat p_c(1)$ da
+% Equação~\eqref{eq:agregacao_coleta_vaso}
+. Essa métrica não depende do
+limiar de classificação de 0,5. Como as probabilidades de cada vaso
+provêm de um modelo ajustado em uma rodada diferente, a AUC reunida
+entre rodadas foi tratada como descritiva. Não foi realizado teste pareado
+por vaso para afirmar superioridade entre ET, Random Forest e TCN.
+

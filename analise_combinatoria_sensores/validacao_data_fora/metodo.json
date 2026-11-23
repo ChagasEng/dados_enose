@@ -1,0 +1,9 @@
+{
+  "validacao": "Leave-one-date-out, datas 11, 12, 13, 18 e 19 de maio de 2026",
+  "fonte": "comparacao\\pressao_filtrada\\antes_dia_20_pressao_filtrada.csv",
+  "preprocessamento": "Minimo-maximo de solo e mediana de pressao estimados apenas nas quatro datas de treino",
+  "faixa_estrita": "Mediana de pressao do treino +/- 0,50 kPa; aplicada a treino e teste",
+  "sem_faixa_estrita": "Mantem filtro fixo de saltos de pressao, sem banda adicional",
+  "modelo": "ExtraTreesClassifier 900 arvores, max_features=sqrt, min_samples_leaf=10, bootstrap=False, seed=42",
+  "limite": "Os mesmos vasos podem participar do treino em outras datas; a data 13 tem somente coletas controle"
+}

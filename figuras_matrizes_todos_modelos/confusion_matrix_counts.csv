@@ -1,0 +1,81 @@
+protocol,scenario,model,actual_class,predicted_class,count,row_percent
+LOSO by pot,mq,Extra Trees,0,0,23592,89.56039784374762
+LOSO by pot,mq,Extra Trees,0,1,2750,10.439602156252372
+LOSO by pot,mq,Extra Trees,1,0,181,0.6114038643426564
+LOSO by pot,mq,Extra Trees,1,1,29423,99.38859613565734
+LOSO by pot,mq,Random Forest,0,0,20073,76.2015033027105
+LOSO by pot,mq,Random Forest,0,1,6269,23.7984966972895
+LOSO by pot,mq,Random Forest,1,0,2505,8.461694365626267
+LOSO by pot,mq,Random Forest,1,1,27099,91.53830563437373
+LOSO by pot,mq,TCN,0,0,20452,77.64027029079037
+LOSO by pot,mq,TCN,0,1,5890,22.359729709209628
+LOSO by pot,mq,TCN,1,0,704,2.378057019321713
+LOSO by pot,mq,TCN,1,1,28900,97.62194298067828
+LOSO by pot,mq,k-NN,0,0,22028,83.62311138106446
+LOSO by pot,mq,k-NN,0,1,4314,16.37688861893554
+LOSO by pot,mq,k-NN,1,0,1865,6.2998243480610725
+LOSO by pot,mq,k-NN,1,1,27739,93.70017565193892
+LOSO by pot,mq,MLP (ANN),0,0,21850,82.94738440513248
+LOSO by pot,mq,MLP (ANN),0,1,4492,17.05261559486751
+LOSO by pot,mq,MLP (ANN),1,0,1336,4.512903661667342
+LOSO by pot,mq,MLP (ANN),1,1,28268,95.48709633833266
+LOSO by pot,mq,SVM,0,0,14307,54.312504745273706
+LOSO by pot,mq,SVM,0,1,12035,45.687495254726294
+LOSO by pot,mq,SVM,1,0,6896,23.294149439264963
+LOSO by pot,mq,SVM,1,1,22708,76.70585056073503
+LOSO by pot,mq,LDA,0,0,15958,60.58006225799104
+LOSO by pot,mq,LDA,0,1,10384,39.41993774200896
+LOSO by pot,mq,LDA,1,0,8097,27.35103364410215
+LOSO by pot,mq,LDA,1,1,21507,72.64896635589785
+LOSO by pot,mq,ANN + k-NN + SVM + LDA,0,0,21331,80.97714676182522
+LOSO by pot,mq,ANN + k-NN + SVM + LDA,0,1,5011,19.02285323817478
+LOSO by pot,mq,ANN + k-NN + SVM + LDA,1,0,1068,3.6076205918119175
+LOSO by pot,mq,ANN + k-NN + SVM + LDA,1,1,28536,96.39237940818808
+LOSO by pot,mq_ambiente,Extra Trees,0,0,25583,97.11866980487434
+LOSO by pot,mq_ambiente,Extra Trees,0,1,759,2.881330195125655
+LOSO by pot,mq_ambiente,Extra Trees,1,0,404,1.3646804485880286
+LOSO by pot,mq_ambiente,Extra Trees,1,1,29200,98.63531955141197
+LOSO by pot,mq_ambiente,Random Forest,0,0,24599,93.38319034241896
+LOSO by pot,mq_ambiente,Random Forest,0,1,1743,6.616809657581049
+LOSO by pot,mq_ambiente,Random Forest,1,0,818,2.7631401162005136
+LOSO by pot,mq_ambiente,Random Forest,1,1,28786,97.23685988379948
+LOSO by pot,mq_ambiente,TCN,0,0,22287,84.60633209323514
+LOSO by pot,mq_ambiente,TCN,0,1,4055,15.393667906764863
+LOSO by pot,mq_ambiente,TCN,1,0,2102,7.100391838940683
+LOSO by pot,mq_ambiente,TCN,1,1,27502,92.89960816105932
+LOSO by pot,mq_ambiente,k-NN,0,0,24070,91.37499050945259
+LOSO by pot,mq_ambiente,k-NN,0,1,2272,8.625009490547415
+LOSO by pot,mq_ambiente,k-NN,1,0,491,1.6585596541007972
+LOSO by pot,mq_ambiente,k-NN,1,1,29113,98.3414403458992
+LOSO by pot,mq_ambiente,MLP (ANN),0,0,25353,96.24553944271506
+LOSO by pot,mq_ambiente,MLP (ANN),0,1,989,3.7544605572849443
+LOSO by pot,mq_ambiente,MLP (ANN),1,0,1211,4.09066342386164
+LOSO by pot,mq_ambiente,MLP (ANN),1,1,28393,95.90933657613836
+LOSO by pot,mq_ambiente,SVM,0,0,20436,77.57953078733581
+LOSO by pot,mq_ambiente,SVM,0,1,5906,22.420469212664187
+LOSO by pot,mq_ambiente,SVM,1,0,7361,24.864883123902175
+LOSO by pot,mq_ambiente,SVM,1,1,22243,75.13511687609783
+LOSO by pot,mq_ambiente,LDA,0,0,22227,84.37855895528054
+LOSO by pot,mq_ambiente,LDA,0,1,4115,15.62144104471946
+LOSO by pot,mq_ambiente,LDA,1,0,8863,29.93852182137549
+LOSO by pot,mq_ambiente,LDA,1,1,20741,70.06147817862451
+LOSO by pot,mq_ambiente,ANN + k-NN + SVM + LDA,0,0,23623,89.67808063169083
+LOSO by pot,mq_ambiente,ANN + k-NN + SVM + LDA,0,1,2719,10.321919368309164
+LOSO by pot,mq_ambiente,ANN + k-NN + SVM + LDA,1,0,1550,5.235778948790704
+LOSO by pot,mq_ambiente,ANN + k-NN + SVM + LDA,1,1,28054,94.76422105120929
+Historical split by collection,dry,TCN · Dry soil,0,0,6251,96.06577531888735
+Historical split by collection,dry,TCN · Dry soil,0,1,256,3.934224681112648
+Historical split by collection,dry,TCN · Dry soil,1,0,0,0.0
+Historical split by collection,dry,TCN · Dry soil,1,1,10185,100.0
+Historical split by collection,dry,Extra Trees · Dry soil,0,0,5864,90.1183341017366
+Historical split by collection,dry,Extra Trees · Dry soil,0,1,643,9.881665898263408
+Historical split by collection,dry,Extra Trees · Dry soil,1,0,0,0.0
+Historical split by collection,dry,Extra Trees · Dry soil,1,1,10185,100.0
+Historical split by collection,wet,TCN · Wet soil,0,0,3448,83.04431599229287
+Historical split by collection,wet,TCN · Wet soil,0,1,704,16.95568400770713
+Historical split by collection,wet,TCN · Wet soil,1,0,1271,100.0
+Historical split by collection,wet,TCN · Wet soil,1,1,0,0.0
+Historical split by collection,wet,Extra Trees · Wet soil,0,0,3513,84.60982658959537
+Historical split by collection,wet,Extra Trees · Wet soil,0,1,639,15.390173410404625
+Historical split by collection,wet,Extra Trees · Wet soil,1,0,746,58.69394177812746
+Historical split by collection,wet,Extra Trees · Wet soil,1,1,525,41.30605822187254

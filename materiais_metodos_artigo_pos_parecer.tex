@@ -11,31 +11,16 @@ coletas foram examinadas separadamente.
 \subsection{Sistema de nariz eletrônico}
 \label{subsec:sistema_nariz}
 
-O nariz eletrônico foi desenvolvido para registrar a assinatura de compostos
-voláteis.
-Foi composto por microcontrolador ESP32, seis sensores de gases MQ, sensor de
-umidade do solo, sensor BMP280 de temperatura e pressão, bomba de vácuo,
-válvulas, tubo de PVC acoplado ao vaso, mangueiras, câmara sensorial de vidro
-e estrutura externa de MDF. O ESP32 registrou os sinais e controlou a bomba
-e as válvulas; uma interface web acessada por Wi-Fi permitiu iniciar e
-acompanhar as aquisições.
-O BMP280 forneceu temperatura e pressão medidas no equipamento, não uma
-medida de umidade relativa do ar na câmara sensorial. A leitura do sensor
-de solo foi tratada como índice operacional do substrato, sem equivalência
-com uma medida calibrada de água no solo.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.30\textwidth]{figures/completo.jpeg}
-    \caption{Estrutura externa do nariz eletrônico.}
-    \label{fig:estrutura_nariz_eletronico}
-\end{figure}
+O nariz eletrônico foi desenvolvido para registrar a resposta conjunta de
+sensores de gases à amostra do espaço acima do solo. A matriz sensorial e as
+grandezas auxiliares são descritas primeiro; em seguida, são apresentados a
+estrutura de amostragem, o controle eletrônico, a interface e o armazenamento.
 
 \subsubsection{Matriz de sensores de gases}
 \label{subsubsec:matriz_sensores}
 
 A matriz foi constituída por MQ-2, MQ-3, MQ-7, MQ-8, MQ-135 e MQ-138,
-posicionados na câmara de vidro sob o mesmo fluxo de amostra. Esses sensores
+instalados na mesma câmara de vidro e expostos à amostra gasosa. Esses sensores
 semicondutores de óxido metálico apresentam sensibilidades parcialmente
 sobrepostas. Por isso, a classificação utilizou o padrão conjunto das seis
 respostas, sem atribuir a um sensor isolado a identificação química de um
@@ -49,6 +34,85 @@ foram sinais instrumentais, sem conversão para concentrações de compostos.
     \caption{Matriz dos seis sensores de gases na câmara sensorial.}
     \label{fig:matriz_sensores}
 \end{figure}
+
+\subsubsection{Estrutura física e sensores auxiliares}
+
+O espaço de amostragem era delimitado por um tubo de PVC introduzido no
+substrato do vaso. Uma extremidade do tubo possuía recortes triangulares,
+que facilitavam a fixação. O sensor capacitivo de umidade do solo,
+\textit{Capacitive Soil Moisture Sensor V2.0}, ficava na parte interna do
+tubo, com a haste inserida no mesmo substrato amostrado. Sobre o tubo,
+uma caixa de MDF sustentava a câmara sensorial de vidro, a placa dos
+sensores MQ, os componentes eletrônicos e as conexões com as mangueiras.
+O BMP280 registrava a temperatura e a pressão absoluta no equipamento.
+Esse sensor não mede umidade relativa do ar; a leitura do sensor de solo
+foi tratada como índice operacional, sem calibração em teor de água.
+% CONFERIR: a qualificação menciona o BMP280 no interior da estrutura e
+% também traz uma legenda que o situa dentro da câmara de gases. Confirmar
+% sua posição física antes de especificá-la na versão de submissão.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.30\textwidth]{figures/completo.jpeg}
+    \caption{Estrutura externa do nariz eletrônico.}
+    \label{fig:estrutura_nariz_eletronico}
+\end{figure}
+
+\subsubsection{Controle eletrônico e digitalização}
+
+O ESP32 sequenciava as etapas da coleta, acionava a bomba de vácuo e as
+válvulas por meio do módulo de relés e reunia as leituras dos sensores.
+Os sinais analógicos da matriz MQ passavam por um conversor
+analógico--digital externo antes de serem registrados pelo sistema.
+% CONFERIR NO ESQUEMA OU FIRMWARE: modelo, resolução, tensão de referência,
+% interface com o ESP32, número de canais e atribuição de cada MQ ao ADC.
+% A qualificação anexada não identifica o conversor; não completar esses
+% dados a partir de especificações genéricas do ESP32 ou dos sensores.
+
+O sistema pneumático reunia a bomba, as válvulas, as mangueiras e a câmara
+de vidro. O ESP32 acompanhava a pressão medida pelo BMP280 para interromper
+a depressurização no valor de referência e, então, comandar a admissão da
+amostra. O estado da bomba e a etapa em execução podiam ser acompanhados
+pela interface de monitoramento.
+
+\subsubsection{Interface, configuração e armazenamento}
+
+Uma interface web acessada por Wi-Fi e navegador permitia operar o
+equipamento por computador, tablet ou smartphone. A página inicial dava
+acesso às páginas de controle, monitoramento e dados, além de apresentar
+informações sobre o cartão SD e os recursos de memória. Na página de
+controle, o operador definia os tempos de extração do ar, aquecimento,
+obtenção da amostra, análise das respostas e desaturação, além da pressão
+de referência e do nome do arquivo de saída; depois iniciava o ciclo.
+Esses parâmetros eram configuráveis na interface. Os valores usados como
+referência no protocolo analisado são apresentados na
+Seção~\ref{subsec:protocolo_aquisicao}.
+
+Durante a coleta, a página de monitoramento mostrava a etapa ativa, o
+tempo decorrido, o estado da bomba, a temperatura, a pressão e informações
+de armazenamento. Em cada leitura eram registrados o tempo decorrido, os
+seis sinais MQ, o sinal do sensor de solo, a temperatura e a pressão.
+O equipamento armazenava essas séries em arquivos TXT no cartão SD.
+Ao final da coleta, a página de dados listava os arquivos e seus tamanhos
+e permitia baixá-los para outro dispositivo ou excluí-los. Assim, o
+computador podia ser usado para configuração, acompanhamento e recuperação
+dos arquivos por meio do navegador.
+% CONFERIR NO FIRMWARE: frequência efetiva de gravação no SD, formato e
+% separador do TXT, marcação das etapas e tratamento de erro de escrita.
+
+\subsubsection{Alimentação para uso em campo}
+
+O equipamento podia receber energia de uma fonte externa de 19~V ligada à
+rede elétrica ou de uma bateria de motocicleta de 12~V em locais sem rede.
+Em ambos os casos, um regulador fornecia aproximadamente 5~V ao barramento
+que alimentava os sensores MQ e os dispositivos de acionamento. O módulo
+ESP32 recebia alimentação desse barramento e utilizava seu regulador
+interno para operar a lógica em 3,3~V. A alimentação por bateria era uma
+opção para locais sem rede elétrica. A capacidade da bateria, o consumo
+medido e a duração de operação não foram quantificados neste estudo.
+% CONFERIR: tensão e corrente efetivas sob carga, capacidade da bateria,
+% consumo por etapa e autonomia medida antes de afirmar operação por um
+% número determinado de coletas ou horas.
 
 \subsection{Delineamento experimental e material vegetal}
 \label{subsec:delineamento}
@@ -67,8 +131,13 @@ contém 36 coletas realizadas em 11, 12, 13, 18 e 19 de maio de 2026,
 correspondentes, aproximadamente, a 35, 36, 37, 42 e 43 dias após a
 inoculação. Cada vaso foi amostrado em três ou quatro dessas ocasiões.
 Das 36 coletas, 17 pertenciam ao grupo inoculado e 19 ao controle.
-Houve irrigação entre as coletas de 13 e 18 de maio, o que contribuiu
-para a mudança da faixa operacional do índice de solo entre esses períodos.
+Houve irrigação entre as coletas de 13 e 18 de maio. O experimento não
+estabeleceu níveis controlados de água no solo para esta comparação, nem
+padronizou ou documentou a quantidade de água aplicada por vaso, o modo de
+irrigação e o intervalo de estabilização entre a irrigação e cada coleta.
+Essas informações não podem ser recuperadas a partir do índice do sensor.
+Portanto, a comparação entre faixas do índice de solo foi tratada como
+análise exploratória, e não como teste do efeito da irrigação ou da umidade.
 
 
 
@@ -105,14 +174,18 @@ confirmação nematológica individual de cada vaso. Neste artigo, o recall
 da classe inoculada corresponde ao recall da classe 0.
 
 
-\subsection{Protocolo de aquisição de dados por coleta a vácuo}
+\subsection{Protocolo de aquisição com pré-depressurização}
 \label{subsec:protocolo_aquisicao}
 
 O tubo de PVC foi acoplado ao vaso para delimitar o espaço de amostragem
 (Figura~\ref{fig:vasos_experimentos}). Antes da entrada da amostra, a
 bomba, controlada pelo ESP32, reduzia a pressão interna do sistema para
 aproximadamente 70~kPa, enquanto a pressão externa estava próxima de
-94~kPa. O valor de 70~kPa era a referência operacional; ao encerrar a
+94~kPa. A finalidade dessa depressurização era criar uma diferença de
+pressão que, na abertura da válvula, conduzisse inicialmente o ar do
+espaço acima do solo até a câmara sensorial. O valor de 70~kPa era a
+referência operacional configurada para encerrar essa preparação; não
+representava a pressão mantida durante a leitura. Ao encerrar a
 depressurização, o ESP32 desligava a bomba e abria a válvula de entrada.
 A diferença de pressão conduzia inicialmente o ar do \textit{headspace}
 do vaso pela tubulação até a câmara dos sensores, cuja pressão subia para
@@ -121,6 +194,9 @@ de entrada permanecia aberta durante a aquisição da amostra e a análise
 das respostas, com a bomba de extração desligada. Depois, a válvula era
 fechada e a bomba acionada para expulsar o ar da câmara na desaturação.
 O protocolo não descreve um fluxo forçado contínuo durante a leitura.
+% ARTUR: informar, se houver registro de ensaio ou especificação do projeto,
+% por que a referência de 70 kPa foi escolhida. A documentação disponível
+% explica sua função, mas não justifica esse valor numérico específico.
 Uma execução
 completa do ciclo, registrada sob um identificador próprio de vaso e dia, foi
 definida como uma coleta. Em cada leitura, o ESP32 registrou o tempo decorrido,
@@ -143,7 +219,7 @@ aquisições em que a câmara foi previamente depressurizada pela bomba e
 recebeu a amostra após a abertura da válvula. Coletas de outros protocolos
 não foram combinadas com elas nesta análise. A pressão registrada como
 entrada dos classificadores corresponde às leituras retidas após o recorte
-temporal e o filtro descritos adiante, não ao valor-alvo de 70~kPa usado
+temporal e a seleção computacional descritos adiante, não ao valor-alvo de 70~kPa usado
 na preparação da câmara.
 
 \begin{figure}[H]
@@ -167,6 +243,9 @@ minutos. Essas durações são os parâmetros do fluxograma, não marcas de
 tempo verificadas individualmente nas 36 séries: os registros tiveram
 durações diferentes. O controle da bomba e das válvulas foi realizado
 pelo ESP32 durante o ciclo.
+% CONFERIR A ORDEM NO FIRMWARE: a tabela da qualificação põe o aquecimento
+% antes da extração; o parágrafo do protocolo sugere a ordem inversa.
+% Verificar a configuração realmente usada nas 36 coletas.
 A duração original de cada coleta foi definida como a diferença entre o
 maior e o menor tempo decorrido registrados na planilha original da coleta;
 essas durações foram resumidas separadamente por classe. Também foram
@@ -188,10 +267,13 @@ mínimo e máximo dessa leitura na base consolidada.
 Esses extremos foram determinados antes das divisões de treino e teste;
 portanto, as leituras posteriormente destinadas ao teste participaram da
 definição da escala do índice. A escala não foi ajustada novamente dentro
-de cada rodada de validação.
+de cada rodada de validação original. Uma reanálise LOSO com extremos
+calculados somente no treino de cada rodada é descrita adiante.
 
 Leituras com $I_{\mathrm{solo}}\leq 0{,}4$ foram denominadas \emph{solo seco};
-leituras com $I_{\mathrm{solo}}>0{,}4$, \emph{solo úmido}. No conjunto de
+leituras com $I_{\mathrm{solo}}>0{,}4$, \emph{solo úmido}. Esses nomes indicam
+apenas faixas de um índice operacional, sem medição calibrada do teor de água
+ou controle experimental da irrigação. No conjunto de
 teste, todas as leituras de cada coleta ficaram do mesmo lado desse limiar,
 permitindo classificar também a coleta inteira como seca ou úmida. O índice não
 representa porcentagem calibrada de água no solo.
@@ -238,19 +320,33 @@ de 200 a 800~s. As colunas necessárias foram
 convertidas para formato numérico, e registros sem valores válidos nessas
 colunas foram descartados.
 
-Para remover transientes de pressão, calculou-se
+\subsubsection{Exclusão computacional de leituras instáveis pela pressão}
+
+Após a coleta, as séries temporais passaram por uma seleção computacional
+de leituras. Esse procedimento não corresponde a um filtro, válvula ou
+dispositivo físico instalado no sistema pneumático. Seu objetivo foi
+retirar trechos com mudanças bruscas de pressão e leituras distantes da
+região de pressão observada após a admissão da amostra.
+
+Primeiro, calculou-se
 $\Delta P_t=|P_t-P_{t-1}|$ dentro de cada coleta. Quando
 $\Delta P_t\geq 0{,}10$~kPa, foram excluídas a leitura do evento e até
-30 leituras anteriores e 30 posteriores. Na versão estrita do filtro,
-também foram removidas leituras fora da faixa definida pela mediana global
-da pressão $\pm 0{,}50$~kPa, calculada após o filtro de saltos na base
+30 leituras anteriores e 30 posteriores. Em seguida, na versão estrita
+do procedimento, também foram removidas leituras fora da faixa definida
+pela mediana global da pressão $\pm 0{,}50$~kPa, calculada após a exclusão
+dos saltos na base
 consolidada. Essa mediana foi 93,69~kPa, resultando na faixa de
-93,19 a 94,19~kPa. O filtro reteve principalmente leituras próximas à
-pressão externa após a entrada inicial da amostra, não as leituras da
-depressurização até cerca de 70~kPa. Após a
-filtragem estrita, a base de coletas a vácuo continha 63.492 leituras de
-36 coletas. Não foi aplicada média móvel nem outra suavização temporal
+93,19 a 94,19~kPa. Os valores de 93,69~kPa e da faixa correspondente
+foram obtidos dos dados; não eram ajustes da bomba ou das válvulas. A
+seleção reteve principalmente leituras próximas à pressão externa após
+a entrada inicial da amostra, e não as leituras da depressurização até
+cerca de 70~kPa. Após essas exclusões, a base de coletas a vácuo continha
+63.492 leituras de 36 coletas. Não foi aplicada média móvel nem outra suavização temporal
 aos sinais usados pelos classificadores.
+% ARTUR/AUTORES: documentar a origem dos limiares de 0,10 kPa,
+% 30 leituras e +/-0,50 kPa (ensaio preliminar, inspeção dos dados ou
+% especificação prévia). Sem essa informação, não atribuir a eles uma
+% justificativa física ou instrumental que não foi registrada.
 A exclusão em janelas de até 30 leituras de cada lado do evento retirou
 2.276 de 32.226 leituras da classe 0 (7,06\%) e 2.945 de 39.076 da
 classe 1 (7,54\%). A restrição adicional pela faixa de pressão removeu
@@ -260,7 +356,8 @@ etapas, foram retirados 9,87\% e 11,84\% das leituras originais dessas
 classes, respectivamente.
 A mediana de pressão também foi calculada antes das divisões de treino e
 teste. A faixa central proporcional não corresponde necessariamente apenas
-à fase nominal de exposição ao \textit{headspace}.
+à fase nominal de exposição ao \textit{headspace}. A sensibilidade ao uso
+da mediana global foi examinada na reanálise LOSO descrita adiante.
 
 Na análise histórica com divisão por coleta, as entradas foram seis
 sinais MQ corrigidos estatisticamente, o índice de solo, a temperatura em $^{\circ}$C e a
@@ -301,12 +398,19 @@ duração em segundos.
 \subsection{Modelos de aprendizado de máquina}
 \label{subsec:modelos}
 
-Foram avaliados um classificador de árvores extremamente aleatorizadas,
-denominado \emph{Extra Trees} (ET), e uma rede convolucional temporal
-(TCN). O classificador ET foi implementado com
+Foram utilizados três classificadores em análises distintas:
+\emph{Extra Trees} (ET), \emph{Random Forest} (RF) e uma rede
+convolucional temporal (TCN). A validação principal por vaso empregou
+ET; a partição histórica por coleta comparou ET e TCN; a análise
+exploratória após cinco exclusões comparou os três modelos. O ET foi
+implementado com
 \texttt{ExtraTreesClassifier}, 900 árvores,
 \texttt{max\_features="sqrt"}, mínimo de dez amostras por folha,
 \texttt{bootstrap=False}, sem pesos de classe e semente 42.
+O RF foi implementado com \texttt{RandomForestClassifier}, 300 árvores,
+\texttt{class\_weight="balanced"} e semente 42, apenas na comparação
+LOSO após exclusões. Os resultados históricos de 96,15\% no solo seco
+e 74,46\% no solo úmido pertencem ao ET, não ao RF.
 
 A TCN implementada neste trabalho usou três blocos convolucionais
 temporais residuais, com 24, 24 e 32 canais, convoluções de núcleo 3 e
@@ -326,9 +430,10 @@ nem método de explicabilidade integrado; por isso, é denominada TCN, e
 não X-TCN. As 60 épocas e os demais hiperparâmetros foram mantidos fixos
 nesta comparação, sem seleção por validação interna ou parada antecipada.
 
-Na análise histórica, cada classificador foi ajustado uma vez com as
-coletas de treinamento. Solo seco e solo úmido foram dois recortes do
-mesmo conjunto de teste, não dois treinamentos independentes. Nas análises
+Na análise histórica, ET e TCN foram ajustados uma vez com as
+coletas de treinamento. A comparação exploratória entre as faixas do índice
+de solo foi feita após a predição, em dois recortes do mesmo conjunto de
+teste, não em dois treinamentos independentes. Nas análises
 LOSO, os modelos foram reajustados em cada rodada, conforme descrito adiante.
 
 \subsection{Análise histórica com separação por coleta}
@@ -354,7 +459,7 @@ leituras da classe 0 e 10.185 da classe 1. O recorte úmido incluiu 5.423
 leituras de quatro coletas: 4.152 da classe 0 e 1.271 da classe 1. Essa
 distribuição desigual motivou o relato da acurácia balanceada junto da
 acurácia convencional. Como análise adicional da partição histórica,
-foram usadas previsões já obtidas no teste para formar um subconjunto
+foram usadas previsões do ET já obtidas no teste para formar um subconjunto
 com igual número de leituras das duas classes em cada faixa: 6.507 de
 cada classe na faixa seca e 1.271 de cada classe na faixa úmida. Todas
 as leituras da classe minoritária foram mantidas e a classe majoritária
@@ -396,7 +501,7 @@ sinais ambientais.
         \hline
         Etapa & Base & Objetivo e decisão \\
         \hline
-        1 & 36 coletas & Recorte temporal e filtro estrito de pressão; definição da base comum. \\
+        1 & 36 coletas & Recorte temporal e exclusão computacional de leituras instáveis pela pressão; definição da base comum. \\
         2 & 36 coletas & Partição histórica por coleta; comparação dos modelos com MQ corrigidos e avaliação adicional por condição do solo. \\
         3 & 36 coletas & Busca LOSO de 63 subconjuntos MQ com solo, temperatura e pressão fixos; seleção do conjunto MQ2, MQ3, MQ8, MQ135 e MQ138 e obtenção das previsões fora de cada vaso. \\
         4 & 36 coletas & Auditoria de saltos e de erros por coleta; definição exploratória das cinco coletas excluídas apenas da análise de sensibilidade. \\
@@ -411,7 +516,7 @@ sinais ambientais.
 \subsection{Auditoria exploratória das coletas}
 \label{subsec:auditoria_coletas_loso}
 
-Além do filtro de pressão descrito acima, examinou-se a estabilidade dos
+Além da seleção de leituras pela pressão descrita acima, examinou-se a estabilidade dos
 seis sinais MQ em cada coleta. Para o sensor $s$, a coleta $c$ e a leitura
 $t>1$, calcularam-se a variação absoluta entre leituras consecutivas e o
 limiar de cada sensor conforme a Equação~\eqref{eq:salto_mq_loso}:
@@ -553,6 +658,41 @@ ajustada somente nas coletas de treinamento de cada rodada; usaram-se
 e semente 42. Esses controles compartilham as mesmas dez divisões por
 vaso e os mesmos pré-processamentos globais já descritos; não constituem
 uma validação externa do protocolo experimental.
+
+Para examinar o efeito dos parâmetros globais de pré-processamento,
+repetiu-se o LOSO com as 36 coletas antes da faixa estrita de pressão,
+mas após o recorte temporal e o filtro fixo de saltos; nessa etapa havia
+66.081 leituras. Em cada rodada, a mediana de pressão foi estimada
+somente nas leituras dos nove vasos de treinamento. No cenário estrito,
+aplicou-se a faixa mediana do treino $\pm 0{,}50$~kPa tanto ao treino
+quanto ao vaso reservado para teste. No cenário de comparação, essa
+restrição adicional não foi aplicada. Em ambos, o mínimo e o máximo
+da leitura bruta de solo foram calculados somente no treino após a
+eventual filtragem e usados para transformar treino e teste; valores
+do teste fora da faixa $[0,1]$ não foram truncados. A exclusão de saltos,
+definido por uma regra fixa dentro de cada coleta, foi mantido nos dois
+cenários. Reajustou-se o mesmo ET de 900 árvores em cada rodada, com
+quatro conjuntos de entradas: nove entradas, somente as três ambientais,
+somente os seis MQ e os cinco MQ selecionados anteriormente mais as
+três ambientais. O último conjunto permanece exploratório, pois sua
+seleção não foi aninhada. As métricas por leitura, coleta e vaso foram
+calculadas separadamente para cada cenário, informando-se os respectivos
+denominadores porque a faixa estrita altera as leituras elegíveis.
+
+Para avaliar a dependência das datas de aquisição, realizou-se ainda
+uma análise \textit{leave-one-date-out} nas cinco datas de maio de 2026:
+11, 12, 13, 18 e 19. Em cada rodada, todas as coletas de uma data
+constituíram o teste, e as coletas das outras quatro datas constituíram
+o treinamento. Reajustou-se o mesmo ET com as nove entradas fixas e,
+como controles, somente as três entradas ambientais ou somente os seis
+MQ. O mínimo e o máximo do solo e a mediana de pressão foram estimados
+exclusivamente nas datas de treinamento de cada rodada. Repetiu-se a
+análise com e sem a faixa estrita definida pela mediana do treino
+$\pm 0{,}50$~kPa, mantendo em ambos os cenários o filtro fixo de saltos.
+As previsões foram resumidas por leitura e por coleta, inclusive por
+data reservada. Como um mesmo vaso pôde aparecer em diferentes datas,
+essa análise examina transferência temporal e não substitui a validação
+por vaso para unidades biológicas não vistas.
 
 Na base após exclusão das cinco coletas, ET, \textit{Random Forest}
 (\texttt{RandomForestClassifier}) e TCN foram reajustados em cada rodada
@@ -720,7 +860,7 @@ vasos. As leituras sucessivas de uma mesma coleta e as coletas repetidas do mesm
 vaso não constituem réplicas biológicas independentes. Em particular,
 a acurácia reunida atribui mais peso a coletas com maior número de leituras.
 
-Para a configuração ET avaliada na base completa, as previsões LOSO também
+Para o ET com as nove entradas fixas na base completa, as previsões LOSO também
 foram agregadas em decisões por coleta e por vaso. Calculou-se a média
 das probabilidades das leituras de cada coleta; em seguida, as probabilidades
 das coletas de um vaso receberam o mesmo peso para formar sua decisão,
@@ -801,7 +941,7 @@ teste também esteja representado nos demais vasos do treinamento.
 
 Para verificar a influência do recorte proporcional de 70\% da série,
 repetiu-se o LOSO apenas com as leituras cujo tempo decorrido estava
-entre 200 e 800~s, depois do filtro de pressão. Esse intervalo é um
+entre 200 e 800~s, depois da seleção computacional pela pressão. Esse intervalo é um
 recorte fixo de sensibilidade: como não há marca da abertura da válvula
 em cada série analisada, não se pode afirmar que contenha exclusivamente
 a fase de exposição ao \textit{headspace} em todas as coletas. Foram mantidas as 36

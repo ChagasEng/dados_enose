@@ -1,0 +1,31 @@
+{
+  "dataset": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\06_07_melhor_modelo\\dados\\dataset_melhor_modelo_sensores_corrigidos.csv",
+  "coletas_excluidas": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\analise_combinatoria_sensores\\validacao_sem_cinco_coletas\\coletas_excluidas.csv",
+  "cenario_entradas": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Soil_indice_0_1",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "protocolo": "LOSO por vaso: 10 folds, 31 coletas, 55946 leituras; previsoes por leitura",
+  "preprocessamento": "StandardScaler ajustado somente no treino de cada fold",
+  "knn": "5 vizinhos, distancia euclidiana, pesos inversamente proporcionais a distancia",
+  "mlp_ann": "MLP 64/32 ReLU, alpha=0.001, batch=2048, ate 250 epocas, early stopping 15% do treino, seed=42",
+  "svm": "LinearSVC C=1, class_weight=balanced, dual=False, max_iter=10000; probabilidades por CalibratedClassifierCV sigmoid, 3 folds internos estratificados por vaso somente no treino LOSO",
+  "lda": "LinearDiscriminantAnalysis solver=lsqr, shrinkage=auto",
+  "ensemble": "Media nao ponderada das probabilidades da classe 1 de MLP, KNN, SVM linear calibrada e LDA; limiar 0.5",
+  "limite": "Exclusoes e escolha das entradas exploratorias nos mesmos dez vasos; sem estimativa independente de desempenho externo"
+}
