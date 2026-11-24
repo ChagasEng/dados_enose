@@ -1,0 +1,109 @@
+\section{Resultados}
+\label{results}
+
+Esta seção apresenta a composição da base analisada, a discriminação dos
+grupos na validação por vaso e a contribuição dos sensores MQ em conjunto
+com as variáveis ambientais e operacionais. Todas as métricas apresentadas
+referem-se às 55.946 leituras da mesma base.
+
+\subsection{Base de dados}
+\label{subsec:res_base}
+
+A base analisada contém 55.946 leituras do nariz eletrônico, provenientes
+de dez vasos: cinco inoculados com \textit{H. glycines} e cinco controles.
+O grupo inoculado reúne 26.342 leituras e o controle, 29.604. Os registros
+incluem os sinais dos sensores MQ, o índice de solo, a temperatura, a
+pressão e a identificação do vaso e da classe experimental
+(Tabela~\ref{tab:base_dados}). As leituras são observações repetidas dos
+mesmos vasos e não representam 55.946 unidades biológicas independentes.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Distribuição das leituras por grupo experimental na base analisada.}
+\label{tab:base_dados}
+\begin{tabular}{lrr}
+\toprule
+Grupo & Vasos & Leituras \\
+\midrule
+Inoculado (classe 0) & 5 & 26.342 \\
+Controle (classe 1) & 5 & 29.604 \\
+\midrule
+Total & 10 & 55.946 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Discriminação dos grupos por vaso}
+\label{subsec:res_loso}
+
+Na validação \textit{leave-one-subject-out} (LOSO), cada vaso foi reservado
+para avaliação em uma das dez rodadas. Com cinco sensores MQ (MQ-2, MQ-3,
+MQ-8, MQ-135 e MQ-138) e as três variáveis ambientais e operacionais
+(índice de solo, temperatura e pressão), o \textit{Extra Trees} (ET)
+classificou corretamente 54.783 das 55.946 leituras, com acurácia de
+97,92\%, acurácia balanceada de 97,88\% e F1 macro de 97,91\%
+(Tabela~\ref{tab:loso_modelos}). Com apenas os cinco MQ, a acurácia do ET
+foi de 94,76\% (53.015/55.946). A seleção das entradas e sua avaliação
+foram feitas nos mesmos dez vasos; por isso, os resultados são
+exploratórios e não constituem uma estimativa independente de desempenho
+em novos vasos.
+
+\subsection{Contribuição dos sensores MQ e das variáveis ambientais}
+\label{subsec:res_mq}
+
+Na busca de combinações de entradas do ET, o conjunto formado por índice
+de solo, temperatura e pressão, sem sinais MQ, acertou 53.865 das 55.946
+leituras (96,28\%). A configuração de cinco MQ com essas três variáveis
+acertou 54.783 leituras (97,92\%), diferença descritiva de 1,64 ponto
+percentual. Como a configuração foi escolhida e avaliada nos mesmos vasos,
+essa diferença não demonstra um ganho generalizável dos MQ. O desempenho
+elevado das variáveis ambientais isoladas também limita a atribuição da
+separação entre os grupos exclusivamente aos sinais dos sensores MQ.
+
+Nos oito classificadores avaliados com os mesmos cinco MQ, a inclusão
+das variáveis ambientais elevou a acurácia por leitura em todos os casos
+(Tabela~\ref{tab:loso_modelos}). O maior aumento ocorreu no
+\textit{Random Forest}, de 84,32\% para 95,42\%; no ET, a acurácia passou
+de 94,76\% para 97,92\%, e na TCN, de 88,21\% para 88,99\%. Com MQ e
+variáveis ambientais, o ET apresentou a maior acurácia, seguido pela MLP
+(96,07\%), pelo \textit{Random Forest} (95,42\%) e pelo k-NN (95,06\%).
+As diferenças entre modelos são descritivas; não foi realizado teste
+pareado de superioridade entre classificadores.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Desempenho por leitura na validação LOSO por vaso com 55.946 leituras. As entradas fixas são cinco sensores MQ (MQ-2, MQ-3, MQ-8, MQ-135 e MQ-138), isolados ou acompanhados de índice de solo, temperatura e pressão.}
+\label{tab:loso_modelos}
+\begin{tabular}{lrrrr}
+\toprule
+Modelo & Acurácia (\%) & Acurácia bal. (\%) & Recall (\%) & F1 macro (\%) \\
+\midrule
+\multicolumn{5}{l}{\textit{Cinco sensores MQ}} \\
+Extra Trees & 94,76 & 94,47 & 89,56 & 94,70 \\
+Random Forest & 84,32 & 83,87 & 76,20 & 84,07 \\
+TCN & 88,21 & 87,63 & 77,64 & 87,94 \\
+MLP (ANN) & 89,58 & 89,22 & 82,95 & 89,44 \\
+k-NN & 88,96 & 88,66 & 83,62 & 88,84 \\
+SVM linear & 66,16 & 65,51 & 54,31 & 65,38 \\
+LDA & 66,97 & 66,61 & 60,58 & 66,64 \\
+Ensemble ANN + k-NN + SVM + LDA & 89,13 & 88,68 & 80,98 & 88,95 \\
+\midrule
+\multicolumn{5}{l}{\textit{Cinco sensores MQ + variáveis ambientais}} \\
+Extra Trees & 97,92 & 97,88 & 97,12 & 97,91 \\
+Random Forest & 95,42 & 95,31 & 93,38 & 95,40 \\
+TCN & 88,99 & 88,75 & 84,61 & 88,90 \\
+MLP (ANN) & 96,07 & 96,08 & 96,25 & 96,06 \\
+k-NN & 95,06 & 94,86 & 91,37 & 95,02 \\
+SVM linear & 76,29 & 76,36 & 77,58 & 76,26 \\
+LDA & 76,80 & 77,22 & 84,38 & 76,79 \\
+Ensemble ANN + k-NN + SVM + LDA & 92,37 & 92,22 & 89,68 & 92,32 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.1cm}
+\parbox{\linewidth}{\footnotesize Recall referente à classe 0
+(inoculado).}
+\end{table}
