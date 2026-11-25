@@ -1,0 +1,15 @@
+{
+  "base": "55.946 leituras; 31 coletas; 10 vasos; cinco coletas excluidas",
+  "unidade_modelo_novo": "coleta; decisao por leitura somente por propagacao",
+  "validacao": "LOSO externo por vaso e LOSO interno por vaso para treinar meta-classificador",
+  "pressao": "recorte de pressao ja presente no dataset; sem novo alinhamento",
+  "baseline": "mediana das 20 primeiras leituras MQ retidas por coleta; proxy de sinal, nao resistencia fisica R0",
+  "correcao_ambiental": "regressao linear MQ~temperatura+indice de solo ajustada somente nos vasos de treino de cada fit",
+  "sequencia": "6 MQ relativos, 256 pontos reamostrados por coleta; Grad-CAM no treino seleciona janela de 128 pontos",
+  "tcn": "2 blocos, canais 16/24, dilatacoes 1/2, dropout 0.4, 20 epocas para Grad-CAM + 40 epocas finais",
+  "descritores": "por sensor: derivada inicial, area absoluta, pico relativo; 18 colunas",
+  "tabular": "ET 300 arvores min_samples_leaf=2; SVM linear calibrada em 3 folds agrupados; LDA shrinkage auto",
+  "controle_ablação": "ET 300 arvores sobre media bruta de 6 MQ + temperatura e indice de solo por coleta",
+  "meta": "regressao logistica C=1, class_weight=balanced, pesos iguais por vaso, entradas TCN/ET/SVM",
+  "limite": "analise exploratoria sobre coletas e entradas selecionadas apos inspecao de resultados nos mesmos dez vasos; 31 coletas nao sao 55.946 unidades independentes"
+}

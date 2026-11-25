@@ -1,0 +1,3 @@
+cenario,modelo,n_vasos,n_coletas,n_leituras,acertos,acuracia,acuracia_balanceada,recall_classe_0,f1_macro
+mq,Ensemble (ET + RF + TCN + MLP + k-NN),10,31,55946,51828,0.9263933078325528,0.9220931041859446,0.8483410523118974,0.9251766590551685
+mq_ambiente,Ensemble (ET + RF + TCN + MLP + k-NN),10,31,55946,53357,0.9537232331176492,0.9524391083861908,0.9304153063548706,0.9534431903050007

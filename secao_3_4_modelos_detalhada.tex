@@ -1,0 +1,153 @@
+\subsection{Modelos de aprendizado de máquina}
+\label{subsec:modelos}
+
+Foram avaliados sete classificadores individuais e um ensemble para examinar
+se a discriminação entre os grupos dependia de uma família de modelos. Extra
+Trees (ET) e Random Forest (RF) representam conjuntos de árvores com
+fronteiras não lineares; a rede convolucional temporal (TCN) usa a sequência
+das leituras; a rede perceptron multicamadas (MLP) modela relações não
+lineares sem convoluções temporais; o k-NN classifica por proximidade entre
+leituras; e SVM linear e análise discriminante linear (LDA) servem como
+referências lineares. Assim, os modelos testam diferentes formas de usar as
+mesmas entradas, sem pressupor que uma arquitetura seja a mais adequada.
+
+A comparação LOSO usou 55.946 leituras de 31 coletas pertencentes a dez
+vasos, após as exclusões descritas anteriormente. Foram considerados dois
+conjuntos fixos de entradas: (i) MQ2, MQ3, MQ8, MQ135 e MQ138; e (ii) esses
+cinco sinais acrescidos do índice de umidade do solo, da temperatura e da
+pressão. A classe 0 corresponde aos vasos inoculados, e a classe 1, aos
+vasos controle.
+
+As configurações da Tabela~\ref{tab:configuracao_modelos} foram fixadas para
+esta comparação exploratória. Em uma etapa anterior do projeto, quatro
+configurações candidatas de ET foram comparadas no conjunto de treinamento
+por validação cruzada agrupada por coleta. Entre elas, a configuração com
+\texttt{max\_features="sqrt"}, mínimo de dez leituras por folha e sem pesos
+de classe apresentou a maior acurácia balanceada média. Essa configuração
+foi mantida; as 900 árvores vieram do protocolo anterior e não foram
+selecionadas por aquela busca. Os demais modelos receberam configurações
+únicas registradas na implementação. Não houve busca sistemática de
+hiperparâmetros para os sete modelos sob o protocolo LOSO; portanto, a
+comparação examina famílias de classificadores com configurações fixas,
+sem estimar a melhor parametrização possível de cada família.
+
+Na validação \textit{leave-one-subject-out} (LOSO), cada modelo foi ajustado
+novamente em cada uma das dez rodadas, reservando-se um vaso inteiro para
+avaliação. Todas as leituras de um vaso permaneceram no mesmo lado da divisão.
+ET e RF receberam as entradas diretamente. Para k-NN, MLP, SVM e LDA, a
+padronização foi ajustada somente nas leituras de treinamento da rodada;
+a TCN também usou padronização ajustada apenas no treinamento. A calibração
+probabilística da SVM empregou três divisões internas agrupadas por vaso,
+restritas aos nove vasos de treinamento da rodada externa. Não houve
+subamostragem ou geração de leituras sintéticas para balancear as classes;
+os tratamentos de desbalanceamento usados por RF, TCN e SVM estão indicados
+na Tabela~\ref{tab:configuracao_modelos}.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Configurations of the evaluated classifiers.}
+\label{tab:configuracao_modelos}
+\begin{tabularx}{\textwidth}{@{}p{1.35cm}X@{}}
+\toprule
+\textbf{Model} & \textbf{Configuration} \\
+\midrule
+ET & 900 trees; \texttt{max\_features="sqrt"}; at least 10 readings per
+leaf; \texttt{bootstrap=False}; random seed 42. \\
+RF & 300 trees; \texttt{class\_weight="balanced"}; bootstrap sampling
+(library default); random seed 42. \\
+TCN & Three temporal residual blocks with 24, 24, and 32 channels; two
+convolutions per block, kernel size 3, dilations 1, 2, and 4, global
+average pooling, and dropout rate 0.20. Windows of 128
+readings with stride 64; 60 epochs, batch size 32 windows, AdamW
+($10^{-3}$ learning rate; $10^{-4}$ weight decay), and class-weighted
+cross-entropy; random seed 42. \\
+MLP & Two hidden layers with 64 and 32 neurons and ReLU activation;
+\texttt{alpha=0.001}; batch size 2048; up to 250 epochs, with early stopping
+using 15\% of the training readings and a patience of 12 epochs;
+random seed 42. \\
+k-NN & Five neighbors; Euclidean distance and distance-weighted voting. \\
+SVM & Linear SVM with $C=1$, balanced class weights, and up to 10,000
+iterations; sigmoid probability calibration using three internal splits
+grouped by pot. \\
+LDA & Linear discriminant analysis with \texttt{solver="lsqr"} and
+automatic covariance shrinkage. \\
+Ensemble & Unweighted mean of the class-1 probabilities produced by ET, RF,
+TCN, MLP, and k-NN; classification threshold of 0.5. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+No ET, o sorteio de um subconjunto de atributos em cada divisão
+(\texttt{max\_features="sqrt"}) aumenta a diversidade entre as árvores,
+enquanto o mínimo de dez leituras por folha restringe divisões baseadas
+em poucos registros. O ET usa todas as leituras de treinamento em cada
+árvore (\texttt{bootstrap=False}); o RF usa reamostragem com reposição,
+que constitui uma diferença metodológica entre os dois conjuntos de
+árvores. No RF, \texttt{class\_weight="balanced"} ajusta a contribuição
+das classes na construção das árvores segundo suas frequências no treino.
+As 300 árvores do RF foram mantidas como configuração fixa da comparação,
+sem estudo de sensibilidade para esse número.
+
+Na TCN, as dilatações 1, 2 e 4 ampliam o campo receptivo sem aumentar
+proporcionalmente o número de parâmetros. Com duas convoluções de núcleo
+3 por bloco, o campo receptivo local é de 29 leituras; a agregação média
+global reúne as respostas ao longo da janela completa. O \emph{dropout}
+de 0,20 e o decaimento de pesos do AdamW são mecanismos de regularização.
+A janela de 128 leituras fornece contexto temporal, e o passo de 64 cria
+sobreposição nominal de 50\%; esses tamanhos, assim como as 60 épocas,
+foram mantidos da implementação anterior e não foram otimizados na
+comparação LOSO.
+
+A MLP de duas camadas ocultas constitui uma referência neural sem
+convoluções. A penalização $L_2$ (\texttt{alpha=0.001}) e a parada
+antecipada limitam o ajuste aos dados de treinamento; o lote de 2048
+leituras reduz o número de atualizações por época nesta base. No k-NN,
+cinco vizinhos fornecem uma decisão local, com maior influência dos
+registros mais próximos pela ponderação inversa da distância. Para a SVM,
+$C=1$ fixa o compromisso entre margem e erros de classificação, enquanto
+os pesos equilibrados consideram a diferença de frequência entre classes;
+a calibração sigmoide fornece probabilidades para comparação no mesmo
+limiar dos demais modelos. Na LDA, a regularização automática da matriz
+de covariância é útil diante de entradas potencialmente correlacionadas.
+Os valores numéricos dessas configurações foram fixados como referências
+de comparação e não constituem resultados de uma otimização conjunta.
+
+Para a TCN, as leituras foram ordenadas por coleta e tempo e organizadas em
+janelas de 128 leituras, com passo de 64, sem atravessar os limites entre
+coletas. Uma janela adicional foi alinhada ao fim da coleta quando o passo
+regular não cobria suas últimas leituras. Se uma coleta tivesse menos de
+128 leituras, a última leitura seria repetida até completar a janela.
+Cada janela teve cinco ou oito canais, conforme o conjunto de entradas, e
+recebeu a classe da respectiva coleta. Os pesos da função de perda foram
+calculados a partir da frequência das classes nas janelas de treinamento
+de cada rodada. A rede produziu uma probabilidade da classe 1 por janela;
+para cada leitura, calculou-se a média das probabilidades das janelas que
+a continham. As 60 épocas da TCN foram fixas, sem parada antecipada; a
+MLP, por sua vez, usou parada antecipada conforme a
+Tabela~\ref{tab:configuracao_modelos}. A implementação foi denominada TCN,
+pois não incluiu mecanismo de atenção nem explicabilidade integrada.
+
+O ensemble foi calculado depois das predições dos modelos individuais, sem
+treinar um classificador adicional. Para cada leitura do vaso reservado,
+sejam $p_{\mathrm{ET}}$, $p_{\mathrm{RF}}$, $p_{\mathrm{TCN}}$,
+$p_{\mathrm{MLP}}$ e $p_{\mathrm{kNN}}$ as probabilidades atribuídas à classe 1
+(controle).
+A decisão combinada foi
+\begin{equation}
+    \widehat{p}_1=\frac{p_{\mathrm{ET}}+p_{\mathrm{RF}}+
+    p_{\mathrm{TCN}}+p_{\mathrm{MLP}}+p_{\mathrm{kNN}}}{5},
+    \qquad \widehat{y}=\mathbb{1}(\widehat{p}_1\geq 0{,}5).
+\end{equation}
+Portanto, trata-se de média de probabilidades com pesos iguais, não de
+votação majoritária das classes previstas. Os cinco componentes reúnem
+métodos arbóreos, temporal, neural e de vizinhança. SVM e LDA foram mantidos
+como referências individuais; seus resultados inferiores nessa base
+motivaram sua ausência na combinação final. A escolha de cinco componentes
+privilegiou a variedade de famílias, sem selecionar apenas os modelos de
+maior acurácia. Não foi feita uma comparação sistemática com combinações de
+dois ou três classificadores; portanto, não se afirma que esta composição
+seja superior a elas. A composição do ensemble, as exclusões de coletas e
+a seleção das entradas foram definidas após inspeção de resultados nos
+mesmos dez vasos. Por isso, esta comparação LOSO é exploratória e não
+constitui uma estimativa independente de desempenho em novos vasos.

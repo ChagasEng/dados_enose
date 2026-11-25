@@ -1,5 +1,12 @@
 # KNN, MLP e ensemble na base filtrada de 31 coletas
 
+**Registro histórico:** o ensemble de quatro modelos descrito abaixo foi
+substituído no texto do artigo pelo ensemble de Extra Trees, Random Forest,
+TCN, MLP e k-NN. Os novos resultados e a regra de combinação estão em
+`../ensemble_cinco_modelos_filtrada/README.md`. A tabela LaTeX desta pasta
+já apresenta o ensemble novo; `metricas.csv` e os arquivos de previsão
+desta pasta preservam o experimento antigo.
+
 Comparação por leitura com os mesmos cinco MQ da tabela LOSO do artigo. A base contém 55.946 leituras, 31 coletas e dez vasos. Em cada um dos dez folds LOSO, um vaso inteiro fica fora do treino. Foram avaliados dois conjuntos fixos de entradas: `MQ2`, `MQ3`, `MQ8`, `MQ135`, `MQ138`; e os mesmos cinco MQ com `Soil_indice_0_1`, `Temp_C`, `Pres_kPa`.
 
 | Modelo | Cinco MQ: acertos / acurácia | Cinco MQ + ambiente: acertos / acurácia |
