@@ -61,13 +61,19 @@ essa diferença não demonstra um ganho generalizável dos MQ. O desempenho
 elevado das variáveis ambientais isoladas também limita a atribuição da
 separação entre os grupos exclusivamente aos sinais dos sensores MQ.
 
-Nos oito classificadores avaliados com os mesmos cinco MQ, a inclusão
+Nos seis classificadores avaliados com os mesmos cinco MQ, a inclusão
 das variáveis ambientais elevou a acurácia por leitura em todos os casos
 (Tabela~\ref{tab:loso_modelos}). O maior aumento ocorreu no
 \textit{Random Forest}, de 84,32\% para 95,42\%; no ET, a acurácia passou
 de 94,76\% para 97,92\%, e na TCN, de 88,21\% para 88,99\%. Com MQ e
 variáveis ambientais, o ET apresentou a maior acurácia, seguido pela MLP
-(96,07\%), pelo \textit{Random Forest} (95,42\%) e pelo k-NN (95,06\%).
+(96,07\%), pelo \textit{Random Forest} (95,42\%), pelo ensemble de cinco
+modelos (95,37\%) e pelo k-NN (95,06\%). O ensemble combinou, por média
+não ponderada das probabilidades, ET, \textit{Random Forest}, TCN, MLP e
+k-NN; sua acurácia passou de 92,64\% com apenas MQ para 95,37\% com
+MQ e variáveis ambientais. A composição do ensemble foi definida após a
+inspeção dos desempenhos individuais e também deve ser tratada como
+exploratória.
 As diferenças entre modelos são descritivas; não foi realizado teste
 pareado de superioridade entre classificadores.
 
@@ -75,7 +81,7 @@ pareado de superioridade entre classificadores.
 \centering
 \footnotesize
 \setlength{\tabcolsep}{4pt}
-\caption{Desempenho por leitura na validação LOSO por vaso com 55.946 leituras. As entradas fixas são cinco sensores MQ (MQ-2, MQ-3, MQ-8, MQ-135 e MQ-138), isolados ou acompanhados de índice de solo, temperatura e pressão.}
+\caption{Desempenho por leitura na validação LOSO por vaso com 55.946 leituras. As entradas fixas são cinco sensores MQ (MQ-2, MQ-3, MQ-8, MQ-135 e MQ-138), isolados ou acompanhados de índice de solo, temperatura e pressão. O ensemble combina Extra Trees, Random Forest, TCN, MLP e k-NN por média não ponderada das probabilidades.}
 \label{tab:loso_modelos}
 \begin{tabular}{lrrrr}
 \toprule
@@ -87,9 +93,7 @@ Random Forest & 84,32 & 83,87 & 76,20 & 84,07 \\
 TCN & 88,21 & 87,63 & 77,64 & 87,94 \\
 MLP (ANN) & 89,58 & 89,22 & 82,95 & 89,44 \\
 k-NN & 88,96 & 88,66 & 83,62 & 88,84 \\
-SVM linear & 66,16 & 65,51 & 54,31 & 65,38 \\
-LDA & 66,97 & 66,61 & 60,58 & 66,64 \\
-Ensemble ANN + k-NN + SVM + LDA & 89,13 & 88,68 & 80,98 & 88,95 \\
+Ensemble (5 modelos) & 92,64 & 92,21 & 84,83 & 92,52 \\
 \midrule
 \multicolumn{5}{l}{\textit{Cinco sensores MQ + variáveis ambientais}} \\
 Extra Trees & 97,92 & 97,88 & 97,12 & 97,91 \\
@@ -97,9 +101,7 @@ Random Forest & 95,42 & 95,31 & 93,38 & 95,40 \\
 TCN & 88,99 & 88,75 & 84,61 & 88,90 \\
 MLP (ANN) & 96,07 & 96,08 & 96,25 & 96,06 \\
 k-NN & 95,06 & 94,86 & 91,37 & 95,02 \\
-SVM linear & 76,29 & 76,36 & 77,58 & 76,26 \\
-LDA & 76,80 & 77,22 & 84,38 & 76,79 \\
-Ensemble ANN + k-NN + SVM + LDA & 92,37 & 92,22 & 89,68 & 92,32 \\
+Ensemble (5 modelos) & 95,37 & 95,24 & 93,04 & 95,34 \\
 \bottomrule
 \end{tabular}
 

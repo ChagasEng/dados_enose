@@ -1,0 +1,22 @@
+{
+  "base": "55.946 leituras, 31 coletas, 10 vasos, apos exclusao de cinco coletas",
+  "validacao": "LOSO por vaso; probabilidades fora do treino de cada vaso",
+  "componentes": [
+    "Extra Trees",
+    "Random Forest",
+    "TCN",
+    "MLP",
+    "k-NN"
+  ],
+  "regra": "Media aritmetica nao ponderada das cinco probabilidades da classe 1; classe 1 se media >= 0,5",
+  "cenarios": {
+    "mq": "cinco MQ",
+    "mq_ambiente": "cinco MQ + indice de solo, temperatura e pressao"
+  },
+  "fontes": {
+    "Extra Trees": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\analise_combinatoria_sensores\\comparacao_auc_modelos_filtrada\\predicoes_et_{cenario}.csv",
+    "Random Forest e TCN": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\analise_combinatoria_sensores\\validacao_sem_cinco_coletas\\predicoes_{modelo}_{cenario}.csv",
+    "MLP e k-NN": "C:\\Users\\matheus\\Documents\\mestrado\\dados_enose\\analise_combinatoria_sensores\\comparacao_knn_mlp_ensemble_filtrada\\predicoes_{cenario}.csv"
+  },
+  "limite": "Exclusoes, selecao das entradas e composicao do ensemble definidas apos inspecao de resultados nos mesmos dez vasos; resultado exploratorio"
+}
