@@ -1,0 +1,2 @@
+unidade,estatistica,repeticoes,semente,limite_inferior_95,limite_superior_95,metodo
+leitura,acuracia_balanceada,10000,42,0.953783088128554,1.0,percentil; cinco vasos por classe com reposicao; previsoes LOSO fixas

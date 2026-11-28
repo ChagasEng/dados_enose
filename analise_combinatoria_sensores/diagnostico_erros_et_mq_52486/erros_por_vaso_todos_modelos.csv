@@ -1,0 +1,11 @@
+Vaso_id,Classe,mq_et,mq_rf,mq_tcn,mq_mlp,mq_knn,mq_ensemble,mq_ambiente_et,mq_ambiente_rf,mq_ambiente_tcn,mq_ambiente_mlp,mq_ambiente_knn,mq_ambiente_ensemble
+classe_0_vaso_1,0,0,0,0,0,0,0,0,0,0,0,0,0
+classe_0_vaso_6,0,479,2593,2681,2696,1466,2684,685,847,1840,647,927,724
+classe_0_vaso_7,0,923,2879,1472,1029,1627,1105,0,1176,1216,516,1323,1104
+classe_0_vaso_8,0,754,162,448,383,648,529,750,893,805,663,864,816
+classe_0_vaso_9,0,544,546,559,547,555,550,0,88,0,0,0,0
+classe_1_vaso_1,1,0,0,0,173,0,0,0,0,0,504,0,0
+classe_1_vaso_2,1,0,316,0,278,1604,65,0,0,0,0,0,0
+classe_1_vaso_3,1,62,557,448,576,41,110,93,9,512,438,231,330
+classe_1_vaso_4,1,0,3,0,11,0,0,0,0,0,0,0,0
+classe_1_vaso_5,1,170,1364,256,549,7,0,419,776,1516,671,426,606

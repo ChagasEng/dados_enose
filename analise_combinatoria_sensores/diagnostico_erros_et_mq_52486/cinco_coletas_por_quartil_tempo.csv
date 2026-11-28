@@ -1,0 +1,21 @@
+Coleta,quartil_tempo,inicio_s,fim_s,n_leituras,acertos_mq,erros_mq,taxa_erro_mq
+dia 11 - Soja Heterodera Vaso 7,1,119.96,278.48,512,512,0,0.0
+dia 11 - Soja Heterodera Vaso 7,2,278.71,407.56,512,452,60,0.1171875
+dia 11 - Soja Heterodera Vaso 7,3,407.8,536.19,512,439,73,0.142578125
+dia 11 - Soja Heterodera Vaso 7,4,536.42,665.38,512,18,494,0.96484375
+dia 18 - Soja Heterodera Vaso 6,1,84.97,208.21,403,130,273,0.6774193548387096
+dia 18 - Soja Heterodera Vaso 6,2,208.45,303.89,402,202,200,0.4975124378109453
+dia 18 - Soja Heterodera Vaso 6,3,304.13,399.71,402,396,6,0.014925373134328358
+dia 18 - Soja Heterodera Vaso 6,4,400.18,495.69,402,402,0,0.0
+dia 18 - Soja Heterodera Vaso 9,1,65.58,143.47,332,332,0,0.0
+dia 18 - Soja Heterodera Vaso 9,2,143.71,223.28,332,332,0,0.0
+dia 18 - Soja Heterodera Vaso 9,3,223.51,302.44,331,119,212,0.6404833836858006
+dia 18 - Soja Heterodera Vaso 9,4,302.68,381.96,332,0,332,1.0
+dia 19 - Soja Heterodera Vaso 7,1,87.78,229.26,333,333,0,0.0
+dia 19 - Soja Heterodera Vaso 7,2,229.52,322.25,332,249,83,0.25
+dia 19 - Soja Heterodera Vaso 7,3,322.86,415.85,332,328,4,0.012048192771084338
+dia 19 - Soja Heterodera Vaso 7,4,416.14,509.21,333,124,209,0.6276276276276276
+dia 19 - Soja Heterodera Vaso 8,1,140.54,232.64,330,46,284,0.8606060606060606
+dia 19 - Soja Heterodera Vaso 8,2,232.94,324.91,329,43,286,0.8693009118541033
+dia 19 - Soja Heterodera Vaso 8,3,325.21,417.45,329,145,184,0.5592705167173252
+dia 19 - Soja Heterodera Vaso 8,4,417.77,508.06,329,329,0,0.0

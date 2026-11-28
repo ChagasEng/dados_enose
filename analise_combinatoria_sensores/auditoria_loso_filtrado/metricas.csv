@@ -1,0 +1,4 @@
+unidade,n,acertos,acuracia,acuracia_balanceada,f1_classe_0,f1_classe_1,f1_macro,real_0_prev_0,real_0_prev_1,real_1_prev_0,real_1_prev_1
+leitura,55946,54783,0.979212097379616,0.9787699467814316,0.9777752297960978,0.9804744556184208,0.9791248427072593,25583,759,404,29200
+coleta,31,31,1.0,1.0,1.0,1.0,1.0,15,0,0,16
+vaso,10,10,1.0,1.0,1.0,1.0,1.0,5,0,0,5

@@ -1,0 +1,32 @@
+{
+  "base": "31 coletas, 10 vasos, depois de excluir as mesmas cinco coletas da analise anterior",
+  "balanceamento": "26.243 leituras por classe; cotas proporcionais por coleta, arredondamento por maior resto; selecao sistematica uniforme no tempo dentro de cada coleta",
+  "solo": "Condicao_solo_binaria=1 para Soil_indice_0_1 <= 0.4 (seco), 0 para > 0.4 (molhado)",
+  "validacao": "10 folds LeaveOneGroupOut por vaso, retreinando cada classificador em nove vasos",
+  "entradas": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Condicao_solo_binaria",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "ambiente": [
+      "Condicao_solo_binaria",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "seed_modelos": 42,
+  "observacao": "cinco MQ e coletas excluidas selecionados nos mesmos dez vasos; resultados exploratorios"
+}

@@ -1,0 +1,4 @@
+modelo,cenario,n,acertos,acuracia,acuracia_balanceada,recall_classe_0,f1_macro
+et,leitura,55946,53938,0.9641082472384085,0.9628773256226746,0.9417660010629413,0.9638927579133572
+et,coleta,31,31,1.0,1.0,1.0,1.0
+et,vaso,10,10,1.0,1.0,1.0,1.0

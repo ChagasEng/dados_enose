@@ -1,0 +1,37 @@
+{
+  "base": "55.946 leituras, 31 coletas, 10 vasos; mesmas cinco coletas excluidas na analise anterior; sem remocao para balancear classes",
+  "classes": {
+    "0": 26342,
+    "1": 29604
+  },
+  "ponderacao": "pesos inversos da frequencia de classe recalculados somente nos nove vasos de treino de cada fold LOSO",
+  "knn": "voto dos cinco vizinhos ponderado por distancia e peso da classe do vizinho",
+  "tcn": "entropia cruzada com pesos de classe calculados nas janelas de treino",
+  "solo": "Condicao_solo_binaria=1 para Soil_indice_0_1 <= 0.4 (seco), 0 para > 0.4 (molhado)",
+  "validacao": "10 folds LeaveOneGroupOut por vaso",
+  "entradas": {
+    "mq": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138"
+    ],
+    "mq_ambiente": [
+      "MQ2",
+      "MQ3",
+      "MQ8",
+      "MQ135",
+      "MQ138",
+      "Condicao_solo_binaria",
+      "Temp_C",
+      "Pres_kPa"
+    ],
+    "ambiente": [
+      "Condicao_solo_binaria",
+      "Temp_C",
+      "Pres_kPa"
+    ]
+  },
+  "observacao": "selecoes de sensores e coletas feitas nos mesmos dez vasos; comparacoes exploratorias"
+}

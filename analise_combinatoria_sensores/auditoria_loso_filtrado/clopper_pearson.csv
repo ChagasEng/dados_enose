@@ -1,0 +1,2 @@
+unidade,estatistica,acertos,n,limite_inferior_95,limite_superior_95,metodo
+vaso,acuracia,10,10,0.6915028921812392,1.0,Clopper-Pearson bilateral; previsoes LOSO fixas

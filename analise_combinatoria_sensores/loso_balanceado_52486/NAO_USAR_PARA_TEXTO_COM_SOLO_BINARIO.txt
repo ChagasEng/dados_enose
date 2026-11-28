@@ -1,0 +1,3 @@
+Esta pasta registra uma execucao preliminar com o indice de solo continuo.
+Para o manuscrito com condicao binaria do solo (0 = molhado; 1 = seco),
+usar exclusivamente a pasta ../loso_balanceado_52486_solo_binario/.

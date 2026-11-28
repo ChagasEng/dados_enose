@@ -1,0 +1,11 @@
+Vaso_id,Classe,n_leituras,erros_mq,erros_mq_ambiente,corrigidos_com_ambiente,novos_erros_com_ambiente,persistentes,taxa_erro_mq
+classe_0_vaso_1,0,3527,0,0,0,0,0,0.0
+classe_0_vaso_6,0,7165,479,685,4,210,475,0.06685275645498953
+classe_0_vaso_7,0,7153,923,0,923,0,0,0.12903676778973858
+classe_0_vaso_8,0,4877,754,750,146,142,608,0.15460323969653475
+classe_0_vaso_9,0,3521,544,0,544,0,0,0.15450156205623403
+classe_1_vaso_1,1,5667,0,0,0,0,0,0.0
+classe_1_vaso_2,1,3364,0,0,0,0,0,0.0
+classe_1_vaso_3,1,4805,62,93,33,64,29,0.012903225806451613
+classe_1_vaso_4,1,5905,0,0,0,0,0,0.0
+classe_1_vaso_5,1,6502,170,419,76,325,94,0.02614580129191018

@@ -1,0 +1,79 @@
+\section{Resultados}
+\label{results}
+
+Esta seção apresenta a composição da base balanceada, o desempenho principal por leitura na validação LOSO agrupada por vaso, os resultados secundários por coleta e por vaso e, separadamente, as comparações exploratórias entre sensores, variáveis e classificadores. Todos os resultados foram obtidos da mesma base, composta por 52.486 leituras agrupadas em 31 coletas e dez vasos.
+
+\subsection{Base de dados}
+\label{subsec:res_base}
+
+A base balanceada analisada contém 52.486 leituras do nariz eletrônico, provenientes de 31 coletas realizadas em dez vasos: cinco inoculados com \textit{H. glycines} e cinco controles. Cada classe reúne 26.243 leituras. Os registros incluem os sinais dos sensores MQ, o índice de solo, a temperatura, a pressão e a identificação do vaso e da classe experimental (Tabela~\ref{tab:base_dados}).
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Distribuição das leituras por grupo experimental na base balanceada.}
+\label{tab:base_dados}
+\begin{tabular}{lrr}
+\toprule
+Grupo & Vasos & Leituras \\
+\midrule
+Inoculado (classe 0) & 5 & 26.243 \\
+Controle (classe 1) & 5 & 26.243 \\
+\midrule
+Total & 10 & 52.486 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Desempenho por leitura na validação LOSO por vaso}
+\label{subsec:res_loso}
+
+Na validação \textit{leave-one-subject-out} (LOSO), cada vaso foi reservado para avaliação em uma das dez rodadas. Com cinco sensores MQ (MQ-2, MQ-3, MQ-8, MQ-135 e MQ-138), a condição binária do solo (0 = molhado; 1 = seco), temperatura e pressão, o \textit{Extra Trees} (ET) classificou corretamente 51.374 das 52.486 leituras. A acurácia por leitura, métrica principal desta análise, foi de 97,88\%, a acurácia balanceada de 97,88\% e o F1 macro de 97,88\%. O intervalo percentílico de 95\% para a acurácia balanceada por leitura, obtido por 10.000 reamostragens de vasos, foi de 95,41\% a 100\%.
+
+Como resultados secundários, a agregação das previsões classificou corretamente as 31 coletas e os dez vasos. Para os dez acertos por vaso, o intervalo binomial exato de 95\% pelo método de Clopper--Pearson foi de 69,15\% a 100\%.
+
+\subsection{Análises exploratórias: sensores MQ, variáveis ambientais e classificadores}
+\label{subsec:res_mq}
+
+Com apenas os cinco sensores MQ, o ET acertou 49.554 das 52.486 leituras (94,41\%). A inclusão da condição do solo, da temperatura e da pressão elevou a acurácia por leitura para 97,88\%, diferença de 3,47 pontos percentuais. Como a seleção dos sensores e a avaliação utilizaram os mesmos dez vasos, essa comparação é exploratória.
+
+Com apenas índice de solo, temperatura e pressão, sem sinais MQ, o ET acertou 50.524 das 52.486 leituras (96,26\%). A configuração com sensores MQ e essas três variáveis acertou 51.374 leituras (97,88\%), diferença descritiva de 1,62 ponto percentual. Essa diferença não indica um ganho generalizável dos sensores MQ, pois as entradas foram selecionadas e avaliadas nos mesmos vasos. O desempenho das variáveis ambientais e operacionais isoladas também limita a atribuição da separação entre os grupos aos sinais MQ.
+
+Nos seis classificadores apresentados na Tabela~\ref{tab:loso_modelos}, a inclusão das variáveis ambientais elevou a acurácia por leitura. O maior aumento ocorreu no \textit{Random Forest}, de 83,96\% para 95,57\%. No ET, a acurácia passou de 94,41\% para 97,88\%; na TCN, de 88,83\% para 89,43\%. Com sensores MQ e variáveis ambientais, o ET apresentou a maior acurácia, seguido pela MLP (96,15\%), pelo \textit{Random Forest} (95,57\%), pelo ensemble (95,25\%), pelo k-NN (94,87\%) e pela TCN (89,43\%).
+
+O ensemble combinou ET, \textit{Random Forest}, TCN, MLP e k-NN pela média não ponderada das probabilidades. Sua acurácia passou de 90,39\% com sensores MQ para 95,25\% com sensores MQ e variáveis ambientais. Sua composição foi definida após a inspeção dos desempenhos individuais; portanto, esse resultado também é exploratório. As diferenças entre os classificadores são descritivas, sem teste pareado de superioridade.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\caption{Comparação exploratória do desempenho por leitura na validação LOSO por vaso com 52.486 leituras balanceadas (26.243 por classe). Os sensores MQ foram avaliados isoladamente ou acompanhados de índice de solo, temperatura e pressão. O ensemble combina ET, Random Forest, TCN, MLP e k-NN pela média não ponderada das probabilidades.}
+\label{tab:loso_modelos}
+\begin{tabularx}{\textwidth}{
+    >{\raggedright\arraybackslash}p{3.1cm}
+    *{4}{>{\centering\arraybackslash}X}
+}
+\toprule
+Modelo & Acurácia (\%) & Acurácia bal. (\%) & Recall$^{*}$ (\%) & F1 macro (\%) \\
+\midrule
+\multicolumn{5}{l}{\textit{Sensores MQ}} \\
+Extra Trees   & 94,41 & 94,41 & 89,71 & 94,40 \\
+Random Forest & 83,96 & 83,96 & 76,45 & 83,87 \\
+TCN           & 88,83 & 88,83 & 80,34 & 88,75 \\
+MLP (ANN)     & 88,11 & 88,11 & 82,26 & 88,07 \\
+k-NN          & 88,67 & 88,67 & 83,63 & 88,64 \\
+Ensemble      & 90,39 & 90,39 & 81,45 & 90,31 \\
+\midrule
+\multicolumn{5}{l}{\textit{Sensores MQ + variáveis ambientais}} \\
+Extra Trees   & 97,88 & 97,88 & 97,16 & 97,88 \\
+Random Forest & 95,57 & 95,57 & 93,86 & 95,57 \\
+TCN           & 89,43 & 89,43 & 86,09 & 89,41 \\
+MLP (ANN)     & 96,15 & 96,15 & 96,36 & 96,15 \\
+k-NN          & 94,87 & 94,87 & 91,39 & 94,87 \\
+Ensemble      & 95,25 & 95,25 & 92,94 & 95,25 \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.1cm}
+\parbox{\linewidth}{\footnotesize $^{*}$Recall referente à classe 0 (inoculado).}
+\end{table}
